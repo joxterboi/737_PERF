@@ -1,5 +1,5 @@
 * {margin: 0; padding: 0;font-family: roboto;}
-/* body {background-color: #0D0D14} */
+body {background-color: #0D0D14}
 body {height: 100vh;}
 .container {
     background-color: #0D0D14;
@@ -57,6 +57,9 @@ select:focus option, option:focus, option:hover{
 input:focus{
     color: white;
 }
+.page {
+    min-height: 64vh;
+}
 /* ---------------------------END OF GLOBAL--------------------------- */
 
 
@@ -102,23 +105,28 @@ label {
     left: 376px;
     margin-top: 40px;
 }
+#ATM::placeholder {
+    text-align: right;
+    padding-right: 25px;
+    color: #868E96;
+}
 /* ------------------------------POS---------------------------------- */
 /* Input section */
-#inputSection {
+#inputSection, #inputSectionLdg {
     display: flex;
     padding-bottom: 10px;
 }
-#leftInputBox {
+#leftInputBox, #leftInputBoxLdg {
     display: flex;
 }
 
 
-#rightInputBox {
+#rightInputBox, #rightInputBoxLdg {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-#rightInputBox div {
+#rightInputBox div, #rightInputBoxLdg div {
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
@@ -126,7 +134,7 @@ label {
 #rightInputBox > div:nth-child(1) {
     width: 73%;
 }
-#rightInputBox div div {
+#rightInputBox div div, #rightInputBoxLdg div div {
     flex-direction: row;
 }
 .wCg {
@@ -135,10 +143,10 @@ label {
     flex-direction: row;
     margin-bottom: 20px;
 }
-#rightInputBox label {
+#rightInputBox label, #rightInputBoxLdg label {
     margin-right: 10px;
 }
-#rightInputBox input {
+#rightInputBox input, #rightInputBoxLdg input {
     width: 130px;
 }
 .leftSide {
@@ -172,7 +180,7 @@ label {
     white-space:nowrap;
 }
 /* result */
-#results {
+#results, #resultsLdg {
     background-color: #000;
     height: 208px;
     width: 100%;
@@ -180,7 +188,7 @@ label {
     margin-left: -11px;
     margin-top: -5px;
 }
-#results > div {
+#results > div, #resultsLdg > div {
     display: flex;
     width: 67%;
     justify-content: space-between;
@@ -239,7 +247,7 @@ label {
     font-weight: 300;
     margin-bottom: 20px;
 }
-#perfModelContainer {
+#perfModelContainer, #perfModelContainerLdg {
     display: flex;
     justify-content: space-between;
     background-color: #20232C;
@@ -285,10 +293,10 @@ button:hover {
 .atmSelect {
     border-radius: 10px;
 }
-.atmActive {    
+.atmActive, .footerActive {    
     background-color: #0076CB;
 }
-.atmActive p {
+.atmActive p, .footerActive p {
     color: #fff !important;
 }
 
@@ -313,6 +321,9 @@ footer p {
     padding: 8px 44px;
     font-size: 13px;
     font-weight: 700;
+}
+.hidden {
+    display: none;
 }
 
 /* Header */
