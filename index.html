@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OPT</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropDown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    
+    
+    <!-- Ipad stuff -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="apple-touch-startup-image" href="/assets/splashscreen.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="inital-scale=1, viewport-fit=cover, user-scalable=no">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PERFORMANCE - TAKEOFF</h1>
+            <div id="profileBanner">
+                <p>PROFILE</p>
+                <p>737-800W</p>
+            </div>
+        </header>
+        
+
+        <!-- INPUT PART -->
+        <form id="inputConditions">
+        <div id="inputSection">
+            <div id="leftInputBox">
+                <!-- Conditions -->
+                <div class="leftSide">
+
+                     <div>
+                         <label for="airport">ARPT</label>
+                         <input value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                     </div>
+                     
+                     <div>
+                         <label for="runway">RWY</label>
+                         <select required id="runway" type="text"></select>
+                     </div>
+
+                     <div>
+                        <label for="intx">INTX</label>
+                        <select id="intx" type="text"></select>
+                    </div>
+
+                     <div>                         
+                         <label for="cond">COND</label>
+                         <select id="cond">
+                             <option value="DRY">DRY</option>
+                             <option value="WET">WET</option>
+                         </select>
+                     </div>
+            
+
+                     <div>
+                         <div class="smallUnderTextDiv">
+                             <p class="smallUnderText" id="windComponentDisplay"> </p>
+                         </div>
+                         <label for="windInput">WIND</label>
+                         <input value="120/6" type="text" id="windInput" pattern="\d{2,3}/\d{1,2}">
+                     </div>
+            
+                     <div>
+                         <div class="smallUnderTextDiv">
+                             <p class="smallUnderText" id="oatDisplay"> </p>
+                         </div>
+                         <label for="OAT">OAT</label>
+                         <input type="number" id="OAT" min="-40" max="50" value="4">
+                     </div>
+            
+                     <div>
+                         <div class="smallUnderTextDiv">
+                             <p class="smallUnderText" id="qnhDisplay"> </p>
+                         </div>
+                         <label for="QNH">QNH</label>
+                         <input type="number" id="QNH" min="976" max="1052" value="1000">
+                     </div>
+                </div>
+            
+
+                <!-- Performance -->
+                <div class="rightSide">
+                    <div>
+                        <select id="RTG">
+                            <option value="22">OPTIMUM</option>
+                            <option value="26">TO</option>
+                            <option value="22">TO1 (24K)</option>
+                            <option value="22">TO2 (22K)</option>
+                        </select>
+                        <label for="RTG">RTG</label>
+                    </div>   
+                    <div>
+                        <input type="number" id="ATM" placeholder="MAX">
+                        <label for="ATM">ATM</label>
+                    </div>
+                    <div>
+                        <select id="IMPCL">
+                            <option value="1">OPTIMUM</option>
+                            <option value="0">NONE</option>
+                        </select>
+                        <label for="IMPCL">IMPCL</label>
+                    </div>   
+                    <div>
+                        <select id="FLAP">
+                            <option value=0>OPTIMUM</option>
+                            <option value=1>1</option>
+                            <option value=5>5</option>
+                            <option value=10>10</option>
+                            <option value=15>15</option>
+                            <option value=25>25</option>
+                        </select>
+                        <label for="FLAP">FLAP</label>
+                    </div>       
+                    <div>
+                        <select id="BLEED">
+                            <option value=TRUE>AUTO</option>
+                            <option value=FALSE>BLEEDS OFF</option>
+                        </select>
+                        <label for="BLEED">A/C</label>
+                    </div>   
+                    <div>
+                        <select id="A/ICE">
+                            <option value="0">OFF</option>
+                            <option value="1">ENGINE</option>
+                            <option value="2">ENG+WING</option>
+                        </select>
+                        <label for="A/ICE">A/I</label>
+                    </div>
+                </div>
+            </div>
+            <div id="rightInputBox">
+                <div>
+                    <div class="wCg">
+                        <label for="TOW">Takeoff Weight:</label>
+                        <input type="number" id="TOW" min="42000" max="79016" placeholder="KG" value="65000">
+                    </div>                
+                    <div class="wCg">
+                        <label for="CG">CG(%):</label>
+                        <input type="number" id="CG" min="0" max="100" value="23" step=".1">
+                    </div>
+                </div>    
+                <div>
+                    <div>
+                        <p id="eoSid"></p>
+                    </div>
+                    <div id="perfModelContainer">
+                        <p id="perfModel">737-800W/CFM56-7B26</p>
+                        <button type="submit">Calculate</button>
+                    </div>
+                    <div>
+                        <div id="atmSwitch">
+                            <div id="fullButton" class="atmSelect">
+                                <p>FULL</p>
+                            </div>
+                            <div id="atmButton" class="atmSelect atmActive">
+                                <p>ATM</p>
+                            </div>
+                        </div>
+                        <div id="rwyGraph"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </form>
+
+        <!-- RESULT PART -->
+        <div id="results">
+            <div id="resultsWindow">
+                <div>
+                    <div>
+                        <h3>FLAP</h3>
+                        <h4 id="flapResult">5</h4>
+                    </div>
+                    <div>
+                        <h3 id="rwyTitle">RWY</h3>
+                        <h4 id="rwyResult">19R</h4>
+                    </div>
+                    <div>
+                        <h3>TOGW</h3>
+                        <h4 id="togwResult">65000 KG</h4>
+                    </div>
+                </div>
+                <div class="spaceBetween">
+                    <div>
+                        <h3>ACCEL HT</h3>
+                        <h4 id="accelHtResult">1500 <span>ft AGL</span></h4>
+                    </div>
+                    <div>
+                        <h3 id="derateResultTitle">D-TO</h3>
+                        <h4 id="derateResultN1">85.4</h4>
+                    </div>
+                </div>
+                <div class="spaceBetween">
+                    <div>
+                        <h3>TRIM</h3>
+                        <h4 id="trimResult">5.00</h4>
+                    </div>
+                    <div>
+                        <h3>SEL TEMP</h3>
+                        <h4 id="tempResult">32c</h4>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>V1</h3>
+                        <h3>VR</h3>
+                        <h3>V2</h3>
+                        <br>
+                        <h3>Vref40</h3>
+                    </div>
+                    <div>                        
+                        <h4 id="v1Result">141</h4>
+                        <h4 id="vrResult">148</h4>
+                        <h4 id="v2Result">152</h4>
+                        <br>
+                        <h4 id="vref40Result">142</h4>
+                    </div>
+                    <div>
+                        <h5>KT</h5>
+                        <h5>KT</h5>
+                        <h5>KT</h5>
+                        <br>
+                        <h5>KT</h5>
+                    </div>
+                </div>
+                <p id="atmText">ATM</p>
+            </div>
+        </div>
+        <footer>
+            <div class="atmActive">
+                <p>TKO Dispatch</p>
+            </div>
+            <div>
+                <p>TKO All Engine</p>
+            </div>
+            <div>
+                <p>LDG Dispatch</p>
+            </div>
+            <div>
+                <p>LDG Enroute</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="calc.js"></script>
+<script src="ui.js"></script>
+</html>

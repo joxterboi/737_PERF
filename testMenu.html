@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OPT</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropDown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+<div id="menuContainer">
+<div>
+    <div class="dropDownContainer">
+        <label for="rwy">RWY</label>
+        <div id="rwy" class="dropDown">
+            <div class="dropDownWindow dropDownWindowButton">
+                <p class="dropDownWindowButton">RUNWAYS</p>
+                <svg>
+                    <polygon points="0,0 16,0 8,8">
+                </svg>
+            </div>
+            <div class="dropDownOptions closed">
+                <ul>
+                    <li data-value="RWY 01L">01L</li>
+                    <li data-value="RWY 01L">19R</li>
+                    <li>08</li>
+                    <li>26</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropDownContainer">
+        <label for="rwy">INTX</label>
+        <div id="intx" class="dropDown">
+            <div class="dropDownWindow dropDownWindowButton">
+                <p class="dropDownWindowButton">FULL runway</p>
+                <svg>
+                    <polygon points="0,0 16,0 8,8">
+                </svg>
+            </div>
+            <div class="dropDownOptions ">
+                <ul>
+                    <li>Full Runway</li>
+                    <li>Y9</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</body>
+<script src="ui.js"></script>
+</html>

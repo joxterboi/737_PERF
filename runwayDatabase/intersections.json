@@ -1,0 +1,5078 @@
+[
+ {
+   "airport_ident": "BGSF",
+   "runway": "28",
+   "intersectionName": "B",
+   "intersectionDist": 8461.3
+ },
+ {
+   "airport_ident": "CYOW",
+   "runway": "14",
+   "intersectionName": "L",
+   "intersectionDist": 9599.7
+ },
+ {
+   "airport_ident": "CYQX",
+   "runway": "21",
+   "intersectionName": "INT",
+   "intersectionDist": 10088.6
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "24R",
+   "intersectionName": "B3",
+   "intersectionDist": 8149.6
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "08L",
+   "intersectionName": "M6",
+   "intersectionDist": 7060.4
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "08L",
+   "intersectionName": "M8",
+   "intersectionDist": 9419.3
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "26R",
+   "intersectionName": "M5",
+   "intersectionDist": 7060.4
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "26R",
+   "intersectionName": "M7",
+   "intersectionDist": 9419.3
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "08R",
+   "intersectionName": "L4A",
+   "intersectionDist": 10597.1
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "26L",
+   "intersectionName": "B",
+   "intersectionDist": 9550.5
+ },
+ {
+   "airport_ident": "CYVR",
+   "runway": "26L",
+   "intersectionName": "D5",
+   "intersectionDist": 10738.2
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "33L",
+   "intersectionName": "THR",
+   "intersectionDist": 8500.7
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "33R",
+   "intersectionName": "V",
+   "intersectionDist": 10669.3
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "23",
+   "intersectionName": "B",
+   "intersectionDist": 9402.9
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "23",
+   "intersectionName": "H",
+   "intersectionDist": 10590.6
+ },
+ {
+   "airport_ident": "DGAA",
+   "runway": "03",
+   "intersectionName": "PSN",
+   "intersectionDist": 10964.6
+ },
+ {
+   "airport_ident": "DGAA",
+   "runway": "21",
+   "intersectionName": "PSN",
+   "intersectionDist": 9799.9
+ },
+ {
+   "airport_ident": "DTTA",
+   "runway": "29",
+   "intersectionName": "F",
+   "intersectionDist": 8661.4
+ },
+ {
+   "airport_ident": "DTTJ",
+   "runway": "09",
+   "intersectionName": "THR",
+   "intersectionDist": 9186.4
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "intersectionName": "C5",
+   "intersectionDist": 7047.2
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "intersectionName": "C6",
+   "intersectionDist": 7890.4
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "intersectionName": "PS1",
+   "intersectionDist": 8608.9
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "intersectionName": "PS2",
+   "intersectionDist": 7680.4
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "intersectionName": "PSN",
+   "intersectionDist": 9484.9
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "intersectionName": "E4",
+   "intersectionDist": 4330
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "intersectionName": "C5",
+   "intersectionDist": 7628
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "intersectionName": "E1",
+   "intersectionDist": 6807.7
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "intersectionName": "E3",
+   "intersectionDist": 6653.5
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "intersectionName": "THR",
+   "intersectionDist": 9649
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "20",
+   "intersectionName": "B1",
+   "intersectionDist": 8776.2
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "20",
+   "intersectionName": "E6",
+   "intersectionDist": 7099.7
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "20",
+   "intersectionName": "THR",
+   "intersectionDist": 9078.1
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25L",
+   "intersectionName": "P5-C1",
+   "intersectionDist": 7185
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25L",
+   "intersectionName": "C3",
+   "intersectionDist": 4429
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25L",
+   "intersectionName": "C4",
+   "intersectionDist": 4035
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25L",
+   "intersectionName": "C1",
+   "intersectionDist": 7250.7
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07L",
+   "intersectionName": "A5",
+   "intersectionDist": 7047.2
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07L",
+   "intersectionName": "A6",
+   "intersectionDist": 8684.4
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07L",
+   "intersectionName": "B8",
+   "intersectionDist": 8536.7
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07L",
+   "intersectionName": "B9",
+   "intersectionDist": 8261.2
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "B6",
+   "intersectionDist": 6446
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "B7",
+   "intersectionDist": 4970
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "A5",
+   "intersectionDist": 4576
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "A3",
+   "intersectionDist": 6453.4
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "B1",
+   "intersectionDist": 10718.5
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "B3",
+   "intersectionDist": 9087.9
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "B5",
+   "intersectionDist": 6551.8
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "intersectionName": "THR",
+   "intersectionDist": 10951.4
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "07L",
+   "intersectionName": "E",
+   "intersectionDist": 7447.5
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "07L",
+   "intersectionName": "G",
+   "intersectionDist": 7742.8
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "25L",
+   "intersectionName": "D",
+   "intersectionDist": 6725.7
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "25L",
+   "intersectionName": "L",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07L",
+   "intersectionName": "LE",
+   "intersectionDist": 12927
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07L",
+   "intersectionName": "K",
+   "intersectionDist": 10866.1
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07L",
+   "intersectionName": "J",
+   "intersectionDist": 9881.9
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07L",
+   "intersectionName": "H",
+   "intersectionDist": 7913.4
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07R",
+   "intersectionName": "H",
+   "intersectionDist": 7644.4
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07R",
+   "intersectionName": "K",
+   "intersectionDist": 10105
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25R",
+   "intersectionName": "F",
+   "intersectionDist": 10689
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25L",
+   "intersectionName": "H",
+   "intersectionDist": 5607
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25L",
+   "intersectionName": "F",
+   "intersectionDist": 11450.1
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25L",
+   "intersectionName": "G",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "18",
+   "intersectionName": "S",
+   "intersectionDist": 8973.1
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "18",
+   "intersectionName": "C",
+   "intersectionDist": 11318.9
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "18",
+   "intersectionName": "A",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "05",
+   "intersectionName": "M",
+   "intersectionDist": 8070.9
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "05",
+   "intersectionName": "N",
+   "intersectionDist": 6824.1
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "15",
+   "intersectionName": "E",
+   "intersectionDist": 8333.3
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "23",
+   "intersectionName": "G",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "23",
+   "intersectionName": "BE",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "23",
+   "intersectionName": "AW",
+   "intersectionDist": 10587.3
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "intersectionName": "SL",
+   "intersectionDist": 9481.6
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "intersectionName": "K",
+   "intersectionDist": 11385
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "intersectionName": "IN",
+   "intersectionDist": 10990.8
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "intersectionName": "G",
+   "intersectionDist": 8956.7
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "intersectionName": "C",
+   "intersectionDist": 6135
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "14L",
+   "intersectionName": "A3",
+   "intersectionDist": 6955.4
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "14L",
+   "intersectionName": "A4",
+   "intersectionDist": 8989.5
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "14L",
+   "intersectionName": "A5",
+   "intersectionDist": 11679.8
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "32R",
+   "intersectionName": "A1",
+   "intersectionDist": 11761.8
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "32R",
+   "intersectionName": "A2",
+   "intersectionDist": 8399
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "05L",
+   "intersectionName": "Y",
+   "intersectionDist": 6774.9
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23R",
+   "intersectionName": "E",
+   "intersectionDist": 6765.1
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23R",
+   "intersectionName": "F",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23R",
+   "intersectionName": "G",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "05R",
+   "intersectionName": "A",
+   "intersectionDist": 8120.1
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "05R",
+   "intersectionName": "B",
+   "intersectionDist": 6663.4
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23L",
+   "intersectionName": "B-P",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23L",
+   "intersectionName": "E",
+   "intersectionDist": 7332.7
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23L",
+   "intersectionName": "M",
+   "intersectionDist": 8661.4
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "intersectionName": "A5",
+   "intersectionDist": 6627
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "intersectionName": "A3",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "intersectionName": "A4",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "intersectionName": "A6",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "intersectionName": "A7",
+   "intersectionDist": 6627.3
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08R",
+   "intersectionName": "B7",
+   "intersectionDist": 5479
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08R",
+   "intersectionName": "B3",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08R",
+   "intersectionName": "B4",
+   "intersectionDist": 9317.6
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08R",
+   "intersectionName": "B6",
+   "intersectionDist": 7283.5
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A9",
+   "intersectionDist": 9121
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A8",
+   "intersectionDist": 7415
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A5",
+   "intersectionDist": 5610
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A10",
+   "intersectionDist": 7414.7
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A12",
+   "intersectionDist": 9120.7
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "intersectionName": "A13",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B8",
+   "intersectionDist": 7218
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B7",
+   "intersectionDist": 6627
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B10",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B12",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B13",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "intersectionName": "B9",
+   "intersectionDist": 6627.3
+ },
+ {
+   "airport_ident": "EDDN",
+   "runway": "10",
+   "intersectionName": "E",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "25",
+   "intersectionName": "B",
+   "intersectionDist": 7988.8
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "25",
+   "intersectionName": "C",
+   "intersectionDist": 7135.8
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "intersectionName": "F",
+   "intersectionDist": 6627.3
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "intersectionName": "G",
+   "intersectionDist": 7250.7
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "intersectionName": "H",
+   "intersectionDist": 8251.3
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "intersectionName": "I",
+   "intersectionDist": 10137.8
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "intersectionName": "X",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "EDDT",
+   "runway": "08L",
+   "intersectionName": "TW",
+   "intersectionDist": 7696.9
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09R",
+   "intersectionName": "D",
+   "intersectionDist": 6463.3
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "27L",
+   "intersectionName": "B",
+   "intersectionDist": 6692.9
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09L",
+   "intersectionName": "H",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09L",
+   "intersectionName": "J",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09L",
+   "intersectionName": "K",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "27R",
+   "intersectionName": "N",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "EDFH",
+   "runway": "03",
+   "intersectionName": "C",
+   "intersectionDist": 8021.7
+ },
+ {
+   "airport_ident": "EDFH",
+   "runway": "21",
+   "intersectionName": "E",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "EDFH",
+   "runway": "21",
+   "intersectionName": "F",
+   "intersectionDist": 11482.9
+ },
+ {
+   "airport_ident": "EETN",
+   "runway": "08",
+   "intersectionName": "C",
+   "intersectionDist": 8464.6
+ },
+ {
+   "airport_ident": "EETN",
+   "runway": "08",
+   "intersectionName": "THR",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "33",
+   "intersectionName": "YL",
+   "intersectionDist": 8280.8
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04L",
+   "intersectionName": "WY",
+   "intersectionDist": 9681.8
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22R",
+   "intersectionName": "WH",
+   "intersectionDist": 9662.1
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04R",
+   "intersectionName": "ZJ",
+   "intersectionDist": 6591.2
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04R",
+   "intersectionName": "ZL",
+   "intersectionDist": 8431.8
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04R",
+   "intersectionName": "ZR",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04R",
+   "intersectionName": "ZS",
+   "intersectionDist": 10771
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "intersectionName": "T",
+   "intersectionDist": 9255.2
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "intersectionName": "Y",
+   "intersectionDist": 8195.5
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "intersectionName": "ZB",
+   "intersectionDist": 10994.1
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "intersectionName": "ZC",
+   "intersectionDist": 9504.6
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "intersectionName": "ZD",
+   "intersectionDist": 7808.4
+ },
+ {
+   "airport_ident": "EGAA",
+   "runway": "07",
+   "intersectionName": "D",
+   "intersectionDist": 8254.6
+ },
+ {
+   "airport_ident": "EGAA",
+   "runway": "07",
+   "intersectionName": "INT",
+   "intersectionDist": 6866.8
+ },
+ {
+   "airport_ident": "EGBB",
+   "runway": "15",
+   "intersectionName": "B",
+   "intersectionDist": 6669.9
+ },
+ {
+   "airport_ident": "EGBB",
+   "runway": "33",
+   "intersectionName": "F",
+   "intersectionDist": 6948.8
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "06L",
+   "intersectionName": "AG",
+   "intersectionDist": 9163
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "06L",
+   "intersectionName": "AF",
+   "intersectionDist": 8058
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "06L",
+   "intersectionName": "B",
+   "intersectionDist": 6759
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24L",
+   "intersectionName": "T",
+   "intersectionDist": 10489
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24L",
+   "intersectionName": "VB",
+   "intersectionDist": 9396
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24L",
+   "intersectionName": "U",
+   "intersectionDist": 8980
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24R",
+   "intersectionName": "JA",
+   "intersectionDist": 8858
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24R",
+   "intersectionName": "H",
+   "intersectionDist": 7234
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "24R",
+   "intersectionName": "G",
+   "intersectionDist": 7169
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "08R",
+   "intersectionName": "G",
+   "intersectionDist": 9140.4
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "26L",
+   "intersectionName": "A",
+   "intersectionDist": 10164
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "26L",
+   "intersectionName": "B",
+   "intersectionDist": 9494.8
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09R",
+   "intersectionName": "NB10",
+   "intersectionDist": 11584.6
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09R",
+   "intersectionName": "N10",
+   "intersectionDist": 11584.6
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09R",
+   "intersectionName": "N7",
+   "intersectionDist": 9576.8
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09R",
+   "intersectionName": "N8",
+   "intersectionDist": 11000.7
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27L",
+   "intersectionName": "N3-NB3",
+   "intersectionDist": 10557.7
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27L",
+   "intersectionName": "N2W",
+   "intersectionDist": 11345.1
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27L",
+   "intersectionName": "N3",
+   "intersectionDist": 10557.7
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27L",
+   "intersectionName": "N4E",
+   "intersectionDist": 7890.4
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "intersectionName": "A4",
+   "intersectionDist": 11397.6
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "intersectionName": "A5",
+   "intersectionDist": 9665.4
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "intersectionName": "A6",
+   "intersectionDist": 8914
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "intersectionName": "A7",
+   "intersectionDist": 8192.3
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "intersectionName": "A8",
+   "intersectionDist": 7473.8
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09L",
+   "intersectionName": "10W",
+   "intersectionDist": 8143
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09L",
+   "intersectionName": "A11",
+   "intersectionDist": 9507.9
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09L",
+   "intersectionName": "A12",
+   "intersectionDist": 10754.6
+ },
+ {
+   "airport_ident": "EGNX",
+   "runway": "09",
+   "intersectionName": "H",
+   "intersectionDist": 8900.9
+ },
+ {
+   "airport_ident": "EGNX",
+   "runway": "09",
+   "intersectionName": "M",
+   "intersectionDist": 6824.1
+ },
+ {
+   "airport_ident": "EGNX",
+   "runway": "27",
+   "intersectionName": "W",
+   "intersectionDist": 8080.7
+ },
+ {
+   "airport_ident": "EGPF",
+   "runway": "23",
+   "intersectionName": "A",
+   "intersectionDist": 8287.4
+ },
+ {
+   "airport_ident": "EGSS",
+   "runway": "05",
+   "intersectionName": "K",
+   "intersectionDist": 9245.4
+ },
+ {
+   "airport_ident": "EGSS",
+   "runway": "05",
+   "intersectionName": "L",
+   "intersectionDist": 7844.5
+ },
+ {
+   "airport_ident": "EGSS",
+   "runway": "23",
+   "intersectionName": "P",
+   "intersectionDist": 7664
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18C",
+   "intersectionName": "W3",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18C",
+   "intersectionName": "W5",
+   "intersectionDist": 6725.7
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "36C",
+   "intersectionName": "W7",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "36C",
+   "intersectionName": "W8",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18L",
+   "intersectionName": "E2",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18L",
+   "intersectionName": "E4",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18L",
+   "intersectionName": "E5",
+   "intersectionDist": 9186.4
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "09",
+   "intersectionName": "N4",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "06",
+   "intersectionName": "S1",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "24",
+   "intersectionName": "S4",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "24",
+   "intersectionName": "S5",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "24",
+   "intersectionName": "S7",
+   "intersectionDist": 11318.9
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "34",
+   "intersectionName": "A",
+   "intersectionDist": 5954.7
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "10",
+   "intersectionName": "E7",
+   "intersectionDist": 7073.5
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "28",
+   "intersectionName": "E2",
+   "intersectionDist": 7923.2
+ },
+ {
+   "airport_ident": "EINN",
+   "runway": "24",
+   "intersectionName": "D2",
+   "intersectionDist": 9993.4
+ },
+ {
+   "airport_ident": "ELLX",
+   "runway": "06",
+   "intersectionName": "G",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "ELLX",
+   "runway": "24",
+   "intersectionName": "C",
+   "intersectionDist": 9186.4
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "29",
+   "intersectionName": "N",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "15",
+   "intersectionName": "D2",
+   "intersectionDist": 10305.1
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "15",
+   "intersectionName": "O1",
+   "intersectionDist": 8592.5
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "33",
+   "intersectionName": "H2",
+   "intersectionDist": 9839.2
+ },
+ {
+   "airport_ident": "ESGG",
+   "runway": "03",
+   "intersectionName": "B",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "ESGG",
+   "runway": "03",
+   "intersectionName": "C",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "ESGG",
+   "runway": "21",
+   "intersectionName": "E",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "ESGG",
+   "runway": "21",
+   "intersectionName": "F",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "ESMS",
+   "runway": "17",
+   "intersectionName": "C",
+   "intersectionDist": 7119.4
+ },
+ {
+   "airport_ident": "ESMS",
+   "runway": "35",
+   "intersectionName": "B",
+   "intersectionDist": 6627.3
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "01R",
+   "intersectionName": "W3",
+   "intersectionDist": 7044
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "19L",
+   "intersectionName": "W6",
+   "intersectionDist": 7044
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "01L",
+   "intersectionName": "Y2",
+   "intersectionDist": 8241.5
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "19R",
+   "intersectionName": "Y8",
+   "intersectionDist": 7309.7
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "19R",
+   "intersectionName": "Y9",
+   "intersectionDist": 8241.5
+ },
+ {
+   "airport_ident": "EVRA",
+   "runway": "36",
+   "intersectionName": "B",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "EYVI",
+   "runway": "20",
+   "intersectionName": "A",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "03L",
+   "intersectionName": "J1",
+   "intersectionDist": 13510.5
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "21R",
+   "intersectionName": "Q",
+   "intersectionDist": 14330.7
+ },
+ {
+   "airport_ident": "FIMP",
+   "runway": "14",
+   "intersectionName": "EXT",
+   "intersectionDist": 11056.4
+ },
+ {
+   "airport_ident": "FIMP",
+   "runway": "32",
+   "intersectionName": "TP",
+   "intersectionDist": 8497.4
+ },
+ {
+   "airport_ident": "FVHA",
+   "runway": "05",
+   "intersectionName": "H",
+   "intersectionDist": 11794.6
+ },
+ {
+   "airport_ident": "FVHA",
+   "runway": "23",
+   "intersectionName": "M",
+   "intersectionDist": 13008.5
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "17L",
+   "intersectionName": "O",
+   "intersectionDist": 9908.1
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "17R",
+   "intersectionName": "O",
+   "intersectionDist": 9908.1
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "35R",
+   "intersectionName": "R",
+   "intersectionDist": 10826.8
+ },
+ {
+   "airport_ident": "GMMX",
+   "runway": "10",
+   "intersectionName": "W",
+   "intersectionDist": 8923.9
+ },
+ {
+   "airport_ident": "GMMX",
+   "runway": "28",
+   "intersectionName": "C1",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "HAAB",
+   "runway": "07L",
+   "intersectionName": "B1",
+   "intersectionDist": 9924.5
+ },
+ {
+   "airport_ident": "HEBA",
+   "runway": "14",
+   "intersectionName": "H",
+   "intersectionDist": 10334.6
+ },
+ {
+   "airport_ident": "HEBA",
+   "runway": "32",
+   "intersectionName": "A",
+   "intersectionDist": 10433.1
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "16",
+   "intersectionName": "8",
+   "intersectionDist": 10098.4
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "34",
+   "intersectionName": "U",
+   "intersectionDist": 10098.4
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "23R",
+   "intersectionName": "8",
+   "intersectionDist": 10502
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "05R",
+   "intersectionName": "O1",
+   "intersectionDist": 12332.7
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "23L",
+   "intersectionName": "T1",
+   "intersectionDist": 12345.8
+ },
+ {
+   "airport_ident": "HEGN",
+   "runway": "16",
+   "intersectionName": "POS",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "HESN",
+   "runway": "17",
+   "intersectionName": "E",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "HKEL",
+   "runway": "08",
+   "intersectionName": "B",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "HKJK",
+   "runway": "06",
+   "intersectionName": "F",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "HKMO",
+   "runway": "03",
+   "intersectionName": "D",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "HKMO",
+   "runway": "21",
+   "intersectionName": "B",
+   "intersectionDist": 7923.2
+ },
+ {
+   "airport_ident": "HTDA",
+   "runway": "05",
+   "intersectionName": "U",
+   "intersectionDist": 8727
+ },
+ {
+   "airport_ident": "HTDA",
+   "runway": "23",
+   "intersectionName": "Y",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "HTDA",
+   "runway": "23",
+   "intersectionName": "Z",
+   "intersectionDist": 7742.8
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "09L",
+   "intersectionName": "M2",
+   "intersectionDist": 10948.2
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "27R",
+   "intersectionName": "M20",
+   "intersectionDist": 11348.4
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "15R",
+   "intersectionName": "Z",
+   "intersectionDist": 9097.8
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "18L",
+   "intersectionName": "WG",
+   "intersectionDist": 13080.7
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "18L",
+   "intersectionName": "WH",
+   "intersectionDist": 12815
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "18L",
+   "intersectionName": "Z",
+   "intersectionDist": 10961.3
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36R",
+   "intersectionName": "A",
+   "intersectionDist": 11194.2
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36R",
+   "intersectionName": "B",
+   "intersectionDist": 10820.2
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36R",
+   "intersectionName": "WP",
+   "intersectionDist": 12815
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36R",
+   "intersectionName": "WQ",
+   "intersectionDist": 13080.7
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36L",
+   "intersectionName": "A",
+   "intersectionDist": 10899
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36L",
+   "intersectionName": "B",
+   "intersectionDist": 10449.5
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "17R",
+   "intersectionName": "EG",
+   "intersectionDist": 13080.7
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "17R",
+   "intersectionName": "EH",
+   "intersectionDist": 12815
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "35L",
+   "intersectionName": "EP",
+   "intersectionDist": 12811.7
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "35L",
+   "intersectionName": "EQ",
+   "intersectionDist": 13084
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22L",
+   "intersectionName": "Y",
+   "intersectionDist": 8159.4
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22L",
+   "intersectionName": "ZB",
+   "intersectionDist": 9629.3
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04L",
+   "intersectionName": "N",
+   "intersectionDist": 8412.1
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04L",
+   "intersectionName": "PB",
+   "intersectionDist": 10098.4
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04L",
+   "intersectionName": "PC",
+   "intersectionDist": 10551.2
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04L",
+   "intersectionName": "V",
+   "intersectionDist": 9199.5
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22R",
+   "intersectionName": "INT",
+   "intersectionDist": 10613.5
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22R",
+   "intersectionName": "K",
+   "intersectionDist": 8513.8
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22R",
+   "intersectionName": "W",
+   "intersectionDist": 10190.3
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22R",
+   "intersectionName": "Y-M",
+   "intersectionDist": 9511.2
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "01L",
+   "intersectionName": "Y8",
+   "intersectionDist": 11000.7
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "19R",
+   "intersectionName": "Y1",
+   "intersectionDist": 11000.7
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "01R",
+   "intersectionName": "K8",
+   "intersectionDist": 11000.7
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "19L",
+   "intersectionName": "K1",
+   "intersectionDist": 11000.7
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13L",
+   "intersectionName": "CB",
+   "intersectionDist": 8750
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13L",
+   "intersectionName": "UA",
+   "intersectionDist": 9550.5
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "04L",
+   "intersectionName": "KB",
+   "intersectionDist": 9596.5
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "22R",
+   "intersectionName": "F",
+   "intersectionDist": 9150.3
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "22R",
+   "intersectionName": "INT",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13R",
+   "intersectionName": "PA",
+   "intersectionDist": 10797.2
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13R",
+   "intersectionName": "PC",
+   "intersectionDist": 13300.5
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "INT",
+   "intersectionDist": 12303.1
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "K",
+   "intersectionDist": 11699.5
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "KK",
+   "intersectionDist": 10698.8
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "L",
+   "intersectionDist": 9399.6
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "THR",
+   "intersectionDist": 11246.7
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "intersectionName": "Y",
+   "intersectionDist": 13100.4
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "25R",
+   "intersectionName": "A2",
+   "intersectionDist": 12749.3
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "14L",
+   "intersectionName": "U",
+   "intersectionDist": 7309.7
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "10",
+   "intersectionName": "ZH",
+   "intersectionDist": 10093
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "10",
+   "intersectionName": "ZF",
+   "intersectionDist": 11327
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "10",
+   "intersectionName": "ZE",
+   "intersectionDist": 11327
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "10",
+   "intersectionName": "K",
+   "intersectionDist": 7732
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "14R",
+   "intersectionName": "T2",
+   "intersectionDist": 10098.4
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "28",
+   "intersectionName": "M6",
+   "intersectionDist": 10985
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "28",
+   "intersectionName": "M5",
+   "intersectionDist": 9251
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "28",
+   "intersectionName": "F",
+   "intersectionDist": 8215
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "32L",
+   "intersectionName": "M",
+   "intersectionDist": 9501.3
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "32L",
+   "intersectionName": "T10",
+   "intersectionDist": 8799.2
+ },
+ {
+   "airport_ident": "KSEA",
+   "runway": "34R",
+   "intersectionName": "Q",
+   "intersectionDist": 9425.9
+ },
+ {
+   "airport_ident": "LBSF",
+   "runway": "09",
+   "intersectionName": "C",
+   "intersectionDist": 8038.1
+ },
+ {
+   "airport_ident": "LCLK",
+   "runway": "04",
+   "intersectionName": "I",
+   "intersectionDist": 8937
+ },
+ {
+   "airport_ident": "LCLK",
+   "runway": "22",
+   "intersectionName": "TP",
+   "intersectionDist": 9809.7
+ },
+ {
+   "airport_ident": "LEAL",
+   "runway": "28",
+   "intersectionName": "C5",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "20",
+   "intersectionName": "T-4",
+   "intersectionDist": 6384.5
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07L",
+   "intersectionName": "H-A",
+   "intersectionDist": 7782.2
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07L",
+   "intersectionName": "W-1",
+   "intersectionDist": 9534.1
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07L",
+   "intersectionName": "W-2",
+   "intersectionDist": 9750.7
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07L",
+   "intersectionName": "W-3",
+   "intersectionDist": 9970.5
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "25R",
+   "intersectionName": "Z-1",
+   "intersectionDist": 9091.2
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "25R",
+   "intersectionName": "Z-2",
+   "intersectionDist": 9311
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "25R",
+   "intersectionName": "Z-3",
+   "intersectionDist": 9527.6
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15L",
+   "intersectionName": "K3",
+   "intersectionDist": 10761.2
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15L",
+   "intersectionName": "K4",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15L",
+   "intersectionName": "K5",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36R",
+   "intersectionName": "Y2",
+   "intersectionDist": 11302.5
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36R",
+   "intersectionName": "Y3",
+   "intersectionDist": 10974.4
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36R",
+   "intersectionName": "Y4",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15R",
+   "intersectionName": "15M",
+   "intersectionDist": 11433.7
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36L",
+   "intersectionName": "Z10",
+   "intersectionDist": 9550.5
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36L",
+   "intersectionName": "Z6",
+   "intersectionDist": 12762.5
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36L",
+   "intersectionName": "Z8",
+   "intersectionDist": 10948.2
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "13",
+   "intersectionName": "C6",
+   "intersectionDist": 6916
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "31",
+   "intersectionName": "C1",
+   "intersectionDist": 6935.7
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "06R",
+   "intersectionName": "S3",
+   "intersectionDist": 7841.2
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "06R",
+   "intersectionName": "THR",
+   "intersectionDist": 8497.4
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "06L",
+   "intersectionName": "N6",
+   "intersectionDist": 8070.9
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "24R",
+   "intersectionName": "H2",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "24R",
+   "intersectionName": "N1",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "24R",
+   "intersectionName": "N2",
+   "intersectionDist": 6988.2
+ },
+ {
+   "airport_ident": "LEVC",
+   "runway": "30",
+   "intersectionName": "THR",
+   "intersectionDist": 9563.6
+ },
+ {
+   "airport_ident": "LFBD",
+   "runway": "05",
+   "intersectionName": "D",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32R",
+   "intersectionName": "N2",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "14R",
+   "intersectionName": "M10",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "14R",
+   "intersectionName": "M8",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32L",
+   "intersectionName": "M4",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32L",
+   "intersectionName": "S3",
+   "intersectionDist": 10990.8
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32L",
+   "intersectionName": "S4",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18L",
+   "intersectionName": "B4",
+   "intersectionDist": 6857
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18R",
+   "intersectionName": "A2",
+   "intersectionDist": 12007.9
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18R",
+   "intersectionName": "A3",
+   "intersectionDist": 9416
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18R",
+   "intersectionName": "A4",
+   "intersectionDist": 6857
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "36L",
+   "intersectionName": "A5",
+   "intersectionDist": 8431.8
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "36L",
+   "intersectionName": "A6",
+   "intersectionDist": 9908.1
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "13L",
+   "intersectionName": "D1",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "31R",
+   "intersectionName": "D7",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04L",
+   "intersectionName": "B1",
+   "intersectionDist": 7299.9
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "22R",
+   "intersectionName": "G1",
+   "intersectionDist": 6610.9
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "22R",
+   "intersectionName": "H1",
+   "intersectionDist": 7972.4
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04R",
+   "intersectionName": "A3",
+   "intersectionDist": 8120.1
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04R",
+   "intersectionName": "A33",
+   "intersectionDist": 9383.2
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04R",
+   "intersectionName": "B3",
+   "intersectionDist": 7070.2
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "22L",
+   "intersectionName": "EY",
+   "intersectionDist": 6935.7
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08R",
+   "intersectionName": "V2",
+   "intersectionDist": 8595.8
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08R",
+   "intersectionName": "V3",
+   "intersectionDist": 7053.8
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09L",
+   "intersectionName": "Z2",
+   "intersectionDist": 8399
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09L",
+   "intersectionName": "Z3",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26L",
+   "intersectionName": "V6",
+   "intersectionDist": 6692.9
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26L",
+   "intersectionName": "V7",
+   "intersectionDist": 8234.9
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27R",
+   "intersectionName": "Z6",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27R",
+   "intersectionName": "Z7",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "intersectionName": "K1",
+   "intersectionDist": 11351.7
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "intersectionName": "K2",
+   "intersectionDist": 10433.1
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "intersectionName": "K3",
+   "intersectionDist": 9711.3
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "intersectionName": "Y2",
+   "intersectionDist": 13024.9
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "intersectionName": "Y3",
+   "intersectionDist": 11909.4
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27L",
+   "intersectionName": "K6",
+   "intersectionDist": 10433.1
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27L",
+   "intersectionName": "K7",
+   "intersectionDist": 11286.1
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27L",
+   "intersectionName": "Y11",
+   "intersectionDist": 11811
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27L",
+   "intersectionName": "Y12",
+   "intersectionDist": 12729.7
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08L",
+   "intersectionName": "S1",
+   "intersectionDist": 12024.3
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08L",
+   "intersectionName": "S2",
+   "intersectionDist": 11417.3
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08L",
+   "intersectionName": "S3",
+   "intersectionDist": 10597.1
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08L",
+   "intersectionName": "WB",
+   "intersectionDist": 13353
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26R",
+   "intersectionName": "S6",
+   "intersectionDist": 10629.9
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26R",
+   "intersectionName": "W10",
+   "intersectionDist": 11860.2
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26R",
+   "intersectionName": "W9",
+   "intersectionDist": 11351.7
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "24",
+   "intersectionName": "W42",
+   "intersectionDist": 10101.7
+ },
+ {
+   "airport_ident": "LFSB",
+   "runway": "16",
+   "intersectionName": "G",
+   "intersectionDist": 7775.6
+ },
+ {
+   "airport_ident": "LFSB",
+   "runway": "34",
+   "intersectionName": "D",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03L",
+   "intersectionName": "A4",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03L",
+   "intersectionName": "A5",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21R",
+   "intersectionName": "A10",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21R",
+   "intersectionName": "A11",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03R",
+   "intersectionName": "D4",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03R",
+   "intersectionName": "D5",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21L",
+   "intersectionName": "D11",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21L",
+   "intersectionName": "D9",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LGIR",
+   "runway": "09",
+   "intersectionName": "A",
+   "intersectionDist": 7339.2
+ },
+ {
+   "airport_ident": "LGIR",
+   "runway": "09",
+   "intersectionName": "NET",
+   "intersectionDist": 7919.9
+ },
+ {
+   "airport_ident": "LGIR",
+   "runway": "27",
+   "intersectionName": "THR",
+   "intersectionDist": 7240.8
+ },
+ {
+   "airport_ident": "LGRP",
+   "runway": "07",
+   "intersectionName": "D",
+   "intersectionDist": 7332.7
+ },
+ {
+   "airport_ident": "LGTS",
+   "runway": "10",
+   "intersectionName": "PSN",
+   "intersectionDist": 7808.4
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "13R",
+   "intersectionName": "C",
+   "intersectionDist": 8005.2
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "13L",
+   "intersectionName": "K",
+   "intersectionDist": 9645.7
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "31R",
+   "intersectionName": "X",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "LICC",
+   "runway": "08",
+   "intersectionName": "THR",
+   "intersectionDist": 7677.2
+ },
+ {
+   "airport_ident": "LICC",
+   "runway": "26",
+   "intersectionName": "THR",
+   "intersectionDist": 7710
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "07",
+   "intersectionName": "A",
+   "intersectionDist": 10511.8
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "25",
+   "intersectionName": "A",
+   "intersectionDist": 9940.9
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17L",
+   "intersectionName": "A",
+   "intersectionDist": 9744
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17L",
+   "intersectionName": "AB",
+   "intersectionDist": 9744.1
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17R",
+   "intersectionName": "A",
+   "intersectionDist": 9859
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17R",
+   "intersectionName": "PSN",
+   "intersectionDist": 9858.9
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35L",
+   "intersectionName": "A",
+   "intersectionDist": 11532
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35L",
+   "intersectionName": "B",
+   "intersectionDist": 8366
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35L",
+   "intersectionName": "F",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35L",
+   "intersectionName": "WB",
+   "intersectionDist": 11532.2
+ },
+ {
+   "airport_ident": "LIME",
+   "runway": "10",
+   "intersectionName": "G",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "LIME",
+   "runway": "28",
+   "intersectionName": "A",
+   "intersectionDist": 9921.3
+ },
+ {
+   "airport_ident": "LIME",
+   "runway": "28",
+   "intersectionName": "B",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LIMF",
+   "runway": "36",
+   "intersectionName": "F",
+   "intersectionDist": 10170.6
+ },
+ {
+   "airport_ident": "LIPE",
+   "runway": "12",
+   "intersectionName": "B",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "04R",
+   "intersectionName": "PSN",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "22L",
+   "intersectionName": "B8",
+   "intersectionDist": 9120.7
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "07",
+   "intersectionName": "B",
+   "intersectionDist": 8366
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "07",
+   "intersectionName": "A",
+   "intersectionDist": 9481.6
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "07",
+   "intersectionName": "BE",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "25",
+   "intersectionName": "A",
+   "intersectionDist": 8612
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "25",
+   "intersectionName": "BB",
+   "intersectionDist": 8612.2
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16C",
+   "intersectionName": "CD",
+   "intersectionDist": 7677.2
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16C",
+   "intersectionName": "PSN",
+   "intersectionDist": 9350.4
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16L",
+   "intersectionName": "A",
+   "intersectionDist": 12467
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16L",
+   "intersectionName": "B",
+   "intersectionDist": 9678
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34R",
+   "intersectionName": "A",
+   "intersectionDist": 12139
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34R",
+   "intersectionName": "B",
+   "intersectionDist": 9678
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34R",
+   "intersectionName": "DH",
+   "intersectionDist": 9678.5
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34R",
+   "intersectionName": "DK",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16R",
+   "intersectionName": "A",
+   "intersectionDist": 9843
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16R",
+   "intersectionName": "AB",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "04R",
+   "intersectionName": "A",
+   "intersectionDist": 9022.3
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "22L",
+   "intersectionName": "D",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "13",
+   "intersectionName": "G",
+   "intersectionDist": 7299.9
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "31",
+   "intersectionName": "R",
+   "intersectionDist": 8448.2
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "06",
+   "intersectionName": "D",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "06",
+   "intersectionName": "E",
+   "intersectionDist": 10039.4
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "24",
+   "intersectionName": "B",
+   "intersectionDist": 8349.7
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "24",
+   "intersectionName": "C",
+   "intersectionDist": 7299.9
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "12",
+   "intersectionName": "Z",
+   "intersectionDist": 7677.2
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "30",
+   "intersectionName": "F",
+   "intersectionDist": 8668
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "14",
+   "intersectionName": "E",
+   "intersectionDist": 6850.4
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "14",
+   "intersectionName": "F",
+   "intersectionDist": 8198.8
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "32",
+   "intersectionName": "C",
+   "intersectionDist": 6729
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "32",
+   "intersectionName": "PSN",
+   "intersectionDist": 11007.2
+ },
+ {
+   "airport_ident": "LOWL",
+   "runway": "09",
+   "intersectionName": "G",
+   "intersectionDist": 6857
+ },
+ {
+   "airport_ident": "LOWL",
+   "runway": "27",
+   "intersectionName": "F",
+   "intersectionDist": 7316.3
+ },
+ {
+   "airport_ident": "LOWS",
+   "runway": "16",
+   "intersectionName": "B",
+   "intersectionDist": 8202
+ },
+ {
+   "airport_ident": "LOWS",
+   "runway": "34",
+   "intersectionName": "E",
+   "intersectionDist": 7448
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "11",
+   "intersectionName": "A10",
+   "intersectionDist": 9530.8
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "11",
+   "intersectionName": "A11",
+   "intersectionDist": 10938.3
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "11",
+   "intersectionName": "A8",
+   "intersectionDist": 7037.4
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "intersectionName": "A2",
+   "intersectionDist": 10977.7
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "intersectionName": "A3E",
+   "intersectionDist": 10173.9
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "intersectionName": "A3W",
+   "intersectionDist": 9944.2
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "intersectionName": "A4",
+   "intersectionDist": 7841.2
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "intersectionName": "A5",
+   "intersectionDist": 7841.2
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "16",
+   "intersectionName": "B2",
+   "intersectionDist": 11007.2
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "16",
+   "intersectionName": "B4",
+   "intersectionDist": 7660.8
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "34",
+   "intersectionName": "B10",
+   "intersectionDist": 6873.4
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "34",
+   "intersectionName": "B11",
+   "intersectionDist": 10941.6
+ },
+ {
+   "airport_ident": "LPLA",
+   "runway": "15",
+   "intersectionName": "M",
+   "intersectionDist": 10577.4
+ },
+ {
+   "airport_ident": "LPLA",
+   "runway": "33",
+   "intersectionName": "C",
+   "intersectionDist": 10511.8
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "35",
+   "intersectionName": "M1",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "35",
+   "intersectionName": "THR",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "03",
+   "intersectionName": "N2",
+   "intersectionDist": 11909.4
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "03",
+   "intersectionName": "P",
+   "intersectionDist": 10187
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "03",
+   "intersectionName": "THR",
+   "intersectionDist": 12188.3
+ },
+ {
+   "airport_ident": "LRBS",
+   "runway": "07",
+   "intersectionName": "THR",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "08L",
+   "intersectionName": "THR",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "08R",
+   "intersectionName": "G",
+   "intersectionDist": 9071.5
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "26R",
+   "intersectionName": "THR",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "26L",
+   "intersectionName": "D",
+   "intersectionDist": 8169.3
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "05",
+   "intersectionName": "E",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "05",
+   "intersectionName": "F",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "23",
+   "intersectionName": "B",
+   "intersectionDist": 7545.9
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "23",
+   "intersectionName": "C",
+   "intersectionDist": 5577.4
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "14",
+   "intersectionName": "G",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "16",
+   "intersectionName": "E3",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "34",
+   "intersectionName": "E8",
+   "intersectionDist": 10728.3
+ },
+ {
+   "airport_ident": "LTAC",
+   "runway": "03L",
+   "intersectionName": "E",
+   "intersectionDist": 10170.6
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "18C",
+   "intersectionName": "C1",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "36C",
+   "intersectionName": "H",
+   "intersectionDist": 9809.7
+ },
+ {
+   "airport_ident": "LYBE",
+   "runway": "30",
+   "intersectionName": "E",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "NZCH",
+   "runway": "02",
+   "intersectionName": "A6",
+   "intersectionDist": 9360.2
+ },
+ {
+   "airport_ident": "NZCH",
+   "runway": "20",
+   "intersectionName": "A3",
+   "intersectionDist": 8011.8
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30L",
+   "intersectionName": "H",
+   "intersectionDist": 7654.2
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "12L",
+   "intersectionName": "B",
+   "intersectionDist": 11187.7
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "12L",
+   "intersectionName": "C",
+   "intersectionDist": 9176.5
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30R",
+   "intersectionName": "E",
+   "intersectionDist": 7047.2
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30R",
+   "intersectionName": "F",
+   "intersectionDist": 8536.7
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30R",
+   "intersectionName": "G",
+   "intersectionDist": 10321.5
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "16R",
+   "intersectionName": "B5",
+   "intersectionDist": 12500
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "34L",
+   "intersectionName": "B1",
+   "intersectionDist": 12500
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "16L",
+   "intersectionName": "E",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "34L",
+   "intersectionName": "PSN",
+   "intersectionDist": 11679.8
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "34L",
+   "intersectionName": "B1",
+   "intersectionDist": 11958.7
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "34L",
+   "intersectionName": "B2",
+   "intersectionDist": 8051.2
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "15R",
+   "intersectionName": "W5",
+   "intersectionDist": 7874
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "33L",
+   "intersectionName": "W2",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "15L",
+   "intersectionName": "E4",
+   "intersectionDist": 7053.8
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "15L",
+   "intersectionName": "E5",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "33R",
+   "intersectionName": "E2",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "33R",
+   "intersectionName": "E3",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "35",
+   "intersectionName": "A",
+   "intersectionDist": 8956.7
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "35",
+   "intersectionName": "L",
+   "intersectionDist": 8038.1
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "34",
+   "intersectionName": "A",
+   "intersectionDist": 10646.3
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "13",
+   "intersectionName": "K",
+   "intersectionDist": 10170.6
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "13",
+   "intersectionName": "M",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "31",
+   "intersectionName": "V",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "31",
+   "intersectionName": "W",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "OMAL",
+   "runway": "01",
+   "intersectionName": "B",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12L",
+   "intersectionName": "M2",
+   "intersectionDist": 10357.6
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12L",
+   "intersectionName": "M3",
+   "intersectionDist": 9481.6
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12L",
+   "intersectionName": "M5",
+   "intersectionDist": 7099.7
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30R",
+   "intersectionName": "M10",
+   "intersectionDist": 8382.5
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30R",
+   "intersectionName": "M12",
+   "intersectionDist": 9530.8
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30R",
+   "intersectionName": "M13",
+   "intersectionDist": 11361.5
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30R",
+   "intersectionName": "M9",
+   "intersectionDist": 7513.1
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12R",
+   "intersectionName": "K2",
+   "intersectionDist": 13271
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12R",
+   "intersectionName": "K3",
+   "intersectionDist": 11902.9
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12R",
+   "intersectionName": "K4",
+   "intersectionDist": 11581.4
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30L",
+   "intersectionName": "K13",
+   "intersectionDist": 9858.9
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30L",
+   "intersectionName": "K14",
+   "intersectionDist": 10636.5
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30L",
+   "intersectionName": "K15",
+   "intersectionDist": 12149
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30L",
+   "intersectionName": "K16",
+   "intersectionDist": 14009.2
+ },
+ {
+   "airport_ident": "OMSJ",
+   "runway": "12",
+   "intersectionName": "B",
+   "intersectionDist": 11647
+ },
+ {
+   "airport_ident": "OMSJ",
+   "runway": "30",
+   "intersectionName": "E",
+   "intersectionDist": 11351.7
+ },
+ {
+   "airport_ident": "OPKC",
+   "runway": "07L",
+   "intersectionName": "BAR",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "OPPS",
+   "runway": "17",
+   "intersectionName": "PSN",
+   "intersectionDist": 8500.7
+ },
+ {
+   "airport_ident": "OPPS",
+   "runway": "35",
+   "intersectionName": "PSN",
+   "intersectionDist": 8500.7
+ },
+ {
+   "airport_ident": "OPRN",
+   "runway": "12",
+   "intersectionName": "THR",
+   "intersectionDist": 9898.3
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "05L",
+   "intersectionName": "30D",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "05L",
+   "intersectionName": "L",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "OSLK",
+   "runway": "35",
+   "intersectionName": "THR",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "16",
+   "intersectionName": "A",
+   "intersectionDist": 12375.3
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "16",
+   "intersectionName": "B",
+   "intersectionDist": 9993.4
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "16",
+   "intersectionName": "C",
+   "intersectionDist": 7680.4
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "34",
+   "intersectionName": "E1",
+   "intersectionDist": 11256.6
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "34",
+   "intersectionName": "E2",
+   "intersectionDist": 12719.8
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "34",
+   "intersectionName": "F",
+   "intersectionDist": 13500.7
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "34",
+   "intersectionName": "TP",
+   "intersectionDist": 8139.8
+ },
+ {
+   "airport_ident": "RCTP",
+   "runway": "23",
+   "intersectionName": "N10",
+   "intersectionDist": 11417.3
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "16R",
+   "intersectionName": "A2",
+   "intersectionDist": 11843.8
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "16R",
+   "intersectionName": "A3",
+   "intersectionDist": 9973.8
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "34L",
+   "intersectionName": "A10",
+   "intersectionDist": 11909.4
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "34L",
+   "intersectionName": "C",
+   "intersectionDist": 9481.6
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "34L",
+   "intersectionName": "D",
+   "intersectionDist": 10072.2
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "18",
+   "intersectionName": "A8N",
+   "intersectionDist": 8989.5
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "18",
+   "intersectionName": "A9",
+   "intersectionDist": 10892.4
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "36",
+   "intersectionName": "A2",
+   "intersectionDist": 10892.4
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "36",
+   "intersectionName": "A3S",
+   "intersectionDist": 8989.5
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "04",
+   "intersectionName": "B2",
+   "intersectionDist": 7578.7
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "04",
+   "intersectionName": "B3",
+   "intersectionDist": 6660.1
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16L",
+   "intersectionName": "C8",
+   "intersectionDist": 6955.4
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16L",
+   "intersectionName": "C8N",
+   "intersectionDist": 8005.2
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16L",
+   "intersectionName": "C9",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16R",
+   "intersectionName": "A10",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16R",
+   "intersectionName": "A9",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16R",
+   "intersectionName": "A9B",
+   "intersectionDist": 7578.7
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16R",
+   "intersectionName": "INT",
+   "intersectionDist": 9087.9
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34R",
+   "intersectionName": "C2",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34R",
+   "intersectionName": "C3",
+   "intersectionDist": 6889.8
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34R",
+   "intersectionName": "C3S",
+   "intersectionDist": 7939.6
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34L",
+   "intersectionName": "A2",
+   "intersectionDist": 7939.6
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34L",
+   "intersectionName": "A3",
+   "intersectionDist": 6594.5
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34L",
+   "intersectionName": "A3S",
+   "intersectionDist": 7611.5
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15L",
+   "intersectionName": "D6",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15L",
+   "intersectionName": "K",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15R",
+   "intersectionName": "B5",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15R",
+   "intersectionName": "B6",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15R",
+   "intersectionName": "K",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33R",
+   "intersectionName": "D1",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33R",
+   "intersectionName": "J",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33L",
+   "intersectionName": "B2",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33L",
+   "intersectionName": "B3",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33L",
+   "intersectionName": "J",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "14L",
+   "intersectionName": "F2",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "32R",
+   "intersectionName": "B2",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "RPLL",
+   "runway": "24",
+   "intersectionName": "E1",
+   "intersectionDist": 9881.9
+ },
+ {
+   "airport_ident": "RPLL",
+   "runway": "06",
+   "intersectionName": "E5",
+   "intersectionDist": 10023
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "33",
+   "intersectionName": "PSN",
+   "intersectionDist": 10236.2
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "10",
+   "intersectionName": "THR",
+   "intersectionDist": 7710
+ },
+ {
+   "airport_ident": "SVMI",
+   "runway": "28",
+   "intersectionName": "F",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "UAFM",
+   "runway": "08",
+   "intersectionName": "PSN",
+   "intersectionDist": 13464.6
+ },
+ {
+   "airport_ident": "UAFM",
+   "runway": "26",
+   "intersectionName": "PSN",
+   "intersectionDist": 13464.6
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23R",
+   "intersectionName": "PAD",
+   "intersectionDist": 8776.2
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23R",
+   "intersectionName": "D",
+   "intersectionDist": 6463.3
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23R",
+   "intersectionName": "C",
+   "intersectionDist": 4593.2
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "05L",
+   "intersectionName": "D",
+   "intersectionDist": 5006.6
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "05L",
+   "intersectionName": "C",
+   "intersectionDist": 6850.4
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "05L",
+   "intersectionName": "B",
+   "intersectionDist": 8349.7
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23L",
+   "intersectionName": "H",
+   "intersectionDist": 11482.9
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23L",
+   "intersectionName": "G",
+   "intersectionDist": 7710
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "23L",
+   "intersectionName": "F",
+   "intersectionDist": 3133.2
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "05R",
+   "intersectionName": "G",
+   "intersectionDist": 5413.4
+ },
+ {
+   "airport_ident": "UHHH",
+   "runway": "05R",
+   "intersectionName": "F",
+   "intersectionDist": 9990.2
+ },
+ {
+   "airport_ident": "UHMM",
+   "runway": "10",
+   "intersectionName": "TWY3",
+   "intersectionDist": 4501.3
+ },
+ {
+   "airport_ident": "UHMM",
+   "runway": "10",
+   "intersectionName": "TWY2",
+   "intersectionDist": 6929.1
+ },
+ {
+   "airport_ident": "UHMM",
+   "runway": "10",
+   "intersectionName": "TWY1",
+   "intersectionDist": 9225.7
+ },
+ {
+   "airport_ident": "UHMM",
+   "runway": "28",
+   "intersectionName": "TWY3",
+   "intersectionDist": 6824.1
+ },
+ {
+   "airport_ident": "UHPP",
+   "runway": "16L",
+   "intersectionName": "TWY A",
+   "intersectionDist": 8169.3
+ },
+ {
+   "airport_ident": "UHPP",
+   "runway": "34R",
+   "intersectionName": "TWY 6",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18R",
+   "intersectionName": "14",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18R",
+   "intersectionName": "PSN",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "36L",
+   "intersectionName": "12",
+   "intersectionDist": 8366.1
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "36L",
+   "intersectionName": "PSN",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18L",
+   "intersectionName": "A2",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18L",
+   "intersectionName": "A3",
+   "intersectionDist": 6561.7
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "36R",
+   "intersectionName": "A5",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28R",
+   "intersectionName": "B3",
+   "intersectionDist": 8024.9
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28R",
+   "intersectionName": "B2",
+   "intersectionDist": 9960.6
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28R",
+   "intersectionName": "B3",
+   "intersectionDist": 8024.9
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28R",
+   "intersectionName": "PS3",
+   "intersectionDist": 10160.8
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10L",
+   "intersectionName": "B5",
+   "intersectionDist": 6712.6
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10L",
+   "intersectionName": "PS3",
+   "intersectionDist": 10160.8
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28L",
+   "intersectionName": "A2",
+   "intersectionDist": 6489.5
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28L",
+   "intersectionName": "A1",
+   "intersectionDist": 8326.8
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28L",
+   "intersectionName": "A1",
+   "intersectionDist": 8326.8
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28L",
+   "intersectionName": "PS3",
+   "intersectionDist": 11417.3
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10R",
+   "intersectionName": "A2",
+   "intersectionDist": 5242.8
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10R",
+   "intersectionName": "PS3",
+   "intersectionDist": 11417.3
+ },
+ {
+   "airport_ident": "UMMS",
+   "runway": "13",
+   "intersectionName": "B",
+   "intersectionDist": 8858.3
+ },
+ {
+   "airport_ident": "UNAA",
+   "runway": "02R",
+   "intersectionName": "DTHR",
+   "intersectionDist": 9022.3
+ },
+ {
+   "airport_ident": "UNAA",
+   "runway": "20L",
+   "intersectionName": "DTHR",
+   "intersectionDist": 9842.5
+ },
+ {
+   "airport_ident": "URSS",
+   "runway": "24",
+   "intersectionName": "K",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "URSS",
+   "runway": "24",
+   "intersectionName": "G",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "USCC",
+   "runway": "09",
+   "intersectionName": "TWY3",
+   "intersectionDist": 9803.1
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "12R",
+   "intersectionName": "PSN",
+   "intersectionDist": 9478.3
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "30L",
+   "intersectionName": "PSN",
+   "intersectionDist": 9478.3
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "26L",
+   "intersectionName": "15",
+   "intersectionDist": 11663.4
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "08L",
+   "intersectionName": "1",
+   "intersectionDist": 12303.1
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "26R",
+   "intersectionName": "5",
+   "intersectionDist": 12303.1
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "14R",
+   "intersectionName": "A4",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32R",
+   "intersectionName": "B8",
+   "intersectionDist": 11450.1
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32R",
+   "intersectionName": "B7",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32R",
+   "intersectionName": "PSN",
+   "intersectionDist": 12119.4
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "14L",
+   "intersectionName": "B2",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "14L",
+   "intersectionName": "PSN",
+   "intersectionDist": 12119.4
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32L",
+   "intersectionName": "A9",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25R",
+   "intersectionName": "TWY5,15",
+   "intersectionDist": 11443.6
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25R",
+   "intersectionName": "TWY4,14",
+   "intersectionDist": 9183.1
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25R",
+   "intersectionName": "15",
+   "intersectionDist": 11443.6
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07L",
+   "intersectionName": "TWY2.12",
+   "intersectionDist": 8612.2
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07L",
+   "intersectionName": "TWY1,11",
+   "intersectionDist": 11610.9
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25L",
+   "intersectionName": "TWY15",
+   "intersectionDist": 11788.1
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25L",
+   "intersectionName": "TWY14,24",
+   "intersectionDist": 9511.2
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25L",
+   "intersectionName": "24",
+   "intersectionDist": 9517.7
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07R",
+   "intersectionName": "TWY12,22",
+   "intersectionDist": 8766.4
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07R",
+   "intersectionName": "TWY11",
+   "intersectionDist": 11774.9
+ },
+ {
+   "airport_ident": "UUWW",
+   "runway": "24",
+   "intersectionName": "PSN",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "UUWW",
+   "runway": "06",
+   "intersectionName": "PSN",
+   "intersectionDist": 9514.4
+ },
+ {
+   "airport_ident": "VAAH",
+   "runway": "05",
+   "intersectionName": "B",
+   "intersectionDist": 10889.1
+ },
+ {
+   "airport_ident": "VAAH",
+   "runway": "05",
+   "intersectionName": "C",
+   "intersectionDist": 8349.7
+ },
+ {
+   "airport_ident": "VAAH",
+   "runway": "05",
+   "intersectionName": "F",
+   "intersectionDist": 10997.4
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "09",
+   "intersectionName": "D",
+   "intersectionDist": 10695.5
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "27",
+   "intersectionName": "G",
+   "intersectionDist": 9189.6
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "27",
+   "intersectionName": "H",
+   "intersectionDist": 10416.7
+ },
+ {
+   "airport_ident": "VAGO",
+   "runway": "08",
+   "intersectionName": "INT",
+   "intersectionDist": 9612.9
+ },
+ {
+   "airport_ident": "VAGO",
+   "runway": "08",
+   "intersectionName": "PSN",
+   "intersectionDist": 10925.2
+ },
+ {
+   "airport_ident": "VAGO",
+   "runway": "26",
+   "intersectionName": "PSN",
+   "intersectionDist": 10925.2
+ },
+ {
+   "airport_ident": "VANP",
+   "runway": "32",
+   "intersectionName": "A",
+   "intersectionDist": 9760.5
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07L",
+   "intersectionName": "A1",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07L",
+   "intersectionName": "A2",
+   "intersectionDist": 11814.3
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07L",
+   "intersectionName": "A3",
+   "intersectionDist": 10846.5
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "intersectionName": "H1",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "intersectionName": "J1",
+   "intersectionDist": 11876.6
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "intersectionName": "J2",
+   "intersectionDist": 10269
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "intersectionName": "K1",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "intersectionName": "K2",
+   "intersectionDist": 8923.9
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25R",
+   "intersectionName": "A10",
+   "intersectionDist": 10652.9
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25R",
+   "intersectionName": "A11",
+   "intersectionDist": 11814.3
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25R",
+   "intersectionName": "A12",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "intersectionName": "J10",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "intersectionName": "J8",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "intersectionName": "J9",
+   "intersectionDist": 11814.3
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "intersectionName": "K4",
+   "intersectionDist": 9448.8
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "intersectionName": "K5",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "10",
+   "intersectionName": "E4",
+   "intersectionDist": 10613.5
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "10",
+   "intersectionName": "M",
+   "intersectionDist": 9055.1
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "28",
+   "intersectionName": "C",
+   "intersectionDist": 10990.8
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "28",
+   "intersectionName": "W",
+   "intersectionDist": 10662.7
+ },
+ {
+   "airport_ident": "VMMC",
+   "runway": "16",
+   "intersectionName": "G",
+   "intersectionDist": 10105
+ },
+ {
+   "airport_ident": "VMMC",
+   "runway": "34",
+   "intersectionName": "D",
+   "intersectionDist": 10170.6
+ },
+ {
+   "airport_ident": "VMMC",
+   "runway": "34",
+   "intersectionName": "E",
+   "intersectionDist": 8300.5
+ },
+ {
+   "airport_ident": "VOBG",
+   "runway": "09",
+   "intersectionName": "PSN",
+   "intersectionDist": 10351
+ },
+ {
+   "airport_ident": "VOBG",
+   "runway": "27",
+   "intersectionName": "PSN",
+   "intersectionDist": 10351
+ },
+ {
+   "airport_ident": "VOHY",
+   "runway": "09",
+   "intersectionName": "E",
+   "intersectionDist": 9940.9
+ },
+ {
+   "airport_ident": "VOHY",
+   "runway": "09",
+   "intersectionName": "F",
+   "intersectionDist": 8067.6
+ },
+ {
+   "airport_ident": "VOHY",
+   "runway": "27",
+   "intersectionName": "TP",
+   "intersectionDist": 9498
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "07",
+   "intersectionName": "F",
+   "intersectionDist": 10049.2
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "07",
+   "intersectionName": "K",
+   "intersectionDist": 7191.6
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "25",
+   "intersectionName": "C",
+   "intersectionDist": 9048.6
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "25",
+   "intersectionName": "THR",
+   "intersectionDist": 7381.9
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "21L",
+   "intersectionName": "D",
+   "intersectionDist": 10334.6
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "03L",
+   "intersectionName": "S",
+   "intersectionDist": 9711.3
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "21R",
+   "intersectionName": "D",
+   "intersectionDist": 11893
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "21R",
+   "intersectionName": "E",
+   "intersectionDist": 10564.3
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01L",
+   "intersectionName": "E15",
+   "intersectionDist": 8497.4
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01L",
+   "intersectionName": "E19",
+   "intersectionDist": 11154.9
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19R",
+   "intersectionName": "E2",
+   "intersectionDist": 11154.9
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19R",
+   "intersectionName": "E5",
+   "intersectionDist": 8891.1
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01R",
+   "intersectionName": "B11",
+   "intersectionDist": 8891.1
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01R",
+   "intersectionName": "B12",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19L",
+   "intersectionName": "B2",
+   "intersectionDist": 12139.1
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19L",
+   "intersectionName": "B3",
+   "intersectionDist": 9481.6
+ },
+ {
+   "airport_ident": "VVTS",
+   "runway": "07R",
+   "intersectionName": "THR",
+   "intersectionDist": 10036.1
+ },
+ {
+   "airport_ident": "WAAA",
+   "runway": "13",
+   "intersectionName": "A",
+   "intersectionDist": 6578.1
+ },
+ {
+   "airport_ident": "WADD",
+   "runway": "09",
+   "intersectionName": "N6",
+   "intersectionDist": 7398.3
+ },
+ {
+   "airport_ident": "WADD",
+   "runway": "27",
+   "intersectionName": "N2",
+   "intersectionDist": 8694.2
+ },
+ {
+   "airport_ident": "WADD",
+   "runway": "27",
+   "intersectionName": "N3",
+   "intersectionDist": 7250.7
+ },
+ {
+   "airport_ident": "WARR",
+   "runway": "10",
+   "intersectionName": "S2",
+   "intersectionDist": 7595.1
+ },
+ {
+   "airport_ident": "WARR",
+   "runway": "28",
+   "intersectionName": "S4",
+   "intersectionDist": 7336
+ },
+ {
+   "airport_ident": "WBKK",
+   "runway": "02",
+   "intersectionName": "THR",
+   "intersectionDist": 8776.2
+ },
+ {
+   "airport_ident": "WBKK",
+   "runway": "20",
+   "intersectionName": "B",
+   "intersectionDist": 7217.8
+ },
+ {
+   "airport_ident": "WBSB",
+   "runway": "03",
+   "intersectionName": "E4",
+   "intersectionDist": 8038.1
+ },
+ {
+   "airport_ident": "WBSB",
+   "runway": "21",
+   "intersectionName": "E2",
+   "intersectionDist": 8333.3
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "07R",
+   "intersectionName": "S5",
+   "intersectionDist": 7841.2
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "07R",
+   "intersectionName": "S6",
+   "intersectionDist": 8982.9
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "25L",
+   "intersectionName": "S2",
+   "intersectionDist": 9383.2
+ },
+ {
+   "airport_ident": "WIMM",
+   "runway": "23",
+   "intersectionName": "B",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "WIMM",
+   "runway": "23",
+   "intersectionName": "D",
+   "intersectionDist": 7513.1
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "intersectionName": "C1",
+   "intersectionDist": 13123.4
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "intersectionName": "C2",
+   "intersectionDist": 12752.6
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "intersectionName": "C3",
+   "intersectionDist": 11699.5
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "intersectionName": "C4",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "intersectionName": "C5",
+   "intersectionDist": 8225.1
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32L",
+   "intersectionName": "C10",
+   "intersectionDist": 11761.8
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32L",
+   "intersectionName": "C8",
+   "intersectionDist": 8202.1
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32L",
+   "intersectionName": "C9",
+   "intersectionDist": 9225.7
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14L",
+   "intersectionName": "A2",
+   "intersectionDist": 11824.1
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14L",
+   "intersectionName": "A3",
+   "intersectionDist": 9291.3
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14L",
+   "intersectionName": "A4",
+   "intersectionDist": 8267.7
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "intersectionName": "A10",
+   "intersectionDist": 12972.4
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "intersectionName": "A11",
+   "intersectionDist": 13185.7
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "intersectionName": "A7",
+   "intersectionDist": 8444.9
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "intersectionName": "A8",
+   "intersectionDist": 9471.8
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "intersectionName": "A9",
+   "intersectionDist": 11922.6
+ },
+ {
+   "airport_ident": "WMSA",
+   "runway": "33",
+   "intersectionName": "B",
+   "intersectionDist": 11581.4
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02C",
+   "intersectionName": "E10",
+   "intersectionDist": 9809.7
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02C",
+   "intersectionName": "E7",
+   "intersectionDist": 8382.5
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02C",
+   "intersectionName": "E8",
+   "intersectionDist": 7693.6
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02C",
+   "intersectionName": "E9",
+   "intersectionDist": 8126.6
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02L",
+   "intersectionName": "W6",
+   "intersectionDist": 8530.2
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02L",
+   "intersectionName": "W7",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02L",
+   "intersectionName": "W8",
+   "intersectionDist": 8169.3
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20C",
+   "intersectionName": "E2",
+   "intersectionDist": 12631.2
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20C",
+   "intersectionName": "E3",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20C",
+   "intersectionName": "E4",
+   "intersectionDist": 8349.7
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20C",
+   "intersectionName": "E5",
+   "intersectionDist": 6692.9
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20R",
+   "intersectionName": "W2",
+   "intersectionDist": 12631.2
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20R",
+   "intersectionName": "W3",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20R",
+   "intersectionName": "W4",
+   "intersectionDist": 7792
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20R",
+   "intersectionName": "W5",
+   "intersectionDist": 6397.6
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "15",
+   "intersectionName": "A2",
+   "intersectionDist": 5921.9
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "15",
+   "intersectionName": "B2",
+   "intersectionDist": 8484.3
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "15",
+   "intersectionName": "B3",
+   "intersectionDist": 5944.9
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "33",
+   "intersectionName": "A4",
+   "intersectionDist": 7155.5
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "33",
+   "intersectionName": "B4",
+   "intersectionDist": 7155.5
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "33",
+   "intersectionName": "B5",
+   "intersectionDist": 8484.3
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "33",
+   "intersectionName": "THR",
+   "intersectionDist": 8599.1
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "25",
+   "intersectionName": "G4",
+   "intersectionDist": 7854.3
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16L",
+   "intersectionName": "L",
+   "intersectionDist": 7470.5
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34R",
+   "intersectionName": "T5",
+   "intersectionDist": 7749.3
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "07",
+   "intersectionName": "G2",
+   "intersectionDist": 7864.2
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "07",
+   "intersectionName": "Y",
+   "intersectionDist": 6735.6
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "B3",
+   "intersectionDist": 10925.2
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "B4",
+   "intersectionDist": 10298.6
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "B6",
+   "intersectionDist": 9599.7
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "B8",
+   "intersectionDist": 7027.6
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "F",
+   "intersectionDist": 11240.2
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "intersectionName": "G",
+   "intersectionDist": 9347.1
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34L",
+   "intersectionName": "A5",
+   "intersectionDist": 10997.4
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34L",
+   "intersectionName": "B10",
+   "intersectionDist": 8353
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34L",
+   "intersectionName": "L",
+   "intersectionDist": 8615.5
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "18R",
+   "intersectionName": "P8",
+   "intersectionDist": 9580.1
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "36L",
+   "intersectionName": "P1",
+   "intersectionDist": 9580.1
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "18L",
+   "intersectionName": "W7",
+   "intersectionDist": 11220.5
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "18L",
+   "intersectionName": "W8",
+   "intersectionDist": 11909.4
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "36R",
+   "intersectionName": "W1",
+   "intersectionDist": 11909.4
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "36R",
+   "intersectionName": "W2",
+   "intersectionDist": 11220.5
+ },
+ {
+   "airport_ident": "ZSPD",
+   "runway": "35",
+   "intersectionName": "A2",
+   "intersectionDist": 12467.2
+ },
+ {
+   "airport_ident": "ZSSS",
+   "runway": "18",
+   "intersectionName": "T1",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "ZSSS",
+   "runway": "36",
+   "intersectionName": "T5",
+   "intersectionDist": 10498.7
+ },
+ {
+   "airport_ident": "ZYTL",
+   "runway": "28",
+   "intersectionName": "A",
+   "intersectionDist": 10006.6
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "35",
+   "intersectionName": "A8",
+   "intersectionDist": 8284.1
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "35",
+   "intersectionName": "A6",
+   "intersectionDist": 5921.9
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "35",
+   "intersectionName": "A5",
+   "intersectionDist": 4183.1
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "35",
+   "intersectionName": "A4",
+   "intersectionDist": 2969.2
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01R",
+   "intersectionName": "B5",
+   "intersectionDist": 4796.6
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01R",
+   "intersectionName": "B4",
+   "intersectionDist": 6463.3
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01R",
+   "intersectionName": "B3",
+   "intersectionDist": 7982.3
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19L",
+   "intersectionName": "B8",
+   "intersectionDist": 9265.1
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19L",
+   "intersectionName": "B7",
+   "intersectionDist": 7906.8
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19L",
+   "intersectionName": "B6",
+   "intersectionDist": 6643.7
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19R",
+   "intersectionName": "C3",
+   "intersectionDist": 8294
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19R",
+   "intersectionName": "C2",
+   "intersectionDist": 6807.7
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19R",
+   "intersectionName": "A7",
+   "intersectionDist": 8294
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19R",
+   "intersectionName": "A6",
+   "intersectionDist": 6807.7
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "27",
+   "intersectionName": "F",
+   "intersectionDist": 7952.8
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "27",
+   "intersectionName": "D",
+   "intersectionDist": 5082
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "27",
+   "intersectionName": "C",
+   "intersectionDist": 3658.1
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "11",
+   "intersectionName": "H",
+   "intersectionDist": 3576.1
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "11",
+   "intersectionName": "D",
+   "intersectionDist": 5315
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "18",
+   "intersectionName": "A1",
+   "intersectionDist": 6003.9
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "29",
+   "intersectionName": "H",
+   "intersectionDist": 3608.9
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "29",
+   "intersectionName": "G5",
+   "intersectionDist": 5216.5
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "36",
+   "intersectionName": "RWYX",
+   "intersectionDist": 6266.4
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "09",
+   "intersectionName": "C",
+   "intersectionDist": 4658.8
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "09",
+   "intersectionName": "B",
+   "intersectionDist": 6453.4
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "09",
+   "intersectionName": "A",
+   "intersectionDist": 8376
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "intersectionName": "TP-N",
+   "intersectionDist": 9252
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "intersectionName": "A6",
+   "intersectionDist": 2755.9
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "intersectionName": "A5",
+   "intersectionDist": 4478.3
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "intersectionName": "A4",
+   "intersectionDist": 5708.7
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "intersectionName": "A3",
+   "intersectionDist": 6922.6
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "C2",
+   "intersectionDist": 5078.7
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "C1",
+   "intersectionDist": 7034.1
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "A6",
+   "intersectionDist": 5078.7
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "A5",
+   "intersectionDist": 6325.5
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "A4",
+   "intersectionDist": 7536.1
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "A3",
+   "intersectionDist": 8845.1
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "intersectionName": "A2",
+   "intersectionDist": 11381.2
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "18",
+   "intersectionName": "B",
+   "intersectionDist": 5452.8
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "18",
+   "intersectionName": "A",
+   "intersectionDist": 8034.8
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "36",
+   "intersectionName": "W1",
+   "intersectionDist": 8034.8
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "36",
+   "intersectionName": "C",
+   "intersectionDist": 5485.6
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "07",
+   "intersectionName": "D",
+   "intersectionDist": 4671.9
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "07",
+   "intersectionName": "C",
+   "intersectionDist": 5098.4
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "07",
+   "intersectionName": "B",
+   "intersectionDist": 5459.3
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "25",
+   "intersectionName": "E",
+   "intersectionDist": 7201.4
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "25",
+   "intersectionName": "D",
+   "intersectionDist": 4494.8
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "25",
+   "intersectionName": "C",
+   "intersectionDist": 4068.2
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "25",
+   "intersectionName": "B",
+   "intersectionDist": 3707.3
+ },
+ {
+   "airport_ident": "ENDU",
+   "runway": "28",
+   "intersectionName": "OR-E",
+   "intersectionDist": 8917.3
+ },
+ {
+   "airport_ident": "ENDU",
+   "runway": "10",
+   "intersectionName": "OR-W",
+   "intersectionDist": 8917.3
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "intersectionName": "J",
+   "intersectionDist": 5150.9
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "intersectionName": "H",
+   "intersectionDist": 6633.9
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "intersectionName": "C",
+   "intersectionDist": 4980.3
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "intersectionName": "B",
+   "intersectionDist": 6213.9
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "intersectionName": "A",
+   "intersectionDist": 6633.9
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "19",
+   "intersectionName": "E",
+   "intersectionDist": 5469.2
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "19",
+   "intersectionName": "D",
+   "intersectionDist": 3815.6
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "19",
+   "intersectionName": "C",
+   "intersectionDist": 2860.9
+ },
+ {
+   "airport_ident": "ENKR",
+   "runway": "06",
+   "intersectionName": "C",
+   "intersectionDist": 3448.2
+ },
+ {
+   "airport_ident": "ENKR",
+   "runway": "06",
+   "intersectionName": "B",
+   "intersectionDist": 4068.2
+ }
+]

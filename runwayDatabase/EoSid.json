@@ -1,0 +1,6362 @@
+[
+ {
+   "airport_ident": "URMM",
+   "runway": "30",
+   "eoSid": "RT TO 'TP' 1182 (272 INBD,RT)"
+ },
+ {
+   "airport_ident": "URMM",
+   "runway": "12",
+   "eoSid": "LT TO 'TP' 1182 (272 INBD,RT)"
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "14C",
+   "eoSid": "RT TO 'DW' 437 (137 INBD,RT)"
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32R",
+   "eoSid": "LT TO 'DE' 437.0 (317 INBD,LT)"
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "14L",
+   "eoSid": "RT TO 'DW' 437.0 (137 INBD,RT)"
+ },
+ {
+   "airport_ident": "UUDD",
+   "runway": "32C",
+   "eoSid": "LT TO 'DE' 437 (317 INBD,LT)"
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25R",
+   "eoSid": "RT TO 'AD' 700 (246 INBD,RT)"
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07L",
+   "eoSid": "LT TO 'MR' 114.6 (066 INBD,LT)"
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "25L",
+   "eoSid": "RT TO 'BW' 380 (246 INBD,RT)"
+ },
+ {
+   "airport_ident": "UUEE",
+   "runway": "07R",
+   "eoSid": "LT TO 'MR' 114.60 (066 INBD,LT)"
+ },
+ {
+   "airport_ident": "UUWW",
+   "runway": "24",
+   "eoSid": "RT TO 'KS' 565 (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "UUWW",
+   "runway": "06",
+   "eoSid": "EOSID: AT 'OB' 290 LT TO 'KS' 565 (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28R",
+   "eoSid": "LT TO 'PL' 525 (279 INBD,LT)"
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10L",
+   "eoSid": "AT 10 DME 'SPB' 113.4 LT TO 'PU' 303 (099 INBD,RT)"
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "28L",
+   "eoSid": "LT TO 'PO' 277 (279 INBD,LT)"
+ },
+ {
+   "airport_ident": "ULLI",
+   "runway": "10R",
+   "eoSid": "AT 10 DME 'SPB' 113.4 RT TO 'PK' 342 (099 INBD,RT)"
+ },
+ {
+   "airport_ident": "LOWS",
+   "runway": "16",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO DME 2.0 (SOUTH) OES. TURN LEFT 320� INBOUND SU LCTR. THEN VIA SBG NDB (382) TO SBG VOR (113.80) AND HOLD (INBD 178�/L). NOTE: DO NOT ACCELERATE BEFORE INITIAL TURN IS COMPLETED"
+ },
+ {
+   "airport_ident": "LOWS",
+   "runway": "34",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO SBG NDB (382.0), THEN TURN RIGHT TO SBG VOR (113.80) AND HOLD (INBD 178, LT)"
+ },
+ {
+   "airport_ident": "EDDN",
+   "runway": "28",
+   "eoSid": "AT 5.0 DME 'NUB' 113.10 RT TO 'ERL' 114.90 (133 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDN",
+   "runway": "10",
+   "eoSid": "AT 5.0 DME 'NUB' 113.10 LT TO 'ERL' 114.90 (133 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "14L",
+   "eoSid": "AT 8 DME 'KBO' 112.15 LT TO 'WYP' 109.6 (INBD 262 LT)"
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "32R",
+   "eoSid": "AT 7 DME 'KBO' 112.15 RT TO 'COL' 108.8 (INBD 299 LT)"
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08L",
+   "eoSid": "AT 10 DME 'DMN' 116.0 LT TO 'MIQ' 426.5 (270 INBD, RT)"
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "08R",
+   "eoSid": "AT 10 DME 'DMN' 116.0 LT TO 'MIQ' 426.5 (270 INBD, RT)"
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26L",
+   "eoSid": "AT 10 DME 'DMS' 108.6 LT TO 'MUN' 112.3 (082 INBD, RT)"
+ },
+ {
+   "airport_ident": "EDDM",
+   "runway": "26R",
+   "eoSid": "AT 10 DME 'DMS' 108.6 LT TO 'MUN' 112.3 (082 INBD, RT)"
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "07",
+   "eoSid": "ON RUNWAY TRACK CLIMB TO 1700', THEN INTERCEPT 074� BEARING FROM SG LCTR (306.0) TO SGD DME (115.45) D7.0. TURN LEFT, INTERCEPT LBU VORDME (109.2) R-154� TO LBU AND HOLD (INBD 334�, LT)"
+ },
+ {
+   "airport_ident": "GCFV",
+   "runway": "01",
+   "eoSid": "AT 9 DME 'FTV' 114.1 LT TO 'FTV' (INBD 005, RT)."
+ },
+ {
+   "airport_ident": "GCFV",
+   "runway": "19",
+   "eoSid": "AT 9 DME 'FTV' 114.1 RT TO 'FTV' (INBD 005, RT)."
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04L",
+   "eoSid": "AT 7 DME 'TEB' 108.4 LT HDG 300 AND CALL ATC."
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "04R",
+   "eoSid": "AT 7 DME 'TEB' 108.4 LT HDG 300 AND CALL ATC."
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "04L",
+   "eoSid": "AT 3 DME 'JFK' 115.9 RT TO 'DPK' 117.7 (INBD 258, LT)."
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "04R",
+   "eoSid": "AT 3 DME 'JFK' 115.9 RT TO 'DPK' 117.7 (INBD 258, LT)."
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31L",
+   "eoSid": "AT 500 LT HDG 145 TO INTERCEPT 'JFK' 115.9 RAD 190 TO 'CHANT' 19 DME 'JFK' (INBD 010, RT)."
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "31R",
+   "eoSid": "AT 8 DME 'JFK' 115.9 RT TO 'DPK' 117.7 (INBD 258, LT)."
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "01R",
+   "eoSid": "AT 4 DME 'SFO' 115.8 LT HDG 285 TO JOIN 'OAK' 116.8 255 RADIAL."
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "19L",
+   "eoSid": "AT 3 DME 'SFO' 115.8 RT HDG 270 AND CALL ATC."
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "19R",
+   "eoSid": "AT 3 DME 'SFO' 115.8 RT HDG 270 AND CALL ATC."
+ },
+ {
+   "airport_ident": "KSLC",
+   "runway": "34R",
+   "eoSid": "AS SOON AS PRACTICABLE TURN LEFT HDG 320� AND CLIMB TO MSA."
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "14L",
+   "eoSid": "AT 7 DME 'TOU' 117.7 LT TO 'TOE' 415.0 (INBD 259, LT)."
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "14R",
+   "eoSid": "AT 7 DME 'TOU' 117.7 LT TO 'TOE' 415.0 (INBD 259, LT)."
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32L",
+   "eoSid": "AT 'TOU' 117.7 RT TO 'TLB' 368.0 (INBD 200, LT)."
+ },
+ {
+   "airport_ident": "LFBO",
+   "runway": "32R",
+   "eoSid": "AT 'TOU' 117.7 RT TO 'TLB' 368.0 (INBD 200, LT)."
+ },
+ {
+   "airport_ident": "LFKJ",
+   "runway": "02",
+   "eoSid": "AT BRAKES RELEASE + 60\", LT HDG 200 BANK 15 DEG. AFTER 'IS' 342.0 QDR 245, RT TO 'IS' (INBD 136, RT)."
+ },
+ {
+   "airport_ident": "LFKJ",
+   "runway": "20",
+   "eoSid": "AT 5 DME 'AC' 110.3 RT TO 'IS' 341.0 (INBD 136, RT)."
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "14L",
+   "eoSid": "AT 'MS' 343 RT TO 'MTG' 117.3 . AFTER 'MTG' PROCEED TO 'BORGO' ON RAD 225 (INBD 045, RT)."
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "14R",
+   "eoSid": "AT 'MS' 343 RT TO 'MTG' 117.3 . AFTER 'MTG' PROCEED TO 'BORGO' ON RAD 225 (INBD 045, RT)."
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "32L",
+   "eoSid": "AT 'MAR' 383 LT TO 'MTG' 117.3 . AFTER 'MTG' PROCEED TO 'CALAN' ON RAD 149 (INBD 329, RT)."
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "32R",
+   "eoSid": "AT 'MAR' 383 LT TO 'MTG' 117.3 . AFTER 'MTG' PROCEED TO 'CALAN' ON RAD 149 (INBD 329, RT)."
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04L",
+   "eoSid": "AT 2 DME 'AZR' 109.65 LT BANK 25 DEG HDG 140 AND CALL ATC."
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "04R",
+   "eoSid": "AT 2 DME 'AZR' 109.65 LT BANK 25 DEG HDG 140 AND CALL ATC."
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "22L",
+   "eoSid": "AT 2 DME 'AZR' 109.65 LT BANK 25 DEG HDG 140 AND CALL ATC."
+ },
+ {
+   "airport_ident": "LFMN",
+   "runway": "22R",
+   "eoSid": "AT 2 DME 'AZR' 109.65 LT BANK 25 DEG HDG 140 AND CALL ATC."
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "02",
+   "eoSid": "AT 3 DME 'OL' 111.2 RT TO 'MLN' 113.6"
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "06",
+   "eoSid": "AT 4 DME 'OL' 111.2 RT TO 'MLN' 113.6"
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "08",
+   "eoSid": "AT 4 DME 'OL' 111.2 RT TO 'MLN' 113.6"
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35L",
+   "eoSid": "AS SOON AS PRACTICABLE TURN LEFT TO RMG AND HOLD"
+ },
+ {
+   "airport_ident": "LIMJ",
+   "runway": "11",
+   "eoSid": "CLIMB STRAIGHT AHEAD, AT D3.0 \"SES\" VORDME TURN RIGHT, 220� TRACK. INTERCEPT AND FOLLOW \"SES\" R-183 TO IXITO AND HOLD"
+ },
+ {
+   "airport_ident": "LIMJ",
+   "runway": "29",
+   "eoSid": "CLIMB STRAIGHT AHEAD, AT D1.0 \"SES\" VORDME TURN LEFT, 150� TRACK. INTERCEPT AND FOLLOW \"SES\" VORDME R-183 TO IXITO AND HOLD"
+ },
+ {
+   "airport_ident": "LOWL",
+   "runway": "27",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO DME 7 (WEST) LNZ VOR (116.60), THEN TURN RIGHT TO LNZ VOR (116.60) AND HOLD (INBD 086, LT)"
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "14",
+   "eoSid": "AT 4 DME 'KLO' 114.85 LT TO JOIN 'ZUE' 110.05 ON TRACK 026. AFTER 'ZUE' PROCEED TO 'SAFFA' (INBD267, RT)."
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "16",
+   "eoSid": "AT 2 DME 'KLO' 114.85 LT HDG 120 . AT 5 DME 'KLO' LT TO 'ZUE' 110.05 ONTRK 026 THEN LT TO 'SAFFA' (INBD 267, RT)."
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "32",
+   "eoSid": "AT 3 DME 'KLO' 114.85 RT HDG 030 . AT 6 DME 'KLO' RT HDG 080 TO JOIN 'KLO' R034 TO 'SAFFA' (INBD 267, RT)."
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "34",
+   "eoSid": "AT 5 DME 'KLO' 114.85 RT HDG 080 TO JOIN 'KLO' R034 TO 'SAFFA' (INBD 267, RT)."
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "28",
+   "eoSid": "MAINTAIN RUNWAY TRACK UNTIL PASSING 3500'. THEN TURN RIGHT TO EKRIT CLIMBING TO 6000' AND HOLD (067�/R). E/O ACCEL. HEIGHT 2000'."
+ },
+ {
+   "airport_ident": "MMMX",
+   "runway": "05L",
+   "eoSid": "AT 6 DME 'MEX' 115.6 LT TO 'SLC' 116.6 ( 177 INBD, LT)"
+ },
+ {
+   "airport_ident": "MMMX",
+   "runway": "05R",
+   "eoSid": "AT 6 DME 'MEX' 115.6 LT TO 'SLC' 116.6 ( 177 INBD, LT)"
+ },
+ {
+   "airport_ident": "MMMX",
+   "runway": "23L",
+   "eoSid": "AT 5 DME 'MEX' 115.6 LT TO 'MEX' ( 232 INBD, LT)"
+ },
+ {
+   "airport_ident": "MMMX",
+   "runway": "23R",
+   "eoSid": "AT 5 DME 'MEX' 115.6 LT TO 'MEX' ( 232 INBD, LT)"
+ },
+ {
+   "airport_ident": "OERK",
+   "runway": "15L",
+   "eoSid": "AT 7 DME 'KIA' 113.3 LT TO 'KIA' (INBD 217, RT)."
+ },
+ {
+   "airport_ident": "OERK",
+   "runway": "15R",
+   "eoSid": "AT 7 DME 'KIA' 113.3 LT TO 'KIA' (INBD 217, RT)."
+ },
+ {
+   "airport_ident": "OERK",
+   "runway": "33L",
+   "eoSid": "JOIN THE 'KIA' 113.3 R324 TO BOTTO, 22 DME 'KIA' (INBD 144 LT)."
+ },
+ {
+   "airport_ident": "OERK",
+   "runway": "33R",
+   "eoSid": "JOIN THE 'KIA' 113.3 R324 TO BOTTO, 22 DME 'KIA' (INBD 144 LT)."
+ },
+ {
+   "airport_ident": "PANC",
+   "runway": "06L",
+   "eoSid": "AT 8 DME 'ANC' 114.3 RT TO ANC (INBD 065, RT)."
+ },
+ {
+   "airport_ident": "PANC",
+   "runway": "06R",
+   "eoSid": "AT 8 DME 'ANC' 114.3 RT TO ANC (INBD 065, RT)."
+ },
+ {
+   "airport_ident": "PANC",
+   "runway": "24L",
+   "eoSid": "AT 5 DME 'ANC' 114.3 LT TO ANC (INBD 065, RT)."
+ },
+ {
+   "airport_ident": "PANC",
+   "runway": "24R",
+   "eoSid": "AT 5 DME 'ANC' 114.3 LT TO ANC (INBD 065, RT)."
+ },
+ {
+   "airport_ident": "PANC",
+   "runway": "32",
+   "eoSid": "AT 7 DME 'ANC' 114.3 LT TO ANC (INBD 065, RT)."
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "16L",
+   "eoSid": "FOLLOW SID TO 2000'."
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "16R",
+   "eoSid": "FOLLOW SID TO 2000'."
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "34L",
+   "eoSid": "FOLLOW SID TO 2000'."
+ },
+ {
+   "airport_ident": "RJAA",
+   "runway": "34R",
+   "eoSid": "FOLLOW SID TO 2000'."
+ },
+ {
+   "airport_ident": "SAEZ",
+   "runway": "11",
+   "eoSid": "AT 500' RT HDG 125 AND CALL ATC."
+ },
+ {
+   "airport_ident": "SAEZ",
+   "runway": "17",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO GESTA, 16 DME 'EZE' 116.5 (INBD 005, RT)."
+ },
+ {
+   "airport_ident": "SAEZ",
+   "runway": "29",
+   "eoSid": "AT 10 DME 'EZE' 116.5 LT TO EZE (INBD 273, LT)."
+ },
+ {
+   "airport_ident": "SAEZ",
+   "runway": "35",
+   "eoSid": "AT 5 DME 'EZE' 116.5 RT TO EZE (INBD 273, LT)."
+ },
+ {
+   "airport_ident": "TFFR",
+   "runway": "29",
+   "eoSid": "AT 5 DME 'PPR' 112.9 RT HDG 340 TO JOIN 'PPR' 306 RAD TO 'KEDAK' (INBD 128, LT)."
+ },
+ {
+   "airport_ident": "TNCM",
+   "runway": "27",
+   "eoSid": "AT 8 DME 'PJM' 113.0 RT TO 'PJM' (INBD 308, LT)."
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07L",
+   "eoSid": "AT 7 DME 'IZSL' 111.1 RT HDG 180 THEN RT TO JOIN 'TD' 116.1 RADIAL 250 TO 'SOKOE' (INBD 250, LT)."
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "07R",
+   "eoSid": "AT 7 DME 'IZSL' 111.1 RT HDG 180 THEN RT TO JOIN 'TD' 116.1 RADIAL 250."
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02R",
+   "eoSid": "AT 2000' TURN RIGHT TO SAMKO CLIMBING TO 4000' FEET AND HOLD (INBD 348�, LT)"
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02L",
+   "eoSid": "AT 2000' TURN RIGHT TO SAMKO CLIMBING TO 4000' FEET AND HOLD (INBD 348�, LT)"
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20L",
+   "eoSid": "AT 2000' TURN PROCEED TO SAMKO CLIMBING TO 4000' FEET AND HOLD (INBD 348�, LT)"
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20R",
+   "eoSid": "AT 2000' PROCEED TO SAMKO CLIMBING TO 4000' FEET AND HOLD (INBD 348�, LT)"
+ },
+ {
+   "airport_ident": "YPPH",
+   "runway": "03",
+   "eoSid": "ON RUNWAY HEADING CLIMB TO 5000'. WHEN PASSING 3000' TURN LEFT TO PH VORDME (113.70) AND HOLD (INBD 061�, RT)"
+ },
+ {
+   "airport_ident": "YPPH",
+   "runway": "21",
+   "eoSid": "ON RUNWAY HEADING CLIMB TO 5000'. WHEN PASSING 3000' TURN LEFT TO PH VORDME (113.70) AND HOLD (INBD 061�, RT)"
+ },
+ {
+   "airport_ident": "YPPH",
+   "runway": "06",
+   "eoSid": "ON RUNWAY HEADING CLIMB TO 5000'. WHEN PASSING 3000' TURN LEFT TO PH VORDME (113.70) AND HOLD (INBD 061�, RT)"
+ },
+ {
+   "airport_ident": "YPPH",
+   "runway": "24",
+   "eoSid": "ON RUNWAY HEADING CLIMB TO 5000'. WHEN PASSING 3000' TURN LEFT TO PH VORDME (113.70) AND HOLD (INBD 061�, RT)"
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN LEFT TO RID (D112.20) CLIMBING TO 4000FT AND HOLD (246/R)."
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "36",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN RIGHT TO MTR (110.0) CLIMBING TO 4000FT AND HOLD (241/R)."
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN LEFT TO MTR (110.0) CLIMBING TO 4000FT AND HOLD (241/R)."
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "25R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN LEFT TO RID (D112.20) CLIMBING TO 4000FT AND HOLD (246/R)."
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO BNN (D113.75) CLIMBING TO 4000FT AND HOLD (274/R)."
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "27L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN LEFT TO OCK (D115.30) CLIMBING TO 4000FT AND HOLD (274/R)."
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO OCK (D115.30) CLIMBING TO 4000FT AND HOLD (274/R)."
+ },
+ {
+   "airport_ident": "EGLL",
+   "runway": "09L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN LEFT TO BNN (D113.75) CLIMBING TO 4000FT AND HOLD (274/R)."
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "14",
+   "eoSid": "CLIMB ON 134º AT 2000 TURN LEFT TO 'GM' 350.0 HP (INBD 314, RT)"
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "32",
+   "eoSid": "CLIMB ON 314º AT 400 OR D2,5 'GMM' 109.5 WHICHEVER FIRST, TURN RIGHT TO 'RMA' 330.0 HP (INBD 134, LT). MAINTAIN V2 TKOF FLAPS DURING FIRST TURN."
+ },
+ {
+   "airport_ident": "LFRS",
+   "runway": "03",
+   "eoSid": "CLIMB STRIGHT AHEAD, AT 1300' TURN LEFT MAG TRACK 220° UP TO 3000' TO INTERCEPT RDL 270 NTS(115.50) AND JOIN  DME ARC 15NM NTS TURNING LEFT"
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1700FT. TURN LEFT TO NOR (D116.2) CLIMBING TO 4000FT AND HOLD (180/R)."
+ },
+ {
+   "airport_ident": "APTI",
+   "runway": "RWY",
+   "eoSid": "EOSID"
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "05R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1700FT. TURN RIGHT TO NOR (D116.2) CLIMBING TO 4000FT AND HOLD (180/R)."
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "23R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1700FT. TURN RIGHT TO LIM (311) CLIMBING TO 4000FT AND HOLD (241/R)."
+ },
+ {
+   "airport_ident": "EDDL",
+   "runway": "05L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1700FT. TURN LEFT TO LIM (311) CLIMBING TO 4000FT AND HOLD (241/R)."
+ },
+ {
+   "airport_ident": "EDDW",
+   "runway": "09",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO NIE (116.50) CLIMBING TO 4000FT AND HOLD (180/L)."
+ },
+ {
+   "airport_ident": "EDDW",
+   "runway": "05",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO NIE (116.50) CLIMBING TO 4000FT AND HOLD (180/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "08",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN LEFT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "03",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN LEFT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "12",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN LEFT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "21",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "26",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LLBG",
+   "runway": "30",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1600FT. TURN RIGHT TO NAT (D112.40) CLIMBING TO 4000FT AND HOLD (360/L)."
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "31R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2000FT. TURN RIGHT TO TPS (D115.90) CLIMBING TO 5000FT AND HOLD (160/L)."
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "13L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2000FT. TURN LEFT TO TPS (D115.90) CLIMBING TO 5000FT AND HOLD (160/L)."
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "31L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2000FT. TURN LEFT TO PTB (D117.10) CLIMBING TO 5000FT AND HOLD (180/L)."
+ },
+ {
+   "airport_ident": "LHBP",
+   "runway": "13R",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2000FT. TURN RIGHT TO PTB (D117.10) CLIMBING TO 5000FT AND HOLD (180/L)."
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "34",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO WGM (D112.20) CLIMBING TO 5000FT AND HOLD (162/L)."
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "11",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO BRK (408) CLIMBING TO 5000FT AND HOLD (294/L)."
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "16",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2100FT. TURN RIGHT TO SNU (D115.50) CLIMBING TO 5000FT AND HOLD (350/R)."
+ },
+ {
+   "airport_ident": "LOWW",
+   "runway": "29",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 2100FT. TURN LEFT TO SNU (D115.50) CLIMBING TO 5000FT AND HOLD (350/R)."
+ },
+ {
+   "airport_ident": "EDDC",
+   "runway": "22",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO DRN (D114.35) CLIMBING TO 5000FT AND HOLD (039/L)."
+ },
+ {
+   "airport_ident": "EDDC",
+   "runway": "04",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO FS (374) OR 2500FT WHICHEVER IS LATER. TURN LEFT TO DRN (D114.35) CLIMBING TO 5000FT AND HOLD (039/L)."
+ },
+ {
+   "airport_ident": "OEAB",
+   "runway": "13",
+   "eoSid": "AT 6 DME 'ABH' 112.9 LT TO 'KAM' 115.9 (200 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEAB",
+   "runway": "31",
+   "eoSid": "AT 2 DME 'ABH' 112.9 RT TO 'KAM' 115.9 (200 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "13",
+   "eoSid": "AT 8 DME 'ADV' 114.25 LT TO 'ADV' 114.25 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMAA",
+   "runway": "31",
+   "eoSid": "AT 10 DME 'ADV' 114.25 RT TO 'ADV' 114.25 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "DNAA",
+   "runway": "04",
+   "eoSid": "AT 'ABC' 116.3 LT ON TRACK 220. AT R 250 'ABC' 116.3 LT TO 'ABC' 116.3 (217 INBD,RT)"
+ },
+ {
+   "airport_ident": "DNAA",
+   "runway": "22",
+   "eoSid": "AT 5 DME 'ABC' 116.3 LT ON TRACK 180. AT 8 DME 'ABC' 116.3 LT TO 'ABC' 116.3 (037 INBD,RT)"
+ },
+ {
+   "airport_ident": "MMAA",
+   "runway": "10",
+   "eoSid": "RT TO 'ACA' 115.9 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "MMAA",
+   "runway": "28",
+   "eoSid": "LT TO 'ACA' 115.9 (102 INBD,RT)"
+ },
+ {
+   "airport_ident": "DGAA",
+   "runway": "03",
+   "eoSid": "AT 5 DME 'ACC' 113.1 RT TO 'ACC' 113.1 TO PRCD ON R 209 'ACC' 113.1. AT 10 DME 'ACC' 113.1 ENTER HLDG (029 INBD,LT)"
+ },
+ {
+   "airport_ident": "DGAA",
+   "runway": "21",
+   "eoSid": "AT 10 DME 'ACC' 113.1 ENTER HLDG (029 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAF",
+   "runway": "05",
+   "eoSid": "RT TO 'ADA' 112.7 (210 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAF",
+   "runway": "23",
+   "eoSid": "AT 8 DME 'ADA' 112.7 LT TO 'ADA' 112.7 (210 INBD,LT)"
+ },
+ {
+   "airport_ident": "HAAB",
+   "runway": "07L",
+   "eoSid": "AT 'AB' 333 ENTER HLDG (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "HAAB",
+   "runway": "07R",
+   "eoSid": "AT 'AB' 333 ENTER HLDG (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "HAAB",
+   "runway": "25L",
+   "eoSid": "AT 1.5 DME 'ADS' 112.9 LT TO ITCPT AND PRCD ON R 193 'ADS' 112.9 . AT 10 DME 'ADS' 112.9 LT TO 'AB' 333 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "HAAB",
+   "runway": "25R",
+   "eoSid": "AT 1.5 DME 'ADS' 112.9 LT TO ITCPT AND PRCD ON R 193 'ADS' 112.9 112.9. AT 10 DME 'ADS' 112.9 LT TO 'AB' 333 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "OYAA",
+   "runway": "08",
+   "eoSid": "LT TO 'KRA' 112.5 (253 INBD,RT)"
+ },
+ {
+   "airport_ident": "OYAA",
+   "runway": "26",
+   "eoSid": "RT TO 'KRA' 112.5 (253 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMAD",
+   "runway": "10",
+   "eoSid": "LT TO 'ADM' 117.2 (257 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMAD",
+   "runway": "28",
+   "eoSid": "LT TO 'ADM' 117.2 (064 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIAG",
+   "runway": "05",
+   "eoSid": "LT TO 'AG' 249.5 (050 INBD,LT)"
+ },
+ {
+   "airport_ident": "VIAG",
+   "runway": "23",
+   "eoSid": "RT TO 'AG' 249.5 (050 INBD,LT)"
+ },
+ {
+   "airport_ident": "VAAH",
+   "runway": "05",
+   "eoSid": "RT TO 'AAE' 113.1 (266 INBD,RT)"
+ },
+ {
+   "airport_ident": "VAAH",
+   "runway": "23",
+   "eoSid": "RT TO 'AAE' 113.1 (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMAL",
+   "runway": "01",
+   "eoSid": "LT TO 'ALN' 112.6 (200 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMAL",
+   "runway": "19",
+   "eoSid": "RT TO 'ALN' 112.6 (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "OESK",
+   "runway": "10",
+   "eoSid": "RT TO 'AJF' 117.8 (277 INBD,RT)"
+ },
+ {
+   "airport_ident": "OESK",
+   "runway": "28",
+   "eoSid": "RT TO 'AJF' 117.8 (097 INBD,RT)"
+ },
+ {
+   "airport_ident": "OSAP",
+   "runway": "09",
+   "eoSid": "RT TO 'MER' 365 (274 INBD,LT)"
+ },
+ {
+   "airport_ident": "OSAP",
+   "runway": "27",
+   "eoSid": "AT 1 DME 'ALE' 114.5 LT TO 'MER' 365 (274 INBD,LT)"
+ },
+ {
+   "airport_ident": "HEBA",
+   "runway": "14",
+   "eoSid": "RT TO 'DJ' 563 (140 INBD,RT)"
+ },
+ {
+   "airport_ident": "HEBA",
+   "runway": "32",
+   "eoSid": "RT TO 'DJ' 563 (140 INBD,RT)"
+ },
+ {
+   "airport_ident": "HEAX",
+   "runway": "04",
+   "eoSid": "RT TO 'AXD' 115.9 (197 INBD,LT)"
+ },
+ {
+   "airport_ident": "HEAX",
+   "runway": "22",
+   "eoSid": "RT TO 'AXD' 115.9 (197 INBD,LT)"
+ },
+ {
+   "airport_ident": "DAAG",
+   "runway": "05",
+   "eoSid": "AT 'OA' 342.0 ENTER HLDG (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "DAAG",
+   "runway": "09",
+   "eoSid": "AT 4 DME 'ALR' 112.5 LT TO 'OA' 342.0 (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "DAAG",
+   "runway": "23",
+   "eoSid": "AT 5 DME 'ALR' 112.5 RT TO 'OA' 342.0 (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "DAAG",
+   "runway": "27",
+   "eoSid": "AT 3 DME 'ALR' 112.5 RT TO 'OA' 342.0 (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEAL",
+   "runway": "10",
+   "eoSid": "RT TO 'MAGAL' [19.86 DME R 127 'ALT' 113.8] (308 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEAL",
+   "runway": "28",
+   "eoSid": "AT 2 DME 'ALT' 113.8 LT ON TRACK 180. AT 6 DME 'ALT' 113.8 LT TO 'MAGAL' [19.86 DME R 127 'ALT' 113.8] (308 INBD,RT)"
+ },
+ {
+   "airport_ident": "UAAA",
+   "runway": "05",
+   "eoSid": "LT TO 'ALM' 112.3 (052 INBD,LT)"
+ },
+ {
+   "airport_ident": "UAAA",
+   "runway": "23",
+   "eoSid": "RT TO 'ALM' 112.3 (052 INBD,LT)"
+ },
+ {
+   "airport_ident": "OJAM",
+   "runway": "06",
+   "eoSid": "AT 10 DME 'AMN' 116.3 ENTER HLDG (241 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAM",
+   "runway": "24",
+   "eoSid": "AT 17 DME 'AMN' 116.3 ENTER HLDG (061 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAI",
+   "runway": "08L",
+   "eoSid": "RT TO 'MDB' 399 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAI",
+   "runway": "08R",
+   "eoSid": "RT TO 'MDB' 399 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAI",
+   "runway": "26L",
+   "eoSid": "LT TO 'QAA' 115.2 (254 INBD,LT)"
+ },
+ {
+   "airport_ident": "OJAI",
+   "runway": "26R",
+   "eoSid": "RT TO 'QAA' 115.2 (254 INBD,LT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "04",
+   "eoSid": "RT TO 'SPL' 108.4 (095 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "06",
+   "eoSid": "LT TO 'SPL' 108.4 (229 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "09",
+   "eoSid": "RT TO 'SPL' 108.4 (229 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18C",
+   "eoSid": "RT TO 'SPL' 108.4 (003 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18L",
+   "eoSid": "LT TO 'SPL' 108.4 (003 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "18R",
+   "eoSid": "FOLLOW PUBLISHED MISSED APPROACH. INITIAL TURN NOT BEFORE 3.0 DME AMS 113.95"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "22",
+   "eoSid": "RT TO 'SPL' 108.4 (094 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "24",
+   "eoSid": "RT TO 'SPL' 108.4 (094 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "27",
+   "eoSid": "RT TO 'SPL' 108.4 (094 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "36C",
+   "eoSid": "LT TO 'SPL' 108.4 (179 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "36L",
+   "eoSid": "LT TO 'SPL' 108.4 (179 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHAM",
+   "runway": "36R",
+   "eoSid": "LT TO 'SPL' 108.4 (179 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPLC",
+   "runway": "02L",
+   "eoSid": "AT 'ROSER' [12 DME R 022 'CIA' 113.1] ENTER HLDG (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLC",
+   "runway": "02R",
+   "eoSid": "AT 'ROSER' [12 DME R 022 'CIA' 113.1] ENTER HLDG (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLC",
+   "runway": "20L",
+   "eoSid": "AT 3 DME 'CIA' 113.1 LT TO ITCPT AND PRCD ON R 022 'CIA' 113.1 TO 'ROSER' [12 DME 'CIA' 113.1 (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLC",
+   "runway": "20R",
+   "eoSid": "AT 3 DME 'CIA' 113.1 LT TO ITCPT AND PRCD ON R 022 'CIA' 113.1 TO 'ROSER' [12 DME 'CIA' 113.1 (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAC",
+   "runway": "03L",
+   "eoSid": "AT 'ES' 338.0 LT TO 'ANK' 356 (033 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAC",
+   "runway": "03R",
+   "eoSid": "AT 'ES' 338.0 LT TO 'ANK' 356 (033 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAC",
+   "runway": "21L",
+   "eoSid": "AT 'ANK' 356 ENTER HLDG (033 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAC",
+   "runway": "21R",
+   "eoSid": "AT 'ANK' 356 ENTER HLDG (033 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAD",
+   "runway": "11",
+   "eoSid": "ABM 'ANK' 356 LT TO ITCPT AND PRCD OUTBOUND ON R 237 'BAG' 113.1. AT 19 DME 'BAG' 113.1 ENTER HLDG (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAD",
+   "runway": "29",
+   "eoSid": "AT 11 DME 'BAG' 113.10 LT TO ITCPT AND PRCD OUTBOUND ON R 237 'BAG' 113.10 . AT 19 DME 'BAG' 113.10 ENTER HLDG (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "DABB",
+   "runway": "01",
+   "eoSid": "RT TO 'ANB' 113.5 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "DABB",
+   "runway": "05",
+   "eoSid": "LT TO 'ANB' 113.5 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "DABB",
+   "runway": "19",
+   "eoSid": "AT 7 DME 'ANB' 113.5 RT TO 'ANB' 113.5 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "DABB",
+   "runway": "23",
+   "eoSid": "AT 7 DME 'ANB' 113.5 LT TO 'ANB' 113.5 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "18C",
+   "eoSid": "RT TO 'AYT' 114.0 (181 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "18L",
+   "eoSid": "LT TO 'LRA' 113.6 (002 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "18R",
+   "eoSid": "RT TO 'AYT' 114.0 (181 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "36C",
+   "eoSid": "AT 5 DME 'AYT' 114.0 LT TO 'YT' 302 (182 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "36L",
+   "eoSid": "AT 5 DME 'AYT' 114.0 LT TO 'YT' 302.0 (182 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTAI",
+   "runway": "36R",
+   "eoSid": "AT 8 DME 'LRA' 113.6 RT TO 'LRA' 113.6 (002 INBD,RT)"
+ },
+ {
+   "airport_ident": "FMMI",
+   "runway": "11",
+   "eoSid": "AT 'NT' 370.0 RT TO 'BALBY' [17 DME R 294 'TNV' 114.5] (114 INBD,RT)"
+ },
+ {
+   "airport_ident": "FMMI",
+   "runway": "29",
+   "eoSid": "AT 'BALBY' [17 DME R 294 'TNV' 114.5] ENTER HLDG (114 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAQ",
+   "runway": "01",
+   "eoSid": "AT 4.5 DME 'AQB' 113.10 LT ON TRACK 340 TO ITCPT AND PRCD ON R 010 'LOT' 112.00 . AT 27 DME 'AQB' 113.10 LT TO 'NURIT' [29.1 DME 'AQB' 113.10 R 007 'LOT' 112.00] (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "OJAQ",
+   "runway": "19",
+   "eoSid": "AT 16 DME 'AQB' 113.10 [16.7 DME 'LOT' 112.00] ENTER HLDG (194 INBD,RT)"
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "12L",
+   "eoSid": "LT TO 'ASB' 114.5 (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "12R",
+   "eoSid": "LT TO 'ASB' 114.5 (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "30L",
+   "eoSid": "RT TO 'ASB' 114.5 (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "UTAA",
+   "runway": "30R",
+   "eoSid": "RT TO 'ASB' 114.5 (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "HHAS",
+   "runway": "07",
+   "eoSid": "LT TO 'ASM' 113.7 (280 INBD,RT)"
+ },
+ {
+   "airport_ident": "HHAS",
+   "runway": "25",
+   "eoSid": "RT TO 'ASM' 113.7 (280 INBD,RT)"
+ },
+ {
+   "airport_ident": "HESN",
+   "runway": "17",
+   "eoSid": "RT TO 'ASN' 112.3 (344 INBD,LT)"
+ },
+ {
+   "airport_ident": "HESN",
+   "runway": "35",
+   "eoSid": "LT TO 'ASN' 112.3 (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03L",
+   "eoSid": "AT 8.5 DME 'SAT' 109.6 RT TO ITCPT AND PRCD ON R 340 INBD 'KEA' 115.0 . AT 15 DME 'KEA' 115.0 ENTER HLDG (160 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "03R",
+   "eoSid": "AT 8 DME 'SAT' 109.6 RT TO ITCPT AND PRCD ON R 340 INBD 'KEA' 115.0 . AT 15 DME 'KEA' 115.0 ENTER HLDG (160 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21L",
+   "eoSid": "AT 8 DME 'SPA' 117.5 LT ON TRACK 175 TO ITCPT AND PRCD ON R 275 INBD 'KEA' 115.0. AT 7 DME 'KEA' 115.0 ENTER HLDG (095 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGAV",
+   "runway": "21R",
+   "eoSid": "AT 8 DME 'SAT' 109.6 RT TO 'EGN' 382 (075 INBD,LT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "08L",
+   "eoSid": "AT 14 DME 'ATL' 116.90 LT TO 'PDK' 116.60 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "08R",
+   "eoSid": "AT 14 DME 'ATL' 116.9 LT TO 'PDK' 116.6 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "09L",
+   "eoSid": "RT TO 'FF' 316 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "09R",
+   "eoSid": "RT TO 'FF' 316 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "10",
+   "eoSid": "RT TO 'FF' 316.0 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "26L",
+   "eoSid": "AT 15 DME 'ATL' 116.9 RT TO 'PDK' 116.6 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "26R",
+   "eoSid": "AT 15 DME 'ATL' 116.9 RT TO 'PDK' 116.6 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "27L",
+   "eoSid": "LT TO 'FF' 316 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "27R",
+   "eoSid": "LT TO 'FF' 316 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KATL",
+   "runway": "28",
+   "eoSid": "LT TO 'FF' 316.0 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "KACY",
+   "runway": "13",
+   "eoSid": "AT 3 DME 'ACY' 108.6 LT TO 'SMITS' [11 DME R 090 'ACY' 108.6] (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "KACY",
+   "runway": "31",
+   "eoSid": "AT 1.5 DME 'ACY' 108.6 RT TO 'SMITS' [11 DME R 090 'ACY' 108.6] (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "ORBI",
+   "runway": "15L",
+   "eoSid": "WHEN PASSING 1500FT ENTER HLDG (147 INBD,LT)"
+ },
+ {
+   "airport_ident": "ORBI",
+   "runway": "15R",
+   "eoSid": "WHEN PASSING 1500FT ENTER HLDG (147 INBD,LT)"
+ },
+ {
+   "airport_ident": "ORBI",
+   "runway": "33L",
+   "eoSid": "WHEN PASSING 1500FT ENTER HLDG (327 INBD,LT)"
+ },
+ {
+   "airport_ident": "ORBI",
+   "runway": "33R",
+   "eoSid": "WHEN PASSING 1500FT ENTER HLDG (327 INBD,LT)"
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "12L",
+   "eoSid": "LT TO 'BAH' 115.3 (322 INBD,RT)"
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "12R",
+   "eoSid": "LT TO 'BAH' 115.3 (322 INBD,RT)"
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30L",
+   "eoSid": "RT TO 'BAH' 115.3 (148 INBD,LT)"
+ },
+ {
+   "airport_ident": "OBBI",
+   "runway": "30R",
+   "eoSid": "RT TO 'BAH' 115.3 (148 INBD,LT)"
+ },
+ {
+   "airport_ident": "UBBB",
+   "runway": "16",
+   "eoSid": "RT TO 'BAMAK' [25 DME R 159 'GYD' 114.1] (339 INBD,RT)"
+ },
+ {
+   "airport_ident": "UBBB",
+   "runway": "18",
+   "eoSid": "LT TO 'BAMAK' [25 DME R 159 'GYD' 114.1] (339 INBD,RT)"
+ },
+ {
+   "airport_ident": "UBBB",
+   "runway": "34",
+   "eoSid": "RT TO 'BUNIS' [19 DME R 353 'GYD' 114.1] (172 INBD,RT)"
+ },
+ {
+   "airport_ident": "UBBB",
+   "runway": "36",
+   "eoSid": "LT TO 'BUNIS' [19 DME R 353 'GYD' 114.1] (172 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBWI",
+   "runway": "10",
+   "eoSid": "RT TO 'JEANS' [5.3 DME R 287 'BAL' 115.1] (107 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBWI",
+   "runway": "15R",
+   "eoSid": "AT 3 DME 'BAL' 115.1 LT TO 'BOAST' [11 DME R 108 'BAL' 115.1] (288 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBWI",
+   "runway": "28",
+   "eoSid": "LT TO 'BOAST' [11 DME R 108 'BAL' 115.1] (288 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBWI",
+   "runway": "33L",
+   "eoSid": "AT 6 DME 'BAL' 115.1 LT TO 'JEANS' [5.3 DME R 287 'BAL' 115.1] (107 INBD,RT)"
+ },
+ {
+   "airport_ident": "WBSB",
+   "runway": "03",
+   "eoSid": "LT TO 'BRU' 112.0 (211 INBD,RT)"
+ },
+ {
+   "airport_ident": "WBSB",
+   "runway": "21",
+   "eoSid": "RT TO 'BRU' 112.0 (031 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOBG",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'BBG' 115.5 RT TO 'BBG' 115.5 (089 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOBG",
+   "runway": "27",
+   "eoSid": "AT 12 DME 'BBG' 115.5 LT TO 'BBG' 115.5 (263 INBD,LT)"
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01L",
+   "eoSid": "LT TO 'LEVIN' [5.3 DME R 195 'SVB' 111.4] (015 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "01R",
+   "eoSid": "RT TO 'ROMAN' [6 DME R 183 'SVB' 111.4] (003 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19L",
+   "eoSid": "LT TO 'LEMON' [8.5 DME R 022 'SVB' 111.4] (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "VTBS",
+   "runway": "19R",
+   "eoSid": "RT TO 'RANDY' [8.8 DME R 015 'SVB' 111.4] (195 INBD,LT)"
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "03L",
+   "eoSid": "AT 'BK' 293 ENTER HLDG (209 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "03R",
+   "eoSid": "AT 'BK' 293 ENTER HLDG (209 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "21L",
+   "eoSid": "AT 1 DME PASSING 'BKK' 117.7 RT TO ITCPT AND PRCD ON R 240 'BKK' 117.7 TO 'KORNA' [15 DME R 240 'BKK' 117.7] (060 INBD,LT)"
+ },
+ {
+   "airport_ident": "VTBD",
+   "runway": "21R",
+   "eoSid": "AT 1 DME PASSING 'BKK' 117.7 RT TO ITCPT AND PRCD ON R 240 'BKK' 117.7 TO 'KORNA' [15 DME R 240 'BKK' 117.7] (060 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBGR",
+   "runway": "15",
+   "eoSid": "AT 6 DME 'BGR' 114.8 RT TO 'BGR' 114.8 (157 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBGR",
+   "runway": "33",
+   "eoSid": "RT TO 'BGR' 114.8 (157 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "02",
+   "eoSid": "AT 1.2 DME 'BCN' 116.7 RT TO 'LESBA' [25.3 DME R 098 'BCN' 116.7] (278 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07L",
+   "eoSid": "RT TO 'LESBA' [25.3 DME R 098 'BCN' 116.7] (278 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "07R",
+   "eoSid": "RT TO 'LESBA' [25.3 DME R 098 'BCN' 116.7] (278 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "20",
+   "eoSid": "RT TO 'RUBOT' [37.5 DME R 210 'SLL' 112.0] (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "25L",
+   "eoSid": "LT TO 'RUBOT' [37.5 DME R 210 'SLL' 112.0] (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEBL",
+   "runway": "25R",
+   "eoSid": "LT TO 'RUBOT' [37.5 DME R 210 'SLL' 112.0] (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFSB",
+   "runway": "16",
+   "eoSid": "AT 4 DME 'BLM' 117.45 RT TO 'BN' 353 (155 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFSB",
+   "runway": "34",
+   "eoSid": "RT TO 'BLM' 117.45 (155 INBD,LT)"
+ },
+ {
+   "airport_ident": "ORMM",
+   "runway": "14",
+   "eoSid": "AT 10 DME 'BSR' 112.3 RT TO 'BSR' 112.3 (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "ORMM",
+   "runway": "32",
+   "eoSid": "LT TO 'BSR' 112.3 (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIDD",
+   "runway": "04",
+   "eoSid": "RT TO 'BTM' 116.0 (042 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIDD",
+   "runway": "22",
+   "eoSid": "LT TO 'BTM' 116.0 (042 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "01",
+   "eoSid": "AT 8 DME 'PEK' 114.7 RT TO 'WF' 395 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "18L",
+   "eoSid": "LT TO 'WF' 395 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "18R",
+   "eoSid": "LT TO 'WF' 395 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "19",
+   "eoSid": "LT TO 'WF' 395 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "36L",
+   "eoSid": "AT 8 DME 'PEK' 114.7 RT TO 'WF' 395 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBAA",
+   "runway": "36R",
+   "eoSid": "AT 8 DME 'PEK' 114.70 RT TO 'WF' 395.0 (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "03",
+   "eoSid": "AT 7 DME 'KAD' 112.6 LT TO ITCPT AND PRCD ON R 355 'KAD' 112.6. AT 10 DME 'KAD' 112.6 ENTER HLDG (175 INBD,RT)"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "16",
+   "eoSid": "FOLLOW PUBLISHED MISSED APPROACH. ACCELERATION ALTITUDE 2000 FT. INITIATE TURN NOT LATER THAN 'KAD' 112.6'"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "17",
+   "eoSid": "AT 1.5 DME 'BIL' 109.5 [RWY END] RT TO ITCPT AND PRCD ON R 255 'KAD' 112.6. AT 10 DME 'KAD' 112.6 ENTER HLDG (075 INBD,RT)"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "21",
+   "eoSid": "RT TO ITCPT AND PRCD ON R 255 'KAD' 112.6. AT 10 DME 'KAD' 112.6 ENTER HLDG (075 INBD,RT)"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "34",
+   "eoSid": "LT TO ITCPT AND PRCD ON R 315 'KAD' 112.6. AT 10 DME 'KAD' 112.6 ENTER HLDG (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "OLBA",
+   "runway": "35",
+   "eoSid": "AT 10 DME 'KAD' 112.6 ENTER HLDG (175 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGAA",
+   "runway": "07",
+   "eoSid": "AT 2 DME 'BEL' 117.2 LT ON TRACK 259. AT 8 DME 'BEL' 117.2 LT TO 'BEL' 117.2 (059 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGAA",
+   "runway": "25",
+   "eoSid": "RT TO 'BEL' 117.2 (059 INBD,LT)"
+ },
+ {
+   "airport_ident": "LYBE",
+   "runway": "12",
+   "eoSid": "AT 3 DME 'BEO' 112.3 RT TO 'OBR' 355 (037 INBD,RT)"
+ },
+ {
+   "airport_ident": "LYBE",
+   "runway": "30",
+   "eoSid": "LT TO 'OBR' 355 (037 INBD,RT)"
+ },
+ {
+   "airport_ident": "HLLB",
+   "runway": "15L",
+   "eoSid": "RT TO 'BNA' 117.4 (330 INBD,LT)"
+ },
+ {
+   "airport_ident": "HLLB",
+   "runway": "15R",
+   "eoSid": "RT TO 'BNA' 117.4 (330 INBD,LT)"
+ },
+ {
+   "airport_ident": "HLLB",
+   "runway": "33L",
+   "eoSid": "LT TO 'BNA' 117.4 (330 INBD,LT)"
+ },
+ {
+   "airport_ident": "HLLB",
+   "runway": "33R",
+   "eoSid": "LT TO 'BNA' 117.4 (330 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIME",
+   "runway": "28",
+   "eoSid": "AT 4 DME 'ORI' 112.60 LT TO 'TZO' 111.80 (325 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDT",
+   "runway": "08L",
+   "eoSid": "AT 5.1 DME 'TGL' 112.3 LT TO 'LWB' 114.55 (096 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDT",
+   "runway": "08R",
+   "eoSid": "AT 5.1 DME 'TGL' 112.3 LT TO 'LWB' 114.55 (096 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDT",
+   "runway": "26L",
+   "eoSid": "AT 10 DME 'TGL' 112.3 RT TO 'LWB' 114.55 (096 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDT",
+   "runway": "26R",
+   "eoSid": "AT 10 DME 'TGL' 112.3 RT TO 'LWB' 114.55 (096 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "07L",
+   "eoSid": "RT TO 'KLF' 115.15 (021 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "07R",
+   "eoSid": "RT TO 'KLF' 115.15 (021 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "25L",
+   "eoSid": "LT TO 'KLF' 115.15 (021 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDB",
+   "runway": "25R",
+   "eoSid": "LT TO 'KLF' 115.15 (021 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGBB",
+   "runway": "15",
+   "eoSid": "LT TO 'BHX' 406 (149 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGBB",
+   "runway": "33",
+   "eoSid": "AT 3 DME 'IBM' 110.10 RT TO 'BHX' 406.0 (149 INBD,RT)"
+ },
+ {
+   "airport_ident": "UAFM",
+   "runway": "08",
+   "eoSid": "AT 6 DME 'MNS' 113.4 LT TO 'MNS' 113.4 (075 INBD,LT)"
+ },
+ {
+   "airport_ident": "UAFM",
+   "runway": "26",
+   "eoSid": "RT TO 'MNS' 113.4 (255 INBD,RT)"
+ },
+ {
+   "airport_ident": "FABL",
+   "runway": "02",
+   "eoSid": "RT TO 'BLV' 114.1 (015 INBD,RT)"
+ },
+ {
+   "airport_ident": "FABL",
+   "runway": "20",
+   "eoSid": "LT TO 'BLV' 114.1 (205 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIPE",
+   "runway": "12",
+   "eoSid": "LT TO 'BOA' 413.0 (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIPE",
+   "runway": "30",
+   "eoSid": "AT 'BOA' 413 ENTER HLDG (115 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFBD",
+   "runway": "05",
+   "eoSid": "AT 'BD' 393 ENTER HLDG (228 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFBD",
+   "runway": "11",
+   "eoSid": "AT 15 DME 'BMC' 113.75 LT TO 'BE' 318 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFBD",
+   "runway": "23",
+   "eoSid": "RT TO 'BD' 393 (228 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFBD",
+   "runway": "29",
+   "eoSid": "RT TO 'BE' 318 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "04L",
+   "eoSid": "AT 'LQ' 382.0 ENTER HLDG (216 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "04R",
+   "eoSid": "AT 'LQ' 382.0 ENTER HLDG (216 INBD,LT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "09",
+   "eoSid": "RT TO 'LI' 346.0 (331 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "15R",
+   "eoSid": "AT 'CELTS' [11.7 DME R 154 'BOS' 112.70] ENTER HLDG (334 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "22L",
+   "eoSid": "AT 3 DME 'BOS' 112.70 LT TO 'LI' 346.0 (331 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "22R",
+   "eoSid": "AT 3 DME 'BOS' 112.70 LT TO 'LI' 346.0 (331 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "27",
+   "eoSid": "AT 7 DME 'BOS' 112.70 LT TO 'LI' 346.0 (331 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBOS",
+   "runway": "33L",
+   "eoSid": "RT TO 'LQ' 382.0 (216 INBD,LT)"
+ },
+ {
+   "airport_ident": "LZIB",
+   "runway": "04",
+   "eoSid": "RT TO 'OB' 330 (311 INBD,RT)"
+ },
+ {
+   "airport_ident": "LZIB",
+   "runway": "13",
+   "eoSid": "AT 'OB' 330 ENTER HLDG (311 INBD,RT)"
+ },
+ {
+   "airport_ident": "LZIB",
+   "runway": "22",
+   "eoSid": "AT 7 DME 'OKR' 108.3 LT TO 'JAN' 110.8 (177 INBD,LT)"
+ },
+ {
+   "airport_ident": "LZIB",
+   "runway": "31",
+   "eoSid": "AT 1.5 DME 'OB' 110.7 RT TO 'JAN' 110.8 (177 INBD,LT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "02",
+   "eoSid": "RT TO 'BUN' 110.6 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07L",
+   "eoSid": "LT TO 'BUN' 110.60 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "07R",
+   "eoSid": "LT TO 'BUN' 110.6 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "20",
+   "eoSid": "AT 6 DME 'BUB' 114.60 LT TO 'BUN' 110.60 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25L",
+   "eoSid": "RT TO 'BUN' 110.6 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBBR",
+   "runway": "25R",
+   "eoSid": "RT TO 'BUN' 110.6 (117 INBD,RT)"
+ },
+ {
+   "airport_ident": "LRBS",
+   "runway": "07",
+   "eoSid": "LT TO 'BSW' 521.0 (070 INBD,LT)"
+ },
+ {
+   "airport_ident": "LRBS",
+   "runway": "25",
+   "eoSid": "RT TO 'BSE' 256.0 (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "08L",
+   "eoSid": "LT TO 'MOBLI' [11.5 DME R 001 'OPT' 117.1] (181 INBD,LT)"
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "08R",
+   "eoSid": "RT TO 'OPT' 117.1 (262 INBD,LT)"
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "26L",
+   "eoSid": "LT TO 'FLR' 112.2 (082 INBD,RT)"
+ },
+ {
+   "airport_ident": "LROP",
+   "runway": "26R",
+   "eoSid": "LT TO 'FLR' 112.2 (082 INBD,RT)"
+ },
+ {
+   "airport_ident": "RKPK",
+   "runway": "18L",
+   "eoSid": "AT 15 DME 'KMH' 113.8 ENTER HLDG (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKPK",
+   "runway": "18R",
+   "eoSid": "AT 15 DME 'KMH' 113.80 ENTER HLDG (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKPK",
+   "runway": "36L",
+   "eoSid": "AT 'KMH' 113.80 LT TO ITCPT AND PRCD ON R 181 'KMH' 113.80 . AT 15 DME 'KMH' 113.80 ENTER HLDG (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKPK",
+   "runway": "36R",
+   "eoSid": "AT 'KMH' 113.8 LT TO ITCPT AND PRCD ON R 181 'KMH' 113.8 . AT 15 DME 'KMH' 113.8 ENTER HLDG (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "15",
+   "eoSid": "AT 11 DME 'CS' 113.0 RT TO 'CS' 113.0. PRCD TO 'UPOLO' [15 DME R 045 'CS' 113.0] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "YBCS",
+   "runway": "33",
+   "eoSid": "ABM 'CS' 113.0 RT TO 'UPOLO' [15 DME R 045 'CS' 113.0] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "05L",
+   "eoSid": "RT TO 'CAI' 112.5 (227 INBD,LT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "05R",
+   "eoSid": "RT TO 'CVO' 115.2 (227 INBD,LT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "16",
+   "eoSid": "AT 4 DME 'CAI' 112.5 RT TO 'CAI' 112.5 (227 INBD,LT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "23L",
+   "eoSid": "AT 25 DME R 227 'CVO' 115.2 ENTER HLDG (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "23R",
+   "eoSid": "AT 25 DME R 227 'CAI' 112.50 ENTER HLDG (047 INBD,LT)"
+ },
+ {
+   "airport_ident": "HECA",
+   "runway": "34",
+   "eoSid": "LT TO 'CVO' 115.2 (227 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOCL",
+   "runway": "10",
+   "eoSid": "AT 1 DME 'CLC' 116.5 LT TO ITCPT AND PRCD ON R 280 'CLC' 116.5. AT 14 DME 'CLC' 116.5 ENTER HLDG (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOCL",
+   "runway": "28",
+   "eoSid": "LT TO ITCPT AND PRCD ON R 280 'CLC' 116.5. AT 14 DME 'CLC' 116.5 ENTER HLDG (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "KADW",
+   "runway": "01L",
+   "eoSid": "AT 13 DME 'OTT' 113.7 RT TO 'OTT' 113.7 (318 INBD,RT)"
+ },
+ {
+   "airport_ident": "KADW",
+   "runway": "01R",
+   "eoSid": "AT 13 DME 'OTT' 113.7 RT TO 'OTT' 113.7 (318 INBD,RT)"
+ },
+ {
+   "airport_ident": "KADW",
+   "runway": "19L",
+   "eoSid": "AT 'RW' 360 [6.4 DME 'ADW' 113.1] LT TO 'OTT' 113.7 (318 INBD,RT)"
+ },
+ {
+   "airport_ident": "KADW",
+   "runway": "19R",
+   "eoSid": "AT 'RW' 360 [6.4 DME 'ADW' 113.1] LT TO 'OTT' 113.7 (318 INBD,RT)"
+ },
+ {
+   "airport_ident": "FACT",
+   "runway": "01",
+   "eoSid": "AT 3 DME 'CTV' 115.70 LT TO 'RIV' 117.60 (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "FACT",
+   "runway": "19",
+   "eoSid": "AT 20 DME 'CTV' 115.7 ENTER HLDG (009 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "17L",
+   "eoSid": "AT 'BRC' 114.0 ENTER HLDG (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "17R",
+   "eoSid": "AT 'BRC' 114.0 ENTER HLDG (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "35L",
+   "eoSid": "LT TO 'BRC' 114.0 (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMMN",
+   "runway": "35R",
+   "eoSid": "LT TO 'BRC' 114.0 (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "LICC",
+   "runway": "08",
+   "eoSid": "LT TO 'INDAX' [11 DME R 078 'CTF' 116.25] (258 INBD,RT)"
+ },
+ {
+   "airport_ident": "LICC",
+   "runway": "26",
+   "eoSid": "AT 5 DME 'CTF' 116.25 LT TO 'INDAX' [11 DME R 078 'CTF' 116.25] (258 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZUUU",
+   "runway": "02",
+   "eoSid": "LT TO 'ZW' 260 (024 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZUUU",
+   "runway": "20",
+   "eoSid": "AT 10 DME 'CTU' 115.7 LT TO 'A' 286 (204 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "07",
+   "eoSid": "LT TO 'MMV' 112.50 (246 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOMM",
+   "runway": "25",
+   "eoSid": "RT TO 'MMV' 112.5 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "VTCC",
+   "runway": "18",
+   "eoSid": "AT 'PUNYA' [9.6 DME 'ICMA' 109.9] ENTER HLDG (001 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTCC",
+   "runway": "36",
+   "eoSid": "AT 3.5 DME 'ICMA' 109.9 RT TO ITCPT AND PRCD ON R 180 TO 'PUNYA' [9.6 DME 'ICMA' 109.9] (001 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "04L",
+   "eoSid": "LT TO 'OBK' 113.0 (088 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "04R",
+   "eoSid": "RT TO 'LAIRD' [13.9 DME R 089 'ORD' 113.9] (269 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "09R",
+   "eoSid": "LT TO 'OBK' 113.0 (088 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "14L",
+   "eoSid": "AT 8 DME 'ORD' 113.9 RT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "14R",
+   "eoSid": "AT 8 DME 'ORD' 113.9 RT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "22L",
+   "eoSid": "RT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "22R",
+   "eoSid": "AT 7.5 DME 'ORD' 113.9 RT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "27L",
+   "eoSid": "AT 11 DME 'ORD' 113.9 RT TO 'OBK' 113.0 (088 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "32L",
+   "eoSid": "AT 8 DME 'ORD' 113.9 LT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "32R",
+   "eoSid": "RT TO 'OBK' 113.0 (088 INBD,RT)"
+ },
+ {
+   "airport_ident": "VGEG",
+   "runway": "05",
+   "eoSid": "LT TO 'CTG' 113.4 (056 INBD, RT)"
+ },
+ {
+   "airport_ident": "VGEG",
+   "runway": "23",
+   "eoSid": "RT TO 'CTG' 113.4 (056 INBD, RT)"
+ },
+ {
+   "airport_ident": "NZCH",
+   "runway": "02",
+   "eoSid": "AT 'OD' 262 ENTER HLDG (197 INBD,RT)"
+ },
+ {
+   "airport_ident": "NZCH",
+   "runway": "20",
+   "eoSid": "AT 'BU' 374 ENTER HLDG (017 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "18",
+   "eoSid": "AT 15 DME 'CBE' 117.8 RT TO 'CBE' 117.8 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJGG",
+   "runway": "36",
+   "eoSid": "AT 8 DME 'CBE' 117.8 LT TO 'CBE' 117.8 (180 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCLE",
+   "runway": "06C",
+   "eoSid": "AT 18 DME 'DJB' 113.6 LT TO 'CRIBS' [18 DME R 029 'DJB' 113.6] (029 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCLE",
+   "runway": "06R",
+   "eoSid": "AT 18 DME 'DJB' 113.6 LT TO 'CRIBS' [18 DME R 029 'DJB' 113.6] (029 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCLE",
+   "runway": "24C",
+   "eoSid": "RT TO 'CRIBS' [18 DME R 029 'DJB' 113.6] (029 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCLE",
+   "runway": "24L",
+   "eoSid": "RT TO 'CRIBS' [18 DME R 029 'DJB' 113.6] (029 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOCI",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'CIA' 113.5 RT TO 'CIA' 113.5 (104 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOCI",
+   "runway": "27",
+   "eoSid": "AT 7 DME 'CIA' 113.5 RT TO 'CIA' 113.5 (104 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOCB",
+   "runway": "05",
+   "eoSid": "LT TO 'CCB' 112.90 (190 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOCB",
+   "runway": "23",
+   "eoSid": "AT 7 DME 'CCB' 112.9 RT TO 'CCB' 112.9 (190 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "06",
+   "eoSid": "AT 'LW' 300.5 LT TO 'WYP' 109.60 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDK",
+   "runway": "24",
+   "eoSid": "AT 3 DME 'KBO' 112.15 RT TO 'WYP' 109.60 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "LRCK",
+   "runway": "18",
+   "eoSid": "RT TO 'ZZ' 378 (181 INBD,LT)"
+ },
+ {
+   "airport_ident": "LRCK",
+   "runway": "36",
+   "eoSid": "LT TO 'CND' 112.7 (001 INBD,LT)"
+ },
+ {
+   "airport_ident": "DABC",
+   "runway": "14",
+   "eoSid": "AT 15 DME 'CSO' 115.5 LT TO 'CNE' 397 TO PRCD TO 'CSO' 115.5 (350 INBD,RT)"
+ },
+ {
+   "airport_ident": "DABC",
+   "runway": "16",
+   "eoSid": "AT 5 DME 'CSO' 115.5 LT TO 'CSO' 115.5 (350 INBD,RT)"
+ },
+ {
+   "airport_ident": "DABC",
+   "runway": "32",
+   "eoSid": "AT 1.5 DME NORTH OF 'CSO' 115.5 RT TO 'CNE' 397 . AT 'CNE' 397 LT TO 'CSO' 115.5 (350 INBD, RT)"
+ },
+ {
+   "airport_ident": "DABC",
+   "runway": "34",
+   "eoSid": "AT 12 DME 'CSO' 115.5 RT TO ITCPT AND PRCD INBD R 340 'CSO' 115.5 TO 'CSO' 115.5 (350 INBD,RT)"
+ },
+ {
+   "airport_ident": "DBBB",
+   "runway": "06",
+   "eoSid": "LT TO 'RANAL' [12 DME R 240 'TYE' 113.30] (060 INBD,RT)"
+ },
+ {
+   "airport_ident": "DBBB",
+   "runway": "24",
+   "eoSid": "LT TO 'TYE' 113.30 (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'CVG' 117.30 RT TO ITCPT AND PRCD ON R 109 'CVG' 117.30 . AT 'CALIF' [19 DME R 109 'CVG' 117.30] ENTER HLDG (289 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "18C",
+   "eoSid": "AT 4 DME 'CVG' 117.30 RT TO ITCPT AND PRCD ON R 221 'CVG' 117.30 .AT 'WARSA' [19 DME 'CVG' 117.30] ENTER HLDG (221 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "18L",
+   "eoSid": "AT 4 DME 'CVG' 117.30 LT TO ITCPT AND PRCD ON R 109 'CVG' 117.30 . AT 'CALIF' [19 DME 'CVG' 117.30] ENTER HLDG (289 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "18R",
+   "eoSid": "AT 4 DME 'CVG' 117.30 RT TO ITCPT AND PRCD ON R 221 'CVG' 117.30 . AT 'WARSA' [19 DME 'CVG' 117.30] ENTER HLDG (221 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "27",
+   "eoSid": "WHEN PASSING R 303 'CVG' 117.30 LT TO ITCPT AND PRCD ON R 221 'CVG' 117.30 . AT 'WARSA' [19 DME R 221 'CVG' 117.30] ENTER HLDG (221 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "36C",
+   "eoSid": "AT 5 DME 'CVG' 117.30 LT TO ITCPT AND PRCD ON R 340 'CVG' 117.30 . AT 'BATHY' [25 DME 'CVG' 117.30] ENTER HLDG (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "36L",
+   "eoSid": "AT 5 DME 'CVG' 117.30 LT TO ITCPT AND PRCD ON R 340 'CVG' 117.30 . AT 'BATHY' [25 DME 'CVG' 117.30] ENTER HLDG (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "KCVG",
+   "runway": "36R",
+   "eoSid": "AT 10 DME 'CVG' 117.30 LT TO ITCPT AND PRCD ON R 010 'CVG' 117.30 . AT 'NEATS' [18 DME 'CVG' 117.30] ENTER HLDG (190 INBD,RT)"
+ },
+ {
+   "airport_ident": "GOOY",
+   "runway": "18",
+   "eoSid": "RT TO 'YF' 113.1 (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "GOOY",
+   "runway": "36",
+   "eoSid": "LT TO 'YF' 113.1 (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZYTL",
+   "runway": "10",
+   "eoSid": "AT 26 DME 'DLC' 112.3 ENTER HLDG (103 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZYTL",
+   "runway": "28",
+   "eoSid": "AT 23 DME 'DLC' 112.3 ENTER HLDG (283 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "13L",
+   "eoSid": "LT TO 'CVE' 116.2 (129 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "13R",
+   "eoSid": "LT TO 'CVE' 116.2 (129 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "17C",
+   "eoSid": "AT 'PK' 233 ENTER HLDG (354 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "17L",
+   "eoSid": "AT 5 DME 'TTT' 113.1 LT TO 'CVE' 116.2 (129 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "17R",
+   "eoSid": "AT 'PK' 233 ENTER HLDG (354 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "18L",
+   "eoSid": "RT TO 'FUZ' 115.7 (313 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "18R",
+   "eoSid": "RT TO 'FUZ' 115.7 (313 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "31L",
+   "eoSid": "LT TO 'FUZ' 115.7 (313 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "31R",
+   "eoSid": "LT TO 'FUZ' 115.7 (313 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "35C",
+   "eoSid": "AT 'BOSSI' [17.5 DME R 357 'TTT' 113.1] ENTER HLDG (177 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "35L",
+   "eoSid": "AT 'BOSSI' [17.5 DME R 357 'TTT' 113.1] ENTER HLDG (177 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "35R",
+   "eoSid": "RT TO 'CVE' 116.2 (129 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36L",
+   "eoSid": "RT TO 'BOSSI' [17.5 DME R 357 'TTT' 113.1] (177 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDFW",
+   "runway": "36R",
+   "eoSid": "RT TO 'BOSSI' [17.5 DME R 357 'TTT' 113.1] (177 INBD,RT)"
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "05L",
+   "eoSid": "LT TO 'DAM' 116.0 (020 INBD,RT)"
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "05R",
+   "eoSid": "RT TO 'DAM' 116.0 (020 INBD,RT)"
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "23L",
+   "eoSid": "AT 'DAM' 116.0 LT TO 'DAL' 342 (045 INBD,RT)"
+ },
+ {
+   "airport_ident": "OSDI",
+   "runway": "23R",
+   "eoSid": "ABM 'DAM' 116.0 RT TO 'DAL' 342 (045 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "16L",
+   "eoSid": "AT 3 DME 'KFA' 112.50 RT TO 'KFA' 112.50 (162 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "16R",
+   "eoSid": "AT 'KFA' 112.50 ENTER HLDG (162 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "34L",
+   "eoSid": "AT 8 DME 'KFA' 112.50 LT TO ITCPT R 315 'KFA' 112.50 . AT 'MUTIP' [22 DME R 315 'KFA' 112.50] ENTER HLDG (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEDF",
+   "runway": "34R",
+   "eoSid": "AT 8 DME 'KFA' 112.50 RT TO ITCPT R 005 'KFA' 112.50 . AT 'RADOB' [22 DME R 005 'KFA' 112.50] ENTER HLDG (185 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVDN",
+   "runway": "17L",
+   "eoSid": "AT 7.5 DME 'DAN' 114.4 LT TO PRCD ON TRACK 100. WHEN PASSING 2000 FT QNH LT TO 'DJ' 212 (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVDN",
+   "runway": "17R",
+   "eoSid": "AT 7.5 DME 'DAN' 114.4 LT TO PRCD ON TRACK 100. WHEN PASSING 2000 FT QNH LT TO 'DJ' 212 (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVDN",
+   "runway": "35L",
+   "eoSid": "AT 5 DME 'DAN' 114.4 RT TO ITCPT AND PRCD ON R 015 'DAN' 114.4 . AT 15 DME 'DAN' 114.4 ENTER HLDG (195 INBD,LT)"
+ },
+ {
+   "airport_ident": "VVDN",
+   "runway": "35R",
+   "eoSid": "AT 5 DME 'DAN' 114.4 RT TO ITCPT AND PRCD ON R 015 'DAN' 114.4 . AT 15 DME 'DAN' 114.4 ENTER HLDG (195 INBD,LT)"
+ },
+ {
+   "airport_ident": "HTDA",
+   "runway": "05",
+   "eoSid": "RT TO 'DV' 112.7 (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "HTDA",
+   "runway": "23",
+   "eoSid": "AT 'DS' 282.5 LT TO 'DV' 112.7 (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "YPDN",
+   "runway": "11",
+   "eoSid": "RT TO 'BGT' 308.0 (310 INBD,RT)"
+ },
+ {
+   "airport_ident": "YPDN",
+   "runway": "29",
+   "eoSid": "RT TO 'HWS' 257.0 (285 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPMD",
+   "runway": "05",
+   "eoSid": "AT 15 DME 'DAO' 112.1 LT TO 'DAO' 112.1 (203 INBD, RT)"
+ },
+ {
+   "airport_ident": "RPMD",
+   "runway": "23",
+   "eoSid": "AT 10 DME 'DAO' 112.1 LT TO 'DAO' 112.1 (203 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "09",
+   "eoSid": "LT TO 'DP' 274 (104 INBD,LT)"
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "10",
+   "eoSid": "RT TO 'DP' 274 (104 INBD,LT)"
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "27",
+   "eoSid": "RT TO 'DH' 202 (091 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIDP",
+   "runway": "28",
+   "eoSid": "RT TO 'PL' 303 (284 INBD,LT)"
+ },
+ {
+   "airport_ident": "WADD",
+   "runway": "09",
+   "eoSid": "AT 12 DME 'BLI' 116.2 RT TO 'OR' 230 (271 INBD,RT)"
+ },
+ {
+   "airport_ident": "WADD",
+   "runway": "27",
+   "eoSid": "LT TO 'OR' 230 (271 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "07",
+   "eoSid": "RT TO 'FQF' 116.3 (040 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "08",
+   "eoSid": "LT TO 'PHLAT' [7 DME R 035 'DVV' 114.7] (035 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "16L",
+   "eoSid": "RT TO 'SHAFT' [12 DME R 306 'FQF' 116.3] (306 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "16R",
+   "eoSid": "RT TO 'SHAFT' [12 DME R 306 'FQF' 116.3] (306 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "25",
+   "eoSid": "LT TO 'GOAVS' [6 DME R 122 'DVV' 114.7] (302 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "26",
+   "eoSid": "RT TO 'PRONG' [14 DME R 311 'DVV' 114.7] (311 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "34L",
+   "eoSid": "LT TO 'SHAFT' [12 DME R 306 'FQF' 116.3] (306 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "34R",
+   "eoSid": "LT TO 'SHAFT' [12 DME R 306 'FQF' 116.3] (306 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "35L",
+   "eoSid": "RT TO 'GOAVS' [6 DME R 122 'DVV' 114.7] (302 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDEN",
+   "runway": "35R",
+   "eoSid": "RT TO 'GOAVS' [6 DME R 122 'DVV' 114.7] (302 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "03L",
+   "eoSid": "AT 9 DME 'DXO' 113.4 RT TO 'DM' 223 (275 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "03R",
+   "eoSid": "AT 9 DME 'DXO' 113.4 RT TO 'DM' 223 (275 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "04R",
+   "eoSid": "AT 8 DME 'DXO' 113.4 LT TO 'SVM' 114.3 (114 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "09L",
+   "eoSid": "AT 'DM' 223 ENTER HLDG (275 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "09R",
+   "eoSid": "AT 8 DME 'DXO' 113.4 RT TO 'CRL' 115.7 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "21L",
+   "eoSid": "LT TO 'DM' 223 (275 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "21R",
+   "eoSid": "LT TO 'DM' 223 (275 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "22L",
+   "eoSid": "RT TO 'SVM' 114.3 (114 INBD,LT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "27L",
+   "eoSid": "LT TO 'CRL' 115.7 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "KDTW",
+   "runway": "27R",
+   "eoSid": "RT TO 'SVM' 114.3 (114 INBD,LT)"
+ },
+ {
+   "airport_ident": "VGZR",
+   "runway": "14",
+   "eoSid": "LT TO 'DCN' 298 (318 INBD,RT)"
+ },
+ {
+   "airport_ident": "VGZR",
+   "runway": "32",
+   "eoSid": "RT TO 'DAC' 112.7 (118 INBD,RT)"
+ },
+ {
+   "airport_ident": "HADR",
+   "runway": "15",
+   "eoSid": "(VMC ONLY). AT 2 DME 'DWA' 117.70 RT ON TRACK 360. AT 10 DME 'DWA' 117.70 RT TO 'DWA' 117.70 (180 INBD,RT)"
+ },
+ {
+   "airport_ident": "HADR",
+   "runway": "33",
+   "eoSid": "AT 7 DME 'DWA' 117.7 RT TO 'DWA' 117.7 (180 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTTJ",
+   "runway": "09",
+   "eoSid": "LT TO 'ZEKRI' [11 DME R 266 'JBA' 112.2] (086 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTTJ",
+   "runway": "27",
+   "eoSid": "RT TO 'NAKIL' [11 DME R 090 'JBA' 112.2] (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "HDAM",
+   "runway": "09",
+   "eoSid": "LT TO 'DJ' 386 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "HDAM",
+   "runway": "27",
+   "eoSid": "AT 3.5 DME 'ABI' 114.6 RT TO 'DJ' 386 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "16",
+   "eoSid": "LT TO 'DOH' 112.4 (357 INBD,RT)"
+ },
+ {
+   "airport_ident": "OTBD",
+   "runway": "34",
+   "eoSid": "AT 4 DME 'DOH' 112.4 RT ON HDG 010. WHEN REACHING ACCELERATION ALTITUDE RT TO 'DOH' 112.4 (135 INBD,LT)"
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12L",
+   "eoSid": "AT 'OSTIN' [13.5 DME R 120 'DXB' 108.4] ENTER HLDG (300 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "12R",
+   "eoSid": "AT 'OSTIN' [13.5 DME R 120 'DXB' 108.4] ENTER HLDG (300 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30L",
+   "eoSid": "AT 'PINGO' [16.5 DME R 300 'DXB' 108.4] ENTER HLDG (120 INBD,LT)"
+ },
+ {
+   "airport_ident": "OMDB",
+   "runway": "30R",
+   "eoSid": "AT 'PINGO' [16.5 DME R 300 'DXB' 108.4] ENTER HLDG (120 INBD,LT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "10",
+   "eoSid": "LT TO 'ROKNA' [18 DME R 065 'DUB' 114.9] (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "11",
+   "eoSid": "LT TO 'ROKNA' [18 DME R 065 'DUB' 114.9] (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "16",
+   "eoSid": "LT TO 'ROKNA' [18 DME R 064 'DUB' 114.9] (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "28",
+   "eoSid": "AT 'OE' 316.0 RT TO 'ROKNA' [18 DME R 064 'DUB' 114.9] (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "29",
+   "eoSid": "RT TO 'ROKNA' [18 DME R 065 'DUB' 114.9] (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "EIDW",
+   "runway": "34",
+   "eoSid": "AT 'DUB' 114.90 RT TO 'TULSO' [23 DME R 110 'BAL' 115.80] (290 INBD,RT)"
+ },
+ {
+   "airport_ident": "FADN",
+   "runway": "06",
+   "eoSid": "RT TO 'DNV' 112.5 (063 INBD,RT)"
+ },
+ {
+   "airport_ident": "FADN",
+   "runway": "24",
+   "eoSid": "LT TO 'DNV' 112.5 (234 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGPH",
+   "runway": "06",
+   "eoSid": "AT 12 DME 'IVG' 108.9 RT TO 'EDN' 341.00 (230 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGPH",
+   "runway": "24",
+   "eoSid": "AT 1.5 DME 'ITH' 108.9 RT TO 'EDN' 341 TO ITCPT AND PRCD ON QDR 065 'EDN' 341. AT 12 DME 'ITH' 108.9 RT TO 'EDN' 341 (230 INBD,RT)"
+ },
+ {
+   "airport_ident": "HEAR",
+   "runway": "16",
+   "eoSid": "LT TO 'ARH' 113.6 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "HEAR",
+   "runway": "34",
+   "eoSid": "LT TO 'ARH' 113.6 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "HKEL",
+   "runway": "08",
+   "eoSid": "RT TO 'ELI' 373 (256 INBD,LT)"
+ },
+ {
+   "airport_ident": "HKEL",
+   "runway": "26",
+   "eoSid": "LT TO 'ELI' 373 (256 INBD,LT)"
+ },
+ {
+   "airport_ident": "HUEN",
+   "runway": "17",
+   "eoSid": "RT TO 'NN' 117.5 (352 INBD,LT)"
+ },
+ {
+   "airport_ident": "HUEN",
+   "runway": "35",
+   "eoSid": "AT 5 DME 'NN' 117.5 LT TO 'NN' 117.5 (352 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIFM",
+   "runway": "08L",
+   "eoSid": "AT 8 DME 'ISN' 113.2 RT TO 'ISN' 113.2 (093 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIFM",
+   "runway": "08R",
+   "eoSid": "AT 8 DME 'ISN' 113.2 RT TO 'ISN' 113.2 (093 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIFM",
+   "runway": "26L",
+   "eoSid": "AT 8 DME 'ISN' 113.2 RT TO 'ISN' 113.2 (093 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIFM",
+   "runway": "26R",
+   "eoSid": "AT 8 DME 'ISN' 113.2 RT TO 'ISN' 113.2 (093 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGLF",
+   "runway": "06",
+   "eoSid": "AT 1.5 DME 'IFRG' 111.55 LT TO 'BLK' 328.0 (160 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGLF",
+   "runway": "24",
+   "eoSid": "AT 4 DME 'IFNB' 111.55 RT TO 'BLK' 328.0 (160 INBD,RT)"
+ },
+ {
+   "airport_ident": "LPFR",
+   "runway": "10",
+   "eoSid": "RT TO 'VFA' 112.8 (284 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPFR",
+   "runway": "28",
+   "eoSid": "LT TO 'VFA' 112.8 (104 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMFF",
+   "runway": "09",
+   "eoSid": "LT TO 'FES' 115.7 (097 INBD, LT)"
+ },
+ {
+   "airport_ident": "GMFF",
+   "runway": "27",
+   "eoSid": "LT TO 'FES' 115.7 (097 INBD, LT)"
+ },
+ {
+   "airport_ident": "EDFH",
+   "runway": "03",
+   "eoSid": "EOSID: AT 5 DME 'HND' 116.95 LT TO 'HAN' 376 (213 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDFH",
+   "runway": "21",
+   "eoSid": "AT 5 DME 'HND' 116.95 RT TO 'HAN' 376 (213 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDNY",
+   "runway": "06",
+   "eoSid": "AT 2 DME 'FHD' 112.60 LT ON HDG 241. AT 5 DME 'FHD' 112.60 LT TO 'FHA' 473 (120 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDNY",
+   "runway": "24",
+   "eoSid": "LT TO 'FHA' 473 (120 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMFJ",
+   "runway": "11",
+   "eoSid": "AT 'PUTUN' ENTER HLDG (291 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMFJ",
+   "runway": "29",
+   "eoSid": "AT RWY END LT TO 'PUTUN' (291 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJFF",
+   "runway": "16",
+   "eoSid": "AT 22 DME 'DGC' 114.5 LT ON TRACK 300 TO ITCPT AND PRCD ON R 157 INBD 'DGC' 114.5. AT 'DGC' 114.5 ENTER HLDG (157 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJFF",
+   "runway": "34",
+   "eoSid": "AT 'DGC' 114.5 ENTER HLDG (157 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSFZ",
+   "runway": "03",
+   "eoSid": "RT TO 'FOC' 116.8 (015 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSFZ",
+   "runway": "21",
+   "eoSid": "AT 6 DME 'FOC' 116.8 LT TO 'FOC' 116.8 (015 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYQX",
+   "runway": "03",
+   "eoSid": "LT TO 'QX' 280 (215 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYQX",
+   "runway": "13",
+   "eoSid": "LT TO 'QX' 280 (131 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYQX",
+   "runway": "21",
+   "eoSid": "RT TO 'QX' 280 (035 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYQX",
+   "runway": "31",
+   "eoSid": "AT 'QX' 280 ENTER HLDG (131 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEGS",
+   "runway": "15",
+   "eoSid": "RT TO 'GAS' 117.1 (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEGS",
+   "runway": "33",
+   "eoSid": "RT TO 'GAS' 117.1 (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "05",
+   "eoSid": "AT 'SPR' 113.9 ENTER HLDG (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "LSGG",
+   "runway": "23",
+   "eoSid": "AT 6 DME 'GVA' 115.75 LT TO 'SPR' 113.9 (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "DAUG",
+   "runway": "12",
+   "eoSid": "LT TO 'GHA' 114.9 (123 INBD,RT)"
+ },
+ {
+   "airport_ident": "DAUG",
+   "runway": "30",
+   "eoSid": "LT TO 'GHA' 114.9 (123 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGPF",
+   "runway": "05",
+   "eoSid": "AT 5 DME 'GOW' 115.4 RT TO 'GOW' 115.4 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGPF",
+   "runway": "23",
+   "eoSid": "AT 2.5 DME 'GOW' 115.4 RT TO 'GOW' 115.4 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "VAGO",
+   "runway": "08",
+   "eoSid": "AT 5 DME 'GGO' 113.6 LT TO 'GGO' 113.6 (081 INBD,RT)"
+ },
+ {
+   "airport_ident": "VAGO",
+   "runway": "26",
+   "eoSid": "LT TO 'GO' 274 (081 INBD,RT)"
+ },
+ {
+   "airport_ident": "LOWG",
+   "runway": "17C",
+   "eoSid": "AT 6 DME 'GRZ' 116.2 LT TO 'GBG' 426 (197 INBD,LT)"
+ },
+ {
+   "airport_ident": "LOWG",
+   "runway": "35C",
+   "eoSid": "AT 4 DME 'GRZ' 116.2 RT TO 'GBG' 426 (197 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZGGG",
+   "runway": "02L",
+   "eoSid": "AT 3.5 DME 'IOO' 109.3 LT TO 'POU' 114.10 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZGGG",
+   "runway": "02R",
+   "eoSid": "AT 3 DME 'IBB' 110.9 LT TO 'POU' 114.10 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZGGG",
+   "runway": "20L",
+   "eoSid": "AT 'POU' 114.10 ENTER HLDG (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZGGG",
+   "runway": "20R",
+   "eoSid": "AT 'POU' 114.10 ENTER HLDG (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "MGGT",
+   "runway": "01",
+   "eoSid": "AT 1 DME 'AUR' 114.5 LT TO ITCPT AND PRCD ON R 350 'AUR' 114.5. AT 'RAYMO' [10 DME R 350 'AUR' 114.5] ENTER HLDG (170 INBD,LT)"
+ },
+ {
+   "airport_ident": "MGGT",
+   "runway": "19",
+   "eoSid": "AT 3 DME 'AUR' 114.5 LT TO ITCPT AND PRCD ON R 160 'AUR' 114.5. AT 14 DME 'AUR' 114.5 ENTER HLDG (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "RKJJ",
+   "runway": "04L",
+   "eoSid": "AT 9 DME 'KWA' 114.4 RT TO 'KWA' 114.4 TO PRCD ON R 217. AT 13 DME 'KWA' 114.4 ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKJJ",
+   "runway": "04R",
+   "eoSid": "AT 9 DME 'KWA' 114.4 RT TO 'KWA' 114.4 TO PRCD ON R 217. AT 13 DME 'KWA' 114.4 ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKJJ",
+   "runway": "22L",
+   "eoSid": "AT 13 DME 'KWA' 114.4 ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKJJ",
+   "runway": "22R",
+   "eoSid": "AT 13 DME 'KWA' 114.40 ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEHL",
+   "runway": "18",
+   "eoSid": "AT 6 DME 'HIL' 113.5 LT TO 'HIL' 113.5 (205 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEHL",
+   "runway": "36",
+   "eoSid": "AT 6 DME 'HIL' 113.50 RT TO 'HIL' 113.50 (205 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJCH",
+   "runway": "12",
+   "eoSid": "AT 3 DME 'HWE' 112.3 RT ON TRACK 210. WHEN PASSING 1900FT QNH RT TO 'HWE' 112.3 (340 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJCH",
+   "runway": "30",
+   "eoSid": "AT 5 DME 'HWE' 112.3 LT ON TRACK 210. WHEN PASSING 1900FT QNH LT TO 'HWE' 112.3 (340 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYHZ",
+   "runway": "05",
+   "eoSid": "RT TO 'ZHZ' 364 (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYHZ",
+   "runway": "14",
+   "eoSid": "LT TO 'YHZ' 115.1 (330 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYHZ",
+   "runway": "23",
+   "eoSid": "RT TO 'ZNS' 385 (235 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYHZ",
+   "runway": "32",
+   "eoSid": "RT TO 'YHZ' 115.1 (150 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "05",
+   "eoSid": "LT TO 'LBE' 115.1 (054 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "15",
+   "eoSid": "AT 3.5 DME 'ALF' 115.8 LT TO 'HAM' 113.1 (009 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSHC",
+   "runway": "07",
+   "eoSid": "AT 10 DME 'DSH' 117.3 RT TO 'DSH' 117.3 (247 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSHC",
+   "runway": "25",
+   "eoSid": "AT 12 DME 'DSH' 117.3 RT ON TRACK 067. WHEN PASSING R 320 'DSH' 117.3 RT TO 'DSH' 117.3 (247 INBD,LT)"
+ },
+ {
+   "airport_ident": "VVNB",
+   "runway": "11L",
+   "eoSid": "LT TO 'KW' 320 (108 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVNB",
+   "runway": "11R",
+   "eoSid": "RT TO 'KW' 320 (108 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVNB",
+   "runway": "29L",
+   "eoSid": "LT TO 'NOB' 116.1 (288 INBD,LT)"
+ },
+ {
+   "airport_ident": "VVNB",
+   "runway": "29R",
+   "eoSid": "LT TO 'NOB' 116.1 (288 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09L",
+   "eoSid": "LT TO 'NIE' 116.5 (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "09R",
+   "eoSid": "LT TO 'NIE' 116.5 (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "27L",
+   "eoSid": "LT TO 'DLE' 115.2 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDV",
+   "runway": "27R",
+   "eoSid": "RT TO 'CEL' 311 (259 INBD,RT)"
+ },
+ {
+   "airport_ident": "FVHA",
+   "runway": "05",
+   "eoSid": "RT TO 'OL' 346 (052 INBD,RT)"
+ },
+ {
+   "airport_ident": "FVHA",
+   "runway": "23",
+   "eoSid": "LT TO 'VSB' 113.1 (232 INBD,LT)"
+ },
+ {
+   "airport_ident": "MUHA",
+   "runway": "06",
+   "eoSid": "AT 15 DME 'UHA' 116.1 ENTER HLDG (240 INBD,RT)"
+ },
+ {
+   "airport_ident": "MUHA",
+   "runway": "24",
+   "eoSid": "AT 15 DME 'UHA' 116.1 ENTER HLDG (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04L",
+   "eoSid": "LT TO 'VEPES' [10 DME R 085 'VTI' 117.0] (264 INBD,RT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "04R",
+   "eoSid": "AT 11 DME 'HEL' 114.2 RT TO 'PVO' 112.8 (220 INBD,LT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "15",
+   "eoSid": "LT TO 'PVO' 112.8 (220 INBD,LT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22L",
+   "eoSid": "AT 'ESP' 381 LT TO 'PVO' 112.8 (220 INBD,LT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "22R",
+   "eoSid": "ABM 'ESP' 381 RT TO 'PESIS' [25 DME R 200 'ANT' 113.7] (019 INBD,LT)"
+ },
+ {
+   "airport_ident": "EFHK",
+   "runway": "33",
+   "eoSid": "LT TO 'VEPES' [10 DME R 085 'VTI' 117.0] (264 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVTS",
+   "runway": "07L",
+   "eoSid": "AT 9 DME 'TSN' 116.7 RT TO 'TSN' 116.7 (265 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVTS",
+   "runway": "07R",
+   "eoSid": "AT 9 DME 'TSN' 116.7 RT TO 'TSN' 116.7 (265 INBD,RT)"
+ },
+ {
+   "airport_ident": "VVTS",
+   "runway": "25L",
+   "eoSid": "RT TO 'TSN' 116.7 (048 INBD,LT)"
+ },
+ {
+   "airport_ident": "VVTS",
+   "runway": "25R",
+   "eoSid": "RT TO 'TSN' 116.7 (048 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZBHH",
+   "runway": "08",
+   "eoSid": "AT 'KJ' 434.00 RT TO 'FX' 372.0 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBHH",
+   "runway": "26",
+   "eoSid": "AT 'FX' 372.0 LT TO 'KJ' 434.00 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25L",
+   "eoSid": "AT 'PRAWN' [7 DME 'IFL' 108.9] LT TO 'RUMSY' [15 DME R 239 'CH' 112.30] (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "VHHH",
+   "runway": "25R",
+   "eoSid": "AT 7.2 DME 'ITFR' 110.9 LT TO 'RUMSY' [15 DME R 239 'CH' 112.30] (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "08R",
+   "eoSid": "ENTER HLDG AT 'BVP' 326 (265 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "09",
+   "eoSid": "AT 5 DME 'IAH' 116.6 RT TO ITCPT R 085 'IAH' 116.6 TO 'COSBI' [21.8 DME 'IAH' 116.6] (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "15L",
+   "eoSid": "AT 4 DME 'IAH' 116.6 LT TO ITCPT R 085 'IAH' 116.6 TO 'COSBI' [21.8 DME 'IAH' 116.6] (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "15R",
+   "eoSid": "AT 4 DME 'IAH' 116.6 LT TO ITCPT R 085 'IAH' 116.6 TO 'COSBI' [21.8 DME 'IAH' 116.6] (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "26L",
+   "eoSid": "AT 10 DME 'IAH' 116.6 LT TO ITCPT R 254 'IAH' 116.6 TO 'SEALY' [31.8 DME 'IAH' 116.6] (104 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "27",
+   "eoSid": "AT 10 DME 'IAH' 116.6 LT TO ITCPT R 254 'IAH' 116.6 TO 'SEALY' [31.8 DME 'IAH' 116.6] (104 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "33L",
+   "eoSid": "AT 4 DME 'IAH' 116.6 RT TO ITCPT R 330 'IAH' 116.6 TO 'GOMER' [24.9 DME 'IAH' 116.6] (256 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAH",
+   "runway": "33R",
+   "eoSid": "AT 4 DME 'IAH' 116.6 RT TO ITCPT R 330 'IAH' 116.6 TO 'GOMER' [24.9 DME 'IAH' 116.6] (256 INBD,RT)"
+ },
+ {
+   "airport_ident": "HEGN",
+   "runway": "16",
+   "eoSid": "LT TO 'HGD' 116.5 (155 INBD,LT)"
+ },
+ {
+   "airport_ident": "HEGN",
+   "runway": "34",
+   "eoSid": "RT TO 'HGD' 116.5 (155 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOHY",
+   "runway": "09",
+   "eoSid": "AT 'HY' 256.0 ENTER HLDG (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOHY",
+   "runway": "27",
+   "eoSid": "LT TO 'HHY' 114.7 (086 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEIB",
+   "runway": "06",
+   "eoSid": "AT 20 DME R 063 'IBA' 117.8 ENTER HLDG (063 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEIB",
+   "runway": "24",
+   "eoSid": "AT 15 DME R 243 'IBA' 117.8 ENTER HLDG (243 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIND",
+   "runway": "05L",
+   "eoSid": "AT R 100 'VHP' 116.3 LT TO 'VHP' 116.3 (131 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIND",
+   "runway": "05R",
+   "eoSid": "AT R 090 'VHP' 116.3 RT TO 'CO' 232 (317 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIND",
+   "runway": "23L",
+   "eoSid": "LT TO 'CO' 232 (317 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIND",
+   "runway": "23R",
+   "eoSid": "RT TO 'VHP' 116.3 (131 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGIR",
+   "runway": "09",
+   "eoSid": "AT 1 DME 'IRA' 108.80 LT TO 'GONSO' [12 DME R 054 'IRA' 108.80] (234 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGIR",
+   "runway": "27",
+   "eoSid": "AT 3 DME 'IRA' 108.80 RT ON TRACK 360. AT 10 DME 'IRA' 108.80 RT TO 'GONSO' [12 DME R 054 'IRA' 108.80] (234 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPRN",
+   "runway": "12",
+   "eoSid": "ABM 'RN' 112.1 RT TO ITCPT AND PRCD ON R 180 'RN' 112.1 . AT 10 DME 'RN' 112.1 RT TO 'RN' 112.1 (120 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPRN",
+   "runway": "30",
+   "eoSid": "AT 8 DME 'RN' 112.1 LT TO 'RN' 112.1 (120 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "06",
+   "eoSid": "AT 5 DME 'IST' 112.50 RT TO 'ERMAN' [10 DME R 175 'IST' 112.50] (355 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "18L",
+   "eoSid": "RT TO 'CEK' 328 (085 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "18R",
+   "eoSid": "RT TO 'CEK' 328 (085 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "24",
+   "eoSid": "RT TO 'CEK' 328 (085 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "36L",
+   "eoSid": "AT 'IS' 396 LT TO 'ERMAN' [10 DME R 175 'IST' 112.5] (355 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTBA",
+   "runway": "36R",
+   "eoSid": "AT 'IS' 396 LT TO 'ERMAN' [10 DME R 175 'IST' 112.5] (355 INBD,LT)"
+ },
+ {
+   "airport_ident": "LTFJ",
+   "runway": "06",
+   "eoSid": "AT 1 DME 'SBH' 108.8 LT ON TRACK 355. AT 14 DME 'SBH' 108.8 RT TO 'SBH' 108.8 TO ITCPT AND PRCD ON R 242 'SBH' 108.8 . AT 15 DME 'SBH' 108.8 ENTER HLDG (062 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTFJ",
+   "runway": "24",
+   "eoSid": "AT 15 DME R 242 'SBH' 108.8 ENTER HLDG (062 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBJ",
+   "runway": "16L",
+   "eoSid": "AT 5 DME 'MEN' 117.9 LT TO 'MEN' 117.9 TO PRCD ON R 332 'MEN' 117.9 TO 'CIG' 363 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBJ",
+   "runway": "16R",
+   "eoSid": "AT 5 DME 'MEN' 117.90 LT TO 'MEN' 117.90 TO PRCD ON R 332 'MEN' 117.90 TO 'CIG' 363.0 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBJ",
+   "runway": "34L",
+   "eoSid": "AT 6 DME 'MEN' 117.9 LT TO ITCPT AND PRCD ON R 332 'MEN' 117.9 TO 'CIG' 363 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTBJ",
+   "runway": "34R",
+   "eoSid": "AT 6 DME 'MEN' 117.90 LT TO ITCPT AND PRCD ON R 332 'MEN' 117.90 TO 'CIG' 363.0 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIJP",
+   "runway": "09",
+   "eoSid": "RT TO 'JJP' 112.9 (066 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIJP",
+   "runway": "27",
+   "eoSid": "LT TO 'JJP' 112.90 (066 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIHH",
+   "runway": "06",
+   "eoSid": "RT TO 'HLM' 113.3 (070 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIHH",
+   "runway": "24",
+   "eoSid": "LT TO 'AL' 215 (241 INBD,LT)"
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "07L",
+   "eoSid": "LT TO 'GL' 324.0 (068 INBD,LT)"
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "07R",
+   "eoSid": "RT TO 'GR' 282.0 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "25L",
+   "eoSid": "LT TO 'CL' 258.0 (248 INBD,LT)"
+ },
+ {
+   "airport_ident": "WIII",
+   "runway": "25R",
+   "eoSid": "RT TO 'CR' 242.0 (248 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEGN",
+   "runway": "15",
+   "eoSid": "RT TO 'GIZ' 117.7 (147 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEGN",
+   "runway": "33",
+   "eoSid": "LT TO 'GIZ' 117.7 (147 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "16C",
+   "eoSid": "AT 5 DME 'JDW' 114.9 LT TO ITCPT AND PRCD ON R 158 'JDW' 114.9 TO 'TAVNI' [15 DME 'JDW' 114.9] (338 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "16L",
+   "eoSid": "AT 5 DME 'JDW' 114.9 RT TO ITCPT AND PRCD ON R 158 'JDW' 114.9 TO 'TAVNI' [15 DME 'JDW' 114.9] (338 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "16R",
+   "eoSid": "AT 5 DME 'JDW' 114.9 LT TO ITCPT AND PRCD ON R 158 'JDW' 114.9 TO 'TAVNI' [15 DME 'JDW' 114.9] (338 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "34C",
+   "eoSid": "AT 'SENAN' [12 DME R 338 'JDW' 114.9] ENTER HLDG (158 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "34L",
+   "eoSid": "LT TO 'LORAM' [15 DME R 306 'JDW' 114.9] (126 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEJN",
+   "runway": "34R",
+   "eoSid": "AT 5 DME 'JDW' 114.9 LT TO ITCPT AND PRCD ON R 338 'JDW' 114.9 TO 'SENAN' [12 DME 'JDW' 114.9] (158 INBD,RT)"
+ },
+ {
+   "airport_ident": "RKPC",
+   "runway": "06",
+   "eoSid": "AT 'OCEAN' [13 DME R 066 'YDM' 109.0] ENTER HLDG (246 INBD,RT)"
+ },
+ {
+   "airport_ident": "RKPC",
+   "runway": "24",
+   "eoSid": "AT 3 DME 'YDM' 109.0 RT TO 'MIRAE' [12 DME R290 'YDM' 109.0] (110 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSJN",
+   "runway": "01",
+   "eoSid": "RT TO 'YQG' 113.7 (162 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSJN",
+   "runway": "19",
+   "eoSid": "AT 6 DME 'YQG' 113.7 LT TO 'YQG' 113.7 (162 INBD,LT)"
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "03L",
+   "eoSid": "AT 12 DME 'JSV' 115.2 LT TO 'GC' 372.5 (130 INBD,LT)"
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "03R",
+   "eoSid": "RT TO 'MEV' 114.3 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "21L",
+   "eoSid": "LT TO 'HGV' 116.7 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "FAJS",
+   "runway": "21R",
+   "eoSid": "RT TO 'NMT' 385 (215 INBD,RT)"
+ },
+ {
+   "airport_ident": "WMKJ",
+   "runway": "16",
+   "eoSid": "AT 10 DME 'VJR' 112.7 LT TO 'VJR' 112.7 (150 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMKJ",
+   "runway": "34",
+   "eoSid": "LT TO 'VJR' 112.7 (150 INBD,LT)"
+ },
+ {
+   "airport_ident": "OAKB",
+   "runway": "11",
+   "eoSid": "AT 'KBL' 112.0 ENTER HLDG (105 INBD,LT)"
+ },
+ {
+   "airport_ident": "OAKB",
+   "runway": "29",
+   "eoSid": "AT 6.3 DME 'KBL' 112.0 RT ON TRACK 085. ITCPT AND PRCD ON R 335 INBD 'KBL' 112.0 112.0. AT 'KBL' 112.0 ENTER HLDG (105 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJFK",
+   "runway": "16",
+   "eoSid": "AT 8 DME 'KGE' 115.7 RT TO 'KGE' 115.7 (336 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJFK",
+   "runway": "34",
+   "eoSid": "AT 2.3 DME 'KGE' 115.70 RT ON TRACK 005. AT 12 DME 'KGE' 115.70 LT TO 'KGE' 115.70 (336 INBD,LT). DO NOT EXCEED 220KTS GROUND SPEED BEFORE ON COURSE TO 'KGE' 115.70"
+ },
+ {
+   "airport_ident": "BGSF",
+   "runway": "10",
+   "eoSid": "AT 'ISF' 109.55 RT ON TRACK 112. AT 1 DME 'ISF' 109.55 RT TO 'SF' 0382.0 (100 INBD,LT)"
+ },
+ {
+   "airport_ident": "BGSF",
+   "runway": "28",
+   "eoSid": "AT 2 DME 'ISF' 109.55 LT ON TRACK 270. AT 3000 FT QNH (NOT LATER THAN 22 DME 'ISF' 109.55 ) RT TO 'SF' 382.0 (100 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNKN",
+   "runway": "05",
+   "eoSid": "RT TO 'KAN' 112.5 (242 INBD,RT)"
+ },
+ {
+   "airport_ident": "DNKN",
+   "runway": "06",
+   "eoSid": "RT TO 'KAN' 112.5 (242 INBD,RT)"
+ },
+ {
+   "airport_ident": "DNKN",
+   "runway": "23",
+   "eoSid": "RT TO 'KAN' 112.5 (062 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNKN",
+   "runway": "24",
+   "eoSid": "RT TO 'KAN' 112.5 (062 INBD,LT)"
+ },
+ {
+   "airport_ident": "RCKH",
+   "runway": "09",
+   "eoSid": "AT 5 DME 'IKHG' 108.3 RT TO 'KIZIN' [14 DME R 095 'IKHG' 108.3] (094 INBD,RT)"
+ },
+ {
+   "airport_ident": "RCKH",
+   "runway": "27",
+   "eoSid": "AT 'KIZIN' [14 DME R 095 'IKHG' 108.3] ENTER HLDG (094 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPKC",
+   "runway": "07L",
+   "eoSid": "AT 3 DME 'KC' 112.1 RT ON TRACK 180. AT 10 DME 'KC' 112.1 RT TO 'BEGIM' [16 DME R 220 'KC' 112.1] (040 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPKC",
+   "runway": "07R",
+   "eoSid": "AT 3 DME 'KC' 112.1 RT ON TRACK 180. AT 10 DME 'KC' 112.1 RT TO 'BEGIM' [16 DME R 220 'KC' 112.1] (040 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPKC",
+   "runway": "25L",
+   "eoSid": "AT 4 DME 'KC' 112.1 LT TO ITCPT AND PRCD ON R 220 'KC' 112.1 . AT 'BEGIM' [16 DME 'KC' 112.1] ENTER HLDG (040 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPKC",
+   "runway": "25R",
+   "eoSid": "AT 4 DME 'KC' 112.1 LT TO ITCPT AND PRCD ON R 220 'KC' 112.1 . AT 'BEGIM' [16 DME 'KC' 112.1] ENTER HLDG (040 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZWSH",
+   "runway": "08",
+   "eoSid": "RT TO 'KHG' 115.7 (082 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZWSH",
+   "runway": "26",
+   "eoSid": "LT TO 'KHG' 115.7 (262 INBD,LT)"
+ },
+ {
+   "airport_ident": "VCBI",
+   "runway": "04",
+   "eoSid": "LT TO 'KAT' 112.7 (239 INBD,RT)"
+ },
+ {
+   "airport_ident": "VCBI",
+   "runway": "22",
+   "eoSid": "RT TO 'KAT' 112.7 (239 INBD,RT)"
+ },
+ {
+   "airport_ident": "BIKF",
+   "runway": "02",
+   "eoSid": "LT TO 'VAKLO' [12 DME R 286 'KEF' 112.0] (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "BIKF",
+   "runway": "11",
+   "eoSid": "AT 1.5 DME 'KEF' 112.00 LT TO 'OTRON' [12 DME R 019 'KEF' 112.00] (199 INBD,RT)"
+ },
+ {
+   "airport_ident": "BIKF",
+   "runway": "20",
+   "eoSid": "RT TO 'VAKLO' [12 DME R 286 'KEF' 112.0] (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "BIKF",
+   "runway": "29",
+   "eoSid": "RT TO 'OTRON' [12 DME R 019 'KEF' 112.00] (199 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGKR",
+   "runway": "17",
+   "eoSid": "AT 3 DME 'GAR' 108.8 LT TO 'KRK' 114.7 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGKR",
+   "runway": "35",
+   "eoSid": "AT 3 DME 'GAR' 108.8 RT TO 'KRK' 114.7 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIKK",
+   "runway": "05",
+   "eoSid": "AT 7 DME 'KER' 114.2 LT TO 'KER' 114.2 (336 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIKK",
+   "runway": "16",
+   "eoSid": "AT 10 DME 'KER' 114.2 LT TO 'KER' 114.2 (336 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIKK",
+   "runway": "23",
+   "eoSid": "AT 10 DME 'KER' 114.2 LT TO 'KER' 114.2 (336 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIKK",
+   "runway": "34",
+   "eoSid": "AT 20 DME 'KER' 114.2 RT ON TRACK 190 TO ITCPT AND PRCD ON R 336 INBD 'KER' 114.2. AT 'KER' 114.2 ENTER HLDG (336 INBD,RT)"
+ },
+ {
+   "airport_ident": "HSSS",
+   "runway": "18",
+   "eoSid": "RT TO 'KTM' 112.1 (358 INBD,RT)"
+ },
+ {
+   "airport_ident": "HSSS",
+   "runway": "36",
+   "eoSid": "RT TO 'KTM' 112.1 (358 INBD,RT)"
+ },
+ {
+   "airport_ident": "HTKJ",
+   "runway": "09",
+   "eoSid": "RT TO 'KV' 115.3 (267 INBD,RT)"
+ },
+ {
+   "airport_ident": "HTKJ",
+   "runway": "27",
+   "eoSid": "AT 10 DME 'KV' 115.3 LT TO 'KV' 115.3 (267 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "16L",
+   "eoSid": "AT 15 DME 'DHA' 117.2 RT TO 'DHA' 117.2 (163 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "16R",
+   "eoSid": "AT 15 DME 'DHA' 117.2 RT TO 'DHA' 117.2 (163 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "34L",
+   "eoSid": "AT 6 DME 'DHA' 117.2 RT ON TRACK 030. AT 15 DME 'DHA' 117.2 RT TO 'DHA' 117.2 (163 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEDR",
+   "runway": "34R",
+   "eoSid": "AT 15 DME 'DHA' 117.2 RT TO 'DHA' 117.2 (163 INBD,LT)"
+ },
+ {
+   "airport_ident": "VECC",
+   "runway": "01L",
+   "eoSid": "RT TO 'CEA' 112.5 (205 INBD,LT)"
+ },
+ {
+   "airport_ident": "VECC",
+   "runway": "01R",
+   "eoSid": "RT TO 'CEA' 112.5 (205 INBD,LT)"
+ },
+ {
+   "airport_ident": "VECC",
+   "runway": "19L",
+   "eoSid": "LT TO 'CEA' 112.5 (003 INBD,RT)"
+ },
+ {
+   "airport_ident": "VECC",
+   "runway": "19R",
+   "eoSid": "LT TO 'CEA' 112.5 (003 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAN",
+   "runway": "01L",
+   "eoSid": "AT 3.5 DME 'KNY' 111.2 RT TO 'KNY' 111.2 (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAN",
+   "runway": "01R",
+   "eoSid": "AT 3.5 DME 'KNY' 111.2 RT TO 'KNY' 111.2 (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAN",
+   "runway": "19L",
+   "eoSid": "AT 12 DME 'KNY' 111.2 RT TO 'KNY' 111.2 (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "LTAN",
+   "runway": "19R",
+   "eoSid": "AT 12 DME 'KNY' 111.2 RT TO 'KNY' 111.2 (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "WBKK",
+   "runway": "02",
+   "eoSid": "AT 3.5 DME 'VJN' 113.1 LT ON TRACK 010. AT 7.5 DME 'VJN' 113.1 LT ON TRACK 280. AT R 330 'VJN' 113.1 LT TO 'VJN' 113.1 (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "WBKK",
+   "runway": "20",
+   "eoSid": "AT 5 DME 'VJN' 113.10 RT TO 'GAYAN' [15 DME R 022 'VJN' 113.10] (202 INBD,RT)"
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14L",
+   "eoSid": "AT 4 DME 'VKL' 116.10 RT TO 'MANIS' [7.4 DME R 235 'VKL' 116.10] (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "14R",
+   "eoSid": "AT 4 DME 'VKL' 116.10 RT TO 'MANIS' [7.4 DME R 235 'VKL' 116.10] (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32L",
+   "eoSid": "LT TO 'MANIS' [7.4 DME R 235 'VKL' 116.10] (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMKK",
+   "runway": "32R",
+   "eoSid": "LT TO 'MANIS' [7.4 DME R 235 'VKL' 116.10] (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "15L",
+   "eoSid": "AT 5 DME 'KUA' 115.50 LT TO 'KUA' 115.50 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "15R",
+   "eoSid": "RT TO 'KUA' 115.5 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "33L",
+   "eoSid": "AT 4 DME 'KUA' 115.50 LT TO 'KUA' 115.50 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "OKBK",
+   "runway": "33R",
+   "eoSid": "AT 4 DME 'KUA' 115.50 RT TO 'KUA' 115.50 (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18L",
+   "eoSid": "LT TO 'BO' 1290 (178 INBD,LT)"
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "18R",
+   "eoSid": "LT TO 'BO' 1290 (178 INBD,LT)"
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "36L",
+   "eoSid": "LT TO 'BO' 1290 (178 INBD,LT)"
+ },
+ {
+   "airport_ident": "UKBB",
+   "runway": "36R",
+   "eoSid": "LT TO 'BO' 1290 (178 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNMM",
+   "runway": "18L",
+   "eoSid": "LT TO 'LAG' 113.7 (183 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNMM",
+   "runway": "18R",
+   "eoSid": "RT TO 'LAG' 113.7 (183 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNMM",
+   "runway": "36L",
+   "eoSid": "RT TO 'LAG' 113.7 (183 INBD,LT)"
+ },
+ {
+   "airport_ident": "DNMM",
+   "runway": "36R",
+   "eoSid": "RT TO 'LAG' 113.7 (183 INBD,LT)"
+ },
+ {
+   "airport_ident": "OPLA",
+   "runway": "18L",
+   "eoSid": "RT TO 'LA' 112.70 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "OPLA",
+   "runway": "18R",
+   "eoSid": "RT TO 'LA' 112.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "OPLA",
+   "runway": "36L",
+   "eoSid": "LT TO 'LA' 112.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "OPLA",
+   "runway": "36R",
+   "eoSid": "LT TO 'LA' 112.70 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPLA",
+   "runway": "15",
+   "eoSid": "LT TO 'WENDY' [18 DME 'TRM' 116.2 R 335 'LM' 112.3] (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "LPLA",
+   "runway": "33",
+   "eoSid": "RT TO 'CUDLY' [18 DME 'TRM' 116.2 R 151 'LM' 112.3] (331 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZLLL",
+   "runway": "18",
+   "eoSid": "AT 8 DME 'ZGC' 114.3 RT TO 'ZGC' 114.3 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZLLL",
+   "runway": "36",
+   "eoSid": "AT 7 DME 'ZGC' 114.3 RT TO 'ZGC' 114.3 (180 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLI",
+   "runway": "01",
+   "eoSid": "LT TO 'LAO' 112.9 (186 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPLI",
+   "runway": "24",
+   "eoSid": "RT TO 'LAO' 112.9 (010 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPVM",
+   "runway": "04",
+   "eoSid": "RT TO 'MCT' 114.3 (204 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPVM",
+   "runway": "22",
+   "eoSid": "AT 15 DME 'MCT' 114.3 LT TO 'MCT' 114.3 (073 INBD,RT)"
+ },
+ {
+   "airport_ident": "LCLK",
+   "runway": "04",
+   "eoSid": "RT TO 'LCA' 112.8 (202 INBD,LT)"
+ },
+ {
+   "airport_ident": "LCLK",
+   "runway": "22",
+   "eoSid": "LT TO 'LCA' 112.8 (042 INBD,RT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "01L",
+   "eoSid": "AT 11 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "01R",
+   "eoSid": "AT 11 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "07L",
+   "eoSid": "AT 19.5 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "07R",
+   "eoSid": "AT 19.5 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "19L",
+   "eoSid": "AT 3.5 DME 'LAS' 116.9 LT ON HDG 010 TO ITCPT AND PRCD ON R 075 'LAS' 116.9. AT 19.5 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "19R",
+   "eoSid": "AT 3.5 DME 'LAS' 116.90 LT ON HDG 010 TO ITCPT AND PRCD ON R 075 'LAS' 116.90 . AT 19.5 DME 'LAS' 116.90 LT TO 'LAS' 116.90 (230 INBD, LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "25L",
+   "eoSid": "AT 1.5 DME 'LAS' 116.9 LT TO ITCPT AND PRCD ON R 075 'LAS' 116.9. AT 19.5 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAS",
+   "runway": "25R",
+   "eoSid": "AT 1.5 DME 'LAS' 116.9 LT TO ITCPT AND PRCD ON R 075 'LAS' 116.9. AT 19.5 DME 'LAS' 116.9 LT TO 'LAS' 116.9 (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "OSLK",
+   "runway": "17",
+   "eoSid": "AT 4 DME 'LTK' 114.8 RT TO ITCPT AND PRCD ON R 270 'LTK' 114.8 .AT 15 DME 'LTK' 114.8 ENTER HLDG (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "OSLK",
+   "runway": "35",
+   "eoSid": "AT 3 DME 'LTK' 114.80 LT TO ITCPT AND PRCD ON R 270 'LTK' 114.80 .AT 15 DME 'LTK' 114.80 ENTER HLDG (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDP",
+   "runway": "08L",
+   "eoSid": "LT TO 'LUTER' [35 DME R 293 'LEG' 115.85] (198 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDP",
+   "runway": "08R",
+   "eoSid": "RT TO 'SOMKO' [36.3 DME R 243 'LEG' 115.85] (063 INBD,LT)"
+ },
+ {
+   "airport_ident": "EDDP",
+   "runway": "26L",
+   "eoSid": "LT TO 'BEBEX' [33.4 DME R 098 'LEG' 115.85] (278 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDP",
+   "runway": "26R",
+   "eoSid": "AT 2.0 DME 'LND' 113.50 RT TO ITCPT R 063 'GOT' 115.25 . AT 40 DME 'GOT' 115.25 RT TO 'BEBEX' [33.4 DME R 098 'LEG' 115.85] (278 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBLG",
+   "runway": "05L",
+   "eoSid": "AT 'ONL' 290.0 ENTER HLDG (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBLG",
+   "runway": "05R",
+   "eoSid": "AT 'ONL' 290 ENTER HLDG (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBLG",
+   "runway": "23L",
+   "eoSid": "RT TO 'ONL' 290 (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "EBLG",
+   "runway": "23R",
+   "eoSid": "RT TO 'ONL' 290 (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFQQ",
+   "runway": "08",
+   "eoSid": "LT TO 'LEQ' 109.0 (084 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFQQ",
+   "runway": "26",
+   "eoSid": "RT TO 'LL' 332 (260 INBD,RT)"
+ },
+ {
+   "airport_ident": "LOWL",
+   "runway": "09",
+   "eoSid": "AT 'LNZ' 327.0 RT TO 'LNZ' 116.60 (086 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "03",
+   "eoSid": "AT 'LO' 401 RT TO 'CP' 389 (028 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "17",
+   "eoSid": "RT TO 'CP' 389 (028 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "21",
+   "eoSid": "AT 'CP' 389 ENTER HLDG (028 INBD,LT)"
+ },
+ {
+   "airport_ident": "LPPT",
+   "runway": "35",
+   "eoSid": "AT 4.5 DME BEFORE 'LIS' 114.80 RT TO 'CP' 389 (028 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGGP",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'ILVR' 111.75 RT TO 'LPL' 349.5 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGGP",
+   "runway": "27",
+   "eoSid": "RT TO 'LPL' 349.5 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "LJLJ",
+   "runway": "13",
+   "eoSid": "AT 'KAM' 328 ENTER HLDG (126 INBD,RT)"
+ },
+ {
+   "airport_ident": "LJLJ",
+   "runway": "31",
+   "eoSid": "AT MKR WEST [2.2 DME 'LJB' 110.5] RT TO ITCPT AND PRCD ON R 305 'DOL' 112.7. AT 22 DME 'DOL' 112.7 LT TO 'KAM' 328 (126 INBD,RT)"
+ },
+ {
+   "airport_ident": "DXXX",
+   "runway": "04",
+   "eoSid": "RT TO 'IPELI' [13 DME R 223 'LM' 115.30] (043 INBD,RT)"
+ },
+ {
+   "airport_ident": "DXXX",
+   "runway": "22",
+   "eoSid": "AT 3 DME 'LM' 115.30 LT TO 'LIGOL' [11 DME R 043 'LM' 115.30] (223 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "08L",
+   "eoSid": "RT TO 'MAY' 117.9 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "08R",
+   "eoSid": "RT TO 'MAY' 117.9 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "26L",
+   "eoSid": "LT TO 'MAY' 117.9 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGKK",
+   "runway": "26R",
+   "eoSid": "LT TO 'MAY' 117.9 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGGW",
+   "runway": "08",
+   "eoSid": "AT 'LUT' 345 ENTER HLDG (257 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGGW",
+   "runway": "26",
+   "eoSid": "LT TO 'LUT' 345 (257 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGSS",
+   "runway": "05",
+   "eoSid": "LT TO 'BKY' 116.25 (197 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGSS",
+   "runway": "23",
+   "eoSid": "RT TO 'BKY' 116.25 (070 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "06L",
+   "eoSid": "RT TO 'SLI' 115.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "06R",
+   "eoSid": "RT TO 'SLI' 115.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "07L",
+   "eoSid": "RT TO 'SLI' 115.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "07R",
+   "eoSid": "RT TO 'SLI' 115.7 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "24L",
+   "eoSid": "RT TO 'RAFFS' [15 DME R 260 'LAX' 113.6] (260 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "24R",
+   "eoSid": "RT TO 'RAFFS' [15 DME R 260 'LAX' 113.6] (260 INBD,LT)"
+ },
+ {
+   "airport_ident": "KLAX",
+   "runway": "25L",
+   "eoSid": "AT 'MERMA' [14 DME R 246 'LAX' 113.60] ENTER HLDG (246 INBD,LT)"
+ },
+ {
+   "airport_ident": "VILK",
+   "runway": "09",
+   "eoSid": "RT TO 'LLK' 113.10 (289 INBD,LT)"
+ },
+ {
+   "airport_ident": "VILK",
+   "runway": "27",
+   "eoSid": "RT TO 'LLK' 113.10 (116 INBD,RT)"
+ },
+ {
+   "airport_ident": "ELLX",
+   "runway": "06",
+   "eoSid": "AT 7 DME 'LUX' 112.25 LT TO 'DIK' 114.40 (123 INBD,RT)"
+ },
+ {
+   "airport_ident": "ELLX",
+   "runway": "24",
+   "eoSid": "RT TO 'DIK' 114.4 (123 INBD,RT)"
+ },
+ {
+   "airport_ident": "HELX",
+   "runway": "02",
+   "eoSid": "RT TO 'LXR' 114.4 (232 INBD,LT)"
+ },
+ {
+   "airport_ident": "HELX",
+   "runway": "20",
+   "eoSid": "AT 8 DME 'LXR' 114.4 RT TO 'LXR' 114.4 (008 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18L",
+   "eoSid": "AT 3.7 DME 'LSE' 114.75 RT TO 'VNE' 108.20 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "18R",
+   "eoSid": "AT 3.7 DME 'LSE' 114.75 RT TO 'VNE' 108.2 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "36L",
+   "eoSid": "AT 3.7 DME 'LSE' 114.75 LT TO 'VNE' 108.2 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFLL",
+   "runway": "36R",
+   "eoSid": "AT 3.7 DME 'LSE' 114.75 LT TO 'VNE' 108.20 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "VMMC",
+   "runway": "16",
+   "eoSid": "AT 'MCU' 116.4 RT ON R 170 'MCU' 116.4. AT 7.4 DME 'MCU' 116.4 ENTER HLDG (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "VMMC",
+   "runway": "34",
+   "eoSid": "AT 3 DME 'MCU' 116.4 RT TO TRACK 190 TO ITCPT AND PRCD ON R 170 'MCU' 116.4. AT 7.4 DME 'MCU' 116.4 ENTER HLDG (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEMA",
+   "runway": "17",
+   "eoSid": "AT 5 DME 'PMA' 114.1 LT TO 'PMA' TO ITCPT AND PRCD ON R 347 'PMA'. AT 3 DME 'PMA' RT ON TRACK 120 TO ITCPT AND PRDC ON R 070 'PMA'. AT 13 DME R 070 'PMA' ENTER HLDG (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEMA",
+   "runway": "18",
+   "eoSid": "AT 5 DME 'PMA' 114.1 LT TO 'PMA' TO ITCPT AND PRCD ON R 347 'PMA'. AT 3 DME 'PMA' RT ON TRACK 120 TO ITCPT AND PRCD ON R 070 'PMA'. AT 13 DME R 070 'PMA' ENTER HLDG (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEMA",
+   "runway": "35",
+   "eoSid": "AT 3 DME 'PMA' 114.1 RT ON TRACK 120 TO ITCPT AND PRCD ON R 070 'PMA' 114.1. AT 13 DME R 070 'PMA' 114.1 ENTER HLDG (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEMA",
+   "runway": "36",
+   "eoSid": "AT 3 DME 'PMA' 114.1 RT ON TRACK 120 TO ITCPT AND PRCD ON R 070 'PMA' 114.1. AT 13 DME R 070 'PMA' 114.1 ENTER HLDG (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15L",
+   "eoSid": "AT 11 DME BEFORE 'PDT' 116.95 RT TO 'GE' 421 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "15R",
+   "eoSid": "AT 11 DME BEFORE 'PDT' 116.95 RT TO 'GE' 421 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "18L",
+   "eoSid": "FOLLOW PUBLISHED MISSED APPROACH. ACCELARATION ALTITUDE = 3500 FT"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "18R",
+   "eoSid": "FOLLOW PUBLISHED MISSED APPROACH. ACCELERATION ALTITUDE = 3500 FT"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "33L",
+   "eoSid": "AT 5 DME BEFORE 'CNR' 117.3 LT TO 'GE' 421 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "33R",
+   "eoSid": "FOLLOW PUBLISHED MISSED APPROACH. ACCELERATION ALTITUDE = 3500 FT"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36L",
+   "eoSid": "AT 8 DME 'BRA' 116.45 LT TO 'GE' 421 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMD",
+   "runway": "36R",
+   "eoSid": "AT 8 DME 'BRA' 116.45 LT TO 'GE' 421 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "SVMI",
+   "runway": "09",
+   "eoSid": "LT TO 'DARPA' [17 DME R 024 'MIQ' 114.8] (204 INBD,RT)"
+ },
+ {
+   "airport_ident": "SVMI",
+   "runway": "10",
+   "eoSid": "AT 2.5 DME 'MIQ' 114.8 LT TO 'DARPA' [17 DME R 024 'MIQ' 114.8] (204 INBD,RT)"
+ },
+ {
+   "airport_ident": "SVMI",
+   "runway": "28",
+   "eoSid": "RT TO 'REKON' [17 DME R 353 'MIQ' 114.8] (173 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "13",
+   "eoSid": "AT 'UBEDO' [23 DME R 161 'MGA' 112.00] ENTER HLDG (342 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEMG",
+   "runway": "31",
+   "eoSid": "AT 2.8 DME 'MLG' 113.55 RT TO 'RMA' 330.0 PRCD ON TRACK 180. AT 20 DME 'MGA' 112.00 LT TO 'UBEDO' [23 DME R 161 'MGA' 112.00] (342 INBD,RT)"
+ },
+ {
+   "airport_ident": "VRMM",
+   "runway": "18",
+   "eoSid": "LT TO 'MLE' 114.7 (164 INBD,LT)"
+ },
+ {
+   "airport_ident": "VRMM",
+   "runway": "36",
+   "eoSid": "LT TO 'MLE' 114.7 (164 INBD,LT)"
+ },
+ {
+   "airport_ident": "LUQA",
+   "runway": "06",
+   "eoSid": "RT TO 'MLT' 395 (315 INBD,RT)"
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "14",
+   "eoSid": "LT TO 'MLT' 395 (315 INBD,RT)"
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "24",
+   "eoSid": "LT TO 'MLT' 395.0 (315 INBD,RT)"
+ },
+ {
+   "airport_ident": "LMML",
+   "runway": "32",
+   "eoSid": "RT TO 'MLT' 395 (315 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "05L",
+   "eoSid": "AT 3 DME 'MCT' 113.55 LT TO 'MCT' 113.55 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "05R",
+   "eoSid": "AT 3 DME 'MCT' 113.55 LT TO 'MCT' 113.55 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "23L",
+   "eoSid": "RT TO 'MCT' 113.55 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGCC",
+   "runway": "23R",
+   "eoSid": "RT TO 'MCT' 113.55 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "VYMD",
+   "runway": "17",
+   "eoSid": "RT TO 'MIA' 116.3 (351 INBD,RT)"
+ },
+ {
+   "airport_ident": "VYMD",
+   "runway": "35",
+   "eoSid": "LT TO 'MIA' 116.3 (171 INBD, RT)"
+ },
+ {
+   "airport_ident": "RPLL",
+   "runway": "06",
+   "eoSid": "AT 5 DME 'MIA' 113.8 RT TO 'MIA' 113.8 (243 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLL",
+   "runway": "24",
+   "eoSid": "RT TO 'MIA' 113.8 (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "FQMA",
+   "runway": "05",
+   "eoSid": "RT TO 'VMA' 112.7 (225 INBD,RT)"
+ },
+ {
+   "airport_ident": "FQMA",
+   "runway": "23",
+   "eoSid": "LT TO 'VMA' 112.7 (225 INBD,RT)"
+ },
+ {
+   "airport_ident": "SVMG",
+   "runway": "09",
+   "eoSid": "RT TO 'MT' 218 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "SVMG",
+   "runway": "27",
+   "eoSid": "AT 10 DME 'MTA' 114.1 LT TO 'MT' 218 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMMX",
+   "runway": "10",
+   "eoSid": "LT TO 'MAK' 113.30 (102 INBD,LT)"
+ },
+ {
+   "airport_ident": "GMMX",
+   "runway": "28",
+   "eoSid": "RT TO 'MAK' 113.30 (102 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "13L",
+   "eoSid": "AT 'MS' 343.0 RT TO 'CALAN' [20 DME R 148 'MTG' 117.3] (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "13R",
+   "eoSid": "AT 'MS' 343 RT TO 'CALAN' [20 DME R 148 'MTG' 117.3] (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "31L",
+   "eoSid": "AT 3.5 DME 'MPV' 111.15 LT TO 'MTG' 117.3 TO ITCPT AND PRCD ON R 148 'MTG' 117.3 . AT 'CALAN' [20 DME R 148 'MTG' 117.3] ENTER HLDG (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFML",
+   "runway": "31R",
+   "eoSid": "AT 3.5 DME 'MPV' 111.15 LT TO 'MTG' 117.3 TO ITCPT AND PRCD ON R 148 'MTG' 117.3 . AT 'CALAN' [20 DME R 148 'MTG' 117.3] ENTER HLDG (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIMM",
+   "runway": "13L",
+   "eoSid": "AT 15 DME 'MSD' 114.0 LT TO 'MSD' 114.0 (331 INBD, RT)"
+ },
+ {
+   "airport_ident": "OIMM",
+   "runway": "13R",
+   "eoSid": "AT 15 DME 'MSD' 114.0 LT TO 'MSD' 114.0 (331 INBD, RT)"
+ },
+ {
+   "airport_ident": "OIMM",
+   "runway": "31L",
+   "eoSid": "AT 15 DME 'MSD' 114.0 RT TO 'MSD' 114.0 (128 INBD, LT)"
+ },
+ {
+   "airport_ident": "OIMM",
+   "runway": "31R",
+   "eoSid": "AT 15 DME 'MSD' 114.0 RT TO 'MSD' 114.0 (128 INBD, LT)"
+ },
+ {
+   "airport_ident": "FIMP",
+   "runway": "14",
+   "eoSid": "AT 15 DME 'PLS' 113.7 ENTER HLDG (135 INBD,RT)"
+ },
+ {
+   "airport_ident": "FIMP",
+   "runway": "32",
+   "eoSid": "AT 'PLS' 113.70 LT TO ITCPT AND PRCD ON R 152 'PLS' 113.70 . AT 13 DME 'PLS' 113.70 ENTER HLDG (152 INBD,RT)"
+ },
+ {
+   "airport_ident": "WIMM",
+   "runway": "05",
+   "eoSid": "RT TO 'ON' 375 (239 INBD,LT)"
+ },
+ {
+   "airport_ident": "WIMM",
+   "runway": "23",
+   "eoSid": "ABM 'MDN' 113.0 RT ON TRACK 050. WHEN PASSING 1500 FT QNH RT TO 'ON' 375 (239 INBD,LT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "08R",
+   "eoSid": "AT 8 DME 'DHP' 113.9 LT ON TRACK 270 TO ITCPT AND PRCD ON R 335 'DHP' 113.9 TO 'BRBRA' [11.5 DME 'DHP' 113.9] (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "09",
+   "eoSid": "AT 12 DME 'DHP' 113.9 RT TO 'LUVLY' [14 DME R 130 'DHP' 113.9] (310 INBD,LT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "12",
+   "eoSid": "RT TO 'LUVLY' [14 DME R 130 'DHP' 113.9] (310 INBD,LT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "26L",
+   "eoSid": "AT 'DHP' 113.9 RT TO ITCPT AND PRCD ON R 335 'DHP' 113.9 TO 'BRBRA' [11.5 DME 'DHP' 113.9] (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "27",
+   "eoSid": "LT TO 'LUVLY' [14 DME R 130 'DHP' 113.9] (310 INBD,LT)"
+ },
+ {
+   "airport_ident": "KMIA",
+   "runway": "30",
+   "eoSid": "AT R 360 'DHP' 113.9 RT TO ITCPT AND PRCD ON R 335 'DHP' 113.9 TO 'BRBRA' [11.5 DME 'DHP' 113.9] (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIML",
+   "runway": "18",
+   "eoSid": "AT 'LIN' 386 ENTER HLDG (356 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIML",
+   "runway": "36",
+   "eoSid": "AT R 270 'TZO' 111.8 RT TO 'TZO' 111.8 (325 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17L",
+   "eoSid": "AT 'NOV' 292 ENTER HLDG (325 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "17R",
+   "eoSid": "AT 'NOV' 292 ENTER HLDG (325 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIMC",
+   "runway": "35R",
+   "eoSid": "AT 5 DME 'MAL' 111.2 LT TO 'NOV' 292 (325 INBD,RT)"
+ },
+ {
+   "airport_ident": "UMMS",
+   "runway": "13",
+   "eoSid": "LT TO 'VX' 635 (313 INBD,RT)"
+ },
+ {
+   "airport_ident": "UMMS",
+   "runway": "31",
+   "eoSid": "RT TO 'GH' 635 (133 INBD,LT)"
+ },
+ {
+   "airport_ident": "HKMO",
+   "runway": "03",
+   "eoSid": "AT 'MOV' 112.3 ENTER HLDG (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "HKMO",
+   "runway": "21",
+   "eoSid": "AT 15 DME 'MOV' 112.3 LT TO 'MOV' 112.3 (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTMB",
+   "runway": "07",
+   "eoSid": "LT TO 'MON' 113.1 (253 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTMB",
+   "runway": "25",
+   "eoSid": "RT TO 'MON' 113.1 (075 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "06L",
+   "eoSid": "LT TO 'YUL' 116.3 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "06R",
+   "eoSid": "AT R 350 'YJN' 115.8 RT TO 'YJN' 115.8 (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "10",
+   "eoSid": "AT R 330 'YJN' 115.8 RT TO 'YJN' 115.8 (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "24L",
+   "eoSid": "LT TO 'YJN' 115.8 (106 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "24R",
+   "eoSid": "AT R 180 'YUL' 116.30 RT TO 'YUL' 116.30 (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYUL",
+   "runway": "28",
+   "eoSid": "AT 'UL' 248 RT TO 'YUL' 116.3 (090 INDB,LT)"
+ },
+ {
+   "airport_ident": "FMCH",
+   "runway": "02",
+   "eoSid": "AT 'HAI' 114.7 LT TO ITCPT AND PRCD ON R 330 'HAI' 114.7. AT 15 DME 'HAI' 114.7 ENTER HLDG (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "FMCH",
+   "runway": "20",
+   "eoSid": "AT 'KARTA' ENTER HLDG (198 INBD,RT)"
+ },
+ {
+   "airport_ident": "OYRN",
+   "runway": "06",
+   "eoSid": "AT 'RIN' 116.0 RT ON TRACK 90. AT 10 DME 'RIN' 116.0 RT TO 'RIN' 116.0 (061 INBD,RT)"
+ },
+ {
+   "airport_ident": "OYRN",
+   "runway": "24",
+   "eoSid": "AT 12 DME 'RIN' 116.0 LT TO 'RIN' 116.0 (061 INBD,RT)"
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "09",
+   "eoSid": "AT 5 DME 'BBB' 116.6 RT ON TRACK 215 TO ITCPT AND PRCD ON R 195 'BBB' 116.6. AT 25 DME 'BBB' 116.6 ENTER HLDG (015 INBD,LT)"
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "14",
+   "eoSid": "AT 1 DME 'BBB' 116.6 LT ON TRACK 110. AT 5 DME 'BBB' 116.6 RT ON TRACK 215 TO ITCPT AND PRCD ON R 195 'BBB' 116.6. AT 25 DME 'BBB' 116.6 ENTER HLDG (015 INBD,LT)"
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "27",
+   "eoSid": "AT 15 DME 'BBB' 116.60 ENTER HLDG (271 INBD,LT)"
+ },
+ {
+   "airport_ident": "VABB",
+   "runway": "32",
+   "eoSid": "AT 15 DME 'BBB' 116.6 ENTER HLDG (315 INBD,RT)"
+ },
+ {
+   "airport_ident": "OOMS",
+   "runway": "08",
+   "eoSid": "AT 4 DME 'MCT' 114.5 LT ON TRACK 060. WHEN PASSING 1900 FT QNH LT TO 'MCT' 114.5 (265 INBD,RT)"
+ },
+ {
+   "airport_ident": "OOMS",
+   "runway": "26",
+   "eoSid": "AT 1 DME PASSING 'MCT' 114.5 RT ON TRACK 060. WHEN PASSING 1900 FT QNH LT TO 'MCT' 114.5 (084 INBD,LT)"
+ },
+ {
+   "airport_ident": "HTMW",
+   "runway": "12",
+   "eoSid": "LT TO 'MZ' 115.7 (120 INBD,LT)"
+ },
+ {
+   "airport_ident": "HTMW",
+   "runway": "30",
+   "eoSid": "RT TO 'MZ' 115.7 (120 INBD,LT)"
+ },
+ {
+   "airport_ident": "FTTJ",
+   "runway": "05",
+   "eoSid": "LT TO 'FL' 115.3 (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "FTTJ",
+   "runway": "23",
+   "eoSid": "RT TO 'FL' 115.3 (055 INBD,LT)"
+ },
+ {
+   "airport_ident": "VANP",
+   "runway": "14",
+   "eoSid": "RT TO 'NNP' 112.7 (342 INBD,RT)"
+ },
+ {
+   "airport_ident": "VANP",
+   "runway": "32",
+   "eoSid": "LT TO 'NNP' 112.70 (120 INBD,RT)"
+ },
+ {
+   "airport_ident": "HKJK",
+   "runway": "06",
+   "eoSid": "AT 10 DME 'NV' 113.10 RT TO 'TV' 115.50 (287 INBD,LT)"
+ },
+ {
+   "airport_ident": "HKJK",
+   "runway": "24",
+   "eoSid": "AT 10 DME 'NV' 113.10 LT TO 'TV' 115.50 (287 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSNJ",
+   "runway": "06",
+   "eoSid": "AT 7 DME 'NSE' 112.0 RT TO 'ID' 440 (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSNJ",
+   "runway": "24",
+   "eoSid": "AT 14 DME 'NSE' 112.0 ENTER HLDG (090 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFRS",
+   "runway": "21",
+   "eoSid": "AT 'GL' 369 ENTER HLDG (030 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRN",
+   "runway": "06",
+   "eoSid": "AT 'POM' 117.85 LT ON TRACK 270. WHEN PASSING 2300 FT QNH LT TO ITCPT AND PRCD ON R 343 INBD 'SOR' 112.20 TO 'GEMMA' [8 DME 'SOR' 112.20] (163 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRN",
+   "runway": "24",
+   "eoSid": "AT 1.3 DME 'INP' 109.5 (SHORTLY BEHIND RWY) LT ON TRACK 180 TO ITCPT AND PRCD ON INBOUND R 343 'SOR' 112.2 . AT 6 DME BEFORE 'SOR' 112.2 ENTER HLDG (163 INBD,RT)"
+ },
+ {
+   "airport_ident": "MYNN",
+   "runway": "09",
+   "eoSid": "RT TO 'ZQA' 112.7 (290 INBD,LT)"
+ },
+ {
+   "airport_ident": "MYNN",
+   "runway": "14",
+   "eoSid": "RT TO 'ZQA' 112.70 (321 INBD,RT)"
+ },
+ {
+   "airport_ident": "MYNN",
+   "runway": "27",
+   "eoSid": "LT TO 'ZQA' 112.70 (290 INBD,LT)"
+ },
+ {
+   "airport_ident": "MYNN",
+   "runway": "32",
+   "eoSid": "RT TO 'ZQA' 112.7 (141 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPNH",
+   "runway": "02",
+   "eoSid": "LT TO 'NH' 112.9 (050 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPNH",
+   "runway": "20",
+   "eoSid": "RT TO 'NH' 112.9 (050 INBD,RT)"
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13L",
+   "eoSid": "LT TO 'DPK' 117.7 (258 INBD,LT)"
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "13R",
+   "eoSid": "LT TO 'DPK' 117.7 (258 INBD,LT)"
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "22L",
+   "eoSid": "LT TO 'DPK' 117.7 (258 INBD,LT)"
+ },
+ {
+   "airport_ident": "KJFK",
+   "runway": "22R",
+   "eoSid": "LT TO 'DPK' 117.7 (258 INBD,LT)"
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "11",
+   "eoSid": "AT R 205 'TEB' 108.4 RT TO 'COL' 115.4 (199 INBD,RT)"
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22L",
+   "eoSid": "AT 17 DME 'TEB' 108.40 RT TO ITCPT AND PRCD ON R 069 INBD 'ARD' 108.20 TO 'KILMA' [27 DME R 069 'ARD' 108.20] (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "22R",
+   "eoSid": "AT 17 DME 'TEB' 108.40 RT TO ITCPT AND PRCD ON R 069 INBD 'ARD' 108.20 TO 'KILMA' [27 DME R 069 'ARD' 108.20] (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "KEWR",
+   "runway": "29",
+   "eoSid": "LT TO 'KILMA' [27 DME R 069 'ARD' 108.20] (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSWF",
+   "runway": "09",
+   "eoSid": "LT TO 'SW' 335 (272 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSWF",
+   "runway": "27",
+   "eoSid": "AT 25 DME 'IGN' 117.6 RT TO 'IGN' 117.6 (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGNX",
+   "runway": "09",
+   "eoSid": "LT TO 'EMW' 393.0 (092 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGNX",
+   "runway": "27",
+   "eoSid": "RT TO 'EME' 353.5 (272 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIEO",
+   "runway": "06",
+   "eoSid": "AT 'MILIS' [15 DME R 054 'SME' 113.9] ENTER HLDG (234 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIEO",
+   "runway": "24",
+   "eoSid": "AT 'SME' 113.9 LT TO ITCPT AND PRCD ON R 054 'SME' 113.9 TO 'MILIS' [15 DME R 054 'SME' 113.9] (234 INBD,LT)"
+ },
+ {
+   "airport_ident": "DAOO",
+   "runway": "07",
+   "eoSid": "LT TO 'ORA' 114.0 (248 INBD,LT)"
+ },
+ {
+   "airport_ident": "DAOO",
+   "runway": "25",
+   "eoSid": "LT TO 'ORA' 114.0 (248 INBD,LT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "17R",
+   "eoSid": "LT TO 'SABOT' [18.4 DME R 162 'ORL' 112.2] (162 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "18L",
+   "eoSid": "LT TO 'SABOT' [18.4 DME R 162 'ORL' 112.2] (162 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "18R",
+   "eoSid": "RT TO 'ISM' 329 (145 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "35L",
+   "eoSid": "RT TO 'PRESK' [16.2 DME R 140 'ORL' 112.2] (140 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "36L",
+   "eoSid": "AT 'ORL' 112.2 LT TO 'ISM' 329 (145 INBD,RT)"
+ },
+ {
+   "airport_ident": "KMCO",
+   "runway": "36R",
+   "eoSid": "RT TO 'PRESK' [16.2 DME R 140 'ORL' 112.2] (140 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJBB",
+   "runway": "06L",
+   "eoSid": "AT 6 DME 'KNE' 111.8 LT TO 'TME' 116.4 (007 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJBB",
+   "runway": "06R",
+   "eoSid": "AT 'KN' 346 LT TO 'TME' 116.4 (007 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJBB",
+   "runway": "24L",
+   "eoSid": "AT 12 DME 'KNE' 111.8 RT TO 'KNE' 111.8 (060 INBD,LT)"
+ },
+ {
+   "airport_ident": "RJBB",
+   "runway": "24R",
+   "eoSid": "AT 12 DME 'KNE' 111.8 RT TO 'KNE' 111.8 (060 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYOW",
+   "runway": "07",
+   "eoSid": "LT TO 'YOW' 114.6 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYOW",
+   "runway": "14",
+   "eoSid": "LT TO 'YOW' 114.6 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYOW",
+   "runway": "25",
+   "eoSid": "RT TO 'YOW' 114.6 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYOW",
+   "runway": "32",
+   "eoSid": "AT 10 DME BEFORE 'YOW' 114.60 RT TO 'YOW' 114.60 (320 INBD,LT)"
+ },
+ {
+   "airport_ident": "LCPH",
+   "runway": "11",
+   "eoSid": "AT 2 DME 'PHA' 117.9 RT ON HDG 287. AT 7.5 DME 'PHA' 117.9 RT TO 'PHA' 117.9 (107 INBD,RT)"
+ },
+ {
+   "airport_ident": "LCPH",
+   "runway": "29",
+   "eoSid": "LT TO 'PHA' 117.9 (107 INBD,RT)"
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "02",
+   "eoSid": "LT TO 'SALAP' [15 DME R 324 'PRS' 113.0] (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "07",
+   "eoSid": "AT 5 DME 'PRS' 113.0 LT TO 'SALAP' [15 DME R 324 'PRS' 113.0] (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "20",
+   "eoSid": "AT 1 DME 'PRS' 113.0 RT TO 'SALAP' [15 DME R 324 'PRS' 113.0] (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "LICJ",
+   "runway": "25",
+   "eoSid": "AT 3 DME 'PRS' 113.0 RT TO 'SALAP' [15 DME R 324 'PRS' 113.0] (144 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "06L",
+   "eoSid": "AT 10 DME 'JOA' 117.70 RT TO 'JOA' 117.70 . AT 'JOA' 117.70 LT TO 'MJV' 113.30 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "06R",
+   "eoSid": "AT 10 DME 'JOA' 117.70 RT TO 'JOA' 117.70 . AT 'JOA' 117.70 LT TO 'MJV' 113.30 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "24L",
+   "eoSid": "LT TO 'MJV' 113.30 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEPA",
+   "runway": "24R",
+   "eoSid": "LT TO 'MJV' 113.30 (053 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08L",
+   "eoSid": "AT 8 DME 'PGS' 117.05 LT TO 'BSN' 114.85 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "08R",
+   "eoSid": "AT 8 DME 'PGS' 117.05 LT TO 'BSN' 114.85 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09L",
+   "eoSid": "AT 'RSY' 356 LT TO 'BSN' 114.85 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "09R",
+   "eoSid": "AT 'RSY' 356 LT TO 'BSN' 114.85 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26L",
+   "eoSid": "AT 16 DME 'PGS' 117.05 RT TO 'MERUE' [26 DME R 278 'CRL' 109.20] (098 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "26R",
+   "eoSid": "AT 16 DME 'PGS' 117.05 RT TO 'MERUE' [26 DME R 278 'CRL' 109.20] (098 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27L",
+   "eoSid": "AT 'RSO' 364.0 RT TO 'MERUE' [26 DME R 278 'CRL' 109.20] (098 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPG",
+   "runway": "27R",
+   "eoSid": "AT 'RSO' 364.0 RT TO 'MERUE' [26 DME R 278 'CRL' 109.20] (098 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "20",
+   "eoSid": "WHEN PASSING R 286 'MLN' 113.6 LT TO 'MLN' 113.6 (339 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "24",
+   "eoSid": "AT 9 DME BEFORE 'RBT' 114.7 LT TO ITCPT AND PRCD ON R 295 INBD 'MLN' 113.6 (339 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFPO",
+   "runway": "26",
+   "eoSid": "AT 10 DME BEFORE 'RBT' 114.7 LT TO ITCPT AND PRCD ON R 295 INBD 'MLN' 113.6 (339 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "03",
+   "eoSid": "ABM 'BT' 108.8 RT TO 'CLM' 112.9 (314 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "07",
+   "eoSid": "AT 1 DME 'BT' 108.8 RT TO 'CLM' 112.9 (314 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "09",
+   "eoSid": "AT 8 DME 'BT' 108.8 RT TO 'CLM' 112.9 (314 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "21",
+   "eoSid": "AT 2.5 DME 'BT' 108.80 LT TO 'CLM' 112.9 (314 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "25",
+   "eoSid": "AT 8 DME 'BT' 108.80 RT TO 'MERUE' [26 DME R 278 'CRL' 109.20] (098 INBD,LT)"
+ },
+ {
+   "airport_ident": "LFPB",
+   "runway": "27",
+   "eoSid": "NOT TO BE USED FOR T/O"
+ },
+ {
+   "airport_ident": "VEPT",
+   "runway": "07",
+   "eoSid": "LT TO 'PPT' 112.10 (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "VEPT",
+   "runway": "25",
+   "eoSid": "LT TO 'PPT' 112.10 (067 INBD,RT)"
+ },
+ {
+   "airport_ident": "WMKP",
+   "runway": "04",
+   "eoSid": "AT 8 DME 'VPG' 116.2 RT TO 'VPG' 116.2 . ITCPT AND PRCD ON R 222 'VPG' 116.2 AT 11 DME 'VPG' 116.2 ENTER HLDG (042 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMKP",
+   "runway": "22",
+   "eoSid": "AT 11 DME 'VPG' 116.2 ENTER HLDG (042 INBD,LT)"
+ },
+ {
+   "airport_ident": "OPPS",
+   "runway": "17",
+   "eoSid": "AT 10 DME 'PS' 114.3 LT TO 'PS' 114.3 (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "OPPS",
+   "runway": "35",
+   "eoSid": "AT 12 DME 'PS' 114.3 RT TO 'PS' 114.3 (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "KPHL",
+   "runway": "09L",
+   "eoSid": "AT 'PD' 222 ENTER HLDG (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KPHL",
+   "runway": "09R",
+   "eoSid": "AT 'PD' 222 ENTER HLDG (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KPHL",
+   "runway": "27L",
+   "eoSid": "LT TO 'PD' 222 (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "KPHL",
+   "runway": "27R",
+   "eoSid": "LT TO 'PD' 222 (265 INBD,LT)"
+ },
+ {
+   "airport_ident": "VDPP",
+   "runway": "05",
+   "eoSid": "LT TO 'TOSOK' [10 DME R 227 'PNH' 114.3] (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "VDPP",
+   "runway": "23",
+   "eoSid": "RT TO 'IKAKO' [10 DME R 046 'PNH' 114.3] (226 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTSP",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'PUT' 116.9 RT TO 'PUT' 116.9 TO ITCPT AND PRCD ON R 265 'PUT' 116.9. HOLD BTN 16 DME AND 11 DME WEST OF 'PUT' 116.9 (085 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTSP",
+   "runway": "27",
+   "eoSid": "AT 11 DME R 265 'PUT' 116.9 ENTER HLDG (085 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "04L",
+   "eoSid": "AT 2 DME 'PIS' 112.1 LT TO ITCPT AND PRCD ON R 310 'PIS' 112.1 . AT 12 DME 'PIS' 112.1 ENTER HLDG (310 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "04R",
+   "eoSid": "AT 2 DME 'PIS' 112.1 LT TO ITCPT AND PRCD ON R 310 'PIS' 112.1 . AT 12 DME 'PIS' 112.1 ENTER HLDG (310 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "22L",
+   "eoSid": "AT 'JESSY' [14 DME 'PIS' 112.1] ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRP",
+   "runway": "22R",
+   "eoSid": "AT 'JESSY' [14 DME 'PIS' 112.1] ENTER HLDG (037 INBD,LT)"
+ },
+ {
+   "airport_ident": "KPIT",
+   "runway": "10L",
+   "eoSid": "AT 3 DME 'MMJ' 112.0 LT TO 'EWC' 115.8 (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "KPIT",
+   "runway": "10R",
+   "eoSid": "AT 3 DME 'MMJ' 112.00 RT TO 'AGC' 110.00 (354 INBD,RT)"
+ },
+ {
+   "airport_ident": "KPIT",
+   "runway": "28L",
+   "eoSid": "LT TO 'AGC' 110.00 (354 INBD,RT)"
+ },
+ {
+   "airport_ident": "KPIT",
+   "runway": "28R",
+   "eoSid": "RT TO 'EWC' 115.80 (182 INBD,RT)"
+ },
+ {
+   "airport_ident": "HSPN",
+   "runway": "17",
+   "eoSid": "LT TO 'PSD' 339 (348 INBD,RT)"
+ },
+ {
+   "airport_ident": "HSPN",
+   "runway": "35",
+   "eoSid": "RT TO 'PSD' 339 (348 INBD,RT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "04",
+   "eoSid": "RT TO 'PG' 307 (306 INBD,LT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "06",
+   "eoSid": "RT TO 'PG' 307 (306 INBD,LT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "13",
+   "eoSid": "AT 'PG' 307 ENTER HLDG (306 INBD,LT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "22",
+   "eoSid": "AT 12 DME 'OKL' 112.6 LT TO 'PG' 307 (306 INBD,LT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "24",
+   "eoSid": "AT 5 DME 'OKL' 112.6 RT TO 'PR' 356 (244 INBD,RT)"
+ },
+ {
+   "airport_ident": "LKPR",
+   "runway": "31",
+   "eoSid": "RT TO 'PG' 307 (306 INBD,LT)"
+ },
+ {
+   "airport_ident": "EGPK",
+   "runway": "13",
+   "eoSid": "AT 3 DME 'IPP' 110.3 RT TO 'TRN' 117.5 (150 INBD,RT)"
+ },
+ {
+   "airport_ident": "EGPK",
+   "runway": "31",
+   "eoSid": "AT 5 DME 'IKK' 110.3 LT TO 'TRN' 117.5 (150 INBD,RT)"
+ },
+ {
+   "airport_ident": "MBPV",
+   "runway": "10",
+   "eoSid": "LT TO 'PVN' 115.6 (102 INBD,RT)"
+ },
+ {
+   "airport_ident": "MBPV",
+   "runway": "28",
+   "eoSid": "LT TO 'PVN' 115.6 (102 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMME",
+   "runway": "04",
+   "eoSid": "LT TO 'RBT' 116.5 (024 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMME",
+   "runway": "22",
+   "eoSid": "RT TO 'RBT' 116.5 (024 INBD,RT)"
+ },
+ {
+   "airport_ident": "KRDU",
+   "runway": "05L",
+   "eoSid": "LT TO 'DUHAM' [11 DME R 351 'RDU' 117.2] (171 INBD,RT)"
+ },
+ {
+   "airport_ident": "KRDU",
+   "runway": "23R",
+   "eoSid": "AT 19 DME 'RDU' 117.2 RT TO 'DUHAM' [11 DME R 351 'RDU' 117.2] (171 INBD,RT)"
+ },
+ {
+   "airport_ident": "OMRK",
+   "runway": "16",
+   "eoSid": "AT 4 DME PASSING 'RAV' 113.60 RT TO 'RAV' 113.60 (150 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBU",
+   "runway": "18",
+   "eoSid": "AT 15 DME 'BUT' 110.8 LT TO 'BUT' 110.8 (355 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTBU",
+   "runway": "36",
+   "eoSid": "AT 7 DME 'BUT' 110.8 LT TO ITCPT AND PRCD ON R 346 'BUT' 110.8. AT 25 DME 'BUT' 110.8 LT TO 'BUT' 110.8 (355 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFRN",
+   "runway": "10",
+   "eoSid": "RT TO 'REN' 109.25 (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "LFRN",
+   "runway": "28",
+   "eoSid": "LT TO 'REN' 109.25 (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "EVRA",
+   "runway": "18",
+   "eoSid": "RT TO 'RIA' 112.05 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "EVRA",
+   "runway": "36",
+   "eoSid": "LT TO 'RIA' 112.05 (360 INBD,LT)"
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "10",
+   "eoSid": "AT 7 DME 'CAX' 113.0 LT ON TRACK 063 TO ITCPT AND PRCD ON R 290 INBD 'PCX' 114.6 . AT 2.5 DME BEFORE 'PCX' 114.6 RT TO ITCPT AND PRCD ON R 190 'PCX' 114.6 . RT TO ITCPT AND PRCD ON R 067 INBD 'MRC' 114.0 (312 INBD,LT)"
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "15",
+   "eoSid": "AT 8.5 DME 'CAX' 113.0 LT ON TRACK 035 TO ITCPT AND PRCD ON R 281 INBD 'PCX' 114.6 . AT 2.5 DME BEFORE 'PCX' 114.6 RT TO ITCPT AND PRCD ON R 190 'PCX' 114.6 . RT TO ITCPT AND PRCD ON R 067 INBD 'MRC' 114.0 (312 INBD,LT)"
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "28",
+   "eoSid": "AT R 187 'CAX' 113.00 LT TO ITCPT AND PRCD ON R 211 'CAX' 113.00 113.0. AT 16 DME 'CAX' 113.00 LT TO 'IH' 315.0 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "SBGL",
+   "runway": "33",
+   "eoSid": "AT 'CAX' 400.0 RT TO ITCPT AND PRCD ON R 281 INBD 'PCX' 114.6 . AT 2.5 DME BEFORE 'PCX' 114.6 RT TO ITCPT AND PRCD ON R 190 'PCX' 114.6 RT TO ITCPT AND PRCD ON R 067 INBD 'MRC' 114.0 (312 INBD,LT)"
+ },
+ {
+   "airport_ident": "OERY",
+   "runway": "01",
+   "eoSid": "AT 6 DME 'RIY' 114.5 LT TO ITCPT AND PRCD ON R 320 'RIY' 114.5. AT 16 DME 'RIY' 114.5 ENTER HLDG (320 INBD,RT)"
+ },
+ {
+   "airport_ident": "OERY",
+   "runway": "12",
+   "eoSid": "AT 5 DME 'RIY' 114.5 RT TO 'KEBAR' [15 DME R 176 'RIY' 114.5] (356 INBD,RT)"
+ },
+ {
+   "airport_ident": "OERY",
+   "runway": "19",
+   "eoSid": "AT 14.5 DME 'RIY' 114.5 ENTER HLDG (007 INBD,RT)"
+ },
+ {
+   "airport_ident": "OERY",
+   "runway": "30",
+   "eoSid": "AT 4 DME 'RIY' 114.5 RT TO ITCPT AND PRCD ON R 320 'RIY' 114.5. AT 11 DME 'RIY' 114.5 ENTER HLDG (140 INBD,LT)"
+ },
+ {
+   "airport_ident": "KRST",
+   "runway": "13",
+   "eoSid": "RT TO 'RST' 112.0 (205 INBD,RT)"
+ },
+ {
+   "airport_ident": "KRST",
+   "runway": "31",
+   "eoSid": "LT TO 'RST' 112.0 (205 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGRP",
+   "runway": "07",
+   "eoSid": "WHEN PASSING 1900 FT QNH LT TO 'PAR' 108.6 (070 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGRP",
+   "runway": "25",
+   "eoSid": "WHEN PASSING 1900 FT QNH RT TO 'PAR' 108.6 (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRA",
+   "runway": "15",
+   "eoSid": "AT 2 DME 'ROM' 110.8 RT TO 'PRA' 339.0 (295 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRA",
+   "runway": "33",
+   "eoSid": "AT 2 DME 'ROM' 110.8 LT TO 'PRA' 339.0 (295 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "07",
+   "eoSid": "AT 5 DME 'OST' 114.9 RT ON TRACK 223 TO ITCPT AND PRCD ON R 193 'OST' 114.9 AT 19 DME 'OST' 114.9 ENTER HLDG (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16C",
+   "eoSid": "AT 6 DME 'OST' 114.90 RT ON TRACK 186 TO ITCPT AND PRCD ON R 160 'OST' 114.90 .AT 19 DME 'OST' 114.90 ENTER HLDG (340 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16L",
+   "eoSid": "AT 6 DME 'OST' 114.90 RT ON TRACK 186 TO ITCPT AND PRCD ON R 160 'OST' 114.90 .AT 19 DME 'OST' 114.90 ENTER HLDG (340 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "16R",
+   "eoSid": "AT 4 DME 'OST' 114.90 RT ON TRACK 223 TO ITCPT AND PRCD ON R 193 'OST' 114.90 .AT 19 DME 'OST' 114.90 ENTER HLDG (013 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "25",
+   "eoSid": "AT 3 DME 'OST' 114.9 RT ON TRACK 321 TO ITCPT AND PRCD ON R 291 'OST' 114.9. AT 19 DME 'OST' 114.9 ENTER HLDG (111 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34C",
+   "eoSid": "AT 5 DME 'OST' 114.9 LT ON TRACK 261 TO ITCPT AND PRCD ON R 291 'OST' 114.9. AT 19 DME 'OST' 114.9 ENTER HLDG (111 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34L",
+   "eoSid": "AT 3 DME 'OST' 114.9 LT ON TRACK 261 TO ITCPT AND PRCD ON R 291 'OST' 114.9. AT 19 DME 'OST' 114.9 ENTER HLDG (111 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIRF",
+   "runway": "34R",
+   "eoSid": "AT 5 DME 'OST' 114.9 LT ON TRACK 261 TO ITCPT AND PRCD ON R 291 'OST' 114.9. AT 19 DME 'OST' 114.9 ENTER HLDG (111 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHRD",
+   "runway": "06",
+   "eoSid": "RT TO 'ROT' 350.5 (030 INBD,RT)"
+ },
+ {
+   "airport_ident": "EHRD",
+   "runway": "24",
+   "eoSid": "RT TO 'ROT' 350.5 (030 INBD,RT)"
+ },
+ {
+   "airport_ident": "OOSA",
+   "runway": "07",
+   "eoSid": "AT 3 DME 'SLL' 112.3 RT ON TRACK 130. AT 10 DME 'SLL' 112.3 RT TO 'SLL' 112.3 (060 INBD,RT)"
+ },
+ {
+   "airport_ident": "OOSA",
+   "runway": "25",
+   "eoSid": "AT 4 DME 'SLL' 112.3 LT ON TRACK 190. AT 10 DME 'SLL' 112.3 LT TO 'SLL' 112.3 (060 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "01L",
+   "eoSid": "AT 5.7 DME 'SFO' 115.8 RT TO 'SF' 379 (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "10L",
+   "eoSid": "AT 'SF' 379 ENTER HLDG (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "10R",
+   "eoSid": "AT 'SF' 379 ENTER HLDG (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "28L",
+   "eoSid": "AT 3 DME 'SFO' 115.80 RT TO ITCPT AND PRCD ON R 287 'SFO' 115.80 TO 'STINS' [22 DME R 287 'SFO' 115.80] (287 INBD,LT)"
+ },
+ {
+   "airport_ident": "KSFO",
+   "runway": "28R",
+   "eoSid": "AT 3 DME 'SFO' 115.80 RT TO ITCPT AND PRCD ON R 287 'SFO' 115.80 TO 'STINS' [22 DME R 287 'SFO' 115.80] (287 INBD,LT)"
+ },
+ {
+   "airport_ident": "LESO",
+   "runway": "04",
+   "eoSid": "AT 5 DME 'SSN' 117.90 LT TO ITCPT AND PRCD ON R 037 'SSN' 117.90 . AT 11 DME 'SSN' 117.90 ENTER HLDG (037 INBD,RT)"
+ },
+ {
+   "airport_ident": "LESO",
+   "runway": "22",
+   "eoSid": "ABM 'SSN' 117.90 RT ON TRACK 312. AT 4 DME 'SSN' 117.90 RT ON TRACK 067 TO ITCPT AND PRCD ON R 037 'SSN' 117.90 . AT 11 DME 'SSN' 117.90 ENTER HLDG (037 INBD,RT)"
+ },
+ {
+   "airport_ident": "OYSN",
+   "runway": "18",
+   "eoSid": "AT 4 DME 'SAA' 116.1 RT TO 'AN' 228 (204 INBD,LT)"
+ },
+ {
+   "airport_ident": "OYSN",
+   "runway": "36",
+   "eoSid": "AT 8 DME 'SAA' 116.1 RT TO 'AN' 228 (204 INBD,LT)"
+ },
+ {
+   "airport_ident": "SBGR",
+   "runway": "09L",
+   "eoSid": "AT 'BCO' 116.0 RT TO ITCPT AND PRCD ON R 160 'BCO' 116.0 . AT 32 DME 'BCO' 116.0 [R 111 'RDE' 116.7] RT TO 'SAT' 375 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "SBGR",
+   "runway": "09R",
+   "eoSid": "AT 'BCO' 116.0 RT TO ITCPT AND PRCD ON R 160 'BCO' 116.0 . AT 32 DME 'BCO' 116.0 [R 111 'RDE' 116.7] RT TO 'SAT' 375 (048 INBD,RT)"
+ },
+ {
+   "airport_ident": "SBGR",
+   "runway": "27L",
+   "eoSid": "AT 8.5 DME 'BCO' 116.0 LT TO ITCPT AND PRCD ON QDR 170 'IG' 410 TO 'SAT' 375 (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "SBGR",
+   "runway": "27R",
+   "eoSid": "AT 8.5 DME 'BCO' 116.0 LT TO ITCPT AND PRCD ON QDR 170 'IG' 410 TO 'SAT' 375 (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "14L",
+   "eoSid": "AT 5 DME 'KIP' 113.6 RT ON TRACK 230. WHEN PASSING R 170 'KIP' 113.6 RT TO 'CHAMP' [11.1 DME R 270 'KIP' 113.6] (300 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "14R",
+   "eoSid": "AT 5 DME 'KIP' 113.6 RT ON TRACK 230. WHEN PASSING R 170 'KIP' 113.6 RT TO 'CHAMP' [11.1 DME R 270 'KIP' 113.6] (300 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "32L",
+   "eoSid": "AT 3.5 DME 'KIP' 113.6 LT TO 'CHAMP' [19 DME R 300 'SEL' 115.5] (300 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSS",
+   "runway": "32R",
+   "eoSid": "AT 3.5 DME 'KIP' 113.6 LT TO 'CHAMP' [19 DME R 300 'SEL' 115.5] (300 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15L",
+   "eoSid": "AT 9 DME 'NCN' 113.8 RT TO 'TAWNY' [10 DME R 225 'NCN' 113.8] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "15R",
+   "eoSid": "AT 9 DME 'NCN' 113.8 RT TO 'TAWNY' [10 DME R 225 'NCN' 113.8] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33L",
+   "eoSid": "AT 6 DME 'NCN' 113.8 LT TO 'TAWNY' [10 DME R 225 'NCN' 113.8] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "RKSI",
+   "runway": "33R",
+   "eoSid": "AT 6 DME 'NCN' 113.8 LT TO 'TAWNY' [10 DME R 225 'NCN' 113.8] (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEZL",
+   "runway": "09",
+   "eoSid": "AT 'SPP' 420 LT TO 'SVL' 113.7 (265 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEZL",
+   "runway": "27",
+   "eoSid": "RT TO 'SPP' 420 (273 INBD,RT)"
+ },
+ {
+   "airport_ident": "FSIA",
+   "runway": "13",
+   "eoSid": "AT 7 DME 'SEY' 113.10 LT TO 'ZULU' [13 DME R 190 'PRA' 115.70] (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "FSIA",
+   "runway": "31",
+   "eoSid": "AT 2.9 DME 'SEY' 113.10 RT ON TRACK 360. AT 10 DME 'SEY' 113.10 RT TO 'ZULU' [13 DME R 190 'PRA' 115.70] (230 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTTX",
+   "runway": "15",
+   "eoSid": "RT TO 'SFX' 114.0 (331 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTTX",
+   "runway": "33",
+   "eoSid": "LT TO 'SFX' 114.0 (139 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSSS",
+   "runway": "18",
+   "eoSid": "RT TO 'PK' 369 (181 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSSS",
+   "runway": "36",
+   "eoSid": "LT TO 'JTN' 109.6 (045 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSPD",
+   "runway": "16",
+   "eoSid": "LT TO 'HSH' 114.4 (347 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSPD",
+   "runway": "17",
+   "eoSid": "RT TO 'PDL' 109.4 (347 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSPD",
+   "runway": "34",
+   "eoSid": "RT TO 'HSH' 114.4 (347 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSPD",
+   "runway": "35",
+   "eoSid": "LT TO 'PDL' 109.4 (167 INBD,RT)"
+ },
+ {
+   "airport_ident": "EINN",
+   "runway": "06",
+   "eoSid": "LT TO 'FOY' 395 (059 INBD,LT)"
+ },
+ {
+   "airport_ident": "EINN",
+   "runway": "24",
+   "eoSid": "RT TO 'ENS' 352 (108 INBD,LT)"
+ },
+ {
+   "airport_ident": "OMSJ",
+   "runway": "12",
+   "eoSid": "LT TO 'SHJ' 112.3 (120 INBD,LT)"
+ },
+ {
+   "airport_ident": "OMSJ",
+   "runway": "30",
+   "eoSid": "RT TO 'SHJ' 112.3 (300 INBD,RT)"
+ },
+ {
+   "airport_ident": "HESH",
+   "runway": "04L",
+   "eoSid": "RT TO 'SHM' 114.2 (198 INBD,LT)"
+ },
+ {
+   "airport_ident": "HESH",
+   "runway": "04R",
+   "eoSid": "RT TO 'SHM' 114.2 (198 INBD,LT)"
+ },
+ {
+   "airport_ident": "HESH",
+   "runway": "22L",
+   "eoSid": "LT TO 'SHM' 114.2 (198 INBD,LT)"
+ },
+ {
+   "airport_ident": "HESH",
+   "runway": "22R",
+   "eoSid": "LT TO 'SHM' 114.2 (198 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZYTX",
+   "runway": "06",
+   "eoSid": "RT TO 'SEY' 114.1 (056 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZYTX",
+   "runway": "24",
+   "eoSid": "LT TO 'SEY' 114.1 (236 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZGSZ",
+   "runway": "15",
+   "eoSid": "AT 5 DME 'SZX' 115.3 RT ON TRACK 250 TO ITCPT AND PRCD ON R 100 'NLG' 117.7 INBD 'NLG' 117.7 . AT 6 DME BEFORE 'NLG' 117.7 ENTER HLDG (280 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZGSZ",
+   "runway": "33",
+   "eoSid": "AT 4 DME 'SZX' 115.3 LT TO ITCPT AND PRCD ON R 033 'NLG' 117.7 INBD 'NLG' 117.7 . AT 8 DME BEFORE 'NLG' 117.7 ENTER HLDG (213 INBD,LT)"
+ },
+ {
+   "airport_ident": "OISS",
+   "runway": "11L",
+   "eoSid": "AT 3 DME 'SYZ' 117.8 RT TO ITCPT AND PRCD ON R 120 'SYZ' 117.8 . AT 12 DME 'SYZ' 117.8 LT TO 'SR' 205 (088 INBD,LT)"
+ },
+ {
+   "airport_ident": "OISS",
+   "runway": "11R",
+   "eoSid": "AT 3 DME 'SYZ' 117.8 RT TO ITCPT AND PRCD ON R 120 'SYZ' 117.8 . AT 12 DME 'SYZ' 117.8 LT TO 'SR' 205 (088 INBD,LT)"
+ },
+ {
+   "airport_ident": "OISS",
+   "runway": "29L",
+   "eoSid": "AT 2 DME 'SYZ' 117.80 LT TO 'SR' 205.0 (088 INBD,LT)"
+ },
+ {
+   "airport_ident": "OISS",
+   "runway": "29R",
+   "eoSid": "AT 2 DME 'SYZ' 117.80 LT TO 'SR' 205.0 (088 INBD,LT)"
+ },
+ {
+   "airport_ident": "EYSA",
+   "runway": "14L",
+   "eoSid": "LT TO 'SAU' 115.20 (175 INBD,LT)"
+ },
+ {
+   "airport_ident": "EYSA",
+   "runway": "32R",
+   "eoSid": "RT TO 'SAU' 115.20 (175 INBD,LT)"
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "02C",
+   "eoSid": "AT 2 DME NORTH OF 'VTK' 116.5 RT TO 'HOSBA' [34 DME R 079 'SJ' 113.5] (259 INBD,RT)"
+ },
+ {
+   "airport_ident": "WSSS",
+   "runway": "20C",
+   "eoSid": "AT 10 DME 'VTK' 116.50 LT TO 'HOSBA' [34 DME R 079 'SJ' 113.50] (259 INBD,RT)"
+ },
+ {
+   "airport_ident": "WSAP",
+   "runway": "02",
+   "eoSid": "AT 'KK' 286 ENTER HLDG (204 INBD,RT)"
+ },
+ {
+   "airport_ident": "WSAP",
+   "runway": "20",
+   "eoSid": "AT 'SJ' 113.5 ENTER HLDG (021 INBD,RT)"
+ },
+ {
+   "airport_ident": "LBSF",
+   "runway": "09",
+   "eoSid": "AT 10 DME 'SOF' 112.6 RT TO 'SOF' 112.6 (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "LBSF",
+   "runway": "27",
+   "eoSid": "AT 8 DME 'SOF' 112.6 RT TO 'SOF' 112.6 (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "WARQ",
+   "runway": "08",
+   "eoSid": "RT TO 'SLO' 116.3 (078 INBD,RT)"
+ },
+ {
+   "airport_ident": "WARQ",
+   "runway": "26",
+   "eoSid": "AT 4 DME 'SLO' 116.3 LT AND PRCD ON TRACK 180. AT 10 DME 'SLO' 116.3 LT TO 'SLO' 116.3 (258 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTSS",
+   "runway": "08",
+   "eoSid": "AT 4 DME 'HTY' 115.3 LT TO 'HTY' 115.3 (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTSS",
+   "runway": "26",
+   "eoSid": "AT 4 DME 'HTY' 115.3 LT TO 'HTY' 115.3 (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "LDSP",
+   "runway": "05",
+   "eoSid": "AT 3.3 DME 'SPL' 115.7 [R 013 'SPL' 115.7] RT ON HDG 180. AT R 110 'SPL' 115.7 RT TO 'DVN' 418 (056 INBD,RT)"
+ },
+ {
+   "airport_ident": "LDSP",
+   "runway": "23",
+   "eoSid": "AT 'TRI' 378 LT TO 'DVN' 418 (056 INBD,RT)"
+ },
+ {
+   "airport_ident": "FMEE",
+   "runway": "12",
+   "eoSid": "AT 2 DME 'SDG' 112.90 LT TO 'RECIF' [12 DME R 313 'SDG' 112.90] (133 INBD,LT)"
+ },
+ {
+   "airport_ident": "FMEE",
+   "runway": "14",
+   "eoSid": "AT 1.5 DME 'SDG' 112.90 LT TO 'RECIF' [12 DME R 313 'SDG' 112.90] (133 INBD,LT)"
+ },
+ {
+   "airport_ident": "FMEE",
+   "runway": "30",
+   "eoSid": "AT 1.5 DME 'SDG' 112.90 RT TO 'ERBES' [14 DME R 123 'SDG' 112.90] (303 INBD,RT)"
+ },
+ {
+   "airport_ident": "FMEE",
+   "runway": "32",
+   "eoSid": "AT 'RECIF' [12 DME R 313 'SDG' 112.90] ENTER HLDG (133 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYYT",
+   "runway": "11",
+   "eoSid": "LT TO 'ZNF' 270 (109 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYYT",
+   "runway": "29",
+   "eoSid": "RT TO 'ZYT' 246 (289 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYJT",
+   "runway": "09",
+   "eoSid": "AT 6.8 DME 'YJT' 113.1 [MM] RT ON TRACK 280. WHEN PASSING 2000 FT QNH RT TO 'JT' 390 (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYJT",
+   "runway": "27",
+   "eoSid": "WHEN PASSING 2000 FT QNH LT TO 'JT' 390 (100 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "01L",
+   "eoSid": "RT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "01R",
+   "eoSid": "RT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "08",
+   "eoSid": "RT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "19L",
+   "eoSid": "LT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "19R",
+   "eoSid": "LT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "ESSA",
+   "runway": "26",
+   "eoSid": "LT TO 'TEB' 117.1 (360 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDS",
+   "runway": "25",
+   "eoSid": "AT 8.5 DME 'STG' 116.85 LT TO 'TGO' 112.50 (070 INBD,RT)"
+ },
+ {
+   "airport_ident": "WMSA",
+   "runway": "15",
+   "eoSid": "AT 'KL' 255 ENTER HLDG (329 INBD,LT)"
+ },
+ {
+   "airport_ident": "WMSA",
+   "runway": "33",
+   "eoSid": "RT TO 'VBA' 114.7 (180 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPLB",
+   "runway": "07",
+   "eoSid": "AT 3.9 DME 'SBA' 113.5 [SHORE LINE] LT TO 'SBA' 113.5 TO ITCPT AND PRCD ON R 220 'SBA' 113.5 TO 'OLONG' [12 DME 'SBA' 113.5] (040 INBD,LT)"
+ },
+ {
+   "airport_ident": "RPLB",
+   "runway": "25",
+   "eoSid": "AT R 050 'SBA' 113.5 LT TO 'SBA' 113.5 TO ITCPT AND PRCD ON R 220 'SBA' 113.5 TO 'OLONG' [12 DME 'SBA' 113.5] (040 INBD,LT)"
+ },
+ {
+   "airport_ident": "WARR",
+   "runway": "10",
+   "eoSid": "LT TO 'SBR' 113.4 (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "WARR",
+   "runway": "28",
+   "eoSid": "RT TO 'SBR' 113.4 (097 INBD,RT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "07",
+   "eoSid": "AT 25 DME 'SY' 112.1 ENTER HLDG (061 INBD,RT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16L",
+   "eoSid": "AT 25 DME 'SY' 112.1 ENTER HLDG (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "16R",
+   "eoSid": "AT 25 DME 'SY' 112.1 ENTER HLDG (155 INBD,RT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "25",
+   "eoSid": "AT 'GLF' 428.0 ENTER HLDG (062 INBD,LT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34L",
+   "eoSid": "AT 2.5 DME 'SY' 112.1 LT TO ITCPT AND PRCD ON R 125 OUTBOUND 'SY' 112.1 . AT 10 DME 'SY' 112.1 ENTER HLDG (305 INBD,RT)"
+ },
+ {
+   "airport_ident": "YSSY",
+   "runway": "34R",
+   "eoSid": "AT 2.5 DME 'SY' 112.1 LT TO ITCPT AND PRCD ON R 125 OUTBOUND 'SY' 112.1 . AT 10 DME 'SY' 112.1 ENTER HLDG (305 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTKA",
+   "runway": "09",
+   "eoSid": "AT 4.5 DME 'TBK' 113.3 LT TO ITCPT AND PRCD ON R 272 'TBK' 113.3 . AT 14 DME 'TBK' 113.3 ENTER HLDG (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTKA",
+   "runway": "27",
+   "eoSid": "AT 14 DME 'TBK' 113.3 ENTER HLDG (092 INBD,LT)"
+ },
+ {
+   "airport_ident": "OITT",
+   "runway": "12L",
+   "eoSid": "AT 2.5 DME 'TBZ' 112.0 RT ON TRACK 305 TO ITCPT AND PRCD ON R 250 'TBZ' 112.0 . AT 15 DME 'TBZ' 112.0 ENTER HLDG (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "OITT",
+   "runway": "30R",
+   "eoSid": "AT 5 DME 'TBZ' 112.0 LT TO ITCPT AND PRCD ON R 250 'TBZ' 112.0 . AT 15 DME 'TBZ' 112.0 ENTER HLDG (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "OETF",
+   "runway": "07",
+   "eoSid": "LT TO 'TIF' 112.7 (253 INBD,RT)"
+ },
+ {
+   "airport_ident": "OETF",
+   "runway": "17",
+   "eoSid": "LT TO 'TIF' 112.7 (171 INBD,LT)"
+ },
+ {
+   "airport_ident": "OETF",
+   "runway": "25",
+   "eoSid": "AT 5 DME 'TIF' 112.7 RT TO 'TIF' 112.7 (253 INBD,RT)"
+ },
+ {
+   "airport_ident": "OETF",
+   "runway": "35",
+   "eoSid": "RT TO 'TIF' 112.7 (171 INBD,LT)"
+ },
+ {
+   "airport_ident": "RCTP",
+   "runway": "05",
+   "eoSid": "LT TO 'SEDUM' [27 DME R 270 'APU' 112.50] (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "RCTP",
+   "runway": "06",
+   "eoSid": "LT TO 'SEDUM' [27 DME R 270 'APU' 112.50] (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "RCTP",
+   "runway": "23",
+   "eoSid": "RT TO 'SEDUM' [27 DME R 270 'APU' 112.5] (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "RCTP",
+   "runway": "24",
+   "eoSid": "RT TO 'SEDUM' [27 DME R 270 'APU' 112.50] (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBYN",
+   "runway": "13",
+   "eoSid": "AT 9 DME 'TYN' 113.1 RT TO 'TYN' 113.1 (329 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZBYN",
+   "runway": "31",
+   "eoSid": "AT 8 DME 'TYN' 113.1 RT TO 'TYN' 113.1 (329 INBD,LT)"
+ },
+ {
+   "airport_ident": "EETN",
+   "runway": "08",
+   "eoSid": "AT 25 DME 'TLL' 112.2 ENTER HLDG (084 INBD,RT)"
+ },
+ {
+   "airport_ident": "EETN",
+   "runway": "26",
+   "eoSid": "AT 25 DME 'TLL' 112.2 ENTER HLDG (264 INBD,RT)"
+ },
+ {
+   "airport_ident": "GMTT",
+   "runway": "10",
+   "eoSid": "AT 'TAN' 374 LT ON TRACK 010. AT 9 DME 'TNG' 115.9 LT TO 'ABIRO' [20 DME R 287 'TNG' 115.9] (107 INBD,RT). DO NOT ACCELERATE BEFORE TURN ON TRACK 010 IS COMPLETED"
+ },
+ {
+   "airport_ident": "GMTT",
+   "runway": "28",
+   "eoSid": "AT 15 DME 'TNG' 115.9 ENTER HLDG (279 INBD,RT)"
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "08L",
+   "eoSid": "AT 9 DME 'TKT' 113.2 RT TO 'TKT' 113.2 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "08R",
+   "eoSid": "AT 9 DME 'TKT' 113.2 RT TO 'TKT' 113.2 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "26L",
+   "eoSid": "AT 12 DME 'TKT' 113.20 LT TO 'TKT' 113.20 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "UTTT",
+   "runway": "26R",
+   "eoSid": "AT 12 DME 'TKT' 113.20 LT TO 'TKT' 113.20 (077 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIIE",
+   "runway": "11",
+   "eoSid": "RT TO 'RUS' 275 (285 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIIE",
+   "runway": "29",
+   "eoSid": "AT 8 DME 'IKA' 114.3 LT ON TRACK 105 TO ITCPT AND PRCD ON R140 'IKA' 114.3. AT 15 DME 'IKA' 114.3 ENTER HLDG (320 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIII",
+   "runway": "11L",
+   "eoSid": "AT 6 DME 'TRN' 115.3 RT TO 'RUS' 275 (048 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIII",
+   "runway": "11R",
+   "eoSid": "AT 6 DME 'TRN' 115.3 RT TO 'RUS' 275 (048 INBD,LT)"
+ },
+ {
+   "airport_ident": "OIII",
+   "runway": "29L",
+   "eoSid": "AT 2 DME 'TRN' 115.3 LT TO ITCPT AND PRCD ON R 228 'TRN' 115.3 TO 'RUS' 275 (076 INBD,RT)"
+ },
+ {
+   "airport_ident": "OIII",
+   "runway": "29R",
+   "eoSid": "AT 2 DME 'TRN' 115.3 LT TO ITCPT AND PRCD ON R 228 'TRN' 115.3 TO 'RUS' 275 (076 INBD,RT)"
+ },
+ {
+   "airport_ident": "LGTS",
+   "runway": "10",
+   "eoSid": "AT 5.1 DME 'MKR' 110.80 [R 059 'TSL' 112.1] RT ON TRACK 195. WHEN PASSING 2000 FT QNH RT TO 'THS' 345.0 (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGTS",
+   "runway": "16",
+   "eoSid": "RT TO 'THS' 345 (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGTS",
+   "runway": "28",
+   "eoSid": "AT 5 DME 'MKR' 110.80 RT TO 'THS' 345.0 (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "LGTS",
+   "runway": "34",
+   "eoSid": "AT 'THS' 345.0 ENTER HLDG (350 INBD,LT)"
+ },
+ {
+   "airport_ident": "VOTV",
+   "runway": "14",
+   "eoSid": "AT 2 DME 'TVM' 115.1 RT ON TRACK 250 TO ITCPT AND PRCD ON R 222 'TVM' 115.1 . AT 14 DME 'TVM' 115.1 ENTER HLDG (042 INBD,RT)"
+ },
+ {
+   "airport_ident": "VOTV",
+   "runway": "32",
+   "eoSid": "AT 2 DME 'TVM' 115.10 LT ON TRACK 190 TO ITCPT AND PRCD ON R 222 'TVM' 115.10 . AT 14 DME 'TVM' 115.10 ENTER HLDG (042 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBTJ",
+   "runway": "16",
+   "eoSid": "AT 'CG' 339 RT ON TRACK 200. WHEN PASSING 1200 FT RT TO 'TAJ' 112.1 (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZBTJ",
+   "runway": "34",
+   "eoSid": "RT TO 'TAJ' 112.1 (340 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "04",
+   "eoSid": "AT 'DYE' 111.00 RT TO 'JONAN' [5 DME R 120 'DYE' 111.00] (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16L",
+   "eoSid": "AT 7 DME 'HME' 112.2 LT TO 'JONAN' [5 DME R 120 'DYE' 111.0] (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "16R",
+   "eoSid": "AT 7 DME 'HME' 112.2 LT TO 'JONAN' [5 DME R 120 'DYE' 111.00] (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "22",
+   "eoSid": "AT 5 DME 'HME' 112.2 LT TO 'KZE' 114.50 (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34L",
+   "eoSid": "AT R 050 'HME' 112.2 [R 230 'DYE' 111.00] RT TO 'KZE' 114.50 (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "RJTT",
+   "runway": "34R",
+   "eoSid": "AT R 050 'HME' 112.2 [R 230 'DYE' 111.00] RT TO 'KZE' 114.50 (330 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIMF",
+   "runway": "18",
+   "eoSid": "AT 12 DME 'CSL' 116.75 LT TO 'TOP' 114.50 (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIMF",
+   "runway": "36",
+   "eoSid": "AT 3 DME 'CSL' 116.75 RT TO PRCD VIA 'SIRLO' [15 DME R 105 'CSL' 116.75] TO 'TOP' 114.5 (281 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "05",
+   "eoSid": "AT 10 DME 'YTP' 116.55 LT TO 'ZLP' 341 (057 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "06L",
+   "eoSid": "AT 12 DME 'YYZ' 112.15 RT TO 'YYZ' 112.15 (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "06R",
+   "eoSid": "AT 12 DME 'YYZ' 112.15 RT TO 'YYZ' 112.15 (057 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "15L",
+   "eoSid": "AT 15 DME 'YTP' 116.55 ENTER HLDG (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "15R",
+   "eoSid": "AT 15 DME 'YTP' 116.55 ENTER HLDG (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "23",
+   "eoSid": "AT 4 DME 'YTP' 116.55 RT TO 'ZDH' 385 (237 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "24L",
+   "eoSid": "AT 5 DME 'YYZ' 112.15 LT ON TRACK 140 TO ITCPT AND PRCD ON R 170 'YYZ' 112.15. AT 17 DME 'YYZ' 112.15 ENTER HLDG (350 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "24R",
+   "eoSid": "AT 10 DME 'YYZ' 112.15 LT TO 'ZYZ' 368 (327 INBD,LT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "33L",
+   "eoSid": "AT 10 DME 'YTP' 116.55 ENTER HLDG (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "CYYZ",
+   "runway": "33R",
+   "eoSid": "AT 10 DME 'YTP' 116.55 ENTER HLDG (327 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTTZ",
+   "runway": "09",
+   "eoSid": "RT TO 'TON' 117.0 (269 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTTZ",
+   "runway": "27",
+   "eoSid": "RT TO 'TON' 117.0 (269 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIPQ",
+   "runway": "09",
+   "eoSid": "AT 1.5 DME 'RCH' 114.2 RT TO 'IPINO' [11 DME R 227 'RCH' 114.2] (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIPQ",
+   "runway": "27",
+   "eoSid": "LT TO 'IPINO' [11 DME R 227 'RCH' 114.2] (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "HLLT",
+   "runway": "09",
+   "eoSid": "RT TO 'TW' 301 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "HLLT",
+   "runway": "18",
+   "eoSid": "AT 6 DME 'TPI' 114.5 LT TO 'PE' 390 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "HLLT",
+   "runway": "27",
+   "eoSid": "RT TO 'PE' 390 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "HLLT",
+   "runway": "36",
+   "eoSid": "RT TO 'PE' 390 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "TDTT",
+   "runway": "01",
+   "eoSid": "RT TO 'MARSA' [16 DME R 042 'TUC' 116.5] (222 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTTA",
+   "runway": "11",
+   "eoSid": "AT 7 DME 'TUC' 116.5 LT TO 'MARSA' [16 DME R 042 'TUC' 116.5] (222 INBD,LT)"
+ },
+ {
+   "airport_ident": "DTTA",
+   "runway": "19",
+   "eoSid": "AT 3 DME 'TUC' 116.5 LT TO 'TS' 325 (191 INBD,RT)"
+ },
+ {
+   "airport_ident": "DTTA",
+   "runway": "29",
+   "eoSid": "AT 1.5 DME 'TUC' 116.5 RT TO 'MARSA' [16 DME R 042 'TUC' 116.5] (222 INBD,LT)"
+ },
+ {
+   "airport_ident": "OETR",
+   "runway": "10",
+   "eoSid": "RT TO 'TRF' 116.1 (286 INBD,RT)"
+ },
+ {
+   "airport_ident": "OETR",
+   "runway": "28",
+   "eoSid": "LT TO 'TRF' 116.1 (286 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTUU",
+   "runway": "05",
+   "eoSid": "AT 10 DME 'UBL' 112.7 ENTER HLDG (233 INBD,RT)"
+ },
+ {
+   "airport_ident": "VTUU",
+   "runway": "23",
+   "eoSid": "AT 10 DME 'UBL' 112.7 ENTER HLDG (053 INBD,LT)"
+ },
+ {
+   "airport_ident": "WAAA",
+   "runway": "13",
+   "eoSid": "AT 4 DME 'MKS' 114.7 LT ON HDG 307. AT 10 DME 'MKS' 114.7 LT TO 'MKS' 114.7 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "WAAA",
+   "runway": "31",
+   "eoSid": "AT 10 DME 'MKS' 114.7 LT TO 'MKS' 114.7 (127 INBD,LT)"
+ },
+ {
+   "airport_ident": "FAUP",
+   "runway": "17",
+   "eoSid": "RT TO 'UPV' 116.5 (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "FAUP",
+   "runway": "35",
+   "eoSid": "LT TO 'UPV' 116.5 (348 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZWWW",
+   "runway": "07",
+   "eoSid": "AT 10 DME 'URC' 115.7 LT TO 'URC' 115.7 (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZWWW",
+   "runway": "25",
+   "eoSid": "AT 10 DME 'URC' 115.7 RT TO 'URC' 115.7 (250 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEVC",
+   "runway": "12",
+   "eoSid": "AT 'PND' 340.0 LT TO 'MULAT' [15 DME R 111 'VLC' 116.10] (291 INBD,RT)"
+ },
+ {
+   "airport_ident": "LEVC",
+   "runway": "30",
+   "eoSid": "AT 1.5 DME 'VLC' 116.1 RT TO 'MULAT' [15 DME R 111 'VLC' 116.1] (291 INBD,RT)"
+ },
+ {
+   "airport_ident": "MUVR",
+   "runway": "06",
+   "eoSid": "AT 3 DME 'UVA' 114.8 LT TO ITCPT AND PRCD ON R 013 'UVA' 114.8 . AT 13 DME 'UVA' 114.8 ENTER HLDG (193 INBD,RT)"
+ },
+ {
+   "airport_ident": "MUVR",
+   "runway": "24",
+   "eoSid": "AT 7 DME 'UVA' 114.8 LT TO 'UVA' 114.8 . PRCD ON R 013 'UVA' 114.8 . AT 13 DME 'UVA' 114.8 ENTER HLDG (193 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIBN",
+   "runway": "09",
+   "eoSid": "LT TO 'BBN' 113.90 (090 INBD,RT)"
+ },
+ {
+   "airport_ident": "VIBN",
+   "runway": "27",
+   "eoSid": "LT TO 'BBN' 113.90 (270 INBD,RT)"
+ },
+ {
+   "airport_ident": "LBWN",
+   "runway": "09",
+   "eoSid": "AT 4 DME 'WRN' 112.4 ( 'WR' 526.0 ) RT TO ITCPT AND PRCD ON R 110 'WRN' 112.4 112.4. AT 15 DME 'WRN' 112.4 ENTER HLDG (290 INBD,LT)"
+ },
+ {
+   "airport_ident": "LBWN",
+   "runway": "27",
+   "eoSid": "AT 3.5 DME 'WRN' 112.4 ('WN' 397) LT TO ITCPT AND PRCD ON R 110 'WRN' 112.4. AT 15 DME 'WRN' 112.4 ENTER HLDG (290 INBD,LT)"
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "04L",
+   "eoSid": "RT TO 'VEN' 379 (041 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "04R",
+   "eoSid": "RT TO 'VEN' 379 (041 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "22L",
+   "eoSid": "AT 'VEN' 379 ENTER HLDG (041 INBD,RT)"
+ },
+ {
+   "airport_ident": "LIPZ",
+   "runway": "22R",
+   "eoSid": "AT 'VEN' 379 ENTER HLDG (041 INBD,RT)"
+ },
+ {
+   "airport_ident": "EYVI",
+   "runway": "02",
+   "eoSid": "RT TO 'VNO' 113.80 (017 INBD,RT)"
+ },
+ {
+   "airport_ident": "EYVI",
+   "runway": "20",
+   "eoSid": "LT TO 'VNO' 113.80 (197 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEVT",
+   "runway": "04",
+   "eoSid": "AT 'VTA' 345 RT ON TRACK 260 TO ITCPT AND PRCD ON R 040 INBD 'VRA' 116.6 . AT 'VRA' 116.6 ENTER HLDG (040 INBD,LT)"
+ },
+ {
+   "airport_ident": "LEVT",
+   "runway": "22",
+   "eoSid": "AT 'VRA' 116.6 ENTER HLDG (040 INBD,LT)"
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "11",
+   "eoSid": "AT 8 DME 'OKE' 113.4 RT TO 'KRN' 117.8 (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "15",
+   "eoSid": "AT 8 DME 'OKE' 113.4 RT TO 'KRN' 117.8 (069 INBD,RT)"
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "29",
+   "eoSid": "AT 'WAR' 114.9 ENTER HLDG (135 INBD,LT)"
+ },
+ {
+   "airport_ident": "EPWA",
+   "runway": "33",
+   "eoSid": "LT TO 'WAR' 114.9 (135 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "01L",
+   "eoSid": "AT 11 DME 'AML' 113.5 RT TO 'ASPER' [14.7 DME R 040 'AML' 113.5] (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "01R",
+   "eoSid": "AT 11 DME 'AML' 113.5 RT TO 'ASPER' [14.7 DME R 040 'AML' 113.5] (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "12",
+   "eoSid": "AT 4 DME 'AML' 113.5 LT TO 'ASPER' [14.7 DME R 040 'AML' 113.5] (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "19L",
+   "eoSid": "AT 10 DME 'AML' 113.5 LT TO 'ASPER' [14.7 DME R 040 'AML' 113.5] (220 INBD,RT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "19R",
+   "eoSid": "AT 10 DME 'AML' 113.5 RT TO 'CSN' 116.3 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "KIAD",
+   "runway": "30",
+   "eoSid": "AT 8 DME 'AML' 113.5 LT TO 'BLUES' [22.3 DME R 256 'AML' 113.5]. AT 'BLUES' LT TO 'CSN' 116.3 (270 INBD,LT)"
+ },
+ {
+   "airport_ident": "OEWJ",
+   "runway": "15",
+   "eoSid": "RT TO 'WEJ' 113.9 (329 INBD,RT)"
+ },
+ {
+   "airport_ident": "OEWJ",
+   "runway": "33",
+   "eoSid": "AT 3 DME 'WEJ' 113.9 LT ON TRACK 300. AT 10 DME 'WEJ' 113.9 LT TO 'WEJ' 113.9 (149 INBD,RT)"
+ },
+ {
+   "airport_ident": "FYWH",
+   "runway": "08",
+   "eoSid": "RT TO 'WHV' 114.5 (264 INBD,RT)"
+ },
+ {
+   "airport_ident": "FYWH",
+   "runway": "26",
+   "eoSid": "AT 5 DME 'WHV' 114.5 RT ON TRACK 084. AT 9 DME 'WHV' 114.5 RT TO 'WHV' 114.5 (264 INBD,RT)"
+ },
+ {
+   "airport_ident": "KBDL",
+   "runway": "06",
+   "eoSid": "AT 6 DME 'BDL' 109.0 RT TO 'BDL' 109.0 (240 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZHHH",
+   "runway": "04",
+   "eoSid": "RT TO 'DA' 274 (134 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZHHH",
+   "runway": "22",
+   "eoSid": "RT TO 'DA' 274 (134 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZLXY",
+   "runway": "05",
+   "eoSid": "RT TO 'SIA' 115.3 (051 INDB,LT)"
+ },
+ {
+   "airport_ident": "ZLXY",
+   "runway": "23",
+   "eoSid": "RT TO 'SIA' 115.3 (231 INBD,RT)"
+ },
+ {
+   "airport_ident": "ZSAM",
+   "runway": "05",
+   "eoSid": "AT 8 DME 'XMN' 114.5 LT TO 'WF' 296 (235 INBD,LT)"
+ },
+ {
+   "airport_ident": "ZSAM",
+   "runway": "23",
+   "eoSid": "AT 12 DME 'XMN' 114.5 RT TO 'WF' 296 (047 INBD,RT)"
+ },
+ {
+   "airport_ident": "VYYY",
+   "runway": "03",
+   "eoSid": "AT 'HGU' 112.3 ENTER HLDG (214 INBD,RT)"
+ },
+ {
+   "airport_ident": "VYYY",
+   "runway": "21",
+   "eoSid": "RT TO 'HGU' 112.3 (214 INBD,RT)"
+ },
+ {
+   "airport_ident": "UDYZ",
+   "runway": "09",
+   "eoSid": "AT 4 DME 'ZVR' 112.3 RT TO 'ZVR' 112.3 (080 INBD,RT)"
+ },
+ {
+   "airport_ident": "UDYZ",
+   "runway": "27",
+   "eoSid": "LT TO 'ZVR' 112.3 (080 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPMZ",
+   "runway": "09",
+   "eoSid": "RT TO 'ZAM' 113.9 (089 INBD,RT)"
+ },
+ {
+   "airport_ident": "RPMZ",
+   "runway": "27",
+   "eoSid": "LT TO 'ZAM' 113.9 (089 INBD,RT)"
+ },
+ {
+   "airport_ident": "HTZA",
+   "runway": "18",
+   "eoSid": "RT TO 'ZZ' 385 (349 INBD,RT)"
+ },
+ {
+   "airport_ident": "HTZA",
+   "runway": "36",
+   "eoSid": "LT TO 'ZZ' 385 (349 INBD,RT)"
+ },
+ {
+   "airport_ident": "LSZH",
+   "runway": "10",
+   "eoSid": "AT 2 DME 'KLO' 114.85 RT TO ITCPT AND PRCD ON R 120 'KLO' 114.85 . AT 10 DME 'KLO' 114.85 RT TO 'TRA' 114.3 (330 INBD,LT). DO NOT ACCELERATE ABOVE 201KT GROUND SPEED BEFORE ON COURSE TO 'TRA' 114.3"
+ },
+ {
+   "airport_ident": "KASE",
+   "runway": "33",
+   "eoSid": "COMPLEX ENG-OUT DEPARTURE PROCEDURES // SEE ROUTE MANUAL"
+ },
+ {
+   "airport_ident": "TNCM",
+   "runway": "09",
+   "eoSid": "IMMEDIATELY TURN RIGHT HDG 180 CLIMBING."
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "18",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN LEFT TO RID (D112.20) CLIMBING TO 4000FT AND HOLD (246/R)."
+ },
+ {
+   "airport_ident": "EDDF",
+   "runway": "07L",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO 1900FT. TURN LEFT TO MTR (110.0) CLIMBING TO 4000FT AND HOLD (241/R)."
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "10",
+   "eoSid": "LT TO 'OBK' 113.0 (088 INBD,RT)"
+ },
+ {
+   "airport_ident": "KORD",
+   "runway": "28",
+   "eoSid": "AT 11 DME 'ORD' 113.9 LT TO 'DPA' 108.4 (068 INBD,RT)"
+ },
+ {
+   "airport_ident": "TNCM",
+   "runway": "10",
+   "eoSid": "IMMEDIATELY TURN RIGHT HDG 180. AT D10.0 PJM VOR (D113.0) RT PJM AND HOLD (308/L)"
+ },
+ {
+   "airport_ident": "TNCM",
+   "runway": "28",
+   "eoSid": "AT D10.0 PJM VOR (D113.0) LT PJM AND HOLD (308/L)"
+ },
+ {
+   "airport_ident": "VHHX",
+   "runway": "13",
+   "eoSid": "ON RWY HDG TO IHK 4.0 DME RT H155. HOLD AT TH VOR R-170/D5.0 350 INBD RT"
+ },
+ {
+   "airport_ident": "VHHX",
+   "runway": "31",
+   "eoSid": "LT H251 TO INT/TRK INBND CH R-031 TO CH. HOLD E CH ON R-090 AT 4500 MSL LT. MFRA 1015. NOTE-B767 USE MFRA 820."
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "23",
+   "eoSid": "RT TO 'HAM' 113.1 (009 INBD,RT)"
+ },
+ {
+   "airport_ident": "EDDH",
+   "runway": "33",
+   "eoSid": "CLIMB STRAIGHT AHEAD TO GT LCTR (323.0). WHEN PASSING 2000' TURN RIGHT TO HAM VORDME (113.10) CLIMBING TO 3000' AND HOLD (INBD 009, RT)"
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "35",
+   "eoSid": "STRAIGHT AHEAD TO VOO VOR (D114.85) LT TO FLS VOR (D115.55) AND HOLD (160 RT)"
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01R",
+   "eoSid": "AT DME 5.0 GRM VOR (D115.95) RT TO OPA NDB (334.0) AND HOLD (120 RT)"
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19L",
+   "eoSid": "AT DME 7.0 GRM VOR (D115.95) LT TO OPA NDB (334.0) AND HOLD (050 RT)"
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "19R",
+   "eoSid": "AT DME 7.0 GRM VOR (D115.95) LT TO OPA NDB (334.0) AND HOLD (050 RT)"
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "27",
+   "eoSid": "AT 2000FT RT TO TRM VOR (D112.50) AND HOLD (060 RT)"
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "11",
+   "eoSid": "AT 2000FT RT TO VAR NDB (319.0) AND HOLD (180 RT)"
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "18",
+   "eoSid": "STRAIGHT AHEAD TO VAR NDB (319.0) AND HOLD (180 RT)"
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "29",
+   "eoSid": "AT 2000FT LT TO VAR NDB (319.0) AND HOLD (180 RT)"
+ },
+ {
+   "airport_ident": "ENZV",
+   "runway": "36",
+   "eoSid": "AT 2000FT LT TO VAR NDB (319.0) AND HOLD (180 RT)"
+ },
+ {
+   "airport_ident": "ENVA",
+   "runway": "09",
+   "eoSid": "STRAIGHT AHEAD TO FLR NDB (380.0) LT TO TRM VOR (D112.50) AND HOLD (300 LT)"
+ },
+ {
+   "airport_ident": "ENBR",
+   "runway": "17",
+   "eoSid": "STRAIGHT AHEAD TO BTA NDB (336.0) RT TO FLS VOR (D115.55) AND HOLD (030 RT)"
+ },
+ {
+   "airport_ident": "ENGM",
+   "runway": "01L",
+   "eoSid": "AT DME 5.0 GRM VOR (D115.95) RT TO OPA NDB (334.0) AND HOLD (120 RT)"
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "18",
+   "eoSid": "AT DME 10.0 TRP VOR (D113.85) LT TO TRP VOR (D113.85) AND HOLD (340 RT)"
+ },
+ {
+   "airport_ident": "ENTO",
+   "runway": "36",
+   "eoSid": "AT DME 10.0 TRP VOR (D113.85) LT TO TRP VOR (D113.85) AND HOLD (160 LT)"
+ },
+ {
+   "airport_ident": "ENML",
+   "runway": "07",
+   "eoSid": "AT 600FT RT TO TAT NDB (393.0) AND HOLD (270 RT)"
+ },
+ {
+   "airport_ident": "ENML",
+   "runway": "25",
+   "eoSid": "STRAIGHT AHEAD TO TAT NDB (393.0) AND HOLD (250 RT)"
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "07",
+   "eoSid": "AT 500 FT RT TRK 250. AT D15.0 BDO VOR (D117.55) RT TO BDO VOR (D117.55)"
+ },
+ {
+   "airport_ident": "ENBO",
+   "runway": "25",
+   "eoSid": "STRAIGHT AHEAD TO D15.0 BDO VOR (D117.55) RT TO BDO VOR (D117.55)"
+ },
+ {
+   "airport_ident": "ENDU",
+   "runway": "28",
+   "eoSid": "// T/O FROM OVERRUN EAST //. STRAIGHT AHEAD TO SA NDB (338.0) RT TO BDF VOR (D114.20) AND HOLD (120 RT)"
+ },
+ {
+   "airport_ident": "ENDU",
+   "runway": "10",
+   "eoSid": "// T/O FROM OVERRUN WEST //. STRAIGHT AHEAD TO TIL NDB (350.0) LT TO BDF VOR (D114.20) AND HOLD (250 RT)"
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "01",
+   "eoSid": "STRAIGHT AHEAD TO KV NDB (362.0) RT TO TRO VOR (D113.80) AND HOLD (180 LT)"
+ },
+ {
+   "airport_ident": "ENTC",
+   "runway": "19",
+   "eoSid": "STRAIGHT AHEAD TO KBV NDB (283.0) LT TO TRO VOR (D113.80) AND HOLD (010 LT)"
+ },
+ {
+   "airport_ident": "ENKR",
+   "runway": "06",
+   "eoSid": "STRAIGHT AHEAD TO KKS NDB (326.0) LT TO KIK VOR (D112.0) AND HOLD (238 RT)"
+ },
+ {
+   "airport_ident": "ENKR",
+   "runway": "24",
+   "eoSid": "STRAIGHT AHEAD TO D8-0 KIK VOR (D112.0) RT TO KIK VOR (D112.0) AND HOLD (058 LT)"
+ },
+ {
+   "airport_ident": "TAPA",
+   "runway": "07",
+   "eoSid": "INTCPT AND FOLLOW ANU VOR (D114.5) R-062 TO LENED (ANU R-062/D10.0) AND HOLD (242 LT)"
+ },
+ {
+   "airport_ident": "TAPA",
+   "runway": "25",
+   "eoSid": "INTCPT AND FOLLOW ANU VOR (D114.5) R-262 TO OMREL (ANU R-262/D10.0) AND HOLD (082 LT)"
+ }
+]

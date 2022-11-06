@@ -1,0 +1,11 @@
+{
+   "tableY":[160,140,120,100,null,null,null],
+   "tableX":[300,200,100,0,-100,-200,-300],
+   "col1":[-4,-3,-4,-5,null,null,null],
+   "col2":[-3,-3,-4,-5,null,null,null],
+   "col3":[-2,-2,-2,-3,null,null,null],
+   "col4":[0,0,0,0,null,null,null],
+   "col5":[1,1,1,1,null,null,null],
+   "col6":[1,1,1,1,null,null,null],
+   "col7":[1,1,1,1,null,null,null]
+}

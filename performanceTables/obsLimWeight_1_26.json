@@ -1,0 +1,18 @@
+{
+   "tableY":[5,20,50,100,150,200,250,300,null,null,null,null,null,null],
+   "tableX":[25,30,35,40,45,50,55,60,65,70,75,80,85,90],
+   "col1":[70.6,65.7,59.3,54.5,46.5,42,40,40,null,null,null,null,null,null],
+   "col2":[77,71.5,64.5,57,51.5,47,43.2,40,null,null,null,null,null,null],
+   "col3":[82,76.3,69,61.3,55.5,51.9,47.3,44,null,null,null,null,null,null],
+   "col4":[82,80.2,72.8,64.8,59.2,54.4,50.8,47.5,null,null,null,null,null,null],
+   "col5":[82,82,75.9,68,62.2,57.5,53.9,50.5,null,null,null,null,null,null],
+   "col6":[82,82,78.5,70.6,65,60.3,56.5,53.3,null,null,null,null,null,null],
+   "col7":[82,82,80.6,72.8,67.4,62.7,58.8,55.6,null,null,null,null,null,null],
+   "col8":[82,82,82,75,69.5,64.7,61.2,57.7,null,null,null,null,null,null],
+   "col9":[82,82,82,76.6,71.3,66.7,63.1,59.8,null,null,null,null,null,null],
+   "col10":[82,82,82,78.4,72.9,68.5,64.9,61.5,null,null,null,null,null,null],
+   "col11":[82,82,82,79.6,74.5,70.2,66.5,63.3,null,null,null,null,null,null],
+   "col12":[82,82,82,81,75.7,71.5,68,64.7,null,null,null,null,null,null],
+   "col13":[82,82,82,81.8,77,72.8,69.3,66.2,null,null,null,null,null,null],
+   "col14":[82,82,82,82.7,78.3,74.2,70.6,67.4,null,null,null,null,null,null]
+}

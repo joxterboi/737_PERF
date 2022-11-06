@@ -1,0 +1,14 @@
+{
+   "tableY":[80,70,60,50,45,35,null,null,null,null],
+   "tableX":[6,9,14,18,22,26,30,32,33,36],
+   "col1":[8.5,8.5,8.25,7.25,6.5,6.5,null,null,null,null],
+   "col2":[8.5,8.25,7.25,6.25,6.25,6.25,null,null,null,null],
+   "col3":[8.5,8,7.5,6.5,6,6,null,null,null,null],
+   "col4":[8,7.5,7,6,5.75,5.75,null,null,null,null],
+   "col5":[7.25,6.25,6.25,5.5,5,5,null,null,null,null],
+   "col6":[6.75,6.25,5.75,5,4.75,4.75,null,null,null,null],
+   "col7":[6.25,5.75,5.25,4.75,4.25,4.25,null,null,null,null],
+   "col8":[5.75,5.25,4.75,4,3.75,3.75,null,null,null,null],
+   "col9":[5,4.5,4,3.5,3.25,3.25,null,null,null,null],
+   "col10":[4.5,3.75,3.25,3,2.75,2.75,null,null,null,null]
+}

@@ -1,0 +1,18 @@
+{
+   "tableY":[110,100,90,80,70,60,50,40,30,20,10,0,null,null],
+   "tableX":[-40,-20,0,5,10,15,20,25,30,35,40,45,50,55],
+   "col1":[14.9,14.9,14,12.9,11.2,9.2,7.8,null,null,null,null,null,null,null],
+   "col2":[null,10.9,11.7,11.6,10.7,9.5,7.8,6,4.6,null,null,null,null,null],
+   "col3":[null,null,null,7.8,8.6,8.5,7.5,6.2,4.6,2.9,1.5,0,null,null],
+   "col4":[null,null,null,null,7.8,8.4,7.1,6.1,4.6,3,1.5,0,null,null],
+   "col5":[null,null,null,null,6.3,7.1,6.9,5.9,4.6,3,1.5,0,null,null],
+   "col6":[null,null,null,null,null,6.3,7,5.8,4.5,3,1.5,0,null,null],
+   "col7":[null,null,null,null,null,4.9,5.6,5.7,4.4,3,1.5,0,null,null],
+   "col8":[null,null,null,null,null,null,4.9,5.6,4.3,3,1.5,0,null,null],
+   "col9":[null,null,null,null,null,null,3.4,4.7,4.3,2.9,1.5,0,null,null],
+   "col10":[null,null,null,null,null,null,null,4.4,4.2,2.9,1.5,0,null,null],
+   "col11":[null,null,null,null,null,null,null,5.3,4.1,2.8,1.4,0,null,null],
+   "col12":[null,null,null,null,null,null,null,null,4,2.8,1.4,0,null,null],
+   "col13":[null,null,null,null,null,null,null,null,3.9,2.7,1.4,0,null,null],
+   "col14":[null,null,null,null,null,null,null,null,null,2.6,1.4,0,null,null]
+}
