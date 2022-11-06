@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0;font-family: roboto;}
 /* body {background-color: #0D0D14} */
-/* body {background-color: #222;} */
+body {height: 100vh;}
 .container {
     background-color: #0D0D14;
     /* width: 1000px;
