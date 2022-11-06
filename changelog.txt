@@ -1,0 +1,5 @@
+0.1
++added pack and antiice modifiers to field limit
+*changed logic behind most limiting weight
+*fixed white border on bottom of iPad when running as standalone
+*changed name of bleed options
