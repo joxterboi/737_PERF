@@ -1,3 +1,7 @@
+0.1.1
++added bleed and antiice adjust to climb weight
++added so that bleed and anitice effects n1%
+*fixed so that bleed and antiice effects assumed temp
 0.1
 +added pack and antiice modifiers to field limit
 *changed logic behind most limiting weight
