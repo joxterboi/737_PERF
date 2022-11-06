@@ -36,7 +36,10 @@ function forceFull() {
     document.getElementById("derateResultN1").innerHTML = n1s[0];
 }
 
-
+function loadingProgress(progress) {
+    document.getElementById("loadingBar").firstElementChild.innerHTML = `Calculating... ${progress}%`
+    document.getElementById("blueLine").style.background = `linear-gradient(to right,#34A9FE ${progress}%, #316093 ${progress}%)`
+}
 
 
 // -------------------Drop-down-menus--------------------------

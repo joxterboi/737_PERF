@@ -144,11 +144,18 @@ document.getElementById("inputConditions").addEventListener("input", function(){
 
 // ----------------------------------------On-submit------------------------------------------------
 inputConditions.addEventListener('submit', function (event) {
-   event.preventDefault()
-   forceFlap = false;
-   forceRTG = false;
-   fullForced = false;
-   mainCalc()
+    //Blurs screen and adds loading screen
+    loadingProgress(5)
+    document.getElementById("calculating").style.display = "flex"
+    document.getElementById("takeOff").classList.add("blur")
+    document.querySelector('header').classList.add("blur")
+    document.querySelector('footer').classList.add("blur")
+
+    event.preventDefault()
+    forceFlap = false;
+    forceRTG = false;
+    fullForced = false;
+    mainCalc()
 });
 function mainCalc() {
    document.getElementById("resultsWindow").style.opacity = 0;
@@ -182,7 +189,7 @@ function mainCalc() {
 
     stopway = 0;
     clearway = 0;
-
+    loadingProgress(13)
     getEoSid();
     getTrim();
     getVref();
@@ -378,6 +385,7 @@ async function obstacleLim() {
 
 // PI
 async function vSpeeds() {
+    loadingProgress(57)
     let tableLocation = (`performanceTables/vSpds_${cond}_${RTG}.json`)
     //x = Flap setting, Y = TOW
     let vSpdTable = await fetchTable(tableLocation)
@@ -455,6 +463,7 @@ async function clearwayStopway() {
     //MAX ALLOWABLE CLEARWAY (M)     150  180  210  240  270  290
 }
 async function n1(perfLimitAssumedTemp) {
+    loadingProgress(79)
     //1. OAT, corrdRwElev
     //Retruns max allowed assumed, compare this with perfLimitAssumed and set the lowest to actAssumedTemp
     let maxRegulatedAssumedTemp = await tableLookup(`performanceTables/maxAssumed_${RTG}.json`, OAT, corrdRwElev)
@@ -507,6 +516,7 @@ async function getEoSid() {
 }
 // Print
 function print() {
+    loadingProgress(92)
     fullForced = false;
     let id = element => document.getElementById(element)
 
@@ -548,7 +558,10 @@ function print() {
     if (assumedTemp < 31) {
         forceFull()
     }
-    
+    document.getElementById("calculating").style.display = "none"
+    document.getElementById("takeOff").classList.remove("blur")
+    document.querySelector('header').classList.remove("blur")
+    document.querySelector('footer').classList.remove("blur")
 }
 function performanceLimitedPrint() {
     alert("No takeoff allowed. Planned weight exceeds max allowable weight.")

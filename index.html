@@ -6,9 +6,10 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="dropDown.css">
+    <link rel="stylesheet" href="loadingScreen.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     
     
     <!-- Ipad stuff -->
@@ -28,7 +29,7 @@
             </div>
         </header>
         
-
+    <div id="takeOff">
         <!-- INPUT PART -->
         <form id="inputConditions">
         <div id="inputSection">
@@ -236,6 +237,18 @@
                 <p id="atmText">ATM</p>
             </div>
         </div>
+    </div>
+    <div id="ladning">
+        
+    </div>
+    <div id="calculating">
+        <h1>Calculation in Progress</h1>
+        <div id="loadingBar">
+            <p>Calculating... 5%</p>
+            <div id="blueLine"></div>
+        </div>
+        <button>Cancel</button>
+    </div>
         <footer>
             <div class="atmActive">
                 <p>TKO Dispatch</p>
