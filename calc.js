@@ -32,6 +32,7 @@ let vref40
 let n1s
 let vSpds
 
+
 //--------------------UI-updates-------------------
 document.getElementById("airport").addEventListener("blur", findAirport)
 function findAirport() {
@@ -519,7 +520,6 @@ function print() {
     loadingProgress(92)
     fullForced = false;
     let id = element => document.getElementById(element)
-
     id("flapResult").innerHTML = FLAP
     let rwyResult;
     if(id("intx").value != "FULL") {
@@ -565,6 +565,15 @@ function print() {
 }
 function performanceLimitedPrint() {
     alert("No takeoff allowed. Planned weight exceeds max allowable weight.")
+}
+//Enableing the cancel button and stopping all functions
+function cancelCalc() {
+    document.getElementById("calculating").style.display = "none"
+    document.getElementById("takeOff").classList.remove("blur")
+    document.querySelector('header').classList.remove("blur")
+    document.querySelector('footer').classList.remove("blur")
+    throw new Error("Calculation has been canceld");
+
 }
 //---------------------------Utility-functions---------------------------
 async function climbLimLookup(temp) {
