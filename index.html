@@ -29,7 +29,7 @@
             </div>
         </header>
         
-    <div id="takeOff">
+    <div id="takeOff" class="page ">
         <!-- INPUT PART -->
         <form id="inputConditions">
         <div id="inputSection">
@@ -66,7 +66,7 @@
                              <p class="smallUnderText" id="windComponentDisplay"> </p>
                          </div>
                          <label for="windInput">WIND</label>
-                         <input value="120/6" type="text" id="windInput" pattern="\d{2,3}/\d{1,2}">
+                         <input required value="120/6" type="text" id="windInput" pattern="\d{2,3}/\d{1,2}">
                      </div>
             
                      <div>
@@ -74,7 +74,7 @@
                              <p class="smallUnderText" id="oatDisplay"> </p>
                          </div>
                          <label for="OAT">OAT</label>
-                         <input type="number" id="OAT" min="-40" max="50" value="4">
+                         <input required type="number" id="OAT" min="-40" max="50" value="4">
                      </div>
             
                      <div>
@@ -82,7 +82,7 @@
                              <p class="smallUnderText" id="qnhDisplay"> </p>
                          </div>
                          <label for="QNH">QNH</label>
-                         <input type="number" id="QNH" min="976" max="1052" value="1000">
+                         <input required type="number" id="QNH" min="976" max="1052" value="1000">
                      </div>
                 </div>
             
@@ -99,7 +99,7 @@
                         <label for="RTG">RTG</label>
                     </div>   
                     <div>
-                        <input type="number" id="ATM" placeholder="MAX">
+                        <input disabled type="number" id="ATM" placeholder="MAX">
                         <label for="ATM">ATM</label>
                     </div>
                     <div>
@@ -141,7 +141,7 @@
                 <div>
                     <div class="wCg">
                         <label for="TOW">Takeoff Weight:</label>
-                        <input type="number" id="TOW" min="42000" max="79016" placeholder="KG" value="65000">
+                        <input required type="number" id="TOW" min="42000" max="79016" placeholder="KG" value="65000">
                     </div>                
                     <div class="wCg">
                         <label for="CG">CG(%):</label>
@@ -238,28 +238,190 @@
             </div>
         </div>
     </div>
-    <div id="ladning">
-        
+    <div id="ladning" class="page hidden">
+        <!-- INPUT PART -->
+        <form id="inputConditionsLdg">
+            <div id="inputSectionLdg">
+                <div id="leftInputBoxLdg">
+                    <!-- Conditions -->
+                    <div class="leftSide">
+    
+                         <div>
+                             <label for="airportLdg">ARPT</label>
+                             <input value="essa" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                         </div>
+                         
+                         <div>
+                             <label for="runwayLdg">RWY</label>
+                             <select required id="runwayLdg" type="text"></select>
+                         </div>
+    
+                         <div>
+                            <label for="GRAD">GRAD</label>
+                            <select id="GRAD" type="text"></select>
+                        </div>
+    
+                         <div>                         
+                             <label for="condLdg">COND</label>
+                             <select id="condLdg">
+                                 <option value="DRY">DRY</option>
+                                 <option value="GOOD">GOOD</option>
+                                 <option value="GM">GOOD-MEDIUM</option>
+                                 <option value="MEDIUM">MEDIUM</option>
+                                 <option value="MP">MEDIUM-POOR</option>
+                                 <option value="P">POOR</option>
+                             </select>
+                         </div>
+                
+    
+                         <div>
+                             <div class="smallUnderTextDiv">
+                                 <p class="smallUnderText" id="windComponentDisplayLdg"> </p>
+                             </div>
+                             <label for="windInputLdg">WIND</label>
+                             <input required value="120/56" type="text" id="windInputLdg" pattern="\d{2,3}/\d{1,2}">
+                         </div>
+                
+                         <div>
+                             <div class="smallUnderTextDiv">
+                                 <p class="smallUnderText" id="oatDisplayLdg"> </p>
+                             </div>
+                             <label for="OATLdg">OAT</label>
+                             <input required type="number" id="OATLdg" min="-40" max="50" value="4">
+                         </div>
+                
+                         <div>
+                             <div class="smallUnderTextDiv">
+                                 <p class="smallUnderText" id="qnhDisplayLdg"> </p>
+                             </div>
+                             <label for="QNHLdg">QNH</label>
+                             <input required type="number" id="QNHLdg" min="976" max="1052" value="1000">
+                         </div>
+                    </div>
+                
+    
+                    <!-- Performance -->
+                    <div class="rightSide">
+                        <div>
+                            <select id="flapLdg">
+                                <option value="30">30</option>
+                                <option value="40">40</option>
+                            </select>
+                            <label for="flapLdg">FLAP</label>
+                        </div>
+                        <div>
+                            <select id="BLEEDLdg">
+                                <option value=1>BLEEDS ON</option>
+                                <option value=0>BLEEDS OFF</option>
+                            </select>
+                            <label for="BLEEDLdg">A/C</label>
+                        </div>   
+                        <div>
+                            <select id="A/ICELdg">
+                                <option value="0">OFF</option>
+                                <option value="1">ENGINE</option>
+                                <option value="2">ENG+WING</option>
+                            </select>
+                            <label for="A/ICELdg">A/I</label>
+                        </div>   
+                        <div>
+                            <select type="number" id="REV" placeholder="MAX">
+                                <option value="0">NO CREDIT</option>
+                                <option value="2">ALL OP</option>
+                                <option value="1">ONE INOP</option>
+                            </select>
+                            <label for="REV">REV</label>
+                        </div>
+                        <div>
+                            <select type="number" id="BRKS" placeholder="MAX">
+                                <option value="0">ALL</option>
+                                <option value="5">MAX MANUAL</option>
+                                <option value="3">AUTO BRK 1</option>
+                                <option value="2">AUTO BRK 2</option>
+                                <option value="1">AUTO BRK 3</option>
+                                <option value="4">MAX AUTO</option>
+                            </select>
+                            <label for="BRKS">BRKS</label>
+                        </div>
+                        <div>
+                            <select id="NNC">
+                                <option value="0">NON-NORM</option>
+                            </select>
+                            <label for="NNC">NNC</label>
+                        </div>   
+                        <div>
+                            <select id="SPOIL">
+                                <option value=0>AUTO</option>
+                                <option value=1>1</option>
+                                <option value=5>5</option>
+                                <option value=10>10</option>
+                                <option value=15>15</option>
+                                <option value=25>25</option>
+                            </select>
+                            <label for="SPOIL">SPOIL</label>
+                        </div>       
+
+                    </div>
+                </div>
+                <div id="rightInputBoxLdg">
+                    <div>
+                        <div class="wCg">
+                            <label for="LAW">LADNING WT:</label>
+                            <input required type="number" id="LAW" min="42000" max="79016" placeholder="KG" value="65000">
+                        </div>                
+                        <div class="wCg">
+                            <label for="vrefAdd">VREF ADD:</label>
+                            <input type="number" id="vrefAdd" min="0" max="20" value="5" step=".1">
+                        </div>
+                    </div>    
+                    <div>
+                        <div id="perfModelContainerLdg">
+                            <p id="perfModelLdg">737-800W/CFM56-7B26</p>
+                            <button>Calculate</button>
+                        </div>
+                        <div>
+                            <div id="rwyGraphLdg"></div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+            </form>
+    
+            <!-- RESULT PART -->
+            <div id="resultsLdg">
+                <div id="resultsWindowLadning">
+                    
+                </div>
+            </div>
     </div>
+    <div id="takeoffAlleng" class="page hidden">
+        <h1>Takeoff all eng</h1>
+    </div>
+    <div id="landingDispatch" class="page hidden">
+        <h1>Landing dispatch</h1>
+    </div>
+
     <div id="calculating">
         <h1>Calculation in Progress</h1>
         <div id="loadingBar">
             <p>Calculating... 5%</p>
             <div id="blueLine"></div>
         </div>
-        <button>Cancel</button>
+        <button onclick=cancelCalc()>Cancel</button>
     </div>
         <footer>
-            <div class="atmActive">
+            <div id="takeOffPage" class="footerActive footerButton">
                 <p>TKO Dispatch</p>
             </div>
-            <div>
+            <div id="takeoffAllengPage" class="footerButton">
                 <p>TKO All Engine</p>
             </div>
-            <div>
+            <div id="landingDispatchPage" class="footerButton">
                 <p>LDG Dispatch</p>
             </div>
-            <div>
+            <div id="ladningPage" class="footerButton">
                 <p>LDG Enroute</p>
             </div>
         </footer>
