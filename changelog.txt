@@ -1,3 +1,5 @@
+0.1.2
++added loading screen when calculating
 0.1.1
 +added bleed and antiice adjust to climb weight
 +added so that bleed and anitice effects n1%
