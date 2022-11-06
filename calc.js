@@ -194,7 +194,6 @@ function mainCalc() {
 async function mainProcessTree () {
     let perfLimitAssumedTemp = await PD();
     if(perfLimitAssumedTemp < 717){
-        console.log(perfLimitAssumedTemp)
         await PI(perfLimitAssumedTemp)
         print()
     } else if(perfLimitAssumedTemp > 727){
@@ -250,18 +249,29 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     // Calculates climb limit takeoff weight with no assumed temp
     let climbLimWeightFull = await climbLimLookup(OAT)
 
-    //Adjusts field limit based on bleed and antiice
+    //Adjusts field and climb limit based on bleed and antiice
     let bleedFieldAdj = 0
     let antiIceFieldAdj = 0
-    if(BLEED == 0)
+    let bleedClimbAdj = 0
+    let antiIceClimbAdj = 0
+    if(BLEED == 0) {
         bleedFieldAdj = await fieldClimbAdj("field", 0)
-    if(AntiIce == 1)
+        bleedClimbAdj = await fieldClimbAdj("climb", 0)
+    }
+    if(AntiIce == 1){
         antiIceFieldAdj = await fieldClimbAdj("field", 1)
-    if(AntiIce == 2)
+        antiIceClimbAdj = await fieldClimbAdj("climb", 1)
+    }
+    if(AntiIce == 2) {
         antiIceFieldAdj = await fieldClimbAdj("field", 2)
+        antiIceClimbAdj = await fieldClimbAdj("climb", 2)
+    }
 
     let fieldWeightAdj = bleedFieldAdj + antiIceFieldAdj
     fieldLimWeightFull = fieldLimWeightFull + fieldWeightAdj
+
+    let climbWeightAdj = bleedClimbAdj + antiIceClimbAdj
+    climbLimWeightFull = climbLimWeightFull + climbWeightAdj
 //____________CHECKING_ALL_DIFFRENT_WEIGHT_LIMITS_AND_SETS_MOST_LIMITING_TO "mostLimWeight"___________________________________
     let mostLimWeight
     // obstacles
@@ -298,18 +308,21 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     let climbLimWeightAssumed = await climbLimLookup(50)
     let fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, 50);
     
-    //calculating assumed temp
+//calculating assumed temp
     tableLocation = `performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`;
     let assumedTemp = 50;
     let lastTry = false
     if(mostLimWeight >= TOW && climbLimWeightFull >= TOW ){
         while (fieldLimWeightAssumed < TOW || climbLimWeightAssumed < TOW) {
             fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, assumedTemp)
+            fieldLimWeightAssumed = fieldLimWeightAssumed + fieldWeightAdj
             climbLimWeightAssumed = await climbLimLookup(assumedTemp)
+            climbLimWeightAssumed = climbLimWeightAssumed + climbWeightAdj
             if(mostLimWeight > fieldLimWeightAssumed)
                 fieldLimWeightAssumed = mostLimWeight
             assumedTemp--;
         }        
+//If full thrust is not enough with current flap and derate
     } else {
         if(lastTry)
             assumedTemp = 737;
@@ -334,6 +347,7 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
 
     return assumedTemp;
 }
+//Obstacle calculation
 async function obstacleLim() {
     let obsList = await fetchTable("runwayDatabase/obstacles.json")
     let airport = document.getElementById("airport").value.toUpperCase();
@@ -462,6 +476,8 @@ async function n1(perfLimitAssumedTemp) {
         assumedN1 = Math.round(assumedN1 * 10) / 10
     }
     fullN1 = Math.round(fullN1 * 10) / 10
+    if(BLEED == 0)
+        fullN1 = fullN1 - 0.7
     return [fullN1, assumedN1, assumedTemp]
 }
 async function getTrim() {
@@ -507,7 +523,8 @@ function print() {
     id("togwResult").innerHTML = TOW*1000 + "KG"
 
     RTG == 22 ? id("derateResultTitle").innerHTML = "D-TO-2" : id("derateResultTitle").innerHTML = "D-TO"
-    id("derateResultN1").innerHTML = n1s[1];
+    BLEED == 0 ? id("derateResultN1").innerHTML = (n1s[1]-1) : id("derateResultN1").innerHTML = n1s[1]
+    
 
     id("trimResult").innerHTML = Math.round(trim*100)/100
     id("tempResult").innerHTML = n1s[2] + "<span> C</span>"
