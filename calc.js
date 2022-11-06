@@ -90,7 +90,11 @@ function calcWind() {
     let windStrength = windInput.split("/")[1];
     let rwHdg = document.getElementById("runway").value.split(",")[0];
     
-
+    if(!document.getElementById("windInput").value.includes("/")){
+        windStrength = document.getElementById("windInput").value
+        rwHdg ? windDir = rwHdg : windDir = 0
+        
+    }
     windDir = parseInt(windDir);
     windStrength = parseInt(windStrength);
     if (isNaN(windStrength)) {
@@ -106,8 +110,10 @@ function calcWind() {
         } else {
             document.getElementById("windComponentDisplay").innerHTML = HWcomp + " HW/" + XWcomp + " XW";
         }
-        return HWcomp;
+        
     }    
+    return HWcomp;
+
 }
 document.getElementById("OAT").addEventListener("blur", calcFarenheit)
 function calcFarenheit() {
@@ -136,6 +142,11 @@ function calcQnh() {
         document.getElementById("qnhDisplay").innerHTML = " ";
         }
     }
+}
+document.getElementById("TOW").addEventListener("blur", setTow)
+function setTow() {
+    if(document.getElementById("TOW").value < 80)
+        document.getElementById("TOW").value = document.getElementById("TOW").value * 1000
 }
 document.getElementById("inputConditions").addEventListener("input", function(){
     document.getElementById("resultsWindow").style.opacity = 0;
