@@ -3,6 +3,7 @@ let fullForced
 document.getElementById("atmButton").addEventListener("click", setActive)
 document.getElementById("fullButton").addEventListener("click", setActive)
 
+
 function setActive() {
     if (fullForced == true) 
         return
@@ -19,11 +20,13 @@ function setActive() {
     if (activeMode == "FULL") {
         document.getElementById("tempResult").parentElement.style.opacity = 0
         document.getElementById("derateResultN1").innerHTML = n1s[0]
-        document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("-")[1]
+        if(Array.from(document.getElementById("derateResultTitle").innerHTML)[0] != "T")
+            document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("-")[1]
     } else {
         document.getElementById("tempResult").parentElement.style.opacity = 1
         document.getElementById("derateResultN1").innerHTML = n1s[1]
-        document.getElementById("derateResultTitle").innerHTML = "D-" + document.getElementById("derateResultTitle").innerHTML
+        if(Array.from(document.getElementById("derateResultTitle").innerHTML)[0] != "D")
+            document.getElementById("derateResultTitle").innerHTML = "D-" + document.getElementById("derateResultTitle").innerHTML
     }
 }
 function forceFull() {
@@ -40,6 +43,29 @@ function loadingProgress(progress) {
     document.getElementById("loadingBar").firstElementChild.innerHTML = `Calculating... ${progress}%`
     document.getElementById("blueLine").style.background = `linear-gradient(to right,#34A9FE ${progress}%, #316093 ${progress}%)`
 }
+
+
+//Highlights current page
+let footerButtons = document.getElementsByClassName("footerButton")
+Array.from(footerButtons).forEach(function(footerButton) {
+    footerButton.addEventListener('click', changePage);
+});
+function changePage() {
+    Array.from(footerButtons).forEach(function(footerButton) {
+        footerButton.classList.remove("footerActive")
+        document.getElementById(footerButton.id.slice(0, -4)).classList.add("hidden")
+    });
+    this.classList.add("footerActive")
+    displayPage(this.id.slice(0, -4))
+}
+
+//Changes content when pressing footer button
+function displayPage(selectedPage) {
+    document.querySelector('header').firstElementChild.innerHTML = `PERFORMANCE - ${selectedPage.toUpperCase()}`
+    document.getElementById(selectedPage).classList.remove("hidden")
+}
+
+
 
 
 // -------------------Drop-down-menus--------------------------
