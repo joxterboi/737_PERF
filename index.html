@@ -39,7 +39,7 @@
 
                      <div>
                          <label for="airport">ARPT</label>
-                         <input value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                         <input maxlength="4" value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                      </div>
                      
                      <div>
@@ -66,7 +66,8 @@
                              <p class="smallUnderText" id="windComponentDisplay"> </p>
                          </div>
                          <label for="windInput">WIND</label>
-                         <input required value="120/6" type="text" id="windInput" pattern="\d{2,3}/\d{1,2}">
+                         <input required value="" type="text" id="windInput" >
+                         <!-- pattern="\d{2,3}/\d{1,2}" -->
                      </div>
             
                      <div>
@@ -141,7 +142,7 @@
                 <div>
                     <div class="wCg">
                         <label for="TOW">Takeoff Weight:</label>
-                        <input required type="number" id="TOW" min="42000" max="79016" placeholder="KG" value="65000">
+                        <input required type="number" id="TOW" max="79016" placeholder="KG" value="65000">
                     </div>                
                     <div class="wCg">
                         <label for="CG">CG(%):</label>
