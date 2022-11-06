@@ -224,7 +224,9 @@ async function mainProcessTree () {
 }
 async function PD() {
     corrdRwElev = await correctQNH();
+    console.log(rwLength)
     document.getElementById("intx").value != "FULL" ? rwLength = document.getElementById("intx").value.split(",")[0]/3.28084 : console.log()//do nothing
+    console.log(rwLength)
     let clearwayStopways = await clearwayStopway()
     if(stopway > 0 || clearway > 0) {
         if (cond == "DRY")
@@ -294,9 +296,11 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
 //____________CHECKING_ALL_DIFFRENT_WEIGHT_LIMITS_AND_SETS_MOST_LIMITING_TO "mostLimWeight"___________________________________
     let mostLimWeight
     // obstacles
-    let obstacleLimWeight = await obstacleLim()
-    if(fieldLimWeightFull > obstacleLimWeight) 
+    let obstacleLimWeight = await obstacleLim(corrdFieldLength)
+    if(fieldLimWeightFull > obstacleLimWeight) {
         mostLimWeight = obstacleLimWeight
+        console.log("Obs limited", obstacleLimWeight)
+    }
     else
         mostLimWeight = fieldLimWeightFull
 
@@ -320,8 +324,10 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     if (hwComp < 0)   
     tireSpdLimWeight = tireSpdLimWeight + (1.1 * hwComp)
 
-    if(mostLimWeight < tireSpdLimWeight)
+    if(mostLimWeight > tireSpdLimWeight){
         mostLimWeight = tireSpdLimWeight
+        console.log("Tirespeed limted", tireSpdLimWeight)
+    }
     
     //Checks limits for max assumed
     let climbLimWeightAssumed = await climbLimLookup(50)
@@ -367,12 +373,12 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     return assumedTemp;
 }
 //Obstacle calculation
-async function obstacleLim() {
+async function obstacleLim(TORA) {
     let obsList = await fetchTable("runwayDatabase/obstacles.json")
     let airport = document.getElementById("airport").value.toUpperCase();
     let runway = document.getElementById("runway").value.split(",")[4];
     let activeObstecles = obsList.filter(airports => airports.airport_ident == airport && airports.runway == runway)    
-    let obsTora = ((document.getElementById("runway").value.split(",")[1]/3.28084)-26)
+    let obsTora = ((TORA)-26)
     let mostRestrictiveObsLimWeight = 100
     for (let i = 0; i < activeObstecles.length; i++) {
         let activeObsDist = (activeObstecles[i].obsDist/3.28084) + obsTora;
