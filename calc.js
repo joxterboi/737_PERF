@@ -523,7 +523,14 @@ function print() {
     id("togwResult").innerHTML = TOW*1000 + "KG"
 
     RTG == 22 ? id("derateResultTitle").innerHTML = "D-TO-2" : id("derateResultTitle").innerHTML = "D-TO"
-    BLEED == 0 ? id("derateResultN1").innerHTML = (n1s[1]-1) : id("derateResultN1").innerHTML = n1s[1]
+    if(BLEED == 0) {
+        if(RTG == 22)
+            id("derateResultN1").innerHTML = (n1s[1]-0.9)
+        else
+            id("derateResultN1").innerHTML = (n1s[1]-1)
+    } else 
+        id("derateResultN1").innerHTML = n1s[1]
+    
     
 
     id("trimResult").innerHTML = Math.round(trim*100)/100
