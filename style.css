@@ -42,6 +42,10 @@ option,
     text-transform: uppercase;
     caret-color: white;
 }
+
+::placeholder {
+    background: none;
+}
 #airport::placeholder {
     color: #fff;
 }
