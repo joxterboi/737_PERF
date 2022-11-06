@@ -1,3 +1,9 @@
+0.1.3
++added landing calculator UI
++added navigation to footer
+*fixed cancel button on loading screen if calculation get stuck.
+*fixed bug when pressing ATM/FULL button multiple times
+-disabled ATM input
 0.1.2
 +added loading screen when calculating
 0.1.1
