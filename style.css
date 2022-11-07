@@ -199,13 +199,13 @@ label {
     margin-left: -11px;
     margin-top: -5px;
 }
-#results > div, #resultsLdg > div {
+#results > div{
     display: flex;
     width: 67%;
     justify-content: space-between;
     max-width: 900px;
 }
-#resultsWindow {
+#resultsWindow, #resultsWindowLadning {
     opacity: 0;
 }
 .spaceBetween {
@@ -355,4 +355,85 @@ footer p {
     line-height: 25px;
     margin-left: 7px;
     font-size: 18px;
+}
+
+
+
+
+
+
+
+/* ________________________LADNING_______________________ */
+/* POS */
+#resultsWindowLadning {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#ldgResultLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Text styles */
+#ldgResultTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 340px;
+}
+#ldgResultTitle h1 {
+    text-align: right;
+}
+#resultsWindowLadning h1 {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+}
+#resultsWindowLadning h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+#resultsWindowLadning span {
+    font-weight: 500;
+    font-size: 22px;
+}
+#landingDataResultContainer {
+    display: flex;
+    margin-left: 50px;
+}
+#landingDataResult {
+    display: flex;
+    margin-left: 8px;
+}
+#landingDataResult > :first-child {
+    text-align: right;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+#landingDataResult > :last-child {
+    text-align: left;
+}
+#landingDataResult span {
+    font-size: 15px;
+    font-weight: 300;
+}
+#landingDataResult h2 {
+    margin-bottom: -6px;
+}
+
+#ldgResultRight {
+    text-align: right;
+    
+}
+#ldgResultRight h3 {
+    font-size: 21px;
+}
+#lda {
+    margin-top: 14px;
+    padding-right: 49px;
+}
+#lda h1 {
+    text-align: right;
 }
