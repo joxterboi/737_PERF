@@ -35,7 +35,7 @@ function forceFull() {
     document.getElementById("tempResult").parentElement.style.opacity = 0;
     document.getElementsByClassName("atmSelect")[0].classList.add("atmActive")
     document.getElementsByClassName("atmSelect")[1].classList.remove("atmActive")
-    document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("-")[1]
+    document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("D-")[1]
     document.getElementById("derateResultN1").innerHTML = n1s[0];
 }
 
