@@ -77,6 +77,13 @@ h1 {
     font-size: 22px;
     font-weight: 500;
 }
+#maxTow {
+    font-weight: 400;
+    margin-left: 90px;
+    margin-top: 15px;
+    margin-bottom: -43px;
+    opacity: 0;
+}
 h3 {
     font-weight: 300;
     font-size: 22px;

@@ -24,6 +24,7 @@ let clearway
 let corrdRwElev
 let vMbe
 
+let lastTry = false
 let forceFlap = false;
 let forceRTG = false;
 //Print varibles
@@ -152,6 +153,7 @@ document.getElementById("inputConditions").addEventListener("input", function(){
     document.getElementById("resultsWindow").style.opacity = 0;
     document.getElementById("perfModel").style.opacity = 0;
     document.getElementById("atmSwitch").style.opacity = 0;
+    document.getElementById("maxTow").style.opacity = 0
 })
 
 // ----------------------------------------On-submit------------------------------------------------
@@ -201,10 +203,10 @@ function mainCalc() {
 
     stopway = 0;
     clearway = 0;
-    loadingProgress(13)
     getEoSid();
     getTrim();
     getVref();
+    loadingProgress(13)
     mainProcessTree();
 }
 
@@ -212,11 +214,15 @@ function mainCalc() {
 //---------------------------Main-functions------------------------------
 async function mainProcessTree () {
     let perfLimitAssumedTemp = await PD();
+    loadingProgress(20)
     if(perfLimitAssumedTemp < 717){
         await PI(perfLimitAssumedTemp)
         print()
     } else if(perfLimitAssumedTemp > 727){
+        loadingProgress(94)
         performanceLimitedPrint()
+    } else {
+        console.log("ERROR")
     }
     
     
@@ -224,9 +230,7 @@ async function mainProcessTree () {
 }
 async function PD() {
     corrdRwElev = await correctQNH();
-    console.log(rwLength)
     document.getElementById("intx").value != "FULL" ? rwLength = document.getElementById("intx").value.split(",")[0]/3.28084 : console.log()//do nothing
-    console.log(rwLength)
     let clearwayStopways = await clearwayStopway()
     if(stopway > 0 || clearway > 0) {
         if (cond == "DRY")
@@ -296,7 +300,7 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
 //____________CHECKING_ALL_DIFFRENT_WEIGHT_LIMITS_AND_SETS_MOST_LIMITING_TO "mostLimWeight"___________________________________
     let mostLimWeight
     // obstacles
-    let obstacleLimWeight = await obstacleLim(corrdFieldLength)
+    let obstacleLimWeight = await obstacleLim(corrdFieldLength, OAT)
     if(fieldLimWeightFull > obstacleLimWeight) {
         mostLimWeight = obstacleLimWeight
         console.log("Obs limited", obstacleLimWeight)
@@ -332,48 +336,51 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     //Checks limits for max assumed
     let climbLimWeightAssumed = await climbLimLookup(50)
     let fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, 50);
+    let obsLimWeightAssumed = await obstacleLim(corrdFieldLength, 50)
     
 //calculating assumed temp
     tableLocation = `performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`;
     let assumedTemp = 50;
-    let lastTry = false
-    if(mostLimWeight >= TOW && climbLimWeightFull >= TOW ){
-        while (fieldLimWeightAssumed < TOW || climbLimWeightAssumed < TOW) {
+    
+    if(mostLimWeight >= TOW && climbLimWeightFull >= TOW){
+        while (fieldLimWeightAssumed < TOW || climbLimWeightAssumed < TOW || obsLimWeightAssumed < TOW) {
             fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, assumedTemp)
             fieldLimWeightAssumed = fieldLimWeightAssumed + fieldWeightAdj
             climbLimWeightAssumed = await climbLimLookup(assumedTemp)
             climbLimWeightAssumed = climbLimWeightAssumed + climbWeightAdj
+            obsLimWeightAssumed = await obstacleLim(corrdFieldLength, assumedTemp)
             if(mostLimWeight > fieldLimWeightAssumed)
                 fieldLimWeightAssumed = mostLimWeight
             assumedTemp--;
         }        
 //If full thrust is not enough with current flap and derate
     } else {
+        console.log(lastTry)
         if(lastTry)
             assumedTemp = 737;
-        else 
+        else {
             assumedTemp = 717;
-        
-        // Test with more flaps
-        if(FLAP == 1) {
-            FLAP = 5;
-            forceFlap = true;
-            mainCalc()
-        } else if(RTG == 22){
-            if (FLAP == 5 && lastTry == false)
-                FLAP = 1
-        // Test with less derate (sets derate = derate + 2) aka 22 = 22 + 2
-            RTG = 26;
-            forceRTG = true;
-            lastTry = true
-            mainCalc()
+            // Test with more flaps
+            if(FLAP == 1) {
+                FLAP = 5;
+                forceFlap = true;
+                mainCalc()
+            } else if(RTG == 22){
+                if (FLAP == 5 && lastTry == false)
+                    FLAP = 1
+            // Test with less derate (sets derate = derate + 2) aka 22 = 22 + 2
+                RTG = 26;
+                forceRTG = true;
+                lastTry = true
+                mainCalc()
+            }
         }
     }
 
     return assumedTemp;
 }
 //Obstacle calculation
-async function obstacleLim(TORA) {
+async function obstacleLim(TORA, temp) {
     let obsList = await fetchTable("runwayDatabase/obstacles.json")
     let airport = document.getElementById("airport").value.toUpperCase();
     let runway = document.getElementById("runway").value.split(",")[4];
@@ -387,8 +394,8 @@ async function obstacleLim(TORA) {
             let refLimWeight = await tableLookup(`performanceTables/obsLimWeight_${FLAP}_26.json`, activeObsHeight, activeObsDist/100)
             if(refLimWeight) {
                 let refLimWeightAdj = 0
-                if(OAT > 29)
-                    refLimWeightAdj = await tableLookup(`performanceTables/obsTempAdj_26.json`, OAT, refLimWeight)
+                if(temp > 29)
+                    refLimWeightAdj = await tableLookup(`performanceTables/obsTempAdj_26.json`, temp, refLimWeight)
                 refLimWeightAdj = await tableLookup(`performanceTables/obsAltAdj_26.json`, corrdRwElev, refLimWeightAdj)
                 refLimWeightAdj = await tableLookup(`performanceTables/obsWindAdj_26.json`, hwComp, refLimWeightAdj)
                 refLimWeight = refLimWeight + refLimWeightAdj
@@ -581,7 +588,11 @@ function print() {
     document.querySelector('footer').classList.remove("blur")
 }
 function performanceLimitedPrint() {
-    alert("No takeoff allowed. Planned weight exceeds max allowable weight.")
+    document.getElementById("takeOff").classList.remove("blur");
+    document.querySelector('header').classList.remove("blur");
+    document.querySelector('footer').classList.remove("blur");
+    document.getElementById("calculating").style.display = "none"
+    document.getElementById("maxTow").style.opacity = 1
 }
 //Enableing the cancel button and stopping all functions
 function cancelCalc() {
