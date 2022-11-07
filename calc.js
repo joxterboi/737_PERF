@@ -565,9 +565,10 @@ function print() {
     } else 
         id("derateResultN1").innerHTML = n1s[1]
     
-    
-
-    id("trimResult").innerHTML = Math.round(trim*100)/100
+    if(trim)
+        id("trimResult").innerHTML = Math.round(trim*100)/100
+    else
+    id("trimResult").innerHTML = "N/A"
     id("tempResult").innerHTML = n1s[2] + "<span> C</span>"
 
     id("v1Result").innerHTML = vSpds[0]
