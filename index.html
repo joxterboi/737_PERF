@@ -29,7 +29,7 @@
             </div>
         </header>
         
-    <div id="takeOff" class="page ">
+    <div id="takeOff" class="page">
         <!-- INPUT PART -->
         <form id="inputConditions">
         <div id="inputSection">
@@ -250,12 +250,12 @@
     
                          <div>
                              <label for="airportLdg">ARPT</label>
-                             <input maxlength="4" value="essa" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                             <input required maxlength="4" value="engm" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                          </div>
                          
                          <div>
                              <label for="runwayLdg">RWY</label>
-                             <select required id="runwayLdg" type="text"></select>
+                             <select  id="runwayLdg" type="text"></select>
                          </div>
     
                          <div>
@@ -271,7 +271,7 @@
                                  <option value="GM">GOOD-MEDIUM</option>
                                  <option value="MEDIUM">MEDIUM</option>
                                  <option value="MP">MEDIUM-POOR</option>
-                                 <option value="P">POOR</option>
+                                 <option value="POOR">POOR</option>
                              </select>
                          </div>
                 
@@ -281,7 +281,7 @@
                                  <p class="smallUnderText" id="windComponentDisplayLdg"> </p>
                              </div>
                              <label for="windInputLdg">WIND</label>
-                             <input required value="120/56" type="text" id="windInputLdg" pattern="\d{2,3}/\d{1,2}">
+                             <input  value="030/6" type="text" id="windInputLdg" pattern="\d{2,3}/\d{1,2}">
                          </div>
                 
                          <div>
@@ -289,7 +289,7 @@
                                  <p class="smallUnderText" id="oatDisplayLdg"> </p>
                              </div>
                              <label for="OATLdg">OAT</label>
-                             <input required type="number" id="OATLdg" min="-40" max="50" value="4">
+                             <input  type="number" id="OATLdg" min="-40" max="50" value="4">
                          </div>
                 
                          <div>
@@ -297,7 +297,7 @@
                                  <p class="smallUnderText" id="qnhDisplayLdg"> </p>
                              </div>
                              <label for="QNHLdg">QNH</label>
-                             <input required type="number" id="QNHLdg" min="976" max="1052" value="1000">
+                             <input  type="number" id="QNHLdg" min="976" max="1052" value="1000">
                          </div>
                     </div>
                 
@@ -338,9 +338,9 @@
                             <select type="number" id="BRKS" placeholder="MAX">
                                 <option value="0">ALL</option>
                                 <option value="5">MAX MANUAL</option>
-                                <option value="3">AUTO BRK 1</option>
+                                <option value="1">AUTO BRK 1</option>
                                 <option value="2">AUTO BRK 2</option>
-                                <option value="1">AUTO BRK 3</option>
+                                <option value="3">AUTO BRK 3</option>
                                 <option value="4">MAX AUTO</option>
                             </select>
                             <label for="BRKS">BRKS</label>
@@ -369,7 +369,7 @@
                     <div>
                         <div class="wCg">
                             <label for="LAW">LADNING WT:</label>
-                            <input required type="number" id="LAW" min="42000" max="79016" placeholder="KG" value="65000">
+                            <input required type="number" id="LAW" min="42000" max="79016" placeholder="KG" value="62000">
                         </div>                
                         <div class="wCg">
                             <label for="vrefAdd">VREF ADD:</label>
@@ -379,7 +379,7 @@
                     <div>
                         <div id="perfModelContainerLdg">
                             <p id="perfModelLdg">737-800W/CFM56-7B26</p>
-                            <button>Calculate</button>
+                            <button type="button" onclick="ldgCalc()">Calculate</button>
                         </div>
                         <div>
                             <div id="rwyGraphLdg"></div>
@@ -394,7 +394,39 @@
             <!-- RESULT PART -->
             <div id="resultsLdg">
                 <div id="resultsWindowLadning">
-                    
+                    <div id="ldgResultLeft">
+                        <div id="ldgResultTitle">
+                            <h1>Enroute Landing Data for <span>65000 KG:</span></h1>
+                            <h1>Vref30+5:        <span>146</span> KT</h1>
+                        </div>
+                        <div id="landingDataResultContainer">
+                            <div>
+                                <h1>Operational Landing Distance:</h1>
+                            </div>
+                            <div id="landingDataResult">
+                                <div id="ladningDistancesTitles">
+                                    <h2>MAX MANUAL</h2>
+                                    <h2>AUTO BRK 1</h2>
+                                    <h2>AUTO BRK 2</h2>
+                                    <h2>AUTO BRK 3</h2>
+                                    <h2>MAX AUTO</h2>
+                                </div>
+                                <div id="ladningDistances">
+                                    <h2>1234 <span>M</span></h2>
+                                    <h2>1542 <span>M</span></h2>
+                                    <h2>1765 <span>M</span></h2>
+                                    <h2>1824 <span>M</span></h2>
+                                    <h2>1986 <span>M</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="lda">
+                            <h1>Ladning DIstance Available:     <span>6824</span> M</h1>
+                        </div>
+                    </div>
+                    <div id="ldgResultRight">
+                        <h3>Recommended Brake Cooling Time:</h3>
+                    </div>
                 </div>
             </div>
     </div>
