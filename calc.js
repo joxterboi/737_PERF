@@ -167,8 +167,8 @@ inputConditions.addEventListener('submit', function (event) {
 
     event.preventDefault()
     forceFlap = false;
-    forceRTG = false;
     fullForced = false;
+    forceRTG = false;
     mainCalc()
 });
 function mainCalc() {
@@ -215,7 +215,7 @@ function mainCalc() {
 async function mainProcessTree () {
     let perfLimitAssumedTemp = await PD();
     loadingProgress(20)
-    if(perfLimitAssumedTemp < 717){
+    if(perfLimitAssumedTemp < 707){
         await PI(perfLimitAssumedTemp)
         print()
     } else if(perfLimitAssumedTemp > 727){
@@ -340,10 +340,11 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     
 //calculating assumed temp
     tableLocation = `performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`;
-    let assumedTemp = 50;
+    let assumedTemp = 51;
     
     if(mostLimWeight >= TOW && climbLimWeightFull >= TOW){
         while (fieldLimWeightAssumed < TOW || climbLimWeightAssumed < TOW || obsLimWeightAssumed < TOW) {
+            assumedTemp--;
             fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, assumedTemp)
             fieldLimWeightAssumed = fieldLimWeightAssumed + fieldWeightAdj
             climbLimWeightAssumed = await climbLimLookup(assumedTemp)
@@ -351,7 +352,6 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
             obsLimWeightAssumed = await obstacleLim(corrdFieldLength, assumedTemp)
             if(mostLimWeight > fieldLimWeightAssumed)
                 fieldLimWeightAssumed = mostLimWeight
-            assumedTemp--;
         }        
 //If full thrust is not enough with current flap and derate
     } else {
@@ -493,7 +493,7 @@ async function n1(perfLimitAssumedTemp) {
     //Retruns max allowed assumed, compare this with perfLimitAssumed and set the lowest to actAssumedTemp
     let maxRegulatedAssumedTemp = await tableLookup(`performanceTables/maxAssumed_${RTG}.json`, OAT, corrdRwElev)
     perfLimitAssumedTemp < maxRegulatedAssumedTemp ? assumedTemp = perfLimitAssumedTemp : assumedTemp = Math.floor(maxRegulatedAssumedTemp)
-
+    
     //2. actAssumedTemp/OAT, corrdRwElev
     //look up n1% for actAssumedTemp
     //also check n1% for OAT and set to global varible for max n1% incase of full thrust
