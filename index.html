@@ -29,7 +29,7 @@
             </div>
         </header>
         
-    <div id="takeOff" class="page">
+    <div id="takeOff" class="page hidden">
         <!-- INPUT PART -->
         <form id="inputConditions">
         <div id="inputSection">
@@ -240,7 +240,7 @@
             </div>
         </div>
     </div>
-    <div id="ladning" class="page hidden">
+    <div id="ladning" class="page ">
         <!-- INPUT PART -->
         <form id="inputConditionsLdg">
             <div id="inputSectionLdg">
@@ -289,7 +289,7 @@
                                  <p class="smallUnderText" id="oatDisplayLdg"> </p>
                              </div>
                              <label for="OATLdg">OAT</label>
-                             <input  type="number" id="OATLdg" min="-40" max="50" value="4">
+                             <input type="number" id="OATLdg" min="-40" max="50" value="4">
                          </div>
                 
                          <div>
@@ -297,7 +297,7 @@
                                  <p class="smallUnderText" id="qnhDisplayLdg"> </p>
                              </div>
                              <label for="QNHLdg">QNH</label>
-                             <input  type="number" id="QNHLdg" min="976" max="1052" value="1000">
+                             <input type="number" id="QNHLdg" min="976" max="1052" value="1000">
                          </div>
                     </div>
                 
@@ -379,7 +379,15 @@
                     <div>
                         <div id="perfModelContainerLdg">
                             <p id="perfModelLdg">737-800W/CFM56-7B26</p>
-                            <button type="button" onclick="ldgCalc()">Calculate</button>
+                            <div id="rwyGraphicLdg" class="hidden">
+                                <p>Rwy Graphic</p>
+                                <div id="rwyGraphicLdgBtn" style="background-color: rgb(36, 37, 46);">
+                                    <svg height="18" width="18">
+                                        <circle cx="9" cy="9" r="9" fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <button id="ldgCalcBtn" type="button" onclick="ldgCalc()">Calculate</button>
                         </div>
                         <div>
                             <div id="rwyGraphLdg"></div>
@@ -426,6 +434,72 @@
                     </div>
                     <div id="ldgResultRight">
                         <h3>Recommended Brake Cooling Time:</h3>
+                    </div>
+                </div>
+    <!-- ---------------------GUI------------------- -->
+                <div id="resultsWindowLandingGUI" class="hidden">
+                    <div id="ldgHeader">
+                        <div class="left" id="enrLdgDataGUI">
+                            <h1>Enroute Landing Data for 01L:</h1>
+                            <h2>Vref30+5 <span>146 </span>KT</h2>
+                        </div>
+                        <div class="right">
+                            <h2 id="ldaGUI">LDA: 3301 M</h2>
+                            <h2>    AD-Assumed Air Distance: 455 M</h2>
+                        </div>
+                    </div>
+                    <div id="ldgTitles">
+                        <div class="title">
+                            <h2>MM <span>Max Manual</span></h2>
+                            <h1>1678 M</h1>
+                        </div>
+                        <div class="title">
+                            <h2>MA <span>Max Auto</span></h2>
+                            <h1>1713 M</h1>
+                        </div>
+                        <div class="title">
+                            <h2>3 <span>Auto Brake 3</span></h2>
+                            <h1>1920 M</h1>
+                        </div>
+                        <div class="title">
+                            <h2>2 <span>Auto Brake 2</span></h2>
+                            <h1>2871 M</h1>
+                        </div>
+                        <div class="title">
+                            <h2>1 <span>Auto Brake 1</span></h2>
+                            <h1>3120 M</h1>
+                        </div>
+                    </div>
+                    <div id="ldgRunway">
+                        <p>APPROACH</p>
+                        <div id="appLine"></div>
+                        <div id="grdLine"><div id="grdLineEnd"></div></div>
+                        <div id="AD" class="rwyMarkContainer">
+                            <div class="rwyText"><h4>AD</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+                        <div id="MM" class="rwyMarkContainer">
+                            <div class="rwyText" ><h4>MM</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+                        <div id="MA" class="rwyMarkContainer">
+                            <div class="rwyText" ><h4>MA</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+                        <div id="B3" class="rwyMarkContainer">
+                            <div class="rwyText" ><h4>3</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+                        <div id="B2" class="rwyMarkContainer">
+                            <div class="rwyText" ><h4>2</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+                        <div id="B1" class="rwyMarkContainer">
+                            <div class="rwyText" ><h4>1</h4></div>
+                            <div class="rwyMark"></div>
+                        </div>
+
+                        <div id="rwyGraphic"></div>
                     </div>
                 </div>
             </div>

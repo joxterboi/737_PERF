@@ -22,11 +22,17 @@ function setActive() {
         document.getElementById("derateResultN1").innerHTML = n1s[0]
         if(Array.from(document.getElementById("derateResultTitle").innerHTML)[0] != "T")
             document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("-")[1]
+        document.getElementById("v1Result").innerHTML = vSpds[0]
+        document.getElementById("vrResult").innerHTML = vSpds[1]
+        document.getElementById("v2Result").innerHTML = vSpds[2]
     } else {
         document.getElementById("tempResult").parentElement.style.opacity = 1
         document.getElementById("derateResultN1").innerHTML = n1s[1]
         if(Array.from(document.getElementById("derateResultTitle").innerHTML)[0] != "D")
             document.getElementById("derateResultTitle").innerHTML = "D-" + document.getElementById("derateResultTitle").innerHTML
+        document.getElementById("v1Result").innerHTML = vSpdsAssumed[0]
+        document.getElementById("vrResult").innerHTML = vSpdsAssumed[1]
+        document.getElementById("v2Result").innerHTML = vSpdsAssumed[2]
     }
 }
 function forceFull() {
@@ -66,6 +72,15 @@ function displayPage(selectedPage) {
     document.getElementById(selectedPage).classList.remove("hidden")
 }
 
+//Rwy graphics button landning
+document.getElementById("rwyGraphicLdgBtn").addEventListener("click", function() {
+    this.firstElementChild.classList.toggle("slideRight");
+    console.log(this)
+    this.classList.toggle("slideRightBackground");
+    this.style.backgroundColor == "rgb(36, 37, 46)" ? this.style.backgroundColor = "rgb(14, 208, 119)" : this.style.backgroundColor = "rgb(36, 37, 46)"
+    document.getElementById("resultsWindowLadning").classList.toggle("hidden");
+    document.getElementById("resultsWindowLandingGUI").classList.toggle("hidden");
+})
 
 
 

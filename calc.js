@@ -35,6 +35,7 @@ let trim
 let vref = []
 let n1s
 let vSpds
+let vSpdsAssumed = [];
 
 
 //--------------------UI-updates-------------------
@@ -246,7 +247,7 @@ async function PD() {
     return maxAssumedTempField;
 }
 async function PI(perfLimitAssumedTemp) {
-    vSpds = await vSpeeds()
+    vSpds = await vSpeeds(perfLimitAssumedTemp)
     n1s = await n1(perfLimitAssumedTemp)
 }
 
@@ -414,7 +415,7 @@ async function obstacleLim(TORA, temp) {
 }
 
 // PI
-async function vSpeeds() {
+async function vSpeeds(assumedTemp) {
     loadingProgress(57)
     let tableLocation = (`performanceTables/vSpds_${cond}_${RTG}.json`)
     //x = Flap setting, Y = TOW
@@ -442,11 +443,12 @@ async function vSpeeds() {
     
     // Correction vSpeeds based on conditions
     let vSpeedAdjustments = []
+    let vSpeedAdjustmentsAssumed = [];
     let vNames = ["v1", "vr", "v2"]
-
     for (let i = 0; i < 3; i++) {
         let currentVspd = vNames[i]
         vSpeedAdjustments[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, OAT, corrdRwElev/1000)
+        vSpeedAdjustmentsAssumed[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, assumedTemp, corrdRwElev/1000)
     }
     let v1SlopeAdj = await tableLookup(`performanceTables/v1SlopeAdj_${cond}_${RTG}.json`, TOW, rwSlope)
     let v1WindAdj = await tableLookup(`performanceTables/v1WindAdj_${cond}_${RTG}.json`, TOW, hwComp)       //avrage weighted the wrong way SOMEtimes with tailwind...
@@ -456,6 +458,7 @@ async function vSpeeds() {
     //Adjusts all vSpeeds
     for (let i = 0; i < refVspeeds.length; i++) {
         vSpds[i] = Math.round(refVspeeds[i] + vSpeedAdjustments[i])
+        vSpdsAssumed[i] = Math.round(refVspeeds[i] + vSpeedAdjustmentsAssumed[i])
     }
     //checks VMBE
     if(vSpds[0] > vMbe)
@@ -581,9 +584,7 @@ function print() {
     id("trimResult").innerHTML = "N/A"
     id("tempResult").innerHTML = n1s[2] + "<span> C</span>"
 
-    id("v1Result").innerHTML = vSpds[0]
-    id("vrResult").innerHTML = vSpds[1]
-    id("v2Result").innerHTML = vSpds[2]
+
 
     id("vref40Result").innerHTML = vref[1]
 
@@ -592,6 +593,13 @@ function print() {
     id("atmSwitch").style.opacity = 1;
     if (assumedTemp < 31) {
         forceFull()
+        id("v1Result").innerHTML = vSpds[0]
+        id("vrResult").innerHTML = vSpds[1]
+        id("v2Result").innerHTML = vSpds[2]
+    } else {
+        id("v1Result").innerHTML = vSpdsAssumed[0]
+        id("vrResult").innerHTML = vSpdsAssumed[1]
+        id("v2Result").innerHTML = vSpdsAssumed[2]
     }
     document.getElementById("calculating").style.display = "none"
     document.getElementById("takeOff").classList.remove("blur")
@@ -759,6 +767,7 @@ async function ldgCalc() {
     let rwHdgLdg = document.getElementById("runwayLdg").value.split(",")[0];
     let rwElevLdg = parseInt(document.getElementById("runwayLdg").value.split(",")[2]);
     let rwSlopeLdg = document.getElementById("runwayLdg").value.split(",")[3];
+    let runwayLdg = document.getElementById("runwayLdg").value.split(",")[4];
     let condLdg = document.getElementById("condLdg").value;
     let OATLdg = parseInt(document.getElementById("OATLdg").value);
     let QNHLdg = document.getElementById("QNHLdg").value;
@@ -798,21 +807,30 @@ async function ldgCalc() {
         let altAdjustedDist = ldgTableLookup(wtAdjustedDist, altAdj, rwElevLdg/1000)
         let windAdjustedDist = ldgTableLookup(altAdjustedDist, ldgWindAdj, hwCompLdg/10)
         let slopeAdjustedDist = ldgTableLookup(windAdjustedDist, slopeAdj, rwSlopeLdg)
-        let tempAdjustedDist = ldgTableLookup(slopeAdjustedDist, tempAdj, OATLdg - 15)
+        let tempAdjustedDist = ldgTableLookup(slopeAdjustedDist, tempAdj, (OATLdg - 15)/10)
         let appSpdAdjustedDist = ldgTableLookup(tempAdjustedDist, appSpdAdj + "/" + appSpdAdj, vrefAdd/5)
         let landingDist = ldgTableLookup(appSpdAdjustedDist, REVADJ + "/" + REVADJ, 1)
         landingDistances[i] = landingDist
 
     }
+
+    // ______________PRINT_________________
     printLdg(landingDistances)
+ 
+    // .style.color = "#fff !important"
     function printLdg(landingDistances) {
+
+        for (let i = 1; i < 6; i++) {
+            document.querySelector(`#ladningDistances :nth-child(${i})`).style.color = "rgb(254, 254, 254)"
+            document.querySelector(`#ladningDistancesTitles :nth-child(${i})`).style.color = "rgb(254, 254, 254)"
+            document.getElementsByClassName("title")[i-1].style.color = "rgb(254, 254, 254)"
+            document.querySelector(`#ldgRunway :nth-child(${i+4})`).firstElementChild.nextElementSibling.style.borderColor = "#25BF7F"
+        } 
         //ADDS ALL VALUES
         let id = element => document.getElementById(element)
         id("ldgResultTitle").firstElementChild.innerHTML = `Enroute Landing Data for <span>${LAW} KG:</span>`
         let vrefDisplay
-        console.log(flapLdg)
         flapLdg == 30 ? vrefDisplay = vrefs[2] + vrefAdd : vrefDisplay = vrefs[1] + vrefAdd
-        console.log(vrefs)
         id("ldgResultTitle").firstElementChild.nextElementSibling.innerHTML = `Vref${flapLdg}+${vrefAdd}:        <span>${vrefDisplay}</span> KT`
         //Sets all distances
         let lda = Math.round(id("runwayLdg").value.split(",")[1]/3.28084)
@@ -820,7 +838,10 @@ async function ldgCalc() {
         for (let i = 0; i < 5; i++) {
             o = os[i]
             document.querySelector(`#ladningDistances :nth-child(${i+1})`).innerHTML = `${Math.floor(landingDistances[o-1])} <span>M</span>`
+            // document.querySelector(`#ldgTitles :nth-child(${i+1})`).innerHTML = `${Math.floor(landingDistances[i])} M`
         }
+        
+
         for (let i = 1; i < 6; i++) {
             let current = document.querySelector(`#ladningDistances :nth-child(${i})`)
             if (current.innerHTML.split(" ")[0] > lda) {
@@ -828,20 +849,85 @@ async function ldgCalc() {
                 document.querySelector(`#ladningDistancesTitles :nth-child(${i})`).style.color = "#B3912F"
             }
         }   
-        id("lda").innerHTML = `<h1>Ladning Distance Available:     <span>${lda}</span> M</h1>`
+        id("lda").innerHTML = `<h1>Ladning Distance Available:     <span>${lda}</span> M</h1>`;
+
+        // GUI
+        id("enrLdgDataGUI").innerHTML = `
+        <h1>Enroute Landing Data for ${runwayLdg}:</h1>
+        <h2>Vref${flapLdg}+${vrefAdd} <span>${ldgVref + vrefAdd} </span>KT</h2>`
+        id("ldaGUI").innerHTML = `LDA: ${lda} M`
+        //LDG distances text
+        for (let i = 0; i < 5; i++) {
+            document.getElementsByClassName("title")[i].firstElementChild.nextElementSibling.innerHTML = Math.round(landingDistances[i]) + " M"
+            if(landingDistances[i] > lda) {
+                document.getElementsByClassName("title")[i].style.color = "#B3912F"
+                document.querySelector(`#ldgRunway :nth-child(${i+5})`).firstElementChild.nextElementSibling.style.borderColor = "#B3912F"
+            }
+            let leftMargin = ((landingDistances[i]/lda)*500)+43
+            let adMarginLeft = ((455/lda)*500)+43
+            let grdLength = (((landingDistances[4]/lda)*500)+45)-adMarginLeft
+            let appMarginLeft = ((455/lda)*500)-89
+            document.getElementById("grdLine").style.width = grdLength + "px"
+            document.querySelector(`#ldgRunway :nth-child(${i + 5})`).style.marginLeft = leftMargin + "px"
+            document.getElementById("AD").style.marginLeft = adMarginLeft + "px"
+            document.getElementById("grdLine").style.marginLeft = adMarginLeft + "px"
+            document.getElementById("appLine").style.marginLeft = appMarginLeft + "px"            
+        }
+        //Ground line color and pos
+        document.getElementById("grdLine").style.background = "linear-gradient(to right,#25BF7F 428px, #BF8D10 428px)"
+        
+
+        //Runway lines for brakeing GUI
+        //@THR ML 43px
+        //@runway end ML 543px
+        //12px and 112px
+        //RWY length 500px
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         //DISPLAYS RESULT WINDOW
         id("resultsWindowLadning").style.opacity = 1;
         id("perfModelContainerLdg").style.opacity = 1;
+        document.getElementById("perfModelLdg").style.opacity = 1;
         document.getElementById("calculating").style.display = "none"
         document.getElementById("takeOff").classList.remove("blur")
         document.querySelector('header').classList.remove("blur")
         document.querySelector('footer').classList.remove("blur")
+        document.getElementById("rwyGraphicLdgBtn").firstElementChild.classList.remove("slideRight")
+        document.getElementById("rwyGraphicLdgBtn").style.backgroundColor = "rgb(36, 37, 46)"
+        
+
+        //Hides button and shows rwy grapichs button
+        document.getElementById("ldgCalcBtn").classList.toggle("hidden")
+        document.getElementById("rwyGraphicLdg").classList.toggle("hidden")
+
     }
 }
 
+//Hides results when input is changed
+document.getElementById("inputConditionsLdg").addEventListener("input", function(){
+    document.getElementById("resultsWindowLadning").style.opacity = 0;
+    document.getElementById("perfModelLdg").style.opacity = 0;
+    document.getElementById("ldgCalcBtn").classList.remove("hidden")
+    document.getElementById("rwyGraphicLdg").classList.add("hidden")
+    document.getElementById("resultsWindowLadning").classList.remove("hidden")
+    document.getElementById("resultsWindowLandingGUI").classList.add("hidden")
+})
+
 function ldgTableLookup(input, factor, adjust){
     adjust > 0 ? factor = factor.split("/")[0] : factor = factor.split("/")[1]
+    // console.log("input", input, "output", input + (Math.abs(factor) * adjust), "adjust", (factor * adjust))
     return input + (factor * adjust)
 }
 
