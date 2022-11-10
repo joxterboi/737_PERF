@@ -1,3 +1,12 @@
+0.2.1
++added landing distance runway graphic
+*results from landing now dissepears when changing input
+*v-speeds now change with assumed temp
+*now you cant select text on site
+*changed background color of perfmodel on landing page
+*made perfmodel container 50px wider
+*changed format so adjustments now apply in correct fashion for landing calculation
+-removed double entry for LGKR in runway database
 0.2.0
 +added landingCalculation
 *fixed bug when RTOW > ATOW when selecting 26k
