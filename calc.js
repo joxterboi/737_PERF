@@ -108,8 +108,8 @@ function calcWind() {
         
     } else {
         var relativeWindDir = Math.abs(rwHdg - windDir);
-        var HWcomp = Math.floor(Math.cos(relativeWindDir * (Math.PI / 180)) * windStrength);
-        var XWcomp = Math.floor(Math.sin(relativeWindDir * (Math.PI / 180)) * windStrength);
+        var HWcomp = Math.round(Math.cos(relativeWindDir * (Math.PI / 180)) * windStrength);
+        var XWcomp = Math.round(Math.sin(relativeWindDir * (Math.PI / 180)) * windStrength);
         if(HWcomp < 0) {
             document.getElementById("windComponentDisplay").innerHTML = Math.abs(HWcomp) + " TW/" + XWcomp + " XW";    
         } else {
@@ -173,6 +173,7 @@ inputConditions.addEventListener('submit', function (event) {
     forceFlap = false;
     fullForced = false;
     forceRTG = false;
+    lastTry = false;
     mainCalc()
 });
 function mainCalc() {
