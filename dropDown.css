@@ -58,7 +58,7 @@ label {
     cursor: pointer;
     border-radius: 5px;
 }
-svg {
+#dropDownWindow svg {
     fill: #A5ACB7;
     width: 16px;
     height: 8px
