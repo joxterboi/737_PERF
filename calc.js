@@ -960,7 +960,7 @@ function calcWindLdg() {
     let windInput = document.getElementById("windInputLdg").value
     let windDir = windInput.split("/")[0];
     let windStrength = windInput.split("/")[1];
-    let rwHdg = document.getElementById("runway").value.split(",")[0];
+    let rwHdg = document.getElementById("runwayLdg").value.split(",")[0];
     
     if(!document.getElementById("windInputLdg").value.includes("/")){
         windStrength = document.getElementById("windInputLdg").value
