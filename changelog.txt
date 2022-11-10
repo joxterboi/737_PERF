@@ -1,3 +1,8 @@
+0.2.2
++started to add some NNC to landing
+*wind comp now updates with runway change
+*changed how wind components are rounded
+*fixed bug where if you were performanced limited and then tried to calculate again with new input it would just show error
 0.2.1
 +added landing distance runway graphic
 *results from landing now dissepears when changing input
