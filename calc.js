@@ -39,6 +39,10 @@ let vSpdsAssumed = [];
 
 
 //--------------------UI-updates-------------------
+document.getElementById("airport").addEventListener("input", function() {
+    if(document.getElementById("airport").value.length == 4)
+        findAirport()
+})
 document.getElementById("airport").addEventListener("blur", findAirport)
 function findAirport() {
     let airportInput = document.getElementById("airport").value.toUpperCase();
@@ -863,6 +867,7 @@ async function ldgCalc() {
             if(landingDistances[i] > lda) {
                 document.getElementsByClassName("title")[i].style.color = "#B3912F"
                 document.querySelector(`#ldgRunway :nth-child(${i+5})`).firstElementChild.nextElementSibling.style.borderColor = "#B3912F"
+                document.getElementById("grdLineEnd").style.backgroundColor = "#BF8D10"
             }
             let leftMargin = ((landingDistances[i]/lda)*500)+43
             let adMarginLeft = ((455/lda)*500)+43
@@ -873,30 +878,10 @@ async function ldgCalc() {
             document.getElementById("AD").style.marginLeft = adMarginLeft + "px"
             document.getElementById("grdLine").style.marginLeft = adMarginLeft + "px"
             document.getElementById("appLine").style.marginLeft = appMarginLeft + "px"            
+            let colorBrake = (546 - adMarginLeft) + "px"
+            document.getElementById("grdLine").style.background = `linear-gradient(to right,#25BF7F ${colorBrake}, #BF8D10 ${colorBrake})`
         }
-        //Ground line color and pos
-        document.getElementById("grdLine").style.background = "linear-gradient(to right,#25BF7F 428px, #BF8D10 428px)"
-        
 
-        //Runway lines for brakeing GUI
-        //@THR ML 43px
-        //@runway end ML 543px
-        //12px and 112px
-        //RWY length 500px
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         //DISPLAYS RESULT WINDOW
         id("resultsWindowLadning").style.opacity = 1;
         id("perfModelContainerLdg").style.opacity = 1;
@@ -907,12 +892,9 @@ async function ldgCalc() {
         document.querySelector('footer').classList.remove("blur")
         document.getElementById("rwyGraphicLdgBtn").firstElementChild.classList.remove("slideRight")
         document.getElementById("rwyGraphicLdgBtn").style.backgroundColor = "rgb(36, 37, 46)"
-        
-
         //Hides button and shows rwy grapichs button
         document.getElementById("ldgCalcBtn").classList.toggle("hidden")
         document.getElementById("rwyGraphicLdg").classList.toggle("hidden")
-
     }
 }
 
@@ -926,6 +908,7 @@ document.getElementById("inputConditionsLdg").addEventListener("input", function
     document.getElementById("resultsWindowLandingGUI").classList.add("hidden")
 })
 
+
 function ldgTableLookup(input, factor, adjust){
     adjust > 0 ? factor = factor.split("/")[0] : factor = factor.split("/")[1]
     // console.log("input", input, "output", input + (Math.abs(factor) * adjust), "adjust", (factor * adjust))
@@ -933,6 +916,10 @@ function ldgTableLookup(input, factor, adjust){
 }
 
 //_________________________UI_UPDATES__________________________________
+document.getElementById("airportLdg").addEventListener("input", function() {
+    if(document.getElementById("airportLdg").value.length == 4)
+        findAirportLdg()
+})
 document.getElementById("airportLdg").addEventListener("blur", findAirportLdg)
 function findAirportLdg() {
     let airportInput = document.getElementById("airportLdg").value.toUpperCase();
