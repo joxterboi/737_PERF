@@ -72,7 +72,7 @@ function displayPage(selectedPage) {
     document.getElementById(selectedPage).classList.remove("hidden")
 }
 
-//Rwy graphics button landning
+//Rwy graphics button switch landning
 document.getElementById("rwyGraphicLdgBtn").addEventListener("click", function() {
     this.firstElementChild.classList.toggle("slideRight");
     console.log(this)
