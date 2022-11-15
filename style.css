@@ -187,9 +187,9 @@ label {
 }
 .smallUnderTextDiv {
     position: absolute;
-    width: 0;
-    text-align: left;
+    width: auto;
     white-space:nowrap;
+    left: 78px;
 }
 /* result */
 #results, #resultsLdg {
