@@ -539,12 +539,12 @@ footer p {
     /* width: 690px; */
     margin-top: 32px;
     /* margin-left: 43px; */
-    background: linear-gradient(to right,#25BF7F 84%, #BF8D10 84%)
+    background: linear-gradient(to right,#25BF7F 397px, #BF8D10 397px)
 }
 #grdLineEnd {
     width: 10px;
     transform: rotate(90deg);
-    background-color: #BF8D10;
+    background-color: #25BF7F;
     margin-left: calc(100% - 5px);
 }
 
