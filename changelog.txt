@@ -1,3 +1,6 @@
+0.2.3
++Now searches for runway when 4 letters are typed in arpt input window
++Landing line now green on runway and yellow off runway. The stop at the end of the line is now green if all brake options are within limits.
 0.2.2
 +started to add some NNC to landing
 *wind comp now updates with runway change
