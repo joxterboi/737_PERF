@@ -1,3 +1,15 @@
+0.2.4
+*small text now aligns to the left under wind/oat/qnh
+*re orderd event listners and small text display functions
+*wind function now a single function for take off and landing
+*QNG function now a single function for take off and landing
+*wind calc now corrects format when typed in
+*when wind is inserted it now sets the varible. No need to do it once the calculation is run. Accesssing value of wind after input is now imossible
+*removed padding from placeholder text to match inputed text
+*fixed bug blocking input windows when small text under is displayed
+*temp now calculates for landing and takeoff from same function
+*removed old comments
+*fixed spelling error on landing weight
 0.2.3
 +Now searches for runway when 4 letters are typed in arpt input window
 +Landing line now green on runway and yellow off runway. The stop at the end of the line is now green if all brake options are within limits.
