@@ -40,12 +40,16 @@ option,
     outline: none;
     box-sizing: border-box;
     border-radius: 5px;
-    text-transform: uppercase;
     caret-color: white;
+    z-index: 99;
+}
+#airport, #airportLdg {
+    text-transform: uppercase;
 }
 
 ::placeholder {
     background: none;
+    padding: 0;
 }
 #airport::placeholder {
     color: #fff;
