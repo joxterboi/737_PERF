@@ -17,6 +17,7 @@ let TOW
 let CG
 
 let hwComp
+let hwCompLdg
 
 let stopway
 let clearway
@@ -37,13 +38,87 @@ let n1s
 let vSpds
 let vSpdsAssumed = [];
 
+// ------------------EVENT LISTNERS-------------
 
-//--------------------UI-updates-------------------
+//TAKE OFF
+document.getElementById("QNH").addEventListener("blur", calcQnh)
+document.getElementById("TOW").addEventListener("blur", setTow)
 document.getElementById("airport").addEventListener("input", function() {
     if(document.getElementById("airport").value.length == 4)
-        findAirport()
+    findAirport()
 })
 document.getElementById("airport").addEventListener("blur", findAirport)
+document.getElementById("runway").addEventListener("change", getIntersections)
+document.getElementById("windInput").addEventListener("blur", calcWind)
+document.getElementById("OAT").addEventListener("blur", calcFarenheit)
+document.getElementById("inputConditions").addEventListener("input", function(){
+    document.getElementById("resultsWindow").style.opacity = 0;
+    document.getElementById("perfModel").style.opacity = 0;
+    document.getElementById("atmSwitch").style.opacity = 0;
+    document.getElementById("maxTow").style.opacity = 0
+})
+//LANDING
+document.getElementById("QNHLdg").addEventListener("blur", calcQnh)
+document.getElementById("airportLdg").addEventListener("input", function() {
+    if(document.getElementById("airportLdg").value.length == 4)
+        findAirportLdg()
+})
+document.getElementById("airportLdg").addEventListener("blur", findAirportLdg)
+document.getElementById("windInputLdg").addEventListener("blur", calcWind)
+// document.getElementById("windInputLdg").addEventListener("blur", calcWindLdg)
+
+
+//--------------------UI-updates-------------------
+// BOTH LANDING AND TAKEOFF
+function calcQnh() {
+    let QNH = document.getElementById(this.id).value
+    if(QNH) {
+        if(QNH > 950 && QNH < 1080) {
+            let inhg = Math.floor(QNH * 0.029529980164712 * 100);
+            document.getElementById(this.id).value = "";
+            document.getElementById(this.id).placeholder = `${QNH} HPa`;
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = (inhg/100).toFixed(2) + " IN HG";
+        } else if (QNH > 1080 || QNH < 950) {
+            document.getElementById(this.id).placeholder = "OUT OF RANGE";        
+            document.getElementById(this.id).value = "";
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+        }
+    }
+}
+function calcWind() {
+    let windInput = document.getElementById(this.id).value
+    let windDir = windInput.split("/")[0];
+    let windStrength = windInput.split("/")[1];
+    let rwHdg = this.parentElement.parentElement.getElementsByTagName('div')[1].getElementsByTagName('select')[0].value.split(",")[0]
+    if(!document.getElementById(this.id).value.includes("/")){
+        windStrength = document.getElementById(this.id).value
+        rwHdg ? windDir = rwHdg : windDir = 0
+    }
+    windDir = parseInt(windDir);
+    windStrength = parseInt(windStrength);
+    if (isNaN(windStrength)) {
+        document.getElementById(this.id).value = ""
+    } else if(windDir > 360){
+        document.getElementById(this.id).value = ""
+    } else {
+        
+        let placeholderText = `00${windDir}`.slice(-3) + `/${windStrength} KT`
+        var relativeWindDir = Math.abs(rwHdg - windDir);
+        var HWcomp = Math.round(Math.cos(relativeWindDir * (Math.PI / 180)) * windStrength);
+        var XWcomp = Math.round(Math.sin(relativeWindDir * (Math.PI / 180)) * windStrength);
+        if(HWcomp < 0) {
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = Math.abs(HWcomp) + " TW/" + Math.abs(XWcomp) + " XW";    
+        } else {
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = HWcomp + " HW/" + Math.abs(XWcomp) + " XW";
+        }
+        document.getElementById(this.id).placeholder = placeholderText
+        if(windDir == 0)
+            document.getElementById(this.id).placeholder = placeholderText.split("/")[1]
+        document.getElementById(this.id).value = ""
+    }    
+    this.id == "windInputLdg" ? hwCompLdg = HWcomp : hwComp = HWcomp
+}
+//TAKE OFF
 function findAirport() {
     let airportInput = document.getElementById("airport").value.toUpperCase();
     let lastAirport;
@@ -69,7 +144,6 @@ function findAirport() {
 
     })
 }
-document.getElementById("runway").addEventListener("change", getIntersections)
 function getIntersections() {
     let airportId = document.getElementById("airport").value.toUpperCase();
     let currentRwy = document.getElementById("runway").value.split(",")[4];
@@ -92,39 +166,7 @@ function getIntersections() {
         }
     })
 }
-document.getElementById("windInput").addEventListener("blur", calcWind)
-function calcWind() {
-    let windInput = document.getElementById("windInput").value
-    let windDir = windInput.split("/")[0];
-    let windStrength = windInput.split("/")[1];
-    let rwHdg = document.getElementById("runway").value.split(",")[0];
-    
-    if(!document.getElementById("windInput").value.includes("/")){
-        windStrength = document.getElementById("windInput").value
-        rwHdg ? windDir = rwHdg : windDir = 0
-        
-    }
-    windDir = parseInt(windDir);
-    windStrength = parseInt(windStrength);
-    if (isNaN(windStrength)) {
-        
-    } else if(windDir > 360){
-        
-    } else {
-        var relativeWindDir = Math.abs(rwHdg - windDir);
-        var HWcomp = Math.round(Math.cos(relativeWindDir * (Math.PI / 180)) * windStrength);
-        var XWcomp = Math.round(Math.sin(relativeWindDir * (Math.PI / 180)) * windStrength);
-        if(HWcomp < 0) {
-            document.getElementById("windComponentDisplay").innerHTML = Math.abs(HWcomp) + " TW/" + XWcomp + " XW";    
-        } else {
-            document.getElementById("windComponentDisplay").innerHTML = HWcomp + " HW/" + XWcomp + " XW";
-        }
-        
-    }    
-    return HWcomp;
 
-}
-document.getElementById("OAT").addEventListener("blur", calcFarenheit)
 function calcFarenheit() {
     let OAT = document.getElementById("OAT").value
     if(OAT) {
@@ -138,31 +180,34 @@ function calcFarenheit() {
         }
       }
 }
-document.getElementById("QNH").addEventListener("blur", calcQnh)
-function calcQnh() {
-    let QNH = document.getElementById("QNH").value
-    if(QNH) {
-        if(QNH > 950 && QNH < 1080) {
-        let inhg = Math.floor(QNH * 0.029529980164712 * 100);
-        document.getElementById("qnhDisplay").innerHTML = inhg/100 + " IN HG";
-        } else if (QNH > 1080 || QNH < 950) {
-        document.getElementById("QNH").placeholder = "OUT OF RANGE";        
-        document.getElementById("QNH").value = "";
-        document.getElementById("qnhDisplay").innerHTML = " ";
-        }
-    }
-}
-document.getElementById("TOW").addEventListener("blur", setTow)
 function setTow() {
     if(document.getElementById("TOW").value < 80)
         document.getElementById("TOW").value = document.getElementById("TOW").value * 1000
 }
-document.getElementById("inputConditions").addEventListener("input", function(){
-    document.getElementById("resultsWindow").style.opacity = 0;
-    document.getElementById("perfModel").style.opacity = 0;
-    document.getElementById("atmSwitch").style.opacity = 0;
-    document.getElementById("maxTow").style.opacity = 0
-})
+//LANDING
+function findAirportLdg() {
+    let airportInput = document.getElementById("airportLdg").value.toUpperCase();
+    let lastAirport;
+
+    fetch('runwayDatabase/runways.json')
+    .then(res => res.json())
+    .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
+    .then(RWYS => {
+        if (lastAirport != airportInput) {
+            document.getElementById("runwayLdg").innerHTML = '';
+        }
+        
+        for (let i = 0; i < RWYS.length; i++) {
+            const runway = document.createElement("option");
+            runway.text = RWYS[i].runway;
+            runway.value = RWYS[i].rwHdg + "," + RWYS[i].rwyLength + "," + RWYS[i].rwyElev + "," + RWYS[i].slope + "," + RWYS[i].runway;
+            document.getElementById("runwayLdg").add(runway)
+        }
+        lastAirport = airportInput;
+    })
+}
+
+
 
 // ----------------------------------------On-submit------------------------------------------------
 inputConditions.addEventListener('submit', function (event) {
@@ -191,10 +236,11 @@ function mainCalc() {
     rwElev = parseInt(document.getElementById("runway").value.split(",")[2]);
     rwSlope = document.getElementById("runway").value.split(",")[3];
     cond = document.getElementById("cond").value;
-    windDir = document.getElementById("windInput").value.split("/")[0];
-    windStrength = document.getElementById("windInput").value.split("/")[1];
-    OAT = parseInt(document.getElementById("OAT").value);
-    QNH = document.getElementById("QNH").value;
+    // Is now set as global vars when typed in and input replaced with placeholder
+    // windDir = document.getElementById("windInput").value.split("/")[0];
+    // windStrength = document.getElementById("windInput").value.split("/")[1];
+    // OAT = parseInt(document.getElementById("OAT").value);
+    // QNH = document.getElementById("QNH").value;
     ATM = document.getElementById("ATM").value;
     BLEED = document.getElementById("BLEED").value;
     AntiIce = document.getElementById("A/ICE").value;
@@ -208,7 +254,6 @@ function mainCalc() {
     if(!forceRTG)
         RTG = document.getElementById("RTG").value;
 
-    hwComp = calcWind()
 
     stopway = 0;
     clearway = 0;
@@ -766,7 +811,6 @@ async function ldgCalc() {
     document.querySelector('header').classList.add("blur")
     document.querySelector('footer').classList.add("blur")
     //collect all input conditions
-    let hwCompLdg = calcWindLdg()
 
     let rwLengthLdg = Math.round(document.getElementById("runwayLdg").value.split(",")[1]/3.28084);
     let rwHdgLdg = document.getElementById("runwayLdg").value.split(",")[0];
@@ -916,60 +960,3 @@ function ldgTableLookup(input, factor, adjust){
 }
 
 //_________________________UI_UPDATES__________________________________
-document.getElementById("airportLdg").addEventListener("input", function() {
-    if(document.getElementById("airportLdg").value.length == 4)
-        findAirportLdg()
-})
-document.getElementById("airportLdg").addEventListener("blur", findAirportLdg)
-function findAirportLdg() {
-    let airportInput = document.getElementById("airportLdg").value.toUpperCase();
-    let lastAirport;
-
-    fetch('runwayDatabase/runways.json')
-    .then(res => res.json())
-    .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
-    .then(RWYS => {
-        if (lastAirport != airportInput) {
-            document.getElementById("runwayLdg").innerHTML = '';
-        }
-        
-        for (let i = 0; i < RWYS.length; i++) {
-            const runway = document.createElement("option");
-            runway.text = RWYS[i].runway;
-            runway.value = RWYS[i].rwHdg + "," + RWYS[i].rwyLength + "," + RWYS[i].rwyElev + "," + RWYS[i].slope + "," + RWYS[i].runway;
-            document.getElementById("runwayLdg").add(runway)
-        }
-        lastAirport = airportInput;
-    })
-}
-document.getElementById("windInputLdg").addEventListener("blur", calcWindLdg)
-function calcWindLdg() {
-    let windInput = document.getElementById("windInputLdg").value
-    let windDir = windInput.split("/")[0];
-    let windStrength = windInput.split("/")[1];
-    let rwHdg = document.getElementById("runwayLdg").value.split(",")[0];
-    
-    if(!document.getElementById("windInputLdg").value.includes("/")){
-        windStrength = document.getElementById("windInputLdg").value
-        rwHdg ? windDir = rwHdg : windDir = 0
-        
-    }
-    windDir = parseInt(windDir);
-    windStrength = parseInt(windStrength);
-    if (isNaN(windStrength)) {
-        
-    } else if(windDir > 360){
-        
-    } else {
-        var relativeWindDir = Math.abs(rwHdg - windDir);
-        var HWcomp = Math.floor(Math.cos(relativeWindDir * (Math.PI / 180)) * windStrength);
-        var XWcomp = Math.floor(Math.sin(relativeWindDir * (Math.PI / 180)) * windStrength);
-        if(HWcomp < 0) {
-            document.getElementById("windComponentDisplayLdg").innerHTML = Math.abs(HWcomp) + " TW/" + XWcomp + " XW";    
-        } else {
-            document.getElementById("windComponentDisplayLdg").innerHTML = HWcomp + " HW/" + XWcomp + " XW";
-        }
-        
-    }    
-    return HWcomp;
-}
