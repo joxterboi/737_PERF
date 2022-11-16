@@ -75,7 +75,6 @@ function displayPage(selectedPage) {
 //Rwy graphics button switch landning
 document.getElementById("rwyGraphicLdgBtn").addEventListener("click", function() {
     this.firstElementChild.classList.toggle("slideRight");
-    console.log(this)
     this.classList.toggle("slideRightBackground");
     this.style.backgroundColor == "rgb(36, 37, 46)" ? this.style.backgroundColor = "rgb(14, 208, 119)" : this.style.backgroundColor = "rgb(36, 37, 46)"
     document.getElementById("resultsWindowLadning").classList.toggle("hidden");
