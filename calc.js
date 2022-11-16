@@ -7,6 +7,7 @@ let cond
 let windDir
 let windStrength
 let OAT
+let OATLdg
 let QNH
 let RTG
 let ATM
@@ -27,7 +28,6 @@ let vMbe
 
 let mostLimWeight
 
-
 let lastTry = false
 let forceFlap = false;
 let forceRTG = false;
@@ -38,7 +38,7 @@ let n1s
 let vSpds
 let vSpdsAssumed = [];
 
-// ------------------EVENT LISTNERS-------------
+// ------------------EVENT-LISTNERS-------------
 
 //TAKE OFF
 document.getElementById("QNH").addEventListener("blur", calcQnh)
@@ -65,13 +65,20 @@ document.getElementById("airportLdg").addEventListener("input", function() {
 })
 document.getElementById("airportLdg").addEventListener("blur", findAirportLdg)
 document.getElementById("windInputLdg").addEventListener("blur", calcWind)
-// document.getElementById("windInputLdg").addEventListener("blur", calcWindLdg)
-
+document.getElementById("OATLdg").addEventListener("blur", calcFarenheit)
+document.getElementById("inputConditionsLdg").addEventListener("input", function(){
+    document.getElementById("resultsWindowLadning").style.opacity = 0;
+    document.getElementById("perfModelLdg").style.opacity = 0;
+    document.getElementById("ldgCalcBtn").classList.remove("hidden")
+    document.getElementById("rwyGraphicLdg").classList.add("hidden")
+    document.getElementById("resultsWindowLadning").classList.remove("hidden")
+    document.getElementById("resultsWindowLandingGUI").classList.add("hidden")
+})
 
 //--------------------UI-updates-------------------
 // BOTH LANDING AND TAKEOFF
 function calcQnh() {
-    let QNH = document.getElementById(this.id).value
+    QNH = document.getElementById(this.id).value
     if(QNH) {
         if(QNH > 950 && QNH < 1080) {
             let inhg = Math.floor(QNH * 0.029529980164712 * 100);
@@ -117,6 +124,21 @@ function calcWind() {
         document.getElementById(this.id).value = ""
     }    
     this.id == "windInputLdg" ? hwCompLdg = HWcomp : hwComp = HWcomp
+}
+function calcFarenheit() {
+    let OATinput = document.getElementById(this.id).value
+    if(OATinput) {
+        if(OATinput > -40 && OATinput < 50) {
+            let farenheit = Math.floor((OATinput*1.8)+32);
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = farenheit + " F";
+            document.getElementById(this.id).placeholder = OATinput + " C";
+        } else if (OAT < -40 || OAT > 50) {
+            document.getElementById(this.id).placeholder = "OUT OF RANGE";     
+            this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+        }
+    }
+    document.getElementById(this.id).value = "";
+    this.id == "OATLdg" ? OATLdg = OATinput : OAT = OATinput
 }
 //TAKE OFF
 function findAirport() {
@@ -166,20 +188,6 @@ function getIntersections() {
         }
     })
 }
-
-function calcFarenheit() {
-    let OAT = document.getElementById("OAT").value
-    if(OAT) {
-        if(OAT > -40 && OAT < 50) {
-            let farenheit = Math.floor((OAT*1.8)+32);
-            document.getElementById("oatDisplay").innerHTML = farenheit + " F";
-        } else if (OAT < -40 || OAT > 50) {
-            document.getElementById("OAT").placeholder = "OUT OF RANGE";        
-            document.getElementById("OAT").value = "";
-            document.getElementById("oatDisplay").innerHTML = " ";
-        }
-      }
-}
 function setTow() {
     if(document.getElementById("TOW").value < 80)
         document.getElementById("TOW").value = document.getElementById("TOW").value * 1000
@@ -206,8 +214,6 @@ function findAirportLdg() {
         lastAirport = airportInput;
     })
 }
-
-
 
 // ----------------------------------------On-submit------------------------------------------------
 inputConditions.addEventListener('submit', function (event) {
@@ -236,24 +242,17 @@ function mainCalc() {
     rwElev = parseInt(document.getElementById("runway").value.split(",")[2]);
     rwSlope = document.getElementById("runway").value.split(",")[3];
     cond = document.getElementById("cond").value;
-    // Is now set as global vars when typed in and input replaced with placeholder
-    // windDir = document.getElementById("windInput").value.split("/")[0];
-    // windStrength = document.getElementById("windInput").value.split("/")[1];
-    // OAT = parseInt(document.getElementById("OAT").value);
-    // QNH = document.getElementById("QNH").value;
     ATM = document.getElementById("ATM").value;
     BLEED = document.getElementById("BLEED").value;
     AntiIce = document.getElementById("A/ICE").value;
     TOW = parseInt(document.getElementById("TOW").value)/1000;
     CG = parseInt(document.getElementById("CG").value);
     
-    
     if(!forceFlap)
         FLAP = parseInt(document.getElementById("FLAP").value);
         if (FLAP == 0) FLAP = 1;
     if(!forceRTG)
         RTG = document.getElementById("RTG").value;
-
 
     stopway = 0;
     clearway = 0;
@@ -263,7 +262,6 @@ function mainCalc() {
     loadingProgress(13)
     mainProcessTree();
 }
-
 
 //---------------------------Main-functions------------------------------
 async function mainProcessTree () {
@@ -300,8 +298,6 @@ async function PI(perfLimitAssumedTemp) {
     vSpds = await vSpeeds(perfLimitAssumedTemp)
     n1s = await n1(perfLimitAssumedTemp)
 }
-
-
 
 //---------------------------One-time-use-functions---------------------------
 // PD
@@ -475,11 +471,6 @@ async function vSpeeds(assumedTemp) {
     let flapIndex = vSpdTable.tableX.indexOf(FLAP)
     let flapTableSetting = "col" + (flapIndex + 1);
 
-    // console.log(vSpdTable[flapTableSetting][towAvrage[0]])
-    // console.log(vSpdTable[flapTableSetting][towAvrage[1]])
-    // console.log(towAvrage[2])
-
-    
     // Calculating avrage v1 speeds based on weight
     let lowSpds = vSpdTable[flapTableSetting][towAvrage[0]]
     let highSpds = vSpdTable[flapTableSetting][towAvrage[1]]
@@ -522,11 +513,6 @@ async function vSpeeds(assumedTemp) {
     return vSpds
 }
 async function clearwayStopway() {
-// ________________Move to clearwayStopwatAdj funtion__________________
-    //let clearwayAdjTable = await fetchTable(clearwayAdjTableLocation)    clearwayAdjTableLocation is the input argument for the new function
-    //console.log(clearwayAdjTable)
-//_____________________________________________________________________
-
     let airport = document.getElementById("airport").value.toUpperCase();
     let runway = document.getElementById("runway").value.split(",")[4];
 
@@ -542,8 +528,6 @@ async function clearwayStopway() {
         let maxUsebleClearway = ((maxClearwayTable.col1[maxClearway[0]]) * (1 - maxClearway[2])) + (maxClearwayTable.col1[maxClearway[1]] * maxClearway[2])    
         clearway > maxUsebleClearway ? clearway = maxUsebleClearway : console.log("Within limits")
     }
-    //FIELD LENGTH (M)              1200 1600 2000 2400 2800 3200
-    //MAX ALLOWABLE CLEARWAY (M)     150  180  210  240  270  290
 }
 async function n1(perfLimitAssumedTemp) {
     loadingProgress(79)
@@ -602,6 +586,7 @@ async function getEoSid() {
         document.getElementById("eoSid").innerHTML = "Engine Failure Procedure:   " + `At 25 NM enter HLDG (${rwHdg} INBD,RT)`
     })
 }
+
 // Print
 function print() {
     loadingProgress(92)
@@ -665,7 +650,6 @@ function performanceLimitedPrint() {
     let RTOW = Math.floor(mostLimWeight*1000)
     document.getElementById("maxTow").innerHTML = `No takeoff allowed. Planned weight exceeds max allowable weight of ${RTOW} KG.`
 }
-//Enableing the cancel button and stopping all functions
 function cancelCalc() {
     document.getElementById("calculating").style.display = "none"
     document.getElementById("takeOff").classList.remove("blur")
@@ -674,6 +658,7 @@ function cancelCalc() {
     throw new Error("Calculation has been canceld");
 
 }
+
 //---------------------------Utility-functions---------------------------
 async function climbLimLookup(temp) {
     table = await fetchTable(`performanceTables/climbLimit_${FLAP}_${RTG}.json`)
@@ -690,8 +675,6 @@ async function tableLookup(tableLocation, inputY, inputX) {
     let res = await fetch(tableLocation)
     let json = await res.json()    
     
-    // console.log(inputY, inputX)
-
     let xValues = find2Nearest(json.tableY, inputY)    
     let yValues = find2Nearest(json.tableX, inputX)
 
@@ -703,8 +686,6 @@ async function tableLookup(tableLocation, inputY, inputX) {
     let weightedXLow = ((1 - xValues[2]) * json[yLow][xValues[0]]) + (json[yLow][xValues[1]] * xValues[2])
     let weightedXHigh = ((1 - xValues[2]) * json[yHigh][xValues[0]]) + (json[yHigh][xValues[1]] * xValues[2])
     let result = ((1 - yValues[2]) * weightedXLow) + (yValues[2] * weightedXHigh);
-    // console.log(json[yLow][xValues[0]-1], json[yHigh][xValues[0]-1])
-    // console.log(json[yLow][xValues[1]-1], json[yHigh][xValues[1]-1])
     return result;
 }
 function find2Nearest(array, inputNumber) {
@@ -722,8 +703,6 @@ function find2Nearest(array, inputNumber) {
     
     let deltaBefore
     let deltaAfter 
-
-
    
     // If value on the end of table i inputed
     if (index == 0) {
@@ -746,22 +725,6 @@ function find2Nearest(array, inputNumber) {
     deltaBefore = Math.abs((inputNumber - before)) / Math.abs((before - closest))
     deltaAfter = Math.abs((inputNumber - after)) / Math.abs((after - closest))
 
-
-    // console.log("____________________________________________")
-    // console.log("Input:", inputNumber)
-    // console.log("before:", before)
-    // console.log("closest:", closest)
-    // console.log("after:", after)
-    // console.log("____________________________________________")
-    
-    // if (inputNumber < 1380 && 1300 < inputNumber) {
-    //     console.log("________________")
-    //     console.log(inputNumber)
-    //     console.log(closest)
-    //     console.log(index)
-    //     console.log("________________")
-    // }
-    
     if (inputNumber < closest) {
         if(inputNumber > before) {
             return [index - 1, index, deltaBefore]
@@ -782,7 +745,6 @@ function find2Nearest(array, inputNumber) {
         return[index, index, 1]
     }
 }
-
 async function fieldClimbAdj(title, modifier) {
     let table
     let thrustSetting = "k" + RTG
@@ -794,15 +756,6 @@ async function fieldClimbAdj(title, modifier) {
 }
 
 
-
-
-
-
-
-
-
-
-
 // ________________________Ladning_calculation__________________________________
 async function ldgCalc() {
     //Shows loading screen
@@ -812,18 +765,15 @@ async function ldgCalc() {
     document.querySelector('footer').classList.add("blur")
     //collect all input conditions
 
-    let rwLengthLdg = Math.round(document.getElementById("runwayLdg").value.split(",")[1]/3.28084);
-    let rwHdgLdg = document.getElementById("runwayLdg").value.split(",")[0];
     let rwElevLdg = parseInt(document.getElementById("runwayLdg").value.split(",")[2]);
     let rwSlopeLdg = document.getElementById("runwayLdg").value.split(",")[3];
     let runwayLdg = document.getElementById("runwayLdg").value.split(",")[4];
     let condLdg = document.getElementById("condLdg").value;
-    let OATLdg = parseInt(document.getElementById("OATLdg").value);
     let QNHLdg = document.getElementById("QNHLdg").value;
     let BLEEDLdg = document.getElementById("BLEEDLdg").value;
     let AntiIceLdg = document.getElementById("A/ICELdg").value;
     let LAW = parseInt(document.getElementById("LAW").value);
-    let BRKS = document.getElementById("BRKS").value;
+    // let BRKS = document.getElementById("BRKS").value;
     let REV = document.getElementById("REV").value;
     let flapLdg = document.getElementById("flapLdg").value;
     let vrefAdd = parseInt(document.getElementById("vrefAdd").value);
@@ -860,13 +810,11 @@ async function ldgCalc() {
         let appSpdAdjustedDist = ldgTableLookup(tempAdjustedDist, appSpdAdj + "/" + appSpdAdj, vrefAdd/5)
         let landingDist = ldgTableLookup(appSpdAdjustedDist, REVADJ + "/" + REVADJ, 1)
         landingDistances[i] = landingDist
-
     }
 
     // ______________PRINT_________________
     printLdg(landingDistances)
  
-    // .style.color = "#fff !important"
     function printLdg(landingDistances) {
 
         for (let i = 1; i < 6; i++) {
@@ -887,7 +835,6 @@ async function ldgCalc() {
         for (let i = 0; i < 5; i++) {
             o = os[i]
             document.querySelector(`#ladningDistances :nth-child(${i+1})`).innerHTML = `${Math.floor(landingDistances[o-1])} <span>M</span>`
-            // document.querySelector(`#ldgTitles :nth-child(${i+1})`).innerHTML = `${Math.floor(landingDistances[i])} M`
         }
         
 
@@ -941,22 +888,7 @@ async function ldgCalc() {
         document.getElementById("rwyGraphicLdg").classList.toggle("hidden")
     }
 }
-
-//Hides results when input is changed
-document.getElementById("inputConditionsLdg").addEventListener("input", function(){
-    document.getElementById("resultsWindowLadning").style.opacity = 0;
-    document.getElementById("perfModelLdg").style.opacity = 0;
-    document.getElementById("ldgCalcBtn").classList.remove("hidden")
-    document.getElementById("rwyGraphicLdg").classList.add("hidden")
-    document.getElementById("resultsWindowLadning").classList.remove("hidden")
-    document.getElementById("resultsWindowLandingGUI").classList.add("hidden")
-})
-
-
 function ldgTableLookup(input, factor, adjust){
     adjust > 0 ? factor = factor.split("/")[0] : factor = factor.split("/")[1]
-    // console.log("input", input, "output", input + (Math.abs(factor) * adjust), "adjust", (factor * adjust))
     return input + (factor * adjust)
 }
-
-//_________________________UI_UPDATES__________________________________
