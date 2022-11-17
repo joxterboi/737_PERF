@@ -1,3 +1,14 @@
+0.2.5
+*fixed bug where landing dist would be NaN if no vrefadd was entered
+*placeholder now cant be seen when input is pressed
+*fixed cg header values (differs between 22k and 26k)
+*TOW and LAW is now global VARs set by same function
+*"KG" is added at the end of TOW and LAW inputwindows
+*fixed bug when only typing in HW component in wind input the placeholder would be printed as rwy hdg/wind strength
+*if you enter input and then click away the field will return to default state
+*Repos and enlarged small text under input
+*added animation to rwy graph button
+*numeric input for mobile on wind condition
 0.2.4
 *small text now aligns to the left under wind/oat/qnh
 *re orderd event listners and small text display functions
