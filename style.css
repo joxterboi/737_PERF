@@ -54,7 +54,7 @@ input:focus::placeholder {
     background: none;
     padding: 0;
 }
-#airport::placeholder {
+.whitePlaceholder::placeholder {
     color: #fff;
 }
 select:hover, select:focus {
