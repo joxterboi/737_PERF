@@ -29,7 +29,7 @@
             </div>
         </header>
         
-    <div id="takeOff" class="page hidden">
+    <div id="takeOff" class="page ">
         <!-- INPUT PART -->
         <form id="inputConditions">
         <div id="inputSection">
@@ -39,7 +39,7 @@
 
                      <div>
                          <label for="airport">ARPT</label>
-                         <input maxlength="4" value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                         <input class="whitePlaceholder" maxlength="4" value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                      </div>
                      
                      <div>
@@ -142,7 +142,7 @@
                 <div>
                     <div class="wCg">
                         <label for="TOW">Takeoff Weight:</label>
-                        <input required type="number" id="TOW" max="79016" placeholder="KG" value="65000">
+                        <input type="number" id="TOW" max="79016" placeholder="KG" value="65000">
                     </div>                
                     <div class="wCg">
                         <label for="CG">CG(%):</label>
@@ -240,7 +240,7 @@
             </div>
         </div>
     </div>
-    <div id="ladning" class="page ">
+    <div id="ladning" class="page hidden">
         <!-- INPUT PART -->
         <form id="inputConditionsLdg">
             <div id="inputSectionLdg">
@@ -250,7 +250,7 @@
     
                          <div>
                              <label for="airportLdg">ARPT</label>
-                             <input required maxlength="4" value="engm" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                             <input class="whitePlaceholder" required maxlength="4" value="engm" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                          </div>
                          
                          <div>
