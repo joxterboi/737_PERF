@@ -777,6 +777,8 @@ async function ldgCalc() {
     let REV = document.getElementById("REV").value;
     let flapLdg = document.getElementById("flapLdg").value;
     let vrefAdd = parseInt(document.getElementById("vrefAdd").value);
+    if(!vrefAdd)
+        vrefAdd = 0;
     let vrefs = await getVref("ldg")
     flapLdg == 40 ? ldgVref = vrefs[1] : ldgVref = vrefs[2]
     let REVADJ;
