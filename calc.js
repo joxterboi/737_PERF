@@ -29,6 +29,9 @@ let vMbe
 
 let mostLimWeight
 
+let ARPT
+let ARPTLdg
+
 let lastTry = false
 let forceFlap = false;
 let forceRTG = false;
@@ -46,9 +49,8 @@ document.getElementById("QNH").addEventListener("blur", calcQnh)
 document.getElementById("TOW").addEventListener("blur", setWeight)
 document.getElementById("airport").addEventListener("input", function() {
     if(document.getElementById("airport").value.length == 4)
-    findAirport()
+    findAirport("airport")
 })
-document.getElementById("airport").addEventListener("blur", findAirport)
 document.getElementById("runway").addEventListener("change", getIntersections)
 document.getElementById("windInput").addEventListener("blur", calcWind)
 document.getElementById("OAT").addEventListener("blur", calcFarenheit)
@@ -63,9 +65,8 @@ document.getElementById("QNHLdg").addEventListener("blur", calcQnh)
 document.getElementById("LAW").addEventListener("blur", setWeight)
 document.getElementById("airportLdg").addEventListener("input", function() {
     if(document.getElementById("airportLdg").value.length == 4)
-        findAirportLdg()
+        findAirport("airportLdg")
 })
-document.getElementById("airportLdg").addEventListener("blur", findAirportLdg)
 document.getElementById("windInputLdg").addEventListener("blur", calcWind)
 document.getElementById("OATLdg").addEventListener("blur", calcFarenheit)
 document.getElementById("inputConditionsLdg").addEventListener("input", function(){
@@ -157,43 +158,64 @@ function setWeight() {
     if(weightInput < 80)
         weightInput = weightInput * 1000
     document.getElementById(this.id).placeholder = weightInput + " KG"
-    this.id == "TOW" ? TOW = weightInput : LAW = weightInput;
+    this.id == "TOW" ? TOW = parseInt(weightInput)/1000 : LAW = parseInt(weightInput);
     document.getElementById(this.id).value = ""
     if(weightInput == 0)
         document.getElementById(this.id).placeholder = "KG"
 }
 //TAKE OFF
-function findAirport() {
-    let airportInput = document.getElementById("airport").value.toUpperCase();
+function findAirport(inputBox) {
+    
+    if(this.id)
+        inputBox = this.id
+    if(!document.getElementById(inputBox).value) {
+        document.getElementById(inputBox).placeholder = "ARPT SEARCH"
+        return
+    }
+    let airportInput = document.getElementById(inputBox).value.toUpperCase();
     let lastAirport;
-
+    let runwayBox
+    inputBox == "airport" ? ARPT = airportInput : ARPTLdg = airportInput
+    inputBox == "airport" ? runwayBox = "runway" : runwayBox = "runwayLdg"
+    
     fetch('runwayDatabase/runways.json')
     .then(res => res.json())
     .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
     .then(RWYS => {
         if (lastAirport != airportInput) {
-            document.getElementById("runway").innerHTML = '';
+            document.getElementById(runwayBox).innerHTML = '';
         }
         
         for (let i = 0; i < RWYS.length; i++) {
             const runway = document.createElement("option");
             runway.text = RWYS[i].runway;
             runway.value = RWYS[i].rwHdg + "," + RWYS[i].rwyLength + "," + RWYS[i].rwyElev + "," + RWYS[i].slope + "," + RWYS[i].runway;
-            document.getElementById("runway").add(runway)
+            document.getElementById(runwayBox).add(runway)
         }
         lastAirport = airportInput;
 
         // Calls for intersercion function to add intersections to INTX list
         getIntersections()
-
+        getIata(inputBox, airportInput)
+        document.getElementById(inputBox).classList.remove("whitePlaceholder")
+        document.getElementById(inputBox).value = ""
+    })
+}
+function getIata(inputBox, airportInput) {
+    fetch(`runwaydataBase/airports.json`)
+    .then(res => res.json())
+    .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
+    .then(airport => {
+        let iata = airport[0].airport_iata
+        document.getElementById(inputBox).placeholder = `${airportInput}/${iata}`
+        document.getElementById(inputBox).blur()
     })
 }
 function getIntersections() {
-    let airportId = document.getElementById("airport").value.toUpperCase();
     let currentRwy = document.getElementById("runway").value.split(",")[4];
     fetch('runwayDatabase/intersections.json')
     .then(res => res.json())
-    .then(json => (json.filter(intersection => intersection.airport_ident == airportId && intersection.runway == currentRwy)))
+    .then(json => (json.filter(intersection => intersection.airport_ident == ARPT && intersection.runway == currentRwy)))
     .then(intersections => {
         document.getElementById("intx").innerHTML = ""
         const fullRwy = document.createElement("option");
@@ -210,29 +232,6 @@ function getIntersections() {
         }
     })
 }
-//LANDING
-function findAirportLdg() {
-    let airportInput = document.getElementById("airportLdg").value.toUpperCase();
-    let lastAirport;
-
-    fetch('runwayDatabase/runways.json')
-    .then(res => res.json())
-    .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
-    .then(RWYS => {
-        if (lastAirport != airportInput) {
-            document.getElementById("runwayLdg").innerHTML = '';
-        }
-        
-        for (let i = 0; i < RWYS.length; i++) {
-            const runway = document.createElement("option");
-            runway.text = RWYS[i].runway;
-            runway.value = RWYS[i].rwHdg + "," + RWYS[i].rwyLength + "," + RWYS[i].rwyElev + "," + RWYS[i].slope + "," + RWYS[i].runway;
-            document.getElementById("runwayLdg").add(runway)
-        }
-        lastAirport = airportInput;
-    })
-}
-
 // ----------------------------------------On-submit------------------------------------------------
 inputConditions.addEventListener('submit', function (event) {
     //Blurs screen and adds loading screen
@@ -263,7 +262,6 @@ function mainCalc() {
     ATM = document.getElementById("ATM").value;
     BLEED = document.getElementById("BLEED").value;
     AntiIce = document.getElementById("A/ICE").value;
-    TOW = parseInt(document.getElementById("TOW").value)/1000;
     CG = parseInt(document.getElementById("CG").value);
     
     if(!forceFlap)
@@ -292,6 +290,7 @@ async function mainProcessTree () {
         loadingProgress(94)
         performanceLimitedPrint()
     } else {
+        console.log(TOW)
         console.log("Trying again")
     }
     
@@ -452,9 +451,8 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
 //Obstacle calculation
 async function obstacleLim(TORA, temp) {
     let obsList = await fetchTable("runwayDatabase/obstacles.json")
-    let airport = document.getElementById("airport").value.toUpperCase();
     let runway = document.getElementById("runway").value.split(",")[4];
-    let activeObstecles = obsList.filter(airports => airports.airport_ident == airport && airports.runway == runway)    
+    let activeObstecles = obsList.filter(airports => airports.airport_ident == ARPT && airports.runway == runway)    
     let obsTora = ((TORA)-26)
     let mostRestrictiveObsLimWeight = 100
     for (let i = 0; i < activeObstecles.length; i++) {
@@ -531,11 +529,10 @@ async function vSpeeds(assumedTemp) {
     return vSpds
 }
 async function clearwayStopway() {
-    let airport = document.getElementById("airport").value.toUpperCase();
     let runway = document.getElementById("runway").value.split(",")[4];
 
     let clearStopwayList = await fetchTable("runwayDatabase/clearStopways.json")
-    let runwayStats = clearStopwayList.filter(airports => airports.airport_ident == airport && airports.runway == runway)
+    let runwayStats = clearStopwayList.filter(airports => airports.airport_ident == ARPT && airports.runway == runway)
     if (runwayStats[0]) {
         stopway = runwayStats[0].stopway/3.28084
         clearway = runwayStats[0].clearway/3.28084
@@ -591,12 +588,11 @@ async function getVref(intention) {
     return vref;
 }
 async function getEoSid() {
-    let airportId = document.getElementById("airport").value.toUpperCase();
     let currentRwy = document.getElementById("runway").value.split(",")[4];
 
     fetch('runwayDatabase/EoSid.json')
     .then(res => res.json())
-    .then(json => (json.filter(eoSids => eoSids.airport_ident == airportId && eoSids.runway == currentRwy)))
+    .then(json => (json.filter(eoSids => eoSids.airport_ident == ARPT && eoSids.runway == currentRwy)))
     .then(eoSid => {
         if (eoSid[0]) 
             document.getElementById("eoSid").innerHTML = "Engine Failure Procedure:   " + eoSid[0].eoSid
@@ -849,7 +845,7 @@ async function ldgCalc() {
         flapLdg == 30 ? vrefDisplay = vrefs[2] + vrefAdd : vrefDisplay = vrefs[1] + vrefAdd
         id("ldgResultTitle").firstElementChild.nextElementSibling.innerHTML = `Vref${flapLdg}+${vrefAdd}:        <span>${vrefDisplay}</span> KT`
         //Sets all distances
-        let lda = Math.round(id("runwayLdg").value.split(",")[1]/3.28084)
+        let lda = Math.round(id("runwayLdg").value.split(",")[1]/3.28084) //FIX
         let os = [1, 5, 4, 3, 2];
         for (let i = 0; i < 5; i++) {
             o = os[i]
