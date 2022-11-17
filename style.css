@@ -43,6 +43,9 @@ option,
     caret-color: white;
     z-index: 99;
 }
+input:focus::placeholder {
+    color: transparent;
+  }
 #airport, #airportLdg {
     text-transform: uppercase;
 }
