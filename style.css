@@ -45,7 +45,7 @@ option,
 }
 input:focus::placeholder {
     color: transparent;
-  }
+}
 #airport, #airportLdg {
     text-transform: uppercase;
 }
@@ -109,9 +109,10 @@ h5 {
     opacity: .65;
 }
 .smallUnderText {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
-    margin-top: 43px;
+    margin-top: 39px;
+    margin-left: 3px;
 }
 label {
     font-size: 20px;
@@ -607,8 +608,12 @@ footer p {
     height: 18px;
     border-radius: 18px;
     margin-left: 15px;
+    transition: .2s;
 }
-
+#rwyGraphicLdgBtn svg {
+    transition: .2s;
+    transition-timing-function: ease-out
+}
 #rwyGraphicLdgBtn:hover {
     cursor: pointer;
 }
@@ -617,5 +622,4 @@ footer p {
 }
 .slideRight {
     transform: translateX(18px);
-    
 }
