@@ -16,6 +16,7 @@ let BLEED
 let AntiIce
 let TOW
 let CG
+let LAW
 
 let hwComp
 let hwCompLdg
@@ -42,7 +43,7 @@ let vSpdsAssumed = [];
 
 //TAKE OFF
 document.getElementById("QNH").addEventListener("blur", calcQnh)
-document.getElementById("TOW").addEventListener("blur", setTow)
+document.getElementById("TOW").addEventListener("blur", setWeight)
 document.getElementById("airport").addEventListener("input", function() {
     if(document.getElementById("airport").value.length == 4)
     findAirport()
@@ -59,6 +60,7 @@ document.getElementById("inputConditions").addEventListener("input", function(){
 })
 //LANDING
 document.getElementById("QNHLdg").addEventListener("blur", calcQnh)
+document.getElementById("LAW").addEventListener("blur", setWeight)
 document.getElementById("airportLdg").addEventListener("input", function() {
     if(document.getElementById("airportLdg").value.length == 4)
         findAirportLdg()
@@ -82,15 +84,18 @@ function calcQnh() {
     if(QNH) {
         if(QNH > 950 && QNH < 1080) {
             let inhg = Math.floor(QNH * 0.029529980164712 * 100);
-            document.getElementById(this.id).value = "";
             document.getElementById(this.id).placeholder = `${QNH} HPa`;
             this.parentElement.firstElementChild.firstElementChild.innerHTML = (inhg/100).toFixed(2) + " IN HG";
         } else if (QNH > 1080 || QNH < 950) {
             document.getElementById(this.id).placeholder = "OUT OF RANGE";        
-            document.getElementById(this.id).value = "";
             this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
         }
     }
+    if (document.getElementById(this.id).value == 0) {
+        document.getElementById(this.id).placeholder = ""
+        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    }
+    document.getElementById(this.id).value = "";
 }
 function calcWind() {
     let windInput = document.getElementById(this.id).value
@@ -104,9 +109,7 @@ function calcWind() {
     windDir = parseInt(windDir);
     windStrength = parseInt(windStrength);
     if (isNaN(windStrength)) {
-        document.getElementById(this.id).value = ""
     } else if(windDir > 360){
-        document.getElementById(this.id).value = ""
     } else {
         
         let placeholderText = `00${windDir}`.slice(-3) + `/${windStrength} KT`
@@ -119,10 +122,15 @@ function calcWind() {
             this.parentElement.firstElementChild.firstElementChild.innerHTML = HWcomp + " HW/" + Math.abs(XWcomp) + " XW";
         }
         document.getElementById(this.id).placeholder = placeholderText
-        if(windDir == 0)
+        if(!document.getElementById(this.id).value.includes("/"))
             document.getElementById(this.id).placeholder = placeholderText.split("/")[1]
-        document.getElementById(this.id).value = ""
+        
     }    
+    if (document.getElementById(this.id).value == 0) {
+        document.getElementById(this.id).placeholder = ""
+        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    }
+    document.getElementById(this.id).value = ""
     this.id == "windInputLdg" ? hwCompLdg = HWcomp : hwComp = HWcomp
 }
 function calcFarenheit() {
@@ -137,8 +145,22 @@ function calcFarenheit() {
             this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
         }
     }
+    if (document.getElementById(this.id).value == 0) {
+        document.getElementById(this.id).placeholder = ""
+        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    }
     document.getElementById(this.id).value = "";
     this.id == "OATLdg" ? OATLdg = OATinput : OAT = OATinput
+}
+function setWeight() {
+    let weightInput = document.getElementById(this.id).value
+    if(weightInput < 80)
+        weightInput = weightInput * 1000
+    document.getElementById(this.id).placeholder = weightInput + " KG"
+    this.id == "TOW" ? TOW = weightInput : LAW = weightInput;
+    document.getElementById(this.id).value = ""
+    if(weightInput == 0)
+        document.getElementById(this.id).placeholder = "KG"
 }
 //TAKE OFF
 function findAirport() {
@@ -187,10 +209,6 @@ function getIntersections() {
             
         }
     })
-}
-function setTow() {
-    if(document.getElementById("TOW").value < 80)
-        document.getElementById("TOW").value = document.getElementById("TOW").value * 1000
 }
 //LANDING
 function findAirportLdg() {
@@ -563,7 +581,7 @@ async function getTrim() {
 }
 async function getVref(intention) {
     let weight;
-    intention == "ldg" ? weight = (document.getElementById("LAW").value / 1000) : weight = TOW;
+    intention == "ldg" ? weight = (LAW / 1000) : weight = TOW;
     table = await fetchTable("performanceTables/vref40.json")
     let vrefs = find2Nearest(table.tableX, weight)
     for (let i = 1; i < 3; i++) {
@@ -772,7 +790,6 @@ async function ldgCalc() {
     let QNHLdg = document.getElementById("QNHLdg").value;
     let BLEEDLdg = document.getElementById("BLEEDLdg").value;
     let AntiIceLdg = document.getElementById("A/ICELdg").value;
-    let LAW = parseInt(document.getElementById("LAW").value);
     // let BRKS = document.getElementById("BRKS").value;
     let REV = document.getElementById("REV").value;
     let flapLdg = document.getElementById("flapLdg").value;
