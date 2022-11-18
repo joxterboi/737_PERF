@@ -198,6 +198,37 @@ function findAirport(inputBox) {
         getIata(inputBox, airportInput)
         document.getElementById(inputBox).classList.remove("whitePlaceholder")
         document.getElementById(inputBox).value = ""
+
+        //Cleans out other input fields
+        //DONT TOUCH  0,4 [0-6]
+        //DONT TOUCH  7 [7-6]
+        let max
+        let min
+        if(inputBox == "airport") {
+            max = 7;
+            min = 1;
+        } else {
+            max = document.querySelectorAll("input").length
+            min = 8
+        }
+        for (let i = min; i < max; i++) {
+            if(i == 4)
+                i == i++
+            document.querySelectorAll("input")[i].placeholder = ""
+            document.querySelectorAll("input")[i].value = ""
+        }
+
+        //Resets all dropdowns to first option
+        if(inputBox == "airport") {
+            max = 8;
+            min = 0;
+        } else {
+            max = document.querySelectorAll("input").length
+            min = 8
+        }
+        for (let i = min; i < max; i++) {
+            document.querySelectorAll("select")[i].selectedIndex = "0"
+        }
     })
 }
 function getIata(inputBox, airportInput) {
