@@ -1,3 +1,17 @@
+0.2.6
++when airport is inputed it now blur user from input and adds IATA code in window
+*global vars for airport and landing airport
+*one function for finding airport and populating runway select
+-removed requierd on weight input
+*added class for white placeholder (only used on arpt input for now)
+*fixed bug when you select FULL and then do other calc it would still say FULL but showing results for ATM
+*Now always shows the same amount of decimal points for results
+*all fields and dropdowns now resets when selecting new airport
+*grdline end now always green when all brake settings are green
+*can now accept 0 wind
+*changed roudning method for vref. before it sometimes showed 1kt to fast
+*general resizing
+*better handling of low width screens
 0.2.5
 *fixed bug where landing dist would be NaN if no vrefadd was entered
 *placeholder now cant be seen when input is pressed
