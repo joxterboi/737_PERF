@@ -13,7 +13,7 @@ body {user-select: none}
     padding: 14px;
     overflow: hidden;
     position: fixed;
-    -webkit-tap-highlight-color: "transparent";
+    --webkit-tap-highlight-color: "transparent";
 }
 /* Removes arrows from number inputs */
 input::-webkit-outer-spin-button,
@@ -29,7 +29,7 @@ option,
 ::placeholder
 {
     width: 200px;
-    height: 35px;
+    height: 30px;
     border: none;
     background-color: #393B49;
     color: #25BF7F;
@@ -109,14 +109,14 @@ h5 {
     opacity: .65;
 }
 .smallUnderText {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
-    margin-top: 39px;
+    margin-top: 30px;
     margin-left: 3px;
 }
 label {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 32px;
 }
 #atmText {
     position: absolute;
@@ -135,6 +135,8 @@ label {
 #inputSection, #inputSectionLdg {
     display: flex;
     padding-bottom: 10px;
+    justify-content: space-around;
+    max-width: 1000px;
 }
 #leftInputBox, #leftInputBoxLdg {
     display: flex;
@@ -145,14 +147,15 @@ label {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: auto;
+    white-space:nowrap;
 }
 #rightInputBox div, #rightInputBoxLdg div {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
 }
 #rightInputBox > div:nth-child(1) {
-    width: 73%;
+    /* width: 73%; */
 }
 #rightInputBox div div, #rightInputBoxLdg div div {
     flex-direction: row;
@@ -173,7 +176,7 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-right: 25px;
+    margin-right: 18px;
 }
 .leftSide div {
     display: flex;
@@ -191,21 +194,20 @@ label {
 
 .leftSide div,
 .rightSide div {
-    margin-bottom: 20px;
-}
+    margin-bottom: 12px;}
 .smallUnderTextDiv {
     position: absolute;
     width: auto;
     white-space:nowrap;
-    left: 78px;
+    left: 100px;
 }
 /* result */
 #results, #resultsLdg {
     background-color: #000;
     height: 208px;
     width: 100%;
-    padding: 10px 8px 0 15px;
-    margin-left: -11px;
+    padding: 13px 8px 0 15px;
+    margin-left: -14px;
     margin-top: -5px;
 }
 #results > div{
@@ -266,13 +268,15 @@ label {
     width: 275px;
     font-weight: 300;
     margin-bottom: 20px;
+    white-space: normal;
 }
 #perfModelContainer, #perfModelContainerLdg {
     display: flex;
     justify-content: space-between;
     background-color: #15151F;
     padding: 20px 25px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     margin-bottom: 5px;
 }
 #perfModel {
@@ -324,10 +328,12 @@ button:hover {
 footer {
     background-color: #20232C;
     display: flex;
-    padding: 10px 20px;
+    padding: 8px 20px;
     align-items: center;
     width: 100%;
     margin-left: -20px;
+    position: fixed;
+    bottom: 0;
 }
 footer div {
     border-radius: 5px;
@@ -338,7 +344,7 @@ footer div:hover {
     cursor: pointer;
 }
 footer p {
-    padding: 8px 44px;
+    padding: 6px 46px;
     font-size: 13px;
     font-weight: 700;
 }
