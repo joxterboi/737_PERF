@@ -43,7 +43,6 @@ let vSpds
 let vSpdsAssumed = [];
 
 // ------------------EVENT-LISTNERS-------------
-
 //TAKE OFF
 document.getElementById("QNH").addEventListener("blur", calcQnh)
 document.getElementById("TOW").addEventListener("blur", setWeight)
@@ -158,7 +157,7 @@ function setWeight() {
     if(weightInput < 80)
         weightInput = weightInput * 1000
     document.getElementById(this.id).placeholder = weightInput + " KG"
-    this.id == "TOW" ? TOW = parseInt(weightInput)/1000 : LAW = parseInt(weightInput);
+    this.id == "TOW" ? TOW = parseInt(weightInput) : LAW = parseInt(weightInput);
     document.getElementById(this.id).value = ""
     if(weightInput == 0)
         document.getElementById(this.id).placeholder = "KG"
@@ -202,7 +201,7 @@ function findAirport(inputBox) {
     })
 }
 function getIata(inputBox, airportInput) {
-    fetch(`runwaydataBase/airports.json`)
+    fetch(`runwayDatabase/airports.json`)
     .then(res => res.json())
     .then(json => (json.filter(airports => airports.airport_ident == airportInput)))
     .then(airport => {
@@ -377,7 +376,7 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
 
     // VMBE
     let vMbeRef = await tableLookup(`performanceTables/vMbe_26.json`, OAT, corrdRwElev) //TODO add for table 22K
-    vMbe = await tableLookup(`performanceTables/vMbeAdj_26.json`, TOW, vMbeRef) //TODO add for table 22K
+    vMbe = await tableLookup(`performanceTables/vMbeAdj_26.json`, TOW/1000, vMbeRef) //TODO add for table 22K
         // Runway slope, - is downwards
     if (rwSlope > 0)
         vMbe = vMbe + (1 * rwSlope)
@@ -409,8 +408,8 @@ async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     tableLocation = `performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`;
     let assumedTemp = 51;
     
-    if(mostLimWeight >= TOW && climbLimWeightFull >= TOW){
-        while (fieldLimWeightAssumed < TOW || climbLimWeightAssumed < TOW || obsLimWeightAssumed < TOW) {
+    if(mostLimWeight >= TOW/1000 && climbLimWeightFull >= TOW/1000){
+        while (fieldLimWeightAssumed < TOW/1000 || climbLimWeightAssumed < TOW/1000 || obsLimWeightAssumed < TOW/1000) {
             assumedTemp--;
             fieldLimWeightAssumed = await tableLookup(tableLocation, corrdFieldLength, assumedTemp)
             fieldLimWeightAssumed = fieldLimWeightAssumed + fieldWeightAdj
@@ -482,7 +481,7 @@ async function vSpeeds(assumedTemp) {
     let tableLocation = (`performanceTables/vSpds_${cond}_${RTG}.json`)
     //x = Flap setting, Y = TOW
     let vSpdTable = await fetchTable(tableLocation)
-    let towAvrage = find2Nearest(vSpdTable.tableY, TOW)
+    let towAvrage = find2Nearest(vSpdTable.tableY, TOW/1000)
     
     let flapIndex = vSpdTable.tableX.indexOf(FLAP)
     let flapTableSetting = "col" + (flapIndex + 1);
@@ -507,8 +506,8 @@ async function vSpeeds(assumedTemp) {
         vSpeedAdjustments[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, OAT, corrdRwElev/1000)
         vSpeedAdjustmentsAssumed[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, assumedTemp, corrdRwElev/1000)
     }
-    let v1SlopeAdj = await tableLookup(`performanceTables/v1SlopeAdj_${cond}_${RTG}.json`, TOW, rwSlope)
-    let v1WindAdj = await tableLookup(`performanceTables/v1WindAdj_${cond}_${RTG}.json`, TOW, hwComp)       //avrage weighted the wrong way SOMEtimes with tailwind...
+    let v1SlopeAdj = await tableLookup(`performanceTables/v1SlopeAdj_${cond}_${RTG}.json`, TOW/1000, rwSlope)
+    let v1WindAdj = await tableLookup(`performanceTables/v1WindAdj_${cond}_${RTG}.json`, TOW/1000, hwComp)       //avrage weighted the wrong way SOMEtimes with tailwind...
     let v1clearwayStopwayAdj = await tableLookup(`performanceTables/v1ClearwayStopwayAdj_${cond}_${RTG}.json`, refVspeeds[0], clearway - stopway)
     vSpeedAdjustments[0] = vSpeedAdjustments[0] + (v1SlopeAdj + v1WindAdj + v1clearwayStopwayAdj)
     let vSpds = []
@@ -574,11 +573,11 @@ async function n1(perfLimitAssumedTemp) {
 async function getTrim() {
     let trimTableLocation
     FLAP < 6 ? trimTableLocation = `performanceTables/stabTrim_${RTG}_1n5.json` : trimTableLocation = `performanceTables/stabTrim_${RTG}_10n15n25.json`
-    trim = await tableLookup(trimTableLocation, TOW, CG)
+    trim = await tableLookup(trimTableLocation, TOW/1000, CG)
 }
 async function getVref(intention) {
     let weight;
-    intention == "ldg" ? weight = (LAW / 1000) : weight = TOW;
+    intention == "ldg" ? weight = (LAW / 1000) : weight = (TOW/1000);
     table = await fetchTable("performanceTables/vref40.json")
     let vrefs = find2Nearest(table.tableX, weight)
     for (let i = 1; i < 3; i++) {
@@ -616,19 +615,19 @@ function print() {
         rwyResult = id("runway").value.split(",")[4]
     }
     id("rwyResult").innerHTML = rwyResult;
-    id("togwResult").innerHTML = TOW*1000 + "KG"
+    id("togwResult").innerHTML = TOW + "KG"
 
     RTG == 22 ? id("derateResultTitle").innerHTML = "D-TO-2" : id("derateResultTitle").innerHTML = "D-TO"
     if(BLEED == 0) {
         if(RTG == 22)
-            id("derateResultN1").innerHTML = (n1s[1]-0.9)
+            id("derateResultN1").innerHTML = (n1s[1]-0.9).toFixed(1)
         else
-            id("derateResultN1").innerHTML = (n1s[1]-1)
+            id("derateResultN1").innerHTML = (n1s[1]-1).toFixed(1)
     } else 
-        id("derateResultN1").innerHTML = n1s[1]
+        id("derateResultN1").innerHTML = n1s[1].toFixed(1)
     
     if(trim)
-        id("trimResult").innerHTML = Math.round(trim*100)/100
+        id("trimResult").innerHTML = (Math.round(trim*100)/100).toFixed(2)
     else
     id("trimResult").innerHTML = "N/A"
     id("tempResult").innerHTML = n1s[2] + "<span> C</span>"
@@ -649,6 +648,9 @@ function print() {
         id("v1Result").innerHTML = vSpdsAssumed[0]
         id("vrResult").innerHTML = vSpdsAssumed[1]
         id("v2Result").innerHTML = vSpdsAssumed[2]
+        id("atmButton").classList.add("atmActive")
+        id("fullButton").classList.remove("atmActive")
+        id("atmText").innerHTML = "ATM"
     }
     document.getElementById("calculating").style.display = "none"
     document.getElementById("takeOff").classList.remove("blur")
