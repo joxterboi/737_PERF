@@ -130,6 +130,11 @@ function calcWind() {
         document.getElementById(this.id).placeholder = ""
         this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
     }
+    if (windStrength === 0) {
+        this.parentElement.firstElementChild.firstElementChild.innerHTML = "0 HW/0 XW";
+        document.getElementById(this.id).placeholder = "0 KT"
+        HWcomp = 0
+    }
     document.getElementById(this.id).value = ""
     this.id == "windInputLdg" ? hwCompLdg = HWcomp : hwComp = HWcomp
 }
@@ -613,7 +618,7 @@ async function getVref(intention) {
     let vrefs = find2Nearest(table.tableX, weight)
     for (let i = 1; i < 3; i++) {
         let currentVref = ((table[`col${i}`][vrefs[0]]) * (1 - vrefs[2])) + (table[`col${i}`][vrefs[1]] * vrefs[2])
-        vref[i] = Math.ceil(currentVref);
+        vref[i] = Math.round(currentVref); //TODO check if Math.round is better then Math.ceil that was before
     }
     return vref;
 }
@@ -901,6 +906,7 @@ async function ldgCalc() {
         <h2>Vref${flapLdg}+${vrefAdd} <span>${ldgVref + vrefAdd} </span>KT</h2>`
         id("ldaGUI").innerHTML = `LDA: ${lda} M`
         //LDG distances text
+        document.getElementById("grdLineEnd").style.backgroundColor = "#25BF7F"
         for (let i = 0; i < 5; i++) {
             document.getElementsByClassName("title")[i].firstElementChild.nextElementSibling.innerHTML = Math.round(landingDistances[i]) + " M"
             if(landingDistances[i] > lda) {
