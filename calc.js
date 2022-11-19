@@ -286,10 +286,11 @@ inputConditions.addEventListener('submit', function (event) {
     document.getElementById("takeOff").classList.add("blur")
     document.querySelector('header').classList.add("blur")
     document.querySelector('footer').classList.add("blur")
+    cond = document.getElementById("cond").value;
 
     event.preventDefault()
-    if(document.getElementById("cond") == "slush")
-        document.getElementById("cond").value = "DRY"
+    if(cond == "slush")
+        cond = "DRY"
     else
         slush = false
 
@@ -309,7 +310,6 @@ function mainCalc() {
     rwHdg = document.getElementById("runway").value.split(",")[0];
     rwElev = parseInt(document.getElementById("runway").value.split(",")[2]);
     rwSlope = document.getElementById("runway").value.split(",")[3];
-    cond = document.getElementById("cond").value;
     ATM = document.getElementById("ATM").value;
     BLEED = document.getElementById("BLEED").value;
     AntiIce = document.getElementById("A/ICE").value;
@@ -381,44 +381,36 @@ async function PD() {
     
     mostLimWeightField = Math.min(fullFieldLimit, obstacleLimWeight)
     if(slush)
-        mostLimWeightField = await slipRwyCondCalc(mostLimWeightField)
+        mostLimWeightField = await slipRwyCondCalc(mostLimWeightField, corrdRwElev, corrdFieldLength)
 
     
-    console.log(mostLimWeightField, fullFieldLimit, fullClimbLimit)
-    console.log(FLAP, cond, RTG)
     let maxAssumedTemp = 717
     if(mostLimWeightField < TOW/1000 || fullClimbLimit < TOW/1000) {
-        console.log("LIMITED")
         if(FLAP == 1) { //tries again with same RTG but more flaps
             FLAP = 5
             forceFlap = true;
-            console.log("TRYING FLAPS 5")
             mainCalc()
             return
         } else if(RTG < 26) { //Gets here incase of current Flaps 5 and 22k, tries again with more higher RTG
             RTG = 26;
             FLAP = 1;
             forceRTG = true;
-            console.log("TRYING 26K")
             mainCalc()
             return
         } else { //Take off is not possible with current weight
             maxAssumedTemp = 737
             mostLimWeight = Math.min(mostLimWeightField, fullClimbLimit)
-            console.log("Take off is not possible with current weight")
             lastTry = true
         }
     } else {
         maxAssumedTemp = 707
     }
 //----------------Calculates-assumed-temp--------------------------   
-    console.log("TOW:", TOW, "FieldLimit", mostLimWeightField, fullClimbLimit)
     if(!slush && maxAssumedTemp < 717)
         maxAssumedTemp = await assumedTempCalc(corrdFieldLength, acAiAdjustWeights[0], acAiAdjustWeights[1])
     else
         maxAssumedTemp = 25
 
-    console.log("RETUNRING  AssumedTemp:", maxAssumedTemp, "FLAP:", FLAP, "RTG:", RTG)
     return maxAssumedTemp
 }
 
@@ -426,6 +418,8 @@ async function PD() {
 
 async function PI(perfLimitAssumedTemp) {
     vSpds = await vSpeeds(perfLimitAssumedTemp)
+    if(slush)
+        vSpds[0] = await vSpeedSlushAdj(vSpds[0])
     n1s = await n1(perfLimitAssumedTemp)
 }
 
@@ -588,7 +582,19 @@ async function obstacleLim(TORA, temp) {
     return mostRestrictiveObsLimWeight;
 
 }
-async function slipRwyCondCalc() {
+async function slipRwyCondCalc(dryFieldLimit, corrdRwElev, corrdFieldLength) {
+    let slAdj = await tableLookup(`performanceTables/weightAdj_sl_slush_${RTG}.json`, dryFieldLimit, depth)
+    let fiveAdj = await tableLookup(`performanceTables/weightAdj_5000_slush_${RTG}.json`, dryFieldLimit, depth)
+    let adjustment = ((1 - (corrdRwElev / 5000)) * slAdj) + ((corrdRwElev / 5000) * fiveAdj)
+    let adjustedWeight = dryFieldLimit + adjustment
+
+    //VMCG weigh limit
+    fieldAdjFactor = (OAT - 4)/5
+    adjustedFieldLength = corrdFieldLength + (fieldAdjFactor * 35)
+    let slVmcg = await tableLookup(`performanceTables/vmcg_sl_slush_${RTG}.json`, adjustedFieldLength, depth)
+    let fiveVmcg = await tableLookup(`performanceTables/vmcg_5000_slush_${RTG}.json`, adjustedFieldLength, depth)
+    let vmcgSlip = ((1 - (corrdRwElev / 5000)) * slVmcg) + ((corrdRwElev / 5000) * fiveVmcg)
+    return Math.min(adjustedWeight, vmcgSlip)
     
 }
 async function bledAntiIceWeightAdjustments() {
@@ -783,6 +789,13 @@ async function getEoSid() {
         document.getElementById("eoSid").innerHTML = "Engine Failure Procedure:   " + `At 25 NM enter HLDG (${rwHdg} INBD,RT)`
     })
 }
+async function vSpeedSlushAdj(v1) {
+    let slAdj = await tableLookup(`performanceTables/v1Adj_sl_slush_${RTG}.json`, TOW/1000, depth)
+    let fiveAdj = await tableLookup(`performanceTables/v1Adj_5000_slush_${RTG}.json`, TOW/1000, depth)
+    let adjustment = ((1 - (corrdRwElev / 5000)) * slAdj) + ((corrdRwElev / 5000) * fiveAdj)
+    v1 = Math.round(v1 + adjustment)
+    return v1
+}
 
 // Print
 function print() {
@@ -823,6 +836,7 @@ function print() {
     id("resultsWindow").style.opacity = 1;
     id("perfModel").style.opacity = 1;
     id("atmSwitch").style.opacity = 1;
+    document.getElementById("tempResult").parentElement.style.opacity = 1;
     if (assumedTemp < 31) {
         forceFull()
         id("v1Result").innerHTML = vSpds[0]
@@ -836,6 +850,7 @@ function print() {
         id("fullButton").classList.remove("atmActive")
         id("atmText").innerHTML = "ATM"
     }
+    
     document.getElementById("calculating").style.display = "none"
     document.getElementById("takeOff").classList.remove("blur")
     document.querySelector('header').classList.remove("blur")
@@ -872,6 +887,7 @@ async function fetchTable(tableLocation) {
     return json;
 }
 async function tableLookup(tableLocation, inputY, inputX) {
+
     let res = await fetch(tableLocation)
     let json = await res.json()    
     
