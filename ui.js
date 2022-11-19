@@ -20,11 +20,11 @@ function setActive() {
     if (activeMode == "FULL") {
         document.getElementById("tempResult").parentElement.style.opacity = 0
         document.getElementById("derateResultN1").innerHTML = n1s[0]
-        if(Array.from(document.getElementById("derateResultTitle").innerHTML)[0] != "T")
-            document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.split("-")[1]
+        document.getElementById("derateResultTitle").innerHTML = document.getElementById("derateResultTitle").innerHTML.slice(2)
         document.getElementById("v1Result").innerHTML = vSpds[0]
         document.getElementById("vrResult").innerHTML = vSpds[1]
         document.getElementById("v2Result").innerHTML = vSpds[2]
+
     } else {
         document.getElementById("tempResult").parentElement.style.opacity = 1
         document.getElementById("derateResultN1").innerHTML = n1s[1]
@@ -81,6 +81,29 @@ document.getElementById("rwyGraphicLdgBtn").addEventListener("click", function()
     document.getElementById("resultsWindowLandingGUI").classList.toggle("hidden");
 })
 
+//Runway condition popup
+document.getElementById("cond").addEventListener("input", openPopup)
+document.getElementById("depth").addEventListener("input", function() {
+    if(this.value > 0)
+        document.getElementById("rwyCondPopupDone").disabled = false;
+    else 
+        document.getElementById("rwyCondPopupDone").disabled = true;
+})
+function closePopup(popup) {
+    document.getElementById(popup).classList.add("hidden")
+    document.getElementById("depth").value = ""
+    document.getElementById("cond").selectedIndex = "0"
+}
+function openPopup() {
+    if(this.value == "slush") {
+        document.getElementById("rwyCondPopup").classList.remove("hidden")
+    }
+}
+function setRunwayConditionTakeoff() {
+    depth = document.getElementById("depth").value
+    document.getElementById("rwyCondPopup").classList.add("hidden")
+    slush = true;
+}
 
 
 // -------------------Drop-down-menus--------------------------
