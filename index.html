@@ -39,7 +39,7 @@
 
                      <div>
                          <label for="airport">ARPT</label>
-                         <input class="whitePlaceholder" maxlength="4" value="essa" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                         <input class="whitePlaceholder" maxlength="4" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                      </div>
                      
                      <div>
@@ -57,6 +57,8 @@
                          <select id="cond">
                              <option value="DRY">DRY</option>
                              <option value="WET">WET</option>
+                             <option value="slush">STNDNG WTR</option>
+                             <option value="slush">SLUSH/WET SNOW</option>
                          </select>
                      </div>
             
@@ -536,6 +538,35 @@
                 <p>LDG Enroute</p>
             </div>
         </footer>
+    </div>
+    <!-- POPUPS -->
+    <div id="rwyCondPopup" class="hidden">
+        <div class="window">
+            <div class="title">
+                <button onClick="closePopup('rwyCondPopup')">Cancel</button>
+                <h2>Runway Condition Depth</h2>
+                <button onclick="setRunwayConditionTakeoff()" id="rwyCondPopupDone" disabled>Done</button>
+            </div>
+            <div class="popupInputPart">
+                <p>What is the depth of the SLUSH/WET SNOW?</p>
+                <form onsubmit="return false;">
+                <div>
+                    <label for="depthUnits">Depth Units</label>
+                    <select id="depthUnits">
+                        <option value="">mm</option>
+                        <option value="">inch</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="depth">Depth</label>
+                    <input id="depth" type="number" step="0.1">
+                </div>
+                </form>
+                <p>Minimum SLUSH/WET SNOW depth = 2.1mm</p>
+                <p>Maximum SLUSH/WET SNOW depth = 12.7mm</p>
+            </div>
+            <div class="popupFooter"></div>
+        </div>
     </div>
 </body>
 <script src="calc.js"></script>
