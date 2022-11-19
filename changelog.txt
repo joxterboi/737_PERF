@@ -1,3 +1,6 @@
+0.3
++added slush/stanidng water runway performance
++added slush popup
 0.2.6
 +when airport is inputed it now blur user from input and adds IATA code in window
 *global vars for airport and landing airport
