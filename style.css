@@ -629,3 +629,93 @@ footer p {
 .slideRight {
     transform: translateX(18px);
 }
+
+
+/* POPUPS */
+#rwyCondPopup {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#rwyCondPopup .window {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#rwyCondPopup .window .title {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: #151520;
+    justify-content: space-between;
+}
+#rwyCondPopup .window .title button {
+    background: none;
+    margin: 0 12px;
+    opacity: 0.8;
+}
+#rwyCondPopup .window .title button:disabled {
+    color: rgba(255, 255, 255, 0.4);
+}
+#rwyCondPopup .window .title button:disabled:hover {
+    cursor: default;
+}
+#rwyCondPopup .window .title h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#rwyCondPopup .window .popupInputPart {
+    background-color: #22222F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rwyCondPopup .window .popupInputPart p {
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight: 300;
+    margin: 15px 0;
+}
+#rwyCondPopup .window .popupInputPart p:first-child {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+#rwyCondPopup .window .popupInputPart p:last-child {
+    margin-top: -15px;
+}
+#rwyCondPopup .window .popupInputPart form div{
+    display: flex;
+    justify-content: flex-end;
+}
+#rwyCondPopup .window .popupInputPart form label {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+#rwyCondPopup .window .popupInputPart input, #rwyCondPopup .window .popupInputPart select {
+    width: 120px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+#rwyCondPopup .window > div {
+    /* border: 1px solid red; */
+}
+#rwyCondPopup .window .popupFooter {
+    height: 20px;
+    background-color: #151520;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+/* #151520 dark*/
+/* #22222F light*/
