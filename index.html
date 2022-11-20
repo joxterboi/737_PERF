@@ -541,6 +541,7 @@
     </div>
     <!-- POPUPS -->
     <div id="rwyCondPopup" class="hidden">
+    
         <div class="window">
             <div class="title">
                 <button onClick="closePopup('rwyCondPopup')">Cancel</button>
@@ -566,6 +567,18 @@
                 <p>Maximum SLUSH/WET SNOW depth = 12.7mm</p>
             </div>
             <div class="popupFooter"></div>
+        </div>
+    </div>
+    <div id="profilePopup" class="hidden">
+        <div class="title">
+            <p>< Select Aircraft</p>
+            <p>737</p>
+        </div>
+        <div class="list">
+            <ul>
+                <li id="800W" onclick="selectAircraft('737-800W')"><p>800W</p> <span>></span></li>
+                <li id="BBJ2" onclick="selectAircraft('BBJ2')"><p>BBJ2</p> <span>></span></li>
+            </ul>
         </div>
     </div>
 </body>
