@@ -68,7 +68,7 @@
                              <p class="smallUnderText" id="windComponentDisplay"> </p>
                          </div>
                          <label for="windInput">WIND</label>
-                         <input inputmode="numeric" value="5" type="text" id="windInput" >
+                         <input inputmode="numeric" type="text" id="windInput" >
                          <!-- pattern="\d{2,3}/\d{1,2}" -->
                      </div>
             
@@ -77,7 +77,7 @@
                              <p class="smallUnderText" id="oatDisplay"> </p>
                          </div>
                          <label for="OAT">OAT</label>
-                         <input type="number" id="OAT" min="-40" max="50" value="4">
+                         <input type="number" id="OAT" min="-40" max="50">
                      </div>
             
                      <div>
@@ -85,7 +85,7 @@
                              <p class="smallUnderText" id="qnhDisplay"> </p>
                          </div>
                          <label for="QNH">QNH</label>
-                         <input type="number" id="QNH" min="976" max="1052" value="1000">
+                         <input type="number" id="QNH" min="976" max="1052" >
                      </div>
                 </div>
             
@@ -144,11 +144,11 @@
                 <div>
                     <div class="wCg">
                         <label for="TOW">Takeoff Weight:</label>
-                        <input type="number" id="TOW" max="79016" placeholder="KG" value="65000">
+                        <input type="number" id="TOW" max="79016" placeholder="KG">
                     </div>                
                     <div class="wCg">
                         <label for="CG">CG(%):</label>
-                        <input type="number" id="CG" min="0" max="100" value="23" step=".1">
+                        <input type="number" id="CG" min="0" max="100" step=".1">
                     </div>
                 </div>    
                 <div>
@@ -283,7 +283,7 @@
                                  <p class="smallUnderText" id="windComponentDisplayLdg"> </p>
                              </div>
                              <label for="windInputLdg">WIND</label>
-                             <input inputmode="numeric" value="030/6" type="text" id="windInputLdg">
+                             <input inputmode="numeric" type="text" id="windInputLdg">
                          </div>
                 
                          <div>
@@ -291,7 +291,7 @@
                                  <p class="smallUnderText" id="oatDisplayLdg"> </p>
                              </div>
                              <label for="OATLdg">OAT</label>
-                             <input type="number" id="OATLdg" min="-40" max="50" value="4">
+                             <input type="number" id="OATLdg" min="-40" max="50">
                          </div>
                 
                          <div>
@@ -299,7 +299,7 @@
                                  <p class="smallUnderText" id="qnhDisplayLdg"> </p>
                              </div>
                              <label for="QNHLdg">QNH</label>
-                             <input type="number" id="QNHLdg" min="976" max="1052" value="1000">
+                             <input type="number" id="QNHLdg" min="976" max="1052">
                          </div>
                     </div>
                 
@@ -374,7 +374,7 @@
                     <div>
                         <div class="wCg">
                             <label for="LAW">LANDING WT:</label>
-                            <input required type="number" id="LAW" min="42000" max="79016" placeholder="KG" value="62000">
+                            <input required type="number" id="LAW" min="42000" max="79016" placeholder="KG">
                         </div>                
                         <div class="wCg">
                             <label for="vrefAdd">VREF ADD:</label>
@@ -569,7 +569,7 @@
             <div class="popupFooter"></div>
         </div>
     </div>
-    <div id="profilePopup" class="hidden">
+    <div id="profilePopup" class="">
         <div class="title">
             <p>< Select Aircraft</p>
             <p>737</p>

@@ -1,5 +1,6 @@
 //Declaring all global varibles
-let perfLocation = "performanceTables/737-800W"
+// let perfLocation = "performanceTables/737-800W"
+let perfLocation
 
 let rwLength
 let rwHdg
@@ -284,10 +285,10 @@ function getIntersections() {
 
 
 // //_________________________________________T_E_S_T___________________________________
-hwComp = 8;
-OAT = 5;
-QNH = 999;
-TOW = 61100;
+// hwComp = 8;
+// OAT = 5;
+// QNH = 999;
+// TOW = 61100;
 // ----------------------------------------On-submit------------------------------------------------
 inputConditions.addEventListener('submit', function (event) {
     //Blurs screen and adds loading screen
