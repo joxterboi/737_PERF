@@ -106,6 +106,14 @@ function setRunwayConditionTakeoff() {
 }
 
 
+//Aircraft selection
+function selectAircraft(aircraftType) {
+    document.getElementById("profilePopup").classList.add("hidden")
+    perfLocation = "performanceTables/" + aircraftType
+    document.getElementById("profileBanner").firstElementChild.nextElementSibling.innerHTML = aircraftType
+    console.log(perfLocation)
+}
+
 // -------------------Drop-down-menus--------------------------
 // let elements = document.getElementsByClassName("dropDownWindow")
 // Array.from(elements).forEach(function(element) {
