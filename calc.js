@@ -1,4 +1,6 @@
 //Declaring all global varibles
+let perfLocation = "performanceTables/737-800W"
+
 let rwLength
 let rwHdg
 let rwElev
@@ -29,6 +31,8 @@ let vMbe
 
 let mostLimWeight
 let mostLimWeightField
+
+let improvedClimbWeightAdj = []
 
 let ARPT
 let ARPTLdg
@@ -101,6 +105,7 @@ function calcQnh() {
     }
     document.getElementById(this.id).value = "";
 }
+
 function calcWind() {
     let windInput = document.getElementById(this.id).value
     let windDir = windInput.split("/")[0];
@@ -142,6 +147,7 @@ function calcWind() {
     document.getElementById(this.id).value = ""
     this.id == "windInputLdg" ? hwCompLdg = HWcomp : hwComp = HWcomp
 }
+
 function calcFarenheit() {
     let OATinput = document.getElementById(this.id).value
     if(OATinput) {
@@ -161,6 +167,7 @@ function calcFarenheit() {
     document.getElementById(this.id).value = "";
     this.id == "OATLdg" ? OATLdg = OATinput : OAT = OATinput
 }
+
 function setWeight() {
     let weightInput = document.getElementById(this.id).value
     if(weightInput < 80)
@@ -171,6 +178,7 @@ function setWeight() {
     if(weightInput == 0)
         document.getElementById(this.id).placeholder = "KG"
 }
+
 //TAKE OFF
 function findAirport(inputBox) {
     
@@ -240,6 +248,7 @@ function findAirport(inputBox) {
         }
     })
 }
+
 function getIata(inputBox, airportInput) {
     fetch(`runwayDatabase/airports.json`)
     .then(res => res.json())
@@ -250,6 +259,7 @@ function getIata(inputBox, airportInput) {
         document.getElementById(inputBox).blur()
     })
 }
+
 function getIntersections() {
     let currentRwy = document.getElementById("runway").value.split(",")[4];
     fetch('runwayDatabase/intersections.json')
@@ -273,7 +283,7 @@ function getIntersections() {
 }
 
 
-//_________________________________________T_E_S_T___________________________________
+// //_________________________________________T_E_S_T___________________________________
 hwComp = 8;
 OAT = 5;
 QNH = 999;
@@ -351,6 +361,7 @@ async function mainProcessTree () {
     
     
 }
+
 async function PD() {
     corrdRwElev = await correctQNH();
     document.getElementById("intx").value != "FULL" ? rwLength = document.getElementById("intx").value.split(",")[0]/3.28084 : console.log()//do nothing
@@ -367,7 +378,7 @@ async function PD() {
 //------------Limiting-weights-and-speeds---------
     //Weightlimits: fullField, fullClimb, Obstacle, Tire
     //Speedlimits: VMBE
-    let fullFieldLimitSL = await tableLookup(`performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`, corrdFieldLength, OAT)
+    let fullFieldLimitSL = await tableLookup(`${perfLocation}/fieldLimit_${FLAP}_${cond}_${RTG}.json`, corrdFieldLength, OAT)
     let fullFieldLimit = fullFieldLimitSL - (2.2 * (corrdRwElev/1000))
     let fullClimbLimit = await climbLimLookup(OAT)
     //Adjusts field and climb limitweight based on bleedsetting and antiice
@@ -383,6 +394,11 @@ async function PD() {
     if(slush)
         mostLimWeightField = await slipRwyCondCalc(mostLimWeightField, corrdRwElev, corrdFieldLength)
 
+    mostLimWeightField = Math.min(mostLimWeightField, tireSpdLimWeight)
+    if(!slush && document.getElementById("IMPCL").value == 1 && fullFieldLimit > fullClimbLimit) {
+        improvedClimbWeightAdj = await impclCalc(fullFieldLimit, fullClimbLimit)
+        fullClimbLimit = fullClimbLimit + improvedClimbWeightAdj[3]
+    }
     
     let maxAssumedTemp = 717
     if(mostLimWeightField < TOW/1000 || fullClimbLimit < TOW/1000) {
@@ -420,13 +436,18 @@ async function PI(perfLimitAssumedTemp) {
     vSpds = await vSpeeds(perfLimitAssumedTemp)
     if(slush)
         vSpds[0] = await vSpeedSlushAdj(vSpds[0])
+    
+    for (let i = 0; i < 3; i++) {
+        vSpds[i] = vSpds[i] + Math.round(improvedClimbWeightAdj[i])
+        vSpdsAssumed[i] = Math.round(vSpdsAssumed[i] + improvedClimbWeightAdj[i])
+    }
     n1s = await n1(perfLimitAssumedTemp)
 }
 
 //---------------------------One-time-use-functions---------------------------
 // PD
 async function correctQNH() {
-    let table = await fetchTable("performanceTables/QNHCorrection.json")
+    let table = await fetchTable(`${perfLocation}/QNHCorrection.json`)
     let elevCorrection = 1000;
     for (let i = 0; i < table.tableX.length; i++) {
        if(QNH > table.tableX[i])
@@ -434,11 +455,13 @@ async function correctQNH() {
     }
     return elevCorrection + rwElev
 }
+
 async function correctFieldLength() {
-    let slopeCorrd = await tableLookup("performanceTables/slopeCorrection.json", rwLength, rwSlope);
-    let corrdFieldLength = await tableLookup("performanceTables/windCorrection.json", slopeCorrd, hwComp);
+    let slopeCorrd = await tableLookup(`${perfLocation}/slopeCorrection.json`, rwLength, rwSlope);
+    let corrdFieldLength = await tableLookup(`${perfLocation}/windCorrection.json`, slopeCorrd, hwComp);
     return corrdFieldLength;
 }
+
 //async function fieldLimitWeight(corrdFieldLength, corrdRwElev) {
     //Calculates field limit takeoff weight with no assumed temp
 //let tableLocation = `performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`;
@@ -566,13 +589,13 @@ async function obstacleLim(TORA, temp) {
         let activeObsDist = (activeObstecles[i].obsDist/3.28084) + obsTora;
         let activeObsHeight = activeObstecles[i].obsHeight/3.28084
         if(activeObsDist < 7600) {
-            let refLimWeight = await tableLookup(`performanceTables/obsLimWeight_${FLAP}_26.json`, activeObsHeight, activeObsDist/100)
+            let refLimWeight = await tableLookup(`${perfLocation}/obsLimWeight_${FLAP}_26.json`, activeObsHeight, activeObsDist/100)
             if(refLimWeight) {
                 let refLimWeightAdj = 0
                 if(temp > 29)
-                    refLimWeightAdj = await tableLookup(`performanceTables/obsTempAdj_26.json`, temp, refLimWeight)
-                refLimWeightAdj = await tableLookup(`performanceTables/obsAltAdj_26.json`, corrdRwElev, refLimWeightAdj)
-                refLimWeightAdj = await tableLookup(`performanceTables/obsWindAdj_26.json`, hwComp, refLimWeightAdj)
+                    refLimWeightAdj = await tableLookup(`${perfLocation}/obsTempAdj_26.json`, temp, refLimWeight)
+                refLimWeightAdj = await tableLookup(`${perfLocation}/obsAltAdj_26.json`, corrdRwElev, refLimWeightAdj)
+                refLimWeightAdj = await tableLookup(`${perfLocation}/obsWindAdj_26.json`, hwComp, refLimWeightAdj)
                 refLimWeight = refLimWeight + refLimWeightAdj
                 if(refLimWeight < mostRestrictiveObsLimWeight)
                 mostRestrictiveObsLimWeight = refLimWeight
@@ -580,23 +603,24 @@ async function obstacleLim(TORA, temp) {
         }
     }
     return mostRestrictiveObsLimWeight;
-
 }
+
 async function slipRwyCondCalc(dryFieldLimit, corrdRwElev, corrdFieldLength) {
-    let slAdj = await tableLookup(`performanceTables/weightAdj_sl_slush_${RTG}.json`, dryFieldLimit, depth)
-    let fiveAdj = await tableLookup(`performanceTables/weightAdj_5000_slush_${RTG}.json`, dryFieldLimit, depth)
+    let slAdj = await tableLookup(`${perfLocation}/weightAdj_sl_slush_${RTG}.json`, dryFieldLimit, depth)
+    let fiveAdj = await tableLookup(`${perfLocation}/weightAdj_5000_slush_${RTG}.json`, dryFieldLimit, depth)
     let adjustment = ((1 - (corrdRwElev / 5000)) * slAdj) + ((corrdRwElev / 5000) * fiveAdj)
     let adjustedWeight = dryFieldLimit + adjustment
 
     //VMCG weigh limit
     fieldAdjFactor = (OAT - 4)/5
     adjustedFieldLength = corrdFieldLength + (fieldAdjFactor * 35)
-    let slVmcg = await tableLookup(`performanceTables/vmcg_sl_slush_${RTG}.json`, adjustedFieldLength, depth)
-    let fiveVmcg = await tableLookup(`performanceTables/vmcg_5000_slush_${RTG}.json`, adjustedFieldLength, depth)
+    let slVmcg = await tableLookup(`${perfLocation}/vmcg_sl_slush_${RTG}.json`, adjustedFieldLength, depth)
+    let fiveVmcg = await tableLookup(`${perfLocation}/vmcg_5000_slush_${RTG}.json`, adjustedFieldLength, depth)
     let vmcgSlip = ((1 - (corrdRwElev / 5000)) * slVmcg) + ((corrdRwElev / 5000) * fiveVmcg)
     return Math.min(adjustedWeight, vmcgSlip)
     
 }
+
 async function bledAntiIceWeightAdjustments() {
     let bleedFieldAdj = 0
     let antiIceFieldAdj = 0
@@ -619,9 +643,10 @@ async function bledAntiIceWeightAdjustments() {
     let climbAdjust = antiIceClimbAdj + bleedClimbAdj
     return [fieldAdjust, climbAdjust]
 }
+
 async function vMbeCalc() {
-    let vMbeRef = await tableLookup(`performanceTables/vMbe_26.json`, OAT, corrdRwElev) //TODO add for table 22K
-    vMbeRef = await tableLookup(`performanceTables/vMbeAdj_26.json`, TOW/1000, vMbeRef) //TODO add for table 22K
+    let vMbeRef = await tableLookup(`${perfLocation}/vMbe_26.json`, OAT, corrdRwElev) //TODO add for table 22K
+    vMbeRef = await tableLookup(`${perfLocation}/vMbeAdj_26.json`, TOW/1000, vMbeRef) //TODO add for table 22K
 
     //Runway slope - is down, + is up
     if (rwSlope > 0)
@@ -636,8 +661,9 @@ async function vMbeCalc() {
     //Returns max SPEED for v1, if V1 > VMBE, decrease TOW by 550kg per knot V1 > VMBE (this is done later)
     return vMbeRef
 }
+
 async function tireSpdLimCalc() {
-    let refTireSpdLimWeight = await tableLookup(`performanceTables/tireSpdLim_5_26.json`, OAT, corrdRwElev) //TODO only flap 5 26k is added
+    let refTireSpdLimWeight = await tableLookup(`${perfLocation}/tireSpdLim_5_26.json`, OAT, corrdRwElev) //TODO only flap 5 26k is added
     if (hwComp > 0)   
         refTireSpdLimWeight = refTireSpdLimWeight + (0.6 * hwComp) //TODO Diffrent addatives based on diffrent derates and flaps. this is for 26k and flaps 5
     if (hwComp < 0)   
@@ -645,28 +671,67 @@ async function tireSpdLimCalc() {
     
     return refTireSpdLimWeight
 }
+
 async function assumedTempCalc(corrdFieldLength, fieldWeightAdj, climbWeightAdj) {
-    let assumedFiledLimit = await tableLookup(`performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`, corrdFieldLength, 50);
+    let assumedFieldLimit = await tableLookup(`${perfLocation}/fieldLimit_${FLAP}_${cond}_22.json`, corrdFieldLength, 50);
     let assumedClimbLimit = await climbLimLookup(50)
     let assumedObsLimit = await obstacleLim(corrdFieldLength, 50)
 
     let assumedTemp = 51;
-    while (assumedFiledLimit < TOW/1000 || assumedClimbLimit < TOW/1000 || assumedObsLimit < TOW/1000 || assumedTemp < 25) {
+    while (assumedFieldLimit < TOW/1000 || assumedClimbLimit < TOW/1000 || assumedObsLimit < TOW/1000 || assumedTemp < 25) {
         assumedTemp--;
-        assumedFiledLimit = await tableLookup(`performanceTables/fieldLimit_${FLAP}_${cond}_${RTG}.json`, corrdFieldLength, assumedTemp)
-        assumedFiledLimit = assumedFiledLimit + fieldWeightAdj
+        assumedFieldLimit = await tableLookup(`${perfLocation}/fieldLimit_${FLAP}_${cond}_${RTG}.json`, corrdFieldLength, assumedTemp)
+        assumedFieldLimit = assumedFieldLimit + fieldWeightAdj
         assumedClimbLimit = await climbLimLookup(assumedTemp)
         assumedClimbLimit = assumedClimbLimit + climbWeightAdj
         assumedObsLimit = await obstacleLim(corrdFieldLength, assumedTemp)
+
+        if (document.getElementById("IMPCL").value == 1 && assumedFieldLimit > assumedClimbLimit) {
+            improvedClimbWeightAdj = await impclCalc(assumedFieldLimit, assumedClimbLimit)
+            assumedClimbLimit = assumedClimbLimit + improvedClimbWeightAdj[3]
+        }
     } 
 
     return assumedTemp
 }
 
+async function impclCalc(fieldLim, climbLim) {
+    let fieldClimbDelta = fieldLim - climbLim
+    let climbImpTable = await fetchTable(`${perfLocation}/impCl_${FLAP}_${cond}_${RTG}.json`)
+    let xValues = find2Nearest(climbImpTable.tableY, fieldClimbDelta)    
+    let yValues = find2Nearest(climbImpTable.tableX, climbLim)
+    let yLow = "col" + (yValues[0] + 1)
+    let yHigh = "col" + (yValues[1] + 1)
+    let xLow = (xValues[0])
+    let xHigh = (xValues[1])
+    
+    let high
+    let low
+    let yWeight = yValues[2]
+    let xWeight = xValues[2]
+    let lowWeightedAvrage
+    let highWeightedAvrage
+    let adjustments = []
+
+    for (let i = 0; i < 4; i++) {
+        low = climbImpTable[yLow][xLow].split(" ")[i]
+        high = climbImpTable[yLow][xHigh].split(" ")[i]
+        lowWeightedAvrage = ((1 - yWeight) * low) + (yWeight * high)
+
+        low = climbImpTable[yHigh][xLow].split(" ")[i]
+        high = climbImpTable[yHigh][xHigh].split(" ")[i]
+        highWeightedAvrage = ((1 - yWeight) * low) + (yWeight * high)
+
+        adjustments[i] = ((1 - xWeight) * lowWeightedAvrage) + (xWeight * highWeightedAvrage)
+    }
+    return adjustments
+}
+
+
 // PI
 async function vSpeeds(assumedTemp) {
     loadingProgress(57)
-    let tableLocation = (`performanceTables/vSpds_${cond}_${RTG}.json`)
+    let tableLocation = (`${perfLocation}/vSpds_${cond}_${RTG}.json`)
     //x = Flap setting, Y = TOW
     let vSpdTable = await fetchTable(tableLocation)
     let towAvrage = find2Nearest(vSpdTable.tableY, TOW/1000)
@@ -691,12 +756,12 @@ async function vSpeeds(assumedTemp) {
     let vNames = ["v1", "vr", "v2"]
     for (let i = 0; i < 3; i++) {
         let currentVspd = vNames[i]
-        vSpeedAdjustments[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, OAT, corrdRwElev/1000)
-        vSpeedAdjustmentsAssumed[i] = await tableLookup(`performanceTables/${currentVspd}Adj_${cond}_${RTG}.json`, assumedTemp, corrdRwElev/1000)
+        vSpeedAdjustments[i] = await tableLookup(`${perfLocation}/${currentVspd}Adj_${cond}_${RTG}.json`, OAT, corrdRwElev/1000)
+        vSpeedAdjustmentsAssumed[i] = await tableLookup(`${perfLocation}/${currentVspd}Adj_${cond}_${RTG}.json`, assumedTemp, corrdRwElev/1000)
     }
-    let v1SlopeAdj = await tableLookup(`performanceTables/v1SlopeAdj_${cond}_${RTG}.json`, TOW/1000, rwSlope)
-    let v1WindAdj = await tableLookup(`performanceTables/v1WindAdj_${cond}_${RTG}.json`, TOW/1000, hwComp)       //avrage weighted the wrong way SOMEtimes with tailwind...
-    let v1clearwayStopwayAdj = await tableLookup(`performanceTables/v1ClearwayStopwayAdj_${cond}_${RTG}.json`, refVspeeds[0], clearway - stopway)
+    let v1SlopeAdj = await tableLookup(`${perfLocation}/v1SlopeAdj_${cond}_${RTG}.json`, TOW/1000, rwSlope)
+    let v1WindAdj = await tableLookup(`${perfLocation}/v1WindAdj_${cond}_${RTG}.json`, TOW/1000, hwComp)       //avrage weighted the wrong way SOMEtimes with tailwind...
+    let v1clearwayStopwayAdj = await tableLookup(`${perfLocation}/v1ClearwayStopwayAdj_${cond}_${RTG}.json`, refVspeeds[0], clearway - stopway)
     vSpeedAdjustments[0] = vSpeedAdjustments[0] + (v1SlopeAdj + v1WindAdj + v1clearwayStopwayAdj)
     let vSpds = []
     //Adjusts all vSpeeds
@@ -708,13 +773,14 @@ async function vSpeeds(assumedTemp) {
     if(vSpds[0] > vMbe)
         alert(`Exceeding maximum brake energy limit. Decrease your weight by ${Math.floor(vSpds[0] - vMbe)*500}KG.`)
     //Checks v1 MCG
-    let vMcg = await tableLookup(`performanceTables/vMcg_${cond}_${RTG}.json`, OAT, corrdRwElev)
+    let vMcg = await tableLookup(`${perfLocation}/vMcg_${cond}_${RTG}.json`, OAT, corrdRwElev)
     if(vSpds[0] < vMcg)
         vSpds[0] = vMcg
 
 
     return vSpds
 }
+
 async function clearwayStopway() {
     let runway = document.getElementById("runway").value.split(",")[4];
 
@@ -725,17 +791,18 @@ async function clearwayStopway() {
         clearway = runwayStats[0].clearway/3.28084
         
         // sets clearway and checks that we dont use more then allowed clearway for runway length
-        let maxClearwayTable = await fetchTable("performanceTables/maxClearway.json")
+        let maxClearwayTable = await fetchTable(`${perfLocation}/maxClearway.json`)
         let maxClearway = find2Nearest(maxClearwayTable.tableX, rwLength)
         let maxUsebleClearway = ((maxClearwayTable.col1[maxClearway[0]]) * (1 - maxClearway[2])) + (maxClearwayTable.col1[maxClearway[1]] * maxClearway[2])    
         clearway > maxUsebleClearway ? clearway = maxUsebleClearway : console.log("Within limits")
     }
 }
+
 async function n1(perfLimitAssumedTemp) {
     loadingProgress(79)
     //1. OAT, corrdRwElev
     //Retruns max allowed assumed, compare this with perfLimitAssumed and set the lowest to actAssumedTemp
-    let maxRegulatedAssumedTemp = await tableLookup(`performanceTables/maxAssumed_${RTG}.json`, OAT, corrdRwElev)
+    let maxRegulatedAssumedTemp = await tableLookup(`${perfLocation}/maxAssumed_${RTG}.json`, OAT, corrdRwElev)
     perfLimitAssumedTemp < maxRegulatedAssumedTemp ? assumedTemp = perfLimitAssumedTemp : assumedTemp = Math.floor(maxRegulatedAssumedTemp)
     
     //2. actAssumedTemp/OAT, corrdRwElev
@@ -743,13 +810,13 @@ async function n1(perfLimitAssumedTemp) {
     //also check n1% for OAT and set to global varible for max n1% incase of full thrust
     let assumedN1 = false
     if (assumedTemp > 30)
-        assumedN1 = await tableLookup(`performanceTables/n1_${RTG}.json`, assumedTemp, corrdRwElev)
-    let fullN1 = await tableLookup(`performanceTables/n1_${RTG}.json`, OAT, corrdRwElev)
+        assumedN1 = await tableLookup(`${perfLocation}/n1_${RTG}.json`, assumedTemp, corrdRwElev)
+    let fullN1 = await tableLookup(`${perfLocation}/n1_${RTG}.json`, OAT, corrdRwElev)
 
     //3. actAssumedTemp - OAT, OAT
     //subtract result from max n1% with assumed temp and set this ass actual N1% for take off with assumed temp
     if (assumedTemp > 30) {
-        let assumedN1Adj = await tableLookup(`performanceTables/n1AdjAssumed_${RTG}.json`, assumedTemp - OAT, OAT)
+        let assumedN1Adj = await tableLookup(`${perfLocation}/n1AdjAssumed_${RTG}.json`, assumedTemp - OAT, OAT)
         assumedN1 = assumedN1 - assumedN1Adj
         assumedN1 = Math.round(assumedN1 * 10) / 10
     }
@@ -760,15 +827,17 @@ async function n1(perfLimitAssumedTemp) {
         assumedN1 = 20
     return [fullN1, assumedN1, assumedTemp]
 }
+
 async function getTrim() {
     let trimTableLocation
-    FLAP < 6 ? trimTableLocation = `performanceTables/stabTrim_${RTG}_1n5.json` : trimTableLocation = `performanceTables/stabTrim_${RTG}_10n15n25.json`
+    FLAP < 6 ? trimTableLocation = `${perfLocation}/stabTrim_${RTG}_1n5.json` : trimTableLocation = `${perfLocation}/stabTrim_${RTG}_10n15n25.json`
     trim = await tableLookup(trimTableLocation, TOW/1000, CG)
 }
+
 async function getVref(intention) {
     let weight;
     intention == "ldg" ? weight = (LAW / 1000) : weight = (TOW/1000);
-    table = await fetchTable("performanceTables/vref40.json")
+    table = await fetchTable(`${perfLocation}/vref40.json`)
     let vrefs = find2Nearest(table.tableX, weight)
     for (let i = 1; i < 3; i++) {
         let currentVref = ((table[`col${i}`][vrefs[0]]) * (1 - vrefs[2])) + (table[`col${i}`][vrefs[1]] * vrefs[2])
@@ -776,6 +845,7 @@ async function getVref(intention) {
     }
     return vref;
 }
+
 async function getEoSid() {
     let currentRwy = document.getElementById("runway").value.split(",")[4];
 
@@ -789,9 +859,10 @@ async function getEoSid() {
         document.getElementById("eoSid").innerHTML = "Engine Failure Procedure:   " + `At 25 NM enter HLDG (${rwHdg} INBD,RT)`
     })
 }
+
 async function vSpeedSlushAdj(v1) {
-    let slAdj = await tableLookup(`performanceTables/v1Adj_sl_slush_${RTG}.json`, TOW/1000, depth)
-    let fiveAdj = await tableLookup(`performanceTables/v1Adj_5000_slush_${RTG}.json`, TOW/1000, depth)
+    let slAdj = await tableLookup(`${perfLocation}/v1Adj_sl_slush_${RTG}.json`, TOW/1000, depth)
+    let fiveAdj = await tableLookup(`${perfLocation}/v1Adj_5000_slush_${RTG}.json`, TOW/1000, depth)
     let adjustment = ((1 - (corrdRwElev / 5000)) * slAdj) + ((corrdRwElev / 5000) * fiveAdj)
     v1 = Math.round(v1 + adjustment)
     return v1
@@ -829,8 +900,6 @@ function print() {
     id("trimResult").innerHTML = "N/A"
     id("tempResult").innerHTML = n1s[2] + "<span> C</span>"
 
-
-
     id("vref40Result").innerHTML = vref[1]
 
     id("resultsWindow").style.opacity = 1;
@@ -856,6 +925,7 @@ function print() {
     document.querySelector('header').classList.remove("blur")
     document.querySelector('footer').classList.remove("blur")
 }
+
 function performanceLimitedPrint() {
     document.getElementById("takeOff").classList.remove("blur");
     document.querySelector('header').classList.remove("blur");
@@ -865,6 +935,7 @@ function performanceLimitedPrint() {
     let RTOW = Math.floor(mostLimWeight*1000)
     document.getElementById("maxTow").innerHTML = `No takeoff allowed. Planned weight exceeds max allowable weight of ${RTOW} KG.`
 }
+
 function cancelCalc() {
     document.getElementById("calculating").style.display = "none"
     document.getElementById("takeOff").classList.remove("blur")
@@ -876,16 +947,18 @@ function cancelCalc() {
 
 //---------------------------Utility-functions---------------------------
 async function climbLimLookup(temp) {
-    table = await fetchTable(`performanceTables/climbLimit_${FLAP}_${RTG}.json`)
+    table = await fetchTable(`${perfLocation}/climbLimit_${FLAP}_${RTG}.json`)
     let climbLimNear = find2Nearest(table.tableX, temp)
     let climbLimWeight = ((table.col1[climbLimNear[0]]) * (1 - climbLimNear[2])) + (table.col1[climbLimNear[1]] * climbLimNear[2])
     return climbLimWeight;
 }
+
 async function fetchTable(tableLocation) {
     let res = await fetch(tableLocation)
     let json = await res.json()
     return json;
 }
+
 async function tableLookup(tableLocation, inputY, inputX) {
 
     let res = await fetch(tableLocation)
@@ -904,6 +977,7 @@ async function tableLookup(tableLocation, inputY, inputX) {
     let result = ((1 - yValues[2]) * weightedXLow) + (yValues[2] * weightedXHigh);
     return result;
 }
+
 function find2Nearest(array, inputNumber) {
     const closest = array.reduce((prev, curr) => {
         if (curr != null) {
@@ -961,6 +1035,7 @@ function find2Nearest(array, inputNumber) {
         return[index, index, 1]
     }
 }
+
 async function fieldClimbAdj(title, modifier) {
     let table
     let thrustSetting = "k" + RTG
@@ -970,6 +1045,7 @@ async function fieldClimbAdj(title, modifier) {
 
     return table[thrustSetting][flapSetting][modifier]/1000
 }
+
 
 
 // ________________________Ladning_calculation__________________________________
@@ -998,7 +1074,7 @@ async function ldgCalc() {
     flapLdg == 40 ? ldgVref = vrefs[1] : ldgVref = vrefs[2]
     let REVADJ;
     let landingDistances= []
-    let landDistTable = await fetchTable(`performanceTables/landDist_${flapLdg}.json`)
+    let landDistTable = await fetchTable(`${perfLocation}/landDist_${flapLdg}.json`)
 
     let landAdjTable = landDistTable.filter(airports => airports.COND == condLdg)
     for (let i = 0; i < landAdjTable.length; i++) {
@@ -1106,6 +1182,7 @@ async function ldgCalc() {
         document.getElementById("rwyGraphicLdg").classList.toggle("hidden")
     }
 }
+
 function ldgTableLookup(input, factor, adjust){
     adjust > 0 ? factor = factor.split("/")[0] : factor = factor.split("/")[1]
     return input + (factor * adjust)
