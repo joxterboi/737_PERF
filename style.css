@@ -719,3 +719,38 @@ footer p {
 }
 /* #151520 dark*/
 /* #22222F light*/
+
+
+
+/* PROFILE SELECTOR */
+#profilePopup {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #0D0D15;
+    color: #fff;
+}
+#profilePopup .title {
+    padding: 20px;
+}
+#profilePopup .title p {
+    font-size: 18px;
+}
+#profilePopup .title p:first-child{
+    color: #0794DA
+}
+#profilePopup .title p:nth-child(2){
+    text-align: center;
+    margin-top: -23px;
+}
+#profilePopup li {
+    background-color: #21212B;
+    width: auto;
+    border-bottom: 1px solid #282835;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#profilePopup li:hover {
+    cursor: pointer;
+}
