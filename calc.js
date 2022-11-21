@@ -100,10 +100,10 @@ function calcQnh() {
             this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
         }
     }
-    if (document.getElementById(this.id).value == 0) {
-        document.getElementById(this.id).placeholder = ""
-        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
-    }
+    // if (document.getElementById(this.id).value == 0) {
+    //     document.getElementById(this.id).placeholder = ""
+    //     this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    // }
     document.getElementById(this.id).value = "";
 }
 
@@ -136,10 +136,10 @@ function calcWind() {
             document.getElementById(this.id).placeholder = placeholderText.split("/")[1]
         
     }    
-    if (document.getElementById(this.id).value == 0) {
-        document.getElementById(this.id).placeholder = ""
-        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
-    }
+    // if (document.getElementById(this.id).value == 0) {
+    //     document.getElementById(this.id).placeholder = ""
+    //     this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    // }
     if (windStrength === 0) {
         this.parentElement.firstElementChild.firstElementChild.innerHTML = "0 HW/0 XW";
         document.getElementById(this.id).placeholder = "0 KT"
@@ -161,10 +161,10 @@ function calcFarenheit() {
             this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
         }
     }
-    if (document.getElementById(this.id).value == 0) {
-        document.getElementById(this.id).placeholder = ""
-        this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
-    }
+    // if (document.getElementById(this.id).value == 0) {
+    //     document.getElementById(this.id).placeholder = ""
+    //     this.parentElement.firstElementChild.firstElementChild.innerHTML = " ";
+    // }
     document.getElementById(this.id).value = "";
     this.id == "OATLdg" ? OATLdg = OATinput : OAT = OATinput
 }
@@ -176,8 +176,8 @@ function setWeight() {
     document.getElementById(this.id).placeholder = weightInput + " KG"
     this.id == "TOW" ? TOW = parseInt(weightInput) : LAW = parseInt(weightInput);
     document.getElementById(this.id).value = ""
-    if(weightInput == 0)
-        document.getElementById(this.id).placeholder = "KG"
+    // if(weightInput == 0)
+    //     document.getElementById(this.id).placeholder = "KG"
 }
 
 //TAKE OFF
@@ -325,6 +325,7 @@ function mainCalc() {
     BLEED = document.getElementById("BLEED").value;
     AntiIce = document.getElementById("A/ICE").value;
     CG = parseInt(document.getElementById("CG").value);
+    improvedClimbWeightAdj = [0, 0, 0, 0]
     
     if(!forceFlap)
         FLAP = parseInt(document.getElementById("FLAP").value);
