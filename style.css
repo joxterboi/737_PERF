@@ -353,6 +353,27 @@ footer p {
 }
 
 /* Header */
+header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: -4px;
+}
+header img:first-child {
+    width: 26px;
+    height: 24px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+header img:hover {
+    cursor: pointer;
+}
+#headHeader {
+    display: flex;
+    justify-content: space-between;
+    /* height: ; */
+}
 #profileBanner {
     background-color: #21212D;
     padding: 5px 35px;
@@ -371,9 +392,6 @@ footer p {
     margin-left: 7px;
     font-size: 18px;
 }
-
-
-
 
 
 
@@ -720,6 +738,50 @@ footer p {
 /* #151520 dark*/
 /* #22222F light*/
 
+/* HAMBURGER POPUP */
+#hamburgerPopup {
+    position: absolute;
+    /* background-color: #151520; */
+    right: 40px;
+    top: 60px;
+    color: #fff;
+    width: 300px;
+    height: 90px;
+}
+#hamburgerPopup h2 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+#hamburgerPopup ul {
+    list-style-type: none;
+}
+#hamburgerPopup ul li {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-bottom: .1px solid rgba(255, 255, 255, 0.05);
+}
+#hamburgerPopup ul li:hover {
+    cursor: pointer;
+}
+#hamburgerPopup ul li:first-child {
+    border-top: .1px solid rgba(255, 255, 255, 0.05);
+}
+#hamburgerPopup .popupHeader {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: #151520;
+}
+#hamburgerPopup .popupBody {
+    background-color: #22222F;
+}
+#hamburgerPopup .popoutFooter {
+    background-color: #151520;
+    height: 20px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
 
 
 /* PROFILE SELECTOR */

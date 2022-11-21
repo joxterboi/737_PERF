@@ -22,7 +22,14 @@
 <body>
     <div class="container">
         <header>
-            <h1>PERFORMANCE - TAKEOFF</h1>
+            <div id="headHeader">
+                <div></div>
+                <h1>PERFORMANCE - TAKEOFF</h1>
+                <div>
+                    <img onclick="hamburgerMenuePopup()" src="assets/hamburger.png">
+                    <img onclick="selectAircraftPage()" src="assets/setting.png">
+                </div>
+            </div>
             <div id="profileBanner">
                 <p>PROFILE</p>
                 <p>737-800W</p>
@@ -252,7 +259,7 @@
     
                          <div>
                              <label for="airportLdg">ARPT</label>
-                             <input class="whitePlaceholder" required maxlength="4" value="engm" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                             <input class="whitePlaceholder" required maxlength="4" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                          </div>
                          
                          <div>
@@ -569,7 +576,7 @@
             <div class="popupFooter"></div>
         </div>
     </div>
-    <div id="profilePopup" class="">
+    <div id="profilePopup" class="hidden">
         <div class="title">
             <p>< Select Aircraft</p>
             <p>737</p>
@@ -580,6 +587,16 @@
                 <li id="BBJ2" onclick="selectAircraft('BBJ2')"><p>BBJ2</p> <span>></span></li>
             </ul>
         </div>
+    </div>
+    <div id="hamburgerPopup" class="hidden">
+        <div class="popupHeader"><h2>Actions</h2></div>
+        <div class="popupBody">
+            <ul>
+                <li onclick="resetAllWindows()">Reset Current Aircraft</li>
+                <li>Send Logs</li>
+            </ul>
+        </div>
+        <div class="popoutFooter"></div>
     </div>
 </body>
 <script src="calc.js"></script>

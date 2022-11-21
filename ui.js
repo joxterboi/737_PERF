@@ -4,6 +4,52 @@ document.getElementById("atmButton").addEventListener("click", setActive)
 document.getElementById("fullButton").addEventListener("click", setActive)
 
 
+function resetAllWindows() {
+    for (let i = 0; i < document.querySelectorAll("input").length; i++) {
+        document.querySelectorAll("input")[i].placeholder = ""
+        document.querySelectorAll("input")[i].value = ""   
+    }
+    for (let i = 0; i < document.querySelectorAll("select").length; i++) {
+        document.querySelectorAll("select")[i].selectedIndex = "0"
+    }
+    for (let i = 0; i < document.getElementsByClassName("smallUnderText").length; i++) {
+        document.getElementsByClassName("smallUnderText")[i].innerHTML = " "
+    }
+    for (let i = 0; i < document.getElementsByClassName("footerButton").length; i++) {
+        document.getElementsByClassName("footerButton")[i].classList.remove("footerActive")
+    }
+    for (let i = 0; i < document.getElementsByClassName("page").length; i++) {
+        document.getElementsByClassName("page")[i].classList.add("hidden")
+    }
+    document.getElementById("airport").placeholder = "ARPT SEARCH"
+    document.getElementById("airport").classList.add("whitePlaceholder")
+    document.getElementById("airportLdg").placeholder = "ARPT SEARCH"
+    document.getElementById("airportLdg").classList.add("whitePlaceholder")
+    document.getElementById("runway").innerHTML = ""
+    document.getElementById("runwayLdg").innerHTML = ""
+    document.getElementById("intx").innerHTML = ""
+    document.getElementById("ATM").placeholder = "MAX"
+    document.getElementById("TOW").placeholder = "KG"
+    document.getElementById("LAW").placeholder = "KG"
+    document.getElementById("vrefAdd").value = "5"
+
+    document.getElementById("takeOff").classList.remove("hidden")
+    document.getElementById("takeOffPage").classList.add("footerActive")
+    document.querySelector('header').firstElementChild.firstElementChild.nextElementSibling.innerHTML = `PERFORMANCE - TAKEOFF`
+    document.getElementById("hamburgerPopup").classList.add("hidden")
+
+    document.getElementById("resultsWindow").style.opacity = 0
+    document.getElementById("perfModel").style.opacity = 0;
+    document.getElementById("atmSwitch").style.opacity = 0;
+    document.getElementById("maxTow").style.opacity = 0
+    document.getElementById("resultsWindowLadning").style.opacity = 0;
+    document.getElementById("perfModelLdg").style.opacity = 0;
+    document.getElementById("ldgCalcBtn").classList.remove("hidden")
+    document.getElementById("rwyGraphicLdg").classList.add("hidden")
+    document.getElementById("resultsWindowLadning").classList.remove("hidden")
+    document.getElementById("resultsWindowLandingGUI").classList.add("hidden")
+}
+
 function setActive() {
     if (fullForced == true) 
         return
@@ -68,7 +114,7 @@ function changePage() {
 
 //Changes content when pressing footer button
 function displayPage(selectedPage) {
-    document.querySelector('header').firstElementChild.innerHTML = `PERFORMANCE - ${selectedPage.toUpperCase()}`
+    document.querySelector('header').firstElementChild.firstElementChild.nextElementSibling.innerHTML = `PERFORMANCE - ${selectedPage.toUpperCase()}`
     document.getElementById(selectedPage).classList.remove("hidden")
 }
 
@@ -105,6 +151,10 @@ function setRunwayConditionTakeoff() {
     slush = true;
 }
 
+// Hamburger popup
+function hamburgerMenuePopup() {
+    document.getElementById("hamburgerPopup").classList.toggle("hidden")
+}
 
 //Aircraft selection
 function selectAircraft(aircraftType) {
@@ -113,7 +163,10 @@ function selectAircraft(aircraftType) {
     document.getElementById("profileBanner").firstElementChild.nextElementSibling.innerHTML = aircraftType
     console.log(perfLocation)
 }
-
+function selectAircraftPage() {
+    document.getElementById("profilePopup").classList.remove("hidden")
+    resetAllWindows()
+}
 // -------------------Drop-down-menus--------------------------
 // let elements = document.getElementsByClassName("dropDownWindow")
 // Array.from(elements).forEach(function(element) {
