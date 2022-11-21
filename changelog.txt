@@ -1,3 +1,8 @@
+0.4.1
++added optiont to go back and select other aircraft
++added option to reset current aircraft
+*fixed bug where input fields would become empty on ipad under certin conditions
+*fixed bug where v speeds would be to high after a new calculation after a calculation that used impcl
 0.4
 +added improved climb
 +added aircraft selection screen
