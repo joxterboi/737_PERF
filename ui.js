@@ -1,3 +1,7 @@
+const currentDdgVer = "0.5.0"
+document.getElementById("ddgVer").nextElementSibling.firstElementChild.innerHTML = currentDdgVer
+
+
 let fullForced
 
 document.getElementById("atmButton").addEventListener("click", setActive)
@@ -152,10 +156,14 @@ function setRunwayConditionTakeoff() {
 }
 
 // Hamburger popup
-function hamburgerMenuePopup() {
+function hamburgerMenuPopup() {
+    document.getElementById("settingsPopup").classList.add("hidden")
     document.getElementById("hamburgerPopup").classList.toggle("hidden")
 }
-
+function settingsMenuPopup() {
+    document.getElementById("hamburgerPopup").classList.add("hidden")
+    document.getElementById("settingsPopup").classList.toggle("hidden")
+}
 //Aircraft selection
 function selectAircraft(aircraftType) {
     document.getElementById("profilePopup").classList.add("hidden")
