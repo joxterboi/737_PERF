@@ -1,8 +1,18 @@
-const currentAirportVer = "0.5.0"
+const currentAirportVer = "0.5.1"
 //PWA INIT
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js")
     // .then(test => console.log("registered service worker!" + test))
+}
+//Checks for current version
+if(
+    currentAirportVer != CURRENT_AIRPORT_VERSION
+    || currentDdgVer != CURRENT_DDG_VERSION
+    || document.getElementById("optVer").firstElementChild.innerHTML != CURRENT_OPT_VERSION
+) {
+    updateRequired()
+} else {
+    updateNotReqired()
 }
 
 const updatePageFiles = [

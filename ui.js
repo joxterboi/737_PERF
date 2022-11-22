@@ -1,6 +1,12 @@
-const currentDdgVer = "0.5.0"
+const currentDdgVer = "0.5.1"
 document.getElementById("ddgVer").nextElementSibling.firstElementChild.innerHTML = currentDdgVer
 
+function updateRequired() {
+    document.getElementById("updateAlert").classList.remove("hidden")
+}
+function updateNotReqired() {
+    document.getElementById("updateAlert").classList.add("hidden")
+}
 
 let fullForced
 
@@ -159,6 +165,7 @@ function setRunwayConditionTakeoff() {
 function hamburgerMenuPopup() {
     document.getElementById("settingsPopup").classList.add("hidden")
     document.getElementById("hamburgerPopup").classList.toggle("hidden")
+    updateNotReqired()
 }
 function settingsMenuPopup() {
     document.getElementById("hamburgerPopup").classList.add("hidden")

@@ -52,7 +52,7 @@
 
                      <div>
                          <label for="airport">ARPT</label>
-                         <input class="whitePlaceholder" maxlength="4" id="airport"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                         <input class="whitePlaceholder" maxlength="4" id="airport" type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                      </div>
                      
                      <div>
@@ -265,7 +265,7 @@
     
                          <div>
                              <label for="airportLdg">ARPT</label>
-                             <input class="whitePlaceholder" required maxlength="4" id="airportLdg"type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
+                             <input class="whitePlaceholder" required maxlength="4" id="airportLdg" type="text" pattern="[A-Za-z]{4}" placeholder="ARPT SEARCH">
                          </div>
                          
                          <div>
@@ -582,7 +582,7 @@
             <div class="popupFooter"></div>
         </div>
     </div>
-    <div id="profilePopup" class="">
+    <div id="profilePopup" class="hidden">
         <div class="title">
             <p>< Select Aircraft</p>
             <p>737</p>
@@ -593,6 +593,9 @@
                 <li id="BBJ2" onclick="selectAircraft('BBJ2')"><p>BBJ2</p> <span>></span></li>
             </ul>
         </div>
+    </div>
+    <div id="updateAlert" class="hidden">
+        <p>!</p>
     </div>
     <div id="hamburgerPopup" class="hidden">
         <div class="popupHeader"><h2>Actions</h2></div>
@@ -623,9 +626,10 @@
                 </li>
             </ul>
         </div>
-        <div class="popoutFooter"><p>OPT Version 0.5.0</p></div>
+        <div class="popoutFooter"><p id="optVer">OPT Version <span>0.5.1</span></p></div>
     </div>
 </body>
-<script src="calc.js"></script>
+<script src="ver.js"></script>
 <script src="ui.js"></script>
+<script src="calc.js"></script>
 </html>

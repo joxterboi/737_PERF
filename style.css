@@ -782,6 +782,21 @@ header img:hover {
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
 }
+/* Update alert */
+#updateAlert {
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+    pointer-events: none
+}
+
 
 /* Settings popup */
 #settingsPopup {
@@ -841,7 +856,6 @@ header img:hover {
     margin-left: 20px;
     padding-top: 10px;
 }
-
 /* PROFILE SELECTOR */
 #profilePopup {
     width: 100vw;
