@@ -2,7 +2,7 @@
 //     console.log(event.request.url);
 // });
 const ASSETS = [
-    // "opt/",
+    // "/opt/",
     "index.html",
     "style.css",
     "dropDown.css",
