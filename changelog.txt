@@ -1,3 +1,7 @@
+0.5
++opt is now a pwa
++version numbering in app to check state off files
++update functionallity
 0.4.1
 +added optiont to go back and select other aircraft
 +added option to reset current aircraft
