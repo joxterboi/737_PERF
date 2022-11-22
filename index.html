@@ -13,11 +13,16 @@
     
     
     <!-- Ipad stuff -->
-    <link rel="manifest" href="site.webmanifest">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="apple-touch-icon" href="assets/favicon.png">
-    <link rel="apple-touch-startup-image" href="/assets/splashscreen.png">
+    <link rel="apple-touch-startup-image" href="assets/splashscreen.png">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="inital-scale=1, viewport-fit=cover, user-scalable=no">
+    <!-- <meta name="viewport" content="initial-scale=1, viewport-fit=cover, user-scalable=no"> -->
+    <meta name="viewport" content="initial-scale=1, user-scalable=no">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#009578">
 </head>
 <body>
     <div class="container">
@@ -26,8 +31,9 @@
                 <div></div>
                 <h1>PERFORMANCE - TAKEOFF</h1>
                 <div>
-                    <img onclick="hamburgerMenuePopup()" src="assets/hamburger.png">
-                    <img onclick="selectAircraftPage()" src="assets/setting.png">
+                    <img onclick="hamburgerMenuPopup()" src="assets/hamburger.png">
+                    <!-- <img onclick="selectAircraftPage()" src="assets/setting.png"> -->
+                    <img onclick="settingsMenuPopup()" src="assets/setting.png">
                 </div>
             </div>
             <div id="profileBanner">
@@ -576,7 +582,7 @@
             <div class="popupFooter"></div>
         </div>
     </div>
-    <div id="profilePopup" class="hidden">
+    <div id="profilePopup" class="">
         <div class="title">
             <p>< Select Aircraft</p>
             <p>737</p>
@@ -592,11 +598,32 @@
         <div class="popupHeader"><h2>Actions</h2></div>
         <div class="popupBody">
             <ul>
+                <li onclick="update()">Check for Updates</li>
                 <li onclick="resetAllWindows()">Reset Current Aircraft</li>
-                <li>Send Logs</li>
+                <li onclick="selectAircraftPage()">Select New Aircraft</li>
             </ul>
         </div>
         <div class="popoutFooter"></div>
+    </div>
+    <div id="settingsPopup" class="hidden">
+        <div class="popupHeader"><h2>Settings</h2></div>
+        <div class="popupBody">
+            <ul>
+                <li>
+                    <div class="settingsTitle"><p>Policy</p></div>
+                    <div class="settingsBody"><p>Max derate</p></div>
+                </li>
+                <li>
+                    <div class="settingsTitle" id="airportVer"><p>Airport</p></div>
+                    <div class="settingsBody"><p>MAIN ERROR</p></div>
+                </li>
+                <li>
+                    <div class="settingsTitle" id="ddgVer"><p>DDG</p></div>
+                    <div class="settingsBody"><p>UI ERROR</p></div>
+                </li>
+            </ul>
+        </div>
+        <div class="popoutFooter"><p>OPT Version 0.5.0</p></div>
     </div>
 </body>
 <script src="calc.js"></script>
